@@ -25,7 +25,7 @@ h1 .small {
 
 .catch-phrase {
   color: white;
-  margin-top: 15%;
+  margin-top: 8%;
   margin-right: 3%;
 }
 
@@ -38,6 +38,7 @@ footer {
   color: white;
   font-size: large;
   margin-top: 3%;
+  text-align: center;
 }
 
 a {
@@ -51,4 +52,9 @@ a {
   margin: auto;
   margin-top: 1em;
   width: 100%;
+  white-space: normal;
+}
+
+.fa-8x {
+  font-size: 8em;
 }
