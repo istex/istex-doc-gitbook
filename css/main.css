@@ -58,3 +58,7 @@ a {
 .fa-8x {
   font-size: 8em;
 }
+
+i.fa {
+  width: 100%;
+}
