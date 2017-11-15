@@ -1,4 +1,3 @@
-ISTEX-WEB-DOC
-=============
+# istex-web-doc
 
-Page web permettant la mise à disposition des documentations ISTEX sur https://doc.istex.fr
+Site web statique mettant à disposition les documentations ISTEX sur https://doc.istex.fr
