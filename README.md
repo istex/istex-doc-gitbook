@@ -2,8 +2,6 @@
 
 Documentation de la plateforme ISTEX.
 
-
-
 ## Développement
 
 TODO
@@ -11,3 +9,4 @@ TODO
 ## Production
 
 TODO
+
