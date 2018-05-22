@@ -10,5 +10,3 @@ TODO
 
 TODO
 
-Hello world
-
