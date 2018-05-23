@@ -2,8 +2,6 @@
 
 Nous voici sur une nouvelle page
 
-
-
 | Exemples de contenus | Modalité d’interrogation |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Un domaine** | Recherche par catégories scientifiques \(selon les classifications Science-Metrix, Web of Science ou Pascal-Francis\) sur les champs dédiés aux enrichissements ISTEX : `categories.scienceMetrix`, `categories.wos`, `categories.inist` |
@@ -17,3 +15,4 @@ Nous voici sur une nouvelle page
 ![Ceci est une image qui peut &#xEA;tre mal import&#xE9;e](.gitbook/assets/image.png)
 
 ## Ceci et un titre 2
+
