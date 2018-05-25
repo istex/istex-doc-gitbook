@@ -58,7 +58,7 @@
     * Résolveur de liens
     * Désactiver la redirection automatique vers la ressource
 * Usage documentaire
-  * [Bouton ISTEX](untitled-23/untitled-24.md)
+  * Bouton ISTEX
   * Google Scholar
   * Logiciels de gestion bibliographique
     * EndNote
