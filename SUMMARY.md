@@ -57,21 +57,53 @@
     * Implémentation du standard Z39.88-2004
     * Résolveur de liens
     * Désactiver la redirection automatique vers la ressource
-* Untitled
-* Untitled
-* Untitled
-* Untitled
-* Untitled
-* Untitled
-* Untitled
-* Untitled
-* Untitled
-* Untitled
-* Untitled
-* Untitled
-* Untitled
-* Untitled
-* Untitled
-* Untitled
-* Untitled
+  * Usage documentaire
+    * Bouton ISTEX
+    * Google Scholar
+    * Logiciels de gestion bibliographique
+      * EndNote
+      * Zotero
+  * Usage TDM d'ISTEX
+    * Préambule à la constitution d'un corpus
+    * Construction d'un corpus
+      * Le contenu de la requête
+      * Sue quel\(s\) champ\(s\) faire son interrogation ?
+      * Les principaux outils à manipuler
+      * Quelques astuces pour peaufiner sa requête
+    * Extraction d'un corpus
+      * Application ISTEX-dl \(ISTEX download\)
+      * Fonction "Extract"
+      * Moissonneur de l'API ISTEX
+      * Programme "harvestCorpus.pl"
+    * Vérification et mise en forme des résultats
+      * Détecter les problèmes d'authentification
+      * Détecter les PDF image
+      * Remplacer les documents TXT par les documents OCR
+      * Détecter les ligatures dans le TXT
+      * Extraire les documents XML des fichiers ZIP
+    * Annexes
+      * Liste des codes langues dans ISTEX
+      * Liste des types de publication et de contenu dans ISTEX
+      * Liste des catégories scientifiques dans ISTEX
+  * Intégration ISTEX dans votre ENT
+    * Intégration dans les outils de découverte
+      * EDS - EBSCO
+      * PRIMO - ExLibris
+      * SUMMON
+    * Intégration avec les widgets
+    * Intégration dans Drupal
+    * Intégration dans uPortal
+    * Intégration du bouton ISTEX
+      * Métadonnées pour l'intégration du bouton ISTEX
+    * Intégration avancée avec l'API ISTEX
+    * Ils ont intégré ISTEX
+      * Archive ouverte HAL
+      * CHU Rouen Normandie
+      * INRA
+      * Université Aix Marseille
+      * Université Jean Monnet St Etienne
+      * Université Paris Saclay
+      * Université Paris Sciences Lettres
+    * Université Rennes2
+  * FAQ
 
