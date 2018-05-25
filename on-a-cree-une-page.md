@@ -12,7 +12,7 @@ Nous voici sur une nouvelle page
 | **Une langue de document** | Recherche par code langue sur le champ `language` |
 | **Une revue** | Soit recherche par le nom de la revue sur le champ `host.title` Soit recherche par l’ISSN sur le champ `host.issn` |
 
-![Ceci est une image qui peut &#xEA;tre mal import&#xE9;e](../.gitbook/assets/image.png)
+![Ceci est une image qui peut &#xEA;tre mal import&#xE9;e](.gitbook/assets/image.png)
 
 ## Ceci et un titre 2
 
