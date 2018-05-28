@@ -7,3 +7,33 @@ Pour effectuer une extraction, vous devrez agrémenter votre requête de l'optio
 
 Pour le moment, et pour des raisons purement techniques, le nombre de documents qu'il est possible d'extraire en une requête est **limité à 10000 maximum**. L'API renvoie un code d'erreur 413 en cas de dépassement. **Par défaut, seuls 10 documents sont archivés** si rien n'est précisé.
 
+###Syntaxe###
+
+| Syntaxe | |
+|------------ | ------------- |
+| URI | <span class="baseUrl">https://api.istex.fr/document/?</span><span class="mandParam">q={valeur}</span>&<span class="mandParam">extract</span> |
+| Paramètres | - <span class="mandParam">q</span> : la requête<br>- <span class="mandParam">extract:${typefichier}[${formats}]</span> : la sélection des type et formats de fichiers à extraire<br>- <span class="mandParam">spread:{true/*false*}</span> : active la répartition des fichiers téléchargés dans une arborescence à 4 niveaux (utile pour un nombre important de documents). Option désactivée par défaut (spread=false) |
+| Code de retour | - 200 si OK, <br>- 500 en cas de problème (dans ce cas, contacter <api-bug@listes.istex.fr>) |
+
+Plus de détails sur la syntaxe <span class="mandParam">extract:${typefichier}[${formats}]</span> :
+
+  - <span class="mandParam">${typefichier}</span> est une liste parmi les valeurs `metadata`, `fulltext`, `enrichments`, `cover`,`annexes`, séparée par le caractère `;`.
+  - <span class="mandParam">${formats}</span> correspond à la liste des formats de fichiers (au sens "mimetype"). Il peut être renseigné pour chaque type (metadata, fulltext...). Pour cela, la liste des formats est mentionnée entre crochets `[`...`]` et séparée par des virgules.
+  - si <span class="mandParam">extract</span> est utilisé seul, l'ensemble des fichiers disponibles est extrait. 
+
+| Exemples | |
+| -------- | ------- |
+| Extraction de toutes les documents relatifs au terme "brain" | <a href="https://api.istex.fr/document/?q=brain&extract">https://api.istex.fr/document/?q=brain&<span class="mandParam">extract</span>&output=*</a> |
+| Extraction de tous les fichiers de méta-données et de plein-texte correspondant au terme "brain"| <a href="https://api.istex.fr/document/?q=brain&extract=metadata;fulltext">https://api.istex.fr/document/?q=brain&<span class="mandParam">extract=metadata;fulltext</span></a> |
+| Extraction des méta-données en Mods uniquement, du plein-texte en PDF et TEI, et toutes les annexes pour le terme "brain"| <a href="https://api.istex.fr/document/?q=brain&extract=metadata[mods];fulltext[pdf,tei];annexes">https://api.istex.fr/document/?q=brain&<span class="mandParam">extract=metadata[mods];fulltext[pdf,tei];annexes</span></a> |
+
+Vous pouvez aussi utiliser les paramètres de recherche classiques `from`, `size`, `rankBy`, `sortBy` et `randomSeed`, ce qui vous permettra d'influencer le nombre et l'ordre des documents archivés.
+
+###A propos de l'archive générée###
+
+L'archive Zip qui est générée suit une organisation particulière. Les documents sont ventilés dans l'arborescence à 5 niveaux suivante :
+
+  - Un fichier `manifest.json` contenant des éléments d'informations sur la requête utilisées pour l'extraction
+  - 3 niveaux avec des sous-répertoires nommés avec l'un des 16 caractères `0, 1... 9, A... F`
+  - un 4ème niveau de sous-répertoires, nommés selon l'identifiant Istex `idIstex` et contenant un fichier `${idIstex}.json` avec l'ensemble du document (métadonnées + fulltext) au format JSON
+  - le 5ème niveau se compose des sous-répertoires `fulltext`, `metadata`, `annexes` et `covers` (absents ou présents selon les cas) contenant les formats de fichiers demandés lors de l'extraction.
