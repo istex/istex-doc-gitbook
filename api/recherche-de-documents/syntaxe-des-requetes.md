@@ -6,5 +6,5 @@ La recherche s'effectue sous la forme :
 
 Syntexe |
 ------- | ------
-URI | <span color="orange">https&#58;//api.istex.fr/document/?</span><span color="red">q={query}</span>
+URI | <span style="color: orange">https&#58;//api.istex.fr/document/?</span><span style="color: red">q={query}</span>
 
