@@ -2,7 +2,7 @@
 
 * [istex-web-doc](README.md)
 * API
-  * [Accès à l'API](api/acces-a-lapi/README.md)
+  * Accès à l'API
     * Titre à choisir
     * S'authentifier sur l'API
     * Authentification par l'adresse IP
