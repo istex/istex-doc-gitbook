@@ -11,9 +11,9 @@
     * [URL de vérification de connexion](api/acces-a-lapi/url-de-verification-de-connexion.md)
   * Recherche de documents
     * [Syntaxe des requêtes](api/recherche-de-documents/syntaxe-des-requetes.md)
-    * Opérateur par défaut
-    * Exemples classiques de recherche
-    * Extraction
+    * [Opérateur par défaut](api/recherche-de-documents/operateur-par-defaut.md)
+    * [Exemples classiques de recherche](api/recherche-de-documents/exemples-classiques-de-recherche.md)
+    * [Extraction](api/recherche-de-documents/extraction.md)
   * Options d'affichage des résultats
     * Sélection des champs renvoyés
     * Choix du type de scoring
