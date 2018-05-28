@@ -2,8 +2,8 @@
 
 * [istex-web-doc](README.md)
 * API
-  * Accès à l'API
-    * Qu'est ce que l'API ISTEX?
+  * [Accès à l'API](api/acces-a-lapi/README.md)
+    * Titre à choisir
     * S'authentifier sur l'API
     * Authentification par l'adresse IP
     * Authentification par fédération d'identités
