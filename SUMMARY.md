@@ -10,7 +10,7 @@
     * [Accès nomade \(LDAP\)](api/acces-a-lapi/acces-nomade-ldap.md)
     * [URL de vérification de connexion](api/acces-a-lapi/url-de-verification-de-connexion.md)
   * Recherche de documents
-    * [Syntaxe des requêtes](api/recherche-de-documents/syntaxe-des-requetes.md)
+    * Syntaxe des requêtes
     * Opérateur par défaut
     * Exemples classiques de recherche
     * Extraction
