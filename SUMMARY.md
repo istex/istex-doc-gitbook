@@ -15,12 +15,12 @@
     * [Exemples classiques de recherche](api/recherche-de-documents/exemples-classiques-de-recherche.md)
     * [Extraction](api/recherche-de-documents/extraction.md)
   * Options d'affichage des résultats
-    * Sélection des champs renvoyés
-    * Choix du type de scoring
-    * Calcul du score de qualité
-    * Tris basés sur le mapping
-    * Paramètres de pagination
-    * Pagination de type "scroll"
+    * [Sélection des champs renvoyés](api/options-daffichage-des-resultats/selection-des-champs-renvoyes.md)
+    * [Choix du type de scoring](api/options-daffichage-des-resultats/choix-du-type-de-scoring.md)
+    * [Calcul du score de qualité](api/options-daffichage-des-resultats/calcul-du-score-de-qualite.md)
+    * [Tris basés sur le mapping](api/options-daffichage-des-resultats/tris-bases-sur-le-mapping.md)
+    * [Paramètres de pagination](api/options-daffichage-des-resultats/parametres-de-pagination.md)
+    * [Pagination de type "scroll"](api/options-daffichage-des-resultats/pagination-de-type-scroll.md)
   * Facettes
     * Qu'est-ce qu'une facette ?
     * un exemple est toujours plus parlant
