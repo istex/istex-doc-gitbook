@@ -47,7 +47,7 @@
     * Accès aux annexes
     * Accès aux couvertures
   * Accès aux enrichissements
-    * proposer des enrichissements
+    * Proposer des enrichissements
   * Identification pérenne ARK
     * Structure d'une URL de type ARK
     * Intérêt des ARK dans ISTEX
