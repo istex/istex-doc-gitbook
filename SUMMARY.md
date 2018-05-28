@@ -2,13 +2,13 @@
 
 * [istex-web-doc](README.md)
 * API
-  * Accès à l'API
+  * [Accès à l'API](api/acces-a-lapi/README.md)
     * Titre à choisir
-    * S'authentifier sur l'API
-    * Authentification par l'adresse IP
-    * Authentification par fédération d'identités
-    * Accès nomade \(LDAP\)
-    * URL de vérification de connexion
+    * [S'authentifier sur l'API](api/acces-a-lapi/sauthentifier-sur-lapi.md)
+    * [Authentification par l'adresse IP](api/acces-a-lapi/authentification-par-ladresse-ip.md)
+    * [Authentification par fédération d'identités](api/acces-a-lapi/authentification-par-federation-didentites.md)
+    * [Accès nomade \(LDAP\)](api/acces-a-lapi/acces-nomade-ldap.md)
+    * [URL de vérification de connexion](api/acces-a-lapi/url-de-verification-de-connexion.md)
   * Recherche de documents
     * Syntaxe des requêtes
     * Opérateur par défaut
