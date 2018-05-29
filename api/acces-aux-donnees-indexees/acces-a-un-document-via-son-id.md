@@ -1,4 +1,13 @@
 # Accès à un document via son id
 
-1
+Toutes les URL suivantes sont accédées via la méthode **HTTP GET**.
+
+Pour **récupérer la liste des champs et formats** (métadonnées, fulltext, annexes, covers, enrichments) disponibles **pour un document**, il est possible d'effectuer une requête sous la forme : 
+
+| Syntaxe | |
+|------------ | ------------- |
+| URI | https&#58;//api.istex.fr/document/{id} |
+| Paramètres | - {id} : l'identifiant ISTEX du document auquel correspond la notice. |
+| Code de retour | - 200 si OK, <br>- 404 si la notice n'est pas trouvée|
+| Exemple | <a href="https://api.istex.fr/document/55420CDEEA0F6538E215A511C72E2E5E57570138">https://api.istex.fr/document/55420CDEEA0F6538E215A511C72E2E5E57570138</a> |
 
