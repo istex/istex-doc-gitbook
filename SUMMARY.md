@@ -93,10 +93,10 @@
   * [Intégration avec les widgets](integration-istex-dans-votre-ent/integration-avec-les-widgets.md)
   * [Intégration dans Drupal](integration-istex-dans-votre-ent/integration-dans-drupal.md)
   * [Intégration dans uPortal](integration-istex-dans-votre-ent/integration-dans-uportal.md)
-  * Intégration du bouton ISTEX
+  * [Intégration du bouton ISTEX](integration-istex-dans-votre-ent/integration-du-bouton-istex/README.md)
     * [Métadonnées pour l'intégration du bouton ISTEX](integration-istex-dans-votre-ent/integration-du-bouton-istex/metadonnees-pour-lintegration-du-bouton-istex.md)
   * [Intégration avancée avec l'API ISTEX](integration-istex-dans-votre-ent/integration-avancee-avec-lapi-istex.md)
-  * Ils ont intégré ISTEX
+  * [Ils ont intégré ISTEX](integration-istex-dans-votre-ent/ils-ont-integre-istex/README.md)
     * [Archive ouverte HAL](integration-istex-dans-votre-ent/ils-ont-integre-istex/archive-ouverte-hal.md)
     * [CHU Rouen Normandie](integration-istex-dans-votre-ent/ils-ont-integre-istex/chu-rouen-normandie.md)
     * [INRA](integration-istex-dans-votre-ent/ils-ont-integre-istex/inra.md)
