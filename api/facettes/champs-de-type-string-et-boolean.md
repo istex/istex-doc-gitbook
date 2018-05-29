@@ -1,12 +1,15 @@
-| Informations | |
-|------------ | ------------- |
-| Options |   - <span class="mandParam">x</span> : renvoie les **10 termes du champ x les plus présents** dans les résultats de la requête,<br>- <span class="mandParam">x[y]</span> : renvoie les **y termes du champ x les plus présents** dans les résultats de la requête,<br>- <span class="mandParam">x[*]</span> : renvoie **tous les termes du champ x présents** dans les résultats de la requête, dans la limite de **1000 termes maximum**. |
-| Détails | Les résultats sont affichés **du terme le plus présent vers le terme le plus rare**.<br><br><span class="mandParam">Attention, certains champs ne peuvent être interrogés, leur résultat étant jugé non pertinent<br> et trop conséquent pour être affiché : doi, title, abstract</span>|
-| Format de réponse | ```text {  "aggregations": {<br>    "corpusName": {<br>      "docCountErrorUpperBound": 0,<br>      "sumOtherDocCount": 0,<br>      "keyCount": 2,<br>      "buckets": [<br>        {<br>          "key": "elsevier",<br>          "docCount": 1230<br>        },<br>        {<br>          "key": "wiley",<br>          "docCount": 577<br>        }<br>      ]<br>    }<br>  } text``` |
-| Explications | - <span class="mandParam">docCountErrorUpperBound</span> : indique si une erreur de calcul est présente,<br>- <span class="mandParam">sumOtherDocCount</span> : somme des documents avec des termes supplémentaires non affichés ici,<br>- <span class="mandParam">keyCount</span> : nombre de termes différents affiché,<br>- <span class="mandParam">buckets</span> : tableau contenant l'état de collection,<br>- <span class="mandParam">key</span> : terme trouvé,<br>- <span class="mandParam">docCount</span> : nombre de fois où ce terme a été trouvé. |
+# Champs de type string et boolean
 
-| Exemples | |
-| -------- | ------- |
-| Affichage de l'ensemble des documents avec une facette sur les **10 corpus les plus présents** | <a href="https://api.istex.fr/document/?q=*&facet=corpusName">https://api.istex.fr/document/?q=*<span class="mandParam">&facet=corpusName</span></a><br><a href="https://api.istex.fr/document/?q=*&facet=corpusName[10]">https://api.istex.fr/document/?q=\*<span class="mandParam">&facet=corpusName[10]</a> |
-| Affichage de l'ensemble des documents avec une facette sur **tous les corpus présents** | <a href="https://api.istex.fr/document/?q=*&facet=corpusName[*]">https://api.istex.fr/document/?q=\*<span class="mandParam">&facet=corpusName[\*]</span></a>|
-| Affichage de l'ensemble des documents avec une facette sur les **5 corpus les plus présents** | <a href="https://api.istex.fr/document/?q=*&facet=corpusName[5]">https://api.istex.fr/document/?q=*<span class="mandParam">&facet=corpusName[5]</span></a>|
+| Informations |  |
+| --- | --- |
+| Options | - x : renvoie les **10 termes du champ x les plus présents** dans les résultats de la requête, - x\[y\] : renvoie les **y termes du champ x les plus présents** dans les résultats de la requête, - x\[\*\] : renvoie **tous les termes du champ x présents** dans les résultats de la requête, dans la limite de **1000 termes maximum**. |
+| Détails | Les résultats sont affichés **du terme le plus présent vers le terme le plus rare**.  Attention, certains champs ne peuvent être interrogés, leur résultat étant jugé non pertinent  et trop conséquent pour être affiché : doi, title, abstract |
+| Format de réponse |  |
+| Explications | - docCountErrorUpperBound : indique si une erreur de calcul est présente, - sumOtherDocCount : somme des documents avec des termes supplémentaires non affichés ici, - keyCount : nombre de termes différents affiché, - buckets : tableau contenant l'état de collection, - key : terme trouvé, - docCount : nombre de fois où ce terme a été trouvé. |
+
+| Exemples |  |
+| --- | --- |
+| Affichage de l'ensemble des documents avec une facette sur les **10 corpus les plus présents** | [https://api.istex.fr/document/?q=\*&facet=corpusName](https://api.istex.fr/document/?q=*&facet=corpusName) [https://api.istex.fr/document/?q=\*&facet=corpusName\[10\]](https://api.istex.fr/document/?q=*&facet=corpusName[10]) |
+| Affichage de l'ensemble des documents avec une facette sur **tous les corpus présents** | [https://api.istex.fr/document/?q=\*&facet=corpusName\[\*\]](https://api.istex.fr/document/?q=*&facet=corpusName[*]) |
+| Affichage de l'ensemble des documents avec une facette sur les **5 corpus les plus présents** | [https://api.istex.fr/document/?q=\*&facet=corpusName\[5\]](https://api.istex.fr/document/?q=*&facet=corpusName[5]) |
+
