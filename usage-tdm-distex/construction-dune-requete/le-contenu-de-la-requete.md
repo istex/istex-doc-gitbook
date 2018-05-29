@@ -48,7 +48,3 @@ La syntaxe de la requête à utiliser sur l’API Istex est la suivante :
 ```
 q=host.title:"Astronomische Nachrichten"&facet=language[*]>publicationDate[perYear]&size=0
 ```
-
->
->
-
