@@ -1,4 +1,6 @@
 # Intégration dans Drupal
 
-5
+Disponible sous peu.
+
+- [https://github.com/istex/istex-drupal](https://github.com/istex/istex-drupal)
 
