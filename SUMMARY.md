@@ -60,7 +60,7 @@
 * Usage documentaire
   * [Bouton ISTEX](usage-documentaire/bouton-istex.md)
   * [Google Scholar](usage-documentaire/google-scholar.md)
-  * Logiciels de gestion bibliographique
+  * [Logiciels de gestion bibliographique](usage-documentaire/logiciels-de-gestion-bibliographique/README.md)
     * [EndNote](usage-documentaire/logiciels-de-gestion-bibliographique/endnote.md)
     * [Zotero](usage-documentaire/logiciels-de-gestion-bibliographique/zotero.md)
 * Usage TDM d'ISTEX

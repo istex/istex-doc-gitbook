@@ -1,87 +1,76 @@
 # Bouton ISTEX
 
-L’ajout d’une extension ISTEX dans un navigateur, Chrome ou Firefox, a comme vocation d’analyser l'ensemble des pages visitées à la recherche d'identifiants documentaires (DOI, PII, PMID...) et d’ajouter un bouton « ISTEX » d’accès au plein-texte PDF lorsque celui est disponible dans l’API ISTEX.
+L’ajout d’une extension ISTEX dans un navigateur, Chrome ou Firefox, a comme vocation d’analyser l'ensemble des pages visitées à la recherche d'identifiants documentaires \(DOI, PII, PMID...\) et d’ajouter un bouton « ISTEX » d’accès au plein-texte PDF lorsque celui est disponible dans l’API ISTEX.
 
 Le bouton « ISTEX » peut s’activer notamment sur les pages Wikipédia, Google Scholar, Scopus, ou même HAL augmentant ainsi la visibilité et la diffusion des ressources ISTEX.
 
-Comme pour tous les autres modes d’accès au PDF ([widgets](https://widgets.istex.fr), [démonstrateur](http://demo.istex.fr)…) il est limité aux ayants droit ISTEX, c'est-à-dire les personnels de l'Enseignement Supérieur et de la Recherche.
+Comme pour tous les autres modes d’accès au PDF \([widgets](https://widgets.istex.fr), [démonstrateur](http://demo.istex.fr)…\) il est limité aux ayants droit ISTEX, c'est-à-dire les personnels de l'Enseignement Supérieur et de la Recherche.
 
-Cette extension fait un usage intensif du **[service de résolution OpenURL de l’API ISTEX](https://api.istex.fr/documentation/openurl/)**.
+Cette extension fait un usage intensif du [**service de résolution OpenURL de l’API ISTEX**](https://api.istex.fr/documentation/openurl/).
 
-L'extension ISTEX est disponible pour les navigateurs web Firefox et Chrome ici : **[https://addons.istex.fr](https://addons.istex.fr/)**. 
-Vous trouverez ci-dessous comment l'installer étape par étape pour les différents navigateurs web.
+L'extension ISTEX est disponible pour les navigateurs web Firefox et Chrome ici : [**https://addons.istex.fr**](https://addons.istex.fr/). Vous trouverez ci-dessous comment l'installer étape par étape pour les différents navigateurs web.
 
-## Firefox ##
+## Firefox
 
+=&gt; La recherche sur Wikipédia d’[**« Hélium »**](https://fr.wikipedia.org/wiki/Hélium) donne la bibliographie suivante :
 
+![Firefox1](https://github.com/istex/istex-web-doc/tree/89e0cefc252809bddad9ac54400dd5095c2c64c2/img/Firefox1.PNG)
 
-=> La recherche sur Wikipédia d’**[« Hélium »]( https://fr.wikipedia.org/wiki/Hélium)** donne la bibliographie suivante :
+=&gt; Aller sur [**https://addons.istex.fr**](https://addons.istex.fr/)
 
-![Firefox1](../img/Firefox1.PNG)
+![Firefox2](https://github.com/istex/istex-web-doc/tree/89e0cefc252809bddad9ac54400dd5095c2c64c2/img/Firefox2.PNG)
 
-=> Aller sur **[https://addons.istex.fr](https://addons.istex.fr/)**
+=&gt; Cliquer sur « Ajouter l’extension à Firefox »
 
-![Firefox2](../img/Firefox2.PNG)
+![Firefox3](https://github.com/istex/istex-web-doc/tree/89e0cefc252809bddad9ac54400dd5095c2c64c2/img/Firefox3.PNG)
 
-=> Cliquer sur « Ajouter l’extension à Firefox »
+=&gt; Autoriser l’installation
 
-![Firefox3](../img/Firefox3.PNG)
+_Retrouver l’extension dans « Ouvrir le menu/Modules/Extensions »_
 
-=> Autoriser l’installation
+![Firefox4](https://github.com/istex/istex-web-doc/tree/89e0cefc252809bddad9ac54400dd5095c2c64c2/img/Firefox4.PNG)
 
-_Retrouver l’extension dans « Ouvrir le menu/Modules/Extensions »_
+=&gt; Un écran propose alors la possibilité d’avoir un lien vers la bibliothèque ISTEX sur Google Scholar en cliquant sur «Oui» sans avoir besoin de l’installer
 
-![Firefox4](../img/Firefox4.PNG)
+![Firefox5](https://github.com/istex/istex-web-doc/tree/89e0cefc252809bddad9ac54400dd5095c2c64c2/img/Firefox5.PNG)
 
-=> Un écran propose alors la possibilité d’avoir un lien vers la bibliothèque ISTEX sur Google Scholar en cliquant sur «Oui» sans avoir besoin de l’installer
+=&gt; En cliquant «Passer » pas de lien vers la bibliothèque ISTEX
 
- ![Firefox5](../img/Firefox5.PNG)
+![Firefox6](https://github.com/istex/istex-web-doc/tree/89e0cefc252809bddad9ac54400dd5095c2c64c2/img/Firefox6.PNG)
 
-=> En cliquant «Passer » pas de lien vers la bibliothèque ISTEX
+=&gt; Recharger la page de Wikipédia « Ctrl F5 »
 
- ![Firefox6](../img/Firefox6.PNG)
+![Firefox7](https://github.com/istex/istex-web-doc/tree/89e0cefc252809bddad9ac54400dd5095c2c64c2/img/Firefox7.PNG)
 
-=> Recharger la page de Wikipédia « Ctrl F5 »
+## Chrome
 
-![Firefox7](../img/Firefox7.PNG)
+=&gt; La recherche sur Wikipédia d’[**« Hélium »**](https://fr.wikipedia.org/wiki/Hélium) donne la bibliographie suivante :
 
+![chrome1](https://github.com/istex/istex-web-doc/tree/89e0cefc252809bddad9ac54400dd5095c2c64c2/img/chrome1.PNG)
 
+=&gt; Aller sur [**https://addons.istex.fr**](https://addons.istex.fr/)
 
-## Chrome ##
+![chrome2](https://github.com/istex/istex-web-doc/tree/89e0cefc252809bddad9ac54400dd5095c2c64c2/img/chrome2.PNG)
 
+=&gt; Cliquer sur « Ajouter l’extension à Chrome »
 
+![chrome3](https://github.com/istex/istex-web-doc/tree/89e0cefc252809bddad9ac54400dd5095c2c64c2/img/chrome3.PNG)
 
-=> La recherche sur Wikipédia d’**[« Hélium »]( https://fr.wikipedia.org/wiki/Hélium)** donne la bibliographie suivante :
+=&gt; Autoriser l’installation
 
-![chrome1](../img/chrome1.PNG)
+_Retrouver l’extension dans « Personnaliser et contrôler Google Chrome/Plus d'outils/Extensions »_
 
-=> Aller sur **[https://addons.istex.fr](https://addons.istex.fr/)**
+![chrome4](https://github.com/istex/istex-web-doc/tree/89e0cefc252809bddad9ac54400dd5095c2c64c2/img/chrome4.PNG)
 
-![chrome2](../img/chrome2.PNG)
+=&gt; Un écran propose alors la possibilité d’avoir un lien vers la bibliothèque ISTEX sur Google Scholar en cliquant sur «Oui» sans avoir besoin de l’installer
 
+![chrome5](https://github.com/istex/istex-web-doc/tree/89e0cefc252809bddad9ac54400dd5095c2c64c2/img/chrome5.PNG)
 
-=> Cliquer sur « Ajouter l’extension à Chrome »
+=&gt; En cliquant «Passer » pas de lien vers la bibliothèque ISTEX
 
-![chrome3](../img/chrome3.PNG)
+![chrome6](https://github.com/istex/istex-web-doc/tree/89e0cefc252809bddad9ac54400dd5095c2c64c2/img/chrome6.PNG)
 
-=> Autoriser l’installation
+=&gt; Recharger la page de Wikipédia « Ctrl F5 »
 
-_Retrouver l’extension dans « Personnaliser et contrôler Google Chrome/Plus d'outils/Extensions »_
-
-![chrome4](../img/chrome4.PNG)
-
-=> Un écran propose alors la possibilité d’avoir un lien vers la bibliothèque ISTEX sur Google Scholar en cliquant sur «Oui» sans avoir besoin de l’installer
-
-![chrome5](../img/chrome5.PNG)
-
-=> En cliquant «Passer » pas de lien vers la bibliothèque ISTEX
-
-![chrome6](../img/chrome6.PNG)
-
-=> Recharger la page de Wikipédia « Ctrl F5 »
-
-![chrome7](../img/chrome7.PNG)
-
-
-
+![chrome7](https://github.com/istex/istex-web-doc/tree/89e0cefc252809bddad9ac54400dd5095c2c64c2/img/chrome7.PNG)
 
