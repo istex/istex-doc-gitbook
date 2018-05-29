@@ -22,13 +22,13 @@
     * [Paramètres de pagination](api/options-daffichage-des-resultats/parametres-de-pagination.md)
     * [Pagination de type "scroll"](api/options-daffichage-des-resultats/pagination-de-type-scroll.md)
   * Facettes
-    * Qu'est-ce qu'une facette ?
-    * un exemple est toujours plus parlant
-    * Syntaxe
-    * Facettes dynamiques delon le mapping
-    * Champs de type string et boolean
-    * Champs de type integer et double
-    * Champs de type date
+    * [Qu'est-ce qu'une facette ?](api/facettes/quest-ce-quune-facette.md)
+    * [un exemple est toujours plus parlant](api/facettes/un-exemple-est-toujours-plus-parlant.md)
+    * [Syntaxe](api/facettes/syntaxe.md)
+    * [Facettes dynamiques delon le mapping](api/facettes/facettes-dynamiques-delon-le-mapping.md)
+    * [Champs de type string et boolean](api/facettes/champs-de-type-string-et-boolean.md)
+    * [Champs de type integer et double](api/facettes/champs-de-type-integer-et-double.md)
+    * [Champs de type date](api/facettes/champs-de-type-date.md)
   * Accès aux données indéxées
     * Accès à un document via son id
     * Niveau d'arborescence
