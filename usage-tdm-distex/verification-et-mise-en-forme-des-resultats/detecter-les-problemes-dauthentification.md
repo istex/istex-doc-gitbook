@@ -6,7 +6,7 @@ Le texte du document ne correspond alors plus au document souhaité et peut ains
 
 Ci-dessous un exemple de fichier extrait \(`Vieil_00718.txt` issu du Corpus Vieillissement V2 old\):
 
-![pbauthentification](https://github.com/istex/istex-web-doc/tree/a35c0c597c2a09a4ba887ed7cb0f2aec5befe2d0/usage-tdm-distex/img/pbAuthentification.png)
+![pbauthentification](../../.gitbook/assets/pbAuthentification.png)
 
 Ce phénomène est aléatoire et peut survenir sur n'importe quel document, lors d'une extraction de nuit.
 
