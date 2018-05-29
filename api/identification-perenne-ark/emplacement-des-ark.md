@@ -2,11 +2,11 @@
 
 Un identifiant ARK, lorsqu'il a été attribué à un document ISTEX, se retrouve à différents niveaux :
 
-### Dans le format MODS
+## Dans le format MODS
 
 Dans ce format, il se retrouve aux côtés des autres identifiants dans l'élément `<identifier type="ark">` :
 
-```xml
+```markup
 ...
 </relatedItem>
 <identifier type="istex">087661D669BF44CA05AA6CE08ADD6399F6A439C4</identifier>
@@ -16,11 +16,11 @@ Dans ce format, il se retrouve aux côtés des autres identifiants dans l'élém
 <accessCondition>...
 ```
 
-### Dans le format TEI
+## Dans le format TEI
 
 Comme dans le MODS, il se retrouve aux côtés des autres identifiants dans l'élément `<idno type="ark">` :
 
-```xml
+```markup
 ...
 <sourceDesc>
   <biblStruct type="abstract">
@@ -38,11 +38,11 @@ Comme dans le MODS, il se retrouve aux côtés des autres identifiants dans l'é
 ...
 ```
 
-### Dans le format JSON
+## Dans le format JSON
 
-Dans ce format, il se retrouve à la racine de la structure représentant le document (article ou chapitre) dans le champ `arkIstex` :
+Dans ce format, il se retrouve à la racine de la structure représentant le document \(article ou chapitre\) dans le champ `arkIstex` :
 
-```json
+```javascript
 {
 
     "corpusName": "nature",

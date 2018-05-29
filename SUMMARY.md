@@ -53,10 +53,10 @@
     * [Intérêt des ARK dans ISTEX](api/identification-perenne-ark/interet-des-ark-dans-istex.md)
     * [Emplacement des ARK](api/identification-perenne-ark/emplacement-des-ark.md)
     * [URL d'accès dans l'API](api/identification-perenne-ark/url-dacces-dans-lapi.md)
-  * OpenURL 1.0
-    * Implémentation du standard Z39.88-2004
-    * Résolveur de liens
-    * Désactiver la redirection automatique vers la ressource
+  * [OpenURL 1.0](api/openurl-1.0/README.md)
+    * [Implémentation du standard Z39.88-2004](api/openurl-1.0/implementation-du-standard-z39.88-2004.md)
+    * [Résolveur de liens](api/openurl-1.0/resolveur-de-liens.md)
+    * [Désactiver la redirection automatique vers la ressource](api/openurl-1.0/desactiver-la-redirection-automatique-vers-la-ressource.md)
 * Usage documentaire
   * Bouton ISTEX
   * Google Scholar
