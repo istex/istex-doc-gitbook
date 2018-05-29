@@ -15,6 +15,6 @@
 
 * Cliquer sur la flèche verte **"Localiser"**
 * Choisir **"Recherche dans la bibliothèque"** qui permet de rechercher le ou les documents sélectionnés en utilisant le résolveur de liens OpenURL renseigné dans le module **"Préférences"** de Zotéro. ![Sch&#xE9;ma modulebibZotero2](../../.gitbook/assets/Zotero2.png)
-* **"Enregistrer dans Zotero"** le PDF ![Sch&#xE9;ma moduleenregZotero3](../../.gitbook/assets/Zotero3.png) ![Sch&#xE9;ma moduledansbibZotero4](https://github.com/istex/istex-web-doc/tree/067760913326f4f47858d78b982666310577e11c/usage-documentaire/img/Zotero4.PNG)
+* **"Enregistrer dans Zotero"** le PDF ![Sch&#xE9;ma moduleenregZotero3](../../.gitbook/assets/Zotero3.png) ![Sch&#xE9;ma moduledansbibZotero4](../../.gitbook/assets/Zotero4.PNG)
 * Faire glisser le PDF dans la notice ![Sch&#xE9;ma moduledansnoticeZotero5](../../.gitbook/assets/Zotero5.PNG)
 
