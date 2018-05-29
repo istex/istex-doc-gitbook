@@ -22,7 +22,7 @@ L'extension ISTEX est disponible pour les navigateurs web Firefox et Chrome ici 
 
 =&gt; Cliquer sur « Ajouter l’extension à Firefox »
 
-![Firefox3](../.gitbook/assets/irefox3.PNG)
+![Firefox3](../.gitbook/assets/firefox3.PNG)
 
 =&gt; Autoriser l’installation
 
