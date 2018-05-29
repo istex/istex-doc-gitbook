@@ -42,17 +42,17 @@
     * [Champs d'accès aux fichiers liés au document](api/acces-aux-donnees-indexees/champs-dacces-aux-fichiers-lies-au-document.md)
     * [Liste des éditeurs disponibles](api/acces-aux-donnees-indexees/liste-des-editeurs-disponibles.md)
   * Accès aux fichiers
-    * Accès aux métadonnées
-    * Accès aux fulltext
-    * Accès aux annexes
-    * Accès aux couvertures
-  * Accès aux enrichissements
-    * Proposer des enrichissements
-  * Identification pérenne ARK
-    * Structure d'une URL de type ARK
-    * Intérêt des ARK dans ISTEX
-    * Emplacement des ARK
-    * URL d'accès dans l'API
+    * [Accès aux métadonnées](api/acces-aux-fichiers/acces-aux-metadonnees.md)
+    * [Accès aux fulltext](api/acces-aux-fichiers/acces-aux-fulltext.md)
+    * [Accès aux annexes](api/acces-aux-fichiers/acces-aux-annexes.md)
+    * [Accès aux couvertures](api/acces-aux-fichiers/acces-aux-couvertures.md)
+  * [Accès aux enrichissements](api/acces-aux-enrichissements/README.md)
+    * [Proposer des enrichissements](api/acces-aux-enrichissements/proposer-des-enrichissements.md)
+  * [Identification pérenne ARK](api/identification-perenne-ark/README.md)
+    * [Structure d'une URL de type ARK](api/identification-perenne-ark/structure-dune-url-de-type-ark.md)
+    * [Intérêt des ARK dans ISTEX](api/identification-perenne-ark/interet-des-ark-dans-istex.md)
+    * [Emplacement des ARK](api/identification-perenne-ark/emplacement-des-ark.md)
+    * [URL d'accès dans l'API](api/identification-perenne-ark/url-dacces-dans-lapi.md)
   * OpenURL 1.0
     * Implémentation du standard Z39.88-2004
     * Résolveur de liens
