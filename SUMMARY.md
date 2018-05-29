@@ -65,7 +65,7 @@
     * [Zotero](usage-documentaire/logiciels-de-gestion-bibliographique/zotero.md)
 * Usage TDM d'ISTEX
   * [Préambule à la constitution d'un corpus](usage-tdm-distex/preambule-a-la-constitution-dun-corpus.md)
-  * Construction d'une requête
+  * [Construction d'une requête](usage-tdm-distex/construction-dune-requete/README.md)
     * [Le contenu de la requête](usage-tdm-distex/construction-dune-requete/le-contenu-de-la-requete.md)
     * [Sur quel\(s\) champ\(s\) faire son interrogation ?](usage-tdm-distex/construction-dune-requete/sur-quel-s-champ-s-faire-son-interrogation.md)
     * [Les principaux outils à manipuler](usage-tdm-distex/construction-dune-requete/les-principaux-outils-a-manipuler.md)
