@@ -85,7 +85,7 @@
     * [Liste des codes langues dans ISTEX](usage-tdm-distex/annexes/liste-des-codes-langues-dans-istex.md)
     * [Liste des types de publication et de contenu dans ISTEX](usage-tdm-distex/annexes/liste-des-types-de-publication-et-de-contenu-dans-istex.md)
     * [Liste des catégories scientifiques dans ISTEX](usage-tdm-distex/annexes/liste-des-categories-scientifiques-dans-istex.md)
-* Intégration ISTEX dans votre ENT
+* [Intégration ISTEX dans votre ENT](integration-istex-dans-votre-ent/README.md)
   * [Intégration dans les outils de découverte](integration-istex-dans-votre-ent/integration-dans-les-outils-de-decouverte/README.md)
     * [EDS - EBSCO](integration-istex-dans-votre-ent/integration-dans-les-outils-de-decouverte/eds-ebsco.md)
     * [PRIMO - ExLibris](integration-istex-dans-votre-ent/integration-dans-les-outils-de-decouverte/primo-exlibris.md)
