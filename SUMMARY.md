@@ -70,12 +70,12 @@
     * [Sur quel\(s\) champ\(s\) faire son interrogation ?](usage-tdm-distex/construction-dune-requete/sur-quel-s-champ-s-faire-son-interrogation.md)
     * [Les principaux outils à manipuler](usage-tdm-distex/construction-dune-requete/les-principaux-outils-a-manipuler.md)
     * [Quelques astuces pour peaufiner sa requête](usage-tdm-distex/construction-dune-requete/quelques-astuces-pour-peaufiner-sa-requete.md)
-  * Extraction d'un corpus
+  * [Extraction d'un corpus](usage-tdm-distex/extraction-dun-corpus/README.md)
     * [Application ISTEX-dl \(ISTEX download\)](usage-tdm-distex/extraction-dun-corpus/application-istex-dl-istex-download.md)
     * [Fonction "Extract"](usage-tdm-distex/extraction-dun-corpus/fonction-extract.md)
     * [Moissonneur de l'API ISTEX](usage-tdm-distex/extraction-dun-corpus/moissonneur-de-lapi-istex.md)
     * [Programme "harvestCorpus.pl"](usage-tdm-distex/extraction-dun-corpus/programme-harvestcorpus.pl.md)
-  * Vérification et mise en forme des résultats
+  * [Vérification et mise en forme des résultats](usage-tdm-distex/verification-et-mise-en-forme-des-resultats/README.md)
     * [Détecter les problèmes d'authentification](usage-tdm-distex/verification-et-mise-en-forme-des-resultats/detecter-les-problemes-dauthentification.md)
     * [Détecter les PDF image](usage-tdm-distex/verification-et-mise-en-forme-des-resultats/detecter-les-pdf-image.md)
     * [Remplacer les documents TXT par les documents OCR](usage-tdm-distex/verification-et-mise-en-forme-des-resultats/remplacer-les-documents-txt-par-les-documents-ocr.md)
