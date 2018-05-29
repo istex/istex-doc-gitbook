@@ -30,17 +30,17 @@
     * [Champs de type integer et double](api/facettes/champs-de-type-integer-et-double.md)
     * [Champs de type date](api/facettes/champs-de-type-date.md)
   * Accès aux données indéxées
-    * Accès à un document via son id
-    * Niveau d'arborescence
-    * Explication sur la granularité
-    * Explication sur les champs de type .raw
-    * Explication sur les indicateurs de qualité
-    * Explication sur les références bibliographiques
-    * Autres champs uniquement liés à l'article
-    * Champs uniquement liés liés au niveau revue
-    * Champs dépendant de la granularité
-    * Champs d'accès aux fichiers liés au document
-    * Liste des éditeurs disponibles
+    * [Accès à un document via son id](api/acces-aux-donnees-indexees/acces-a-un-document-via-son-id.md)
+    * [Niveau d'arborescence](api/acces-aux-donnees-indexees/niveau-darborescence.md)
+    * [Explication sur la granularité](api/acces-aux-donnees-indexees/explication-sur-la-granularite.md)
+    * [Explication sur les champs de type .raw](api/acces-aux-donnees-indexees/explication-sur-les-champs-de-type-.raw.md)
+    * [Explication sur les indicateurs de qualité](api/acces-aux-donnees-indexees/explication-sur-les-indicateurs-de-qualite.md)
+    * [Explication sur les références bibliographiques](api/acces-aux-donnees-indexees/explication-sur-les-references-bibliographiques.md)
+    * [Autres champs uniquement liés à l'article](api/acces-aux-donnees-indexees/autres-champs-uniquement-lies-a-larticle.md)
+    * [Champs uniquement liés liés au niveau revue](api/acces-aux-donnees-indexees/champs-uniquement-lies-lies-au-niveau-revue.md)
+    * [Champs dépendant de la granularité](api/acces-aux-donnees-indexees/champs-dependant-de-la-granularite.md)
+    * [Champs d'accès aux fichiers liés au document](api/acces-aux-donnees-indexees/champs-dacces-aux-fichiers-lies-au-document.md)
+    * [Liste des éditeurs disponibles](api/acces-aux-donnees-indexees/liste-des-editeurs-disponibles.md)
   * Accès aux fichiers
     * Accès aux métadonnées
     * Accès aux fulltext
