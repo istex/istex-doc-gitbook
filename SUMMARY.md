@@ -87,23 +87,23 @@
     * [Liste des catégories scientifiques dans ISTEX](usage-tdm-distex/annexes/liste-des-categories-scientifiques-dans-istex.md)
 * Intégration ISTEX dans votre ENT
   * Intégration dans les outils de découverte
-    * EDS - EBSCO
-    * PRIMO - ExLibris
-    * SUMMON
-  * Intégration avec les widgets
-  * Intégration dans Drupal
-  * Intégration dans uPortal
+    * [EDS - EBSCO](integration-istex-dans-votre-ent/integration-dans-les-outils-de-decouverte/eds-ebsco.md)
+    * [PRIMO - ExLibris](integration-istex-dans-votre-ent/integration-dans-les-outils-de-decouverte/primo-exlibris.md)
+    * [SUMMON](integration-istex-dans-votre-ent/integration-dans-les-outils-de-decouverte/summon.md)
+  * [Intégration avec les widgets](integration-istex-dans-votre-ent/integration-avec-les-widgets.md)
+  * [Intégration dans Drupal](integration-istex-dans-votre-ent/integration-dans-drupal.md)
+  * [Intégration dans uPortal](integration-istex-dans-votre-ent/integration-dans-uportal.md)
   * Intégration du bouton ISTEX
-    * Métadonnées pour l'intégration du bouton ISTEX
-  * Intégration avancée avec l'API ISTEX
+    * [Métadonnées pour l'intégration du bouton ISTEX](integration-istex-dans-votre-ent/integration-du-bouton-istex/metadonnees-pour-lintegration-du-bouton-istex.md)
+  * [Intégration avancée avec l'API ISTEX](integration-istex-dans-votre-ent/integration-avancee-avec-lapi-istex.md)
   * Ils ont intégré ISTEX
-    * Archive ouverte HAL
-    * CHU Rouen Normandie
-    * INRA
-    * Université Aix Marseille
-    * Université Jean Monnet St Etienne
-    * Université Paris Saclay
-    * Université Paris Sciences Lettres
-    * Université Rennes2
+    * [Archive ouverte HAL](integration-istex-dans-votre-ent/ils-ont-integre-istex/archive-ouverte-hal.md)
+    * [CHU Rouen Normandie](integration-istex-dans-votre-ent/ils-ont-integre-istex/chu-rouen-normandie.md)
+    * [INRA](integration-istex-dans-votre-ent/ils-ont-integre-istex/inra.md)
+    * [Université Aix Marseille](integration-istex-dans-votre-ent/ils-ont-integre-istex/universite-aix-marseille.md)
+    * [Université Jean Monnet St Etienne](integration-istex-dans-votre-ent/ils-ont-integre-istex/universite-jean-monnet-st-etienne.md)
+    * [Université Paris Saclay](integration-istex-dans-votre-ent/ils-ont-integre-istex/universite-paris-saclay.md)
+    * [Université Paris Sciences Lettres](integration-istex-dans-votre-ent/ils-ont-integre-istex/universite-paris-sciences-lettres.md)
+    * [Université Rennes2](integration-istex-dans-votre-ent/ils-ont-integre-istex/universite-rennes2.md)
 * FAQ
 
