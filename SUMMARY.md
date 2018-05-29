@@ -58,11 +58,11 @@
     * [Résolveur de liens](api/openurl-1.0/resolveur-de-liens.md)
     * [Désactiver la redirection automatique vers la ressource](api/openurl-1.0/desactiver-la-redirection-automatique-vers-la-ressource.md)
 * Usage documentaire
-  * Bouton ISTEX
-  * Google Scholar
+  * [Bouton ISTEX](usage-documentaire/bouton-istex.md)
+  * [Google Scholar](usage-documentaire/google-scholar.md)
   * Logiciels de gestion bibliographique
-    * EndNote
-    * Zotero
+    * [EndNote](usage-documentaire/logiciels-de-gestion-bibliographique/endnote.md)
+    * [Zotero](usage-documentaire/logiciels-de-gestion-bibliographique/zotero.md)
 * Usage TDM d'ISTEX
   * Préambule à la constitution d'un corpus
   * Construction d'une requête
