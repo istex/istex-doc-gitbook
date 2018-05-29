@@ -5,7 +5,7 @@
 
 En recherchant un article dans le BRISE-ES, le portail des ressources des bibliothèques de l'enseignement supérieur de Saint Etienne, on a le lien vers un document ISTEX au niveau du catalogue et les résultats uniquement dans ISTEX.
 
-[![intégration st Etienne](../../img/SaintEtienne.JPG)](https://dossier-ng.univ-st-etienne.fr/scd/www/ent/PagesEnt/interro_doi_pmid_zbl.php/?valeur=10.1051%2Fmattech%2F2017016)
+[![intégration st Etienne](../../.gitbook/assets/SaintEtienne.JPG)](https://dossier-ng.univ-st-etienne.fr/scd/www/ent/PagesEnt/interro_doi_pmid_zbl.php/?valeur=10.1051%2Fmattech%2F2017016)
 
 [Voir la documentation technique](https://doc.istex.fr/users/integration/ent-web/#bouton-istex-integre)
 
