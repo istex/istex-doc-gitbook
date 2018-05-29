@@ -1,0 +1,4 @@
+# Fonction "Extract"
+
+6
+

@@ -64,27 +64,27 @@
     * [EndNote](usage-documentaire/logiciels-de-gestion-bibliographique/endnote.md)
     * [Zotero](usage-documentaire/logiciels-de-gestion-bibliographique/zotero.md)
 * Usage TDM d'ISTEX
-  * Préambule à la constitution d'un corpus
+  * [Préambule à la constitution d'un corpus](usage-tdm-distex/preambule-a-la-constitution-dun-corpus.md)
   * Construction d'une requête
-    * Le contenu de la requête
-    * Sur quel\(s\) champ\(s\) faire son interrogation ?
-    * Les principaux outils à manipuler
-    * Quelques astuces pour peaufiner sa requête
+    * [Le contenu de la requête](usage-tdm-distex/construction-dune-requete/le-contenu-de-la-requete.md)
+    * [Sur quel\(s\) champ\(s\) faire son interrogation ?](usage-tdm-distex/construction-dune-requete/sur-quel-s-champ-s-faire-son-interrogation.md)
+    * [Les principaux outils à manipuler](usage-tdm-distex/construction-dune-requete/les-principaux-outils-a-manipuler.md)
+    * [Quelques astuces pour peaufiner sa requête](usage-tdm-distex/construction-dune-requete/quelques-astuces-pour-peaufiner-sa-requete.md)
   * Extraction d'un corpus
-    * Application ISTEX-dl \(ISTEX download\)
-    * Fonction "Extract"
-    * Moissonneur de l'API ISTEX
-    * Programme "harvestCorpus.pl"
+    * [Application ISTEX-dl \(ISTEX download\)](usage-tdm-distex/extraction-dun-corpus/application-istex-dl-istex-download.md)
+    * [Fonction "Extract"](usage-tdm-distex/extraction-dun-corpus/fonction-extract.md)
+    * [Moissonneur de l'API ISTEX](usage-tdm-distex/extraction-dun-corpus/moissonneur-de-lapi-istex.md)
+    * [Programme "harvestCorpus.pl"](usage-tdm-distex/extraction-dun-corpus/programme-harvestcorpus.pl.md)
   * Vérification et mise en forme des résultats
-    * Détecter les problèmes d'authentification
-    * Détecter les PDF image
-    * Remplacer les documents TXT par les documents OCR
-    * Détecter les ligatures dans le TXT
-    * Extraire les documents XML des fichiers ZIP
+    * [Détecter les problèmes d'authentification](usage-tdm-distex/verification-et-mise-en-forme-des-resultats/detecter-les-problemes-dauthentification.md)
+    * [Détecter les PDF image](usage-tdm-distex/verification-et-mise-en-forme-des-resultats/detecter-les-pdf-image.md)
+    * [Remplacer les documents TXT par les documents OCR](usage-tdm-distex/verification-et-mise-en-forme-des-resultats/remplacer-les-documents-txt-par-les-documents-ocr.md)
+    * [Détecter les ligatures dans le TXT](usage-tdm-distex/verification-et-mise-en-forme-des-resultats/detecter-les-ligatures-dans-le-txt.md)
+    * [Extraire les documents XML des fichiers ZIP](usage-tdm-distex/verification-et-mise-en-forme-des-resultats/extraire-les-documents-xml-des-fichiers-zip.md)
   * Annexes
-    * Liste des codes langues dans ISTEX
-    * Liste des types de publication et de contenu dans ISTEX
-    * Liste des catégories scientifiques dans ISTEX
+    * [Liste des codes langues dans ISTEX](usage-tdm-distex/annexes/liste-des-codes-langues-dans-istex.md)
+    * [Liste des types de publication et de contenu dans ISTEX](usage-tdm-distex/annexes/liste-des-types-de-publication-et-de-contenu-dans-istex.md)
+    * [Liste des catégories scientifiques dans ISTEX](usage-tdm-distex/annexes/liste-des-categories-scientifiques-dans-istex.md)
 * Intégration ISTEX dans votre ENT
   * Intégration dans les outils de découverte
     * EDS - EBSCO
