@@ -1,7 +1,7 @@
 # Table of contents
 
 * [istex-web-doc](README.md)
-* API
+* [API](api/README.md)
   * [Accès à l'API](api/acces-a-lapi/README.md)
     * Titre à choisir
     * [S'authentifier sur l'API](api/acces-a-lapi/sauthentifier-sur-lapi.md)
@@ -9,6 +9,7 @@
     * [Authentification par fédération d'identités](api/acces-a-lapi/authentification-par-federation-didentites.md)
     * [Accès nomade \(LDAP\)](api/acces-a-lapi/acces-nomade-ldap.md)
     * [URL de vérification de connexion](api/acces-a-lapi/url-de-verification-de-connexion.md)
+    * poo
   * Recherche de documents
     * [Syntaxe des requêtes](api/recherche-de-documents/syntaxe-des-requetes.md)
     * [Opérateur par défaut](api/recherche-de-documents/operateur-par-defaut.md)
@@ -106,4 +107,5 @@
     * [Université Paris Sciences Lettres](integration-istex-dans-votre-ent/ils-ont-integre-istex/universite-paris-sciences-lettres.md)
     * [Université Rennes2](integration-istex-dans-votre-ent/ils-ont-integre-istex/universite-rennes2.md)
 * FAQ
+* Untitled
 
