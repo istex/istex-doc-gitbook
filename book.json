@@ -1,5 +1,5 @@
 {
-	"plugins": ["collapsible-chapters","navigator", "gitbook-plugin-header@git+https://github.com/thomas88100/gitbook-plugin-header.git"],
+	"plugins": ["collapsible-chapters","navigator", "gitbook-plugin-header-istex@git+https://github.com/thomas88100/gitbook-plugin-header-istex.git"],
 	"pluginsConfig": {
 		"layout": {
 			"headerPath": "layouts/header.html"
