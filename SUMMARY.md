@@ -1,7 +1,7 @@
 # Table of contents
 
 * [istex-web-doc](README.md)
-* [API](api/README.md)
+* API
   * [Accès à l'API](api/acces-a-lapi/README.md)
     * Titre à choisir
     * [S'authentifier sur l'API](api/acces-a-lapi/sauthentifier-sur-lapi.md)
