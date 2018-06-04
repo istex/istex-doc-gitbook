@@ -38,10 +38,10 @@
     * [Accès nomade \(LDAP\)](api/access/acces-nomade-ldap.md)
     * [URL de vérification de connexion](api/access/url-de-verification-de-connexion.md)
   * Recherche de documents
-    * [Syntaxe des requêtes](api/search/syntaxe-des-requetes.md)
-    * [Opérateur par défaut](api/search/operateur-par-defaut.md)
-    * [Exemples classiques de recherche](api/search/exemples-classiques-de-recherche.md)
-    * [Extraction](api/search/extraction.md)
+    * [Syntaxe des requêtes](api/searchs/syntaxe-des-requetes.md)
+    * [Opérateur par défaut](api/searchs/operateur-par-defaut.md)
+    * [Exemples classiques de recherche](api/searchs/exemples-classiques-de-recherche.md)
+    * [Extraction](api/searchs/extraction.md)
   * Options d'affichage des résultats
     * [Sélection des champs renvoyés](api/results/selection-des-champs-renvoyes.md)
     * [Choix du type de scoring](api/results/choix-du-type-de-scoring.md)
