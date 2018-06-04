@@ -1,4 +1,4 @@
-# Intégration ISTEX dans votre ENT
+# Intégrer ISTEX dans un ENT
 
 ISTEX a vocation à venir s'intégrer dans les outils documentaires des établissements. Il peut s'y intégrer de différentes manières.
 

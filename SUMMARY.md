@@ -1,7 +1,7 @@
 # Table of contents
 
 * [istex-web-doc](README.md)
-* [API](api/README.md)
+* [API ISTEX](api/README.md)
   * [Accès à l'API](api/access/README.md)
     * Titre à choisir
     * [S'authentifier sur l'API](api/access/sauthentifier-sur-lapi.md)
@@ -58,7 +58,7 @@
     * [Résolveur de liens](api/openurl/resolveur-de-liens.md)
     * [Désactiver la redirection automatique vers la ressource](api/openurl/desactiver-la-redirection-automatique-vers-la-ressource.md)
   * Untitled
-* Usage documentaire
+* Usage documentaire d'ISTEX
   * [Bouton ISTEX](usage/button.md)
   * [Google Scholar](usage/googlescholar.md)
   * [Logiciels de gestion bibliographique](usage/bib/README.md)
@@ -86,7 +86,7 @@
     * [Liste des codes langues dans ISTEX](tdm/annexes/liste-des-codes-langues-dans-istex.md)
     * [Liste des types de publication et de contenu dans ISTEX](tdm/annexes/liste-des-types-de-publication-et-de-contenu-dans-istex.md)
     * [Liste des catégories scientifiques dans ISTEX](tdm/annexes/liste-des-categories-scientifiques-dans-istex.md)
-* [Intégration ISTEX dans votre ENT](integration/README.md)
+* [Intégrer ISTEX dans un ENT](integration/README.md)
   * [Intégration dans les outils de découverte](integration/discovery-tools/README.md)
     * [EDS - EBSCO](integration/discovery-tools/eds-ebsco.md)
     * [PRIMO - ExLibris](integration/discovery-tools/primo-exlibris.md)

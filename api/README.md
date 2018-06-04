@@ -2,7 +2,7 @@
 description: magnifique plateforme
 ---
 
-# API
+# API ISTEX
 
 Magnifique
 
