@@ -57,6 +57,7 @@
     * [Implémentation du standard Z39.88-2004](api/openurl/implementation-du-standard-z39.88-2004.md)
     * [Résolveur de liens](api/openurl/resolveur-de-liens.md)
     * [Désactiver la redirection automatique vers la ressource](api/openurl/desactiver-la-redirection-automatique-vers-la-ressource.md)
+  * Untitled
 * Usage documentaire
   * [Bouton ISTEX](usage/button.md)
   * [Google Scholar](usage/googlescholar.md)
