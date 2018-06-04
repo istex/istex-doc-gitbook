@@ -6,3 +6,5 @@ description: API signifie ... C'est pour les dev ...
 
 Magnifique
 
+[Lien vers recherche de documents](search/)
+
