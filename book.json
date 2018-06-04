@@ -1,5 +1,5 @@
 {
-	"plugins": ["collapsible-chapters","navigator", "header-istex"],
+	"plugins": ["collapsible-chapters","navigator", "header-istex", "url-embed", "hints"],
 	"pluginsConfig": {
 		"layout": {
 			"headerPath": "layouts/header.html"
