@@ -1,4 +1,4 @@
-# Les principaux outils à manipuler
+# Les principaux opérateurs à manipuler
 
 **Les opérateurs booléens**
 

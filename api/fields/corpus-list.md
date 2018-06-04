@@ -1,4 +1,4 @@
-# Liste des éditeurs disponibles
+# Liste des corpus disponibles
 
 La liste des éditeurs est disponible via la requête [https://api.istex.fr/corpus/](https://api.istex.fr/corpus/)
 
