@@ -107,4 +107,5 @@
     * [Liste des types de publication et de contenu dans ISTEX](usage-tdm-distex/annexes/liste-des-types-de-publication-et-de-contenu-dans-istex.md)
     * [Liste des catégories scientifiques dans ISTEX](usage-tdm-distex/annexes/liste-des-categories-scientifiques-dans-istex.md)
 * FAQ
+  * [Usage documentaire Vs. Usage recherche ?](faq/usage-documentaire-vs.-usage-recherche.md)
 
