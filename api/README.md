@@ -4,7 +4,7 @@ Une API pour Application Programing Interface n'a pas vocation à une utilisatio
 
 _Vous recherchez comment fonctionne l'API et vous voulez personnaliser au mieux l'outil pour vos besoins?_ 
 
- _La documentation technique qui suit est faite pour vous !_
+_La documentation technique qui suit est faite pour vous !_
 
 Lien vers recherche de documents
 
