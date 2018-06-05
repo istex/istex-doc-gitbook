@@ -108,4 +108,5 @@
     * [Liste des catégories scientifiques dans ISTEX](usage-tdm-distex/annexes/liste-des-categories-scientifiques-dans-istex.md)
 * FAQ
   * [Usage documentaire Vs. Usage recherche ?](faq/usage-documentaire-vs.-usage-recherche.md)
+  * [Qu'est-ce que le format Mods ?](faq/quest-ce-que-le-format-mods.md)
 
