@@ -1,8 +1,12 @@
 {
-	"plugins": ["collapsible-chapters","navigator", "header-istex", "url-embed", "hints"],
+	"plugins": ["collapsible-chapters","navigator", "header-istex", "url-embed", "hints", "piwik"],
 	"pluginsConfig": {
 		"layout": {
 			"headerPath": "layouts/header.html"
-		}
+		},
+		"piwik": {
+        	"URL": "piwik2.inist.fr/",
+        	"siteId": 49
+        }
 	}
 }
