@@ -6,7 +6,7 @@ _Vous recherchez comment fonctionne l'API et vous voulez personnaliser au mieux 
 
 _La documentation technique qui suit est faite pour vous !_
 
-bonjour
+coucou comment ça va 
 
-Lien vers recherche de documents
+[Lien vers recherche de documents](search/)
 
