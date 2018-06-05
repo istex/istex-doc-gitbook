@@ -107,10 +107,10 @@
     * [Liste des types de publication et de contenu dans ISTEX](usage-tdm-distex/annexes/liste-des-types-de-publication-et-de-contenu-dans-istex.md)
     * [Liste des catégories scientifiques dans ISTEX](usage-tdm-distex/annexes/liste-des-categories-scientifiques-dans-istex.md)
 * FAQ
+  * [A quoi sert ISTEX ?](faq/a-quoi-sert-istex.md)
   * [Usage documentaire Vs. Usage recherche ?](faq/usage-documentaire-vs.-usage-recherche.md)
   * [Qu'est-ce que le format Mods ?](faq/quest-ce-que-le-format-mods.md)
   * [Qu'entend-t-on par identification avec basic-auth ?](faq/quentend-t-on-par-identification-avec-basic-auth.md)
   * [Je n'arrive pas à me connecter à l'API, l'accès m'est refusé !](faq/je-narrive-pas-a-me-connecter-a-lapi-lacces-mest-refuse.md)
   * [À quoi servent les "indicateurs de qualité" ?](faq/a-quoi-servent-les-indicateurs-de-qualite.md)
-  * [A quoi sert ISTEX ?](faq/a-quoi-sert-istex.md)
 
