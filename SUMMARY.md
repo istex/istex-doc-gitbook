@@ -4,8 +4,8 @@
 * [Documentation ISTEX](documentation-istex.md)
 * [API ISTEX](api/README.md)
   * [Accès à l'API](api/access/README.md)
+    * pour remplacer qu'estce que l'API
     * [S'authentifier sur l'API](api/access/auth-modes.md)
-    * Titre à choisir
     * [Authentification par l'adresse IP](api/access/ip.md)
     * [Authentification par fédération d'identités](api/access/fede.md)
     * [Accès nomade \(LDAP\)](api/access/ldap.md)
