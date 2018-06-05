@@ -4,5 +4,5 @@
 
 
 
-[API  ISTEX](api/)
+[API  ISTEX](api-istex/)
 
