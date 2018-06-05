@@ -107,7 +107,8 @@
     * [Liste des types de publication et de contenu dans ISTEX](usage-tdm-distex/annexes/liste-des-types-de-publication-et-de-contenu-dans-istex.md)
     * [Liste des catégories scientifiques dans ISTEX](usage-tdm-distex/annexes/liste-des-categories-scientifiques-dans-istex.md)
 * FAQ
-  * [A quoi sert ISTEX ?](faq/a-quoi-sert-istex.md)
+  * [A quoi sert ISTEX ?](faq/a-quoi-sert-istex/README.md)
+    * [Mais pourquoi mettre un ARK ?](faq/a-quoi-sert-istex/mais-pourquoi-mettre-un-ark.md)
   * [Usage documentaire Vs. Usage recherche ?](faq/usage-documentaire-vs.-usage-recherche.md)
   * [Qu'est-ce que le format Mods ?](faq/quest-ce-que-le-format-mods.md)
   * [Qu'entend-t-on par identification avec basic-auth ?](faq/quentend-t-on-par-identification-avec-basic-auth.md)
