@@ -20,9 +20,17 @@
 
 ![Sch&#xE9;ma modulebibEndNote3](../../.gitbook/assets/endnote3.PNG)
 
-* **"Enregistrer dans EndNote"** le PDF trouvé ![Sch&#xE9;ma modulenoticeEndNote4](../../.gitbook/assets/endnote4.PNG)
+* **"Enregistrer dans EndNote"** le PDF trouvé
+
+![Sch&#xE9;ma modulenoticeEndNote4](../../.gitbook/assets/endnote4.PNG)
+
 * Ouvrir la **"Reference"** concernée
 * Dans le champ **"File Attachments"**/**"Attach file"**
-* Chercher le PDF et **"Enregistrer"** ![Sch&#xE9;ma modulenoticebibEndNote5](../../.gitbook/assets/endnote5.PNG)
-* Un trombone signale la présence du PDF ![Sch&#xE9;ma modulefichierEndNote6](../../.gitbook/assets/endnote6.PNG)
+* Chercher le PDF et **"Enregistrer"**
+
+![Sch&#xE9;ma modulenoticebibEndNote5](../../.gitbook/assets/endnote5.PNG)
+
+* Un trombone signale la présence du PDF
+
+![Sch&#xE9;ma modulefichierEndNote6](../../.gitbook/assets/endnote6.PNG)
 
