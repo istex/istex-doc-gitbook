@@ -1,4 +1,4 @@
-# istex-web-doc
+# Documentation ISTEX
 
 Documentation de la plateforme ISTEX. Documentation générale regroupant les 3 docs
 

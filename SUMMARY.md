@@ -1,7 +1,6 @@
 # Table of contents
 
-* [istex-web-doc](README.md)
-* [Documentation ISTEX](documentation-istex.md)
+* [Documentation ISTEX](README.md)
 * [API ISTEX](api-istex/README.md)
   * [Accès à l'API](api-istex/acces-a-lapi/README.md)
     * [pour remplacer qu'estce que l'API](api-istex/acces-a-lapi/pour-remplacer-questce-que-lapi.md)
