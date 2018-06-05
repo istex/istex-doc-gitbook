@@ -1,6 +1,7 @@
 # Table of contents
 
 * [istex-web-doc](README.md)
+* [Documentation ISTEX](documentation-istex.md)
 * [API ISTEX](api/README.md)
   * [Accès à l'API](api/access/README.md)
     * [S'authentifier sur l'API](api/access/auth-modes.md)
@@ -106,5 +107,4 @@
     * [Liste des types de publication et de contenu dans ISTEX](tdm/annexes/publication-type.md)
     * [Liste des catégories scientifiques dans ISTEX](tdm/annexes/scientific-categories.md)
 * FAQ
-* [Documentation ISTEX](documentation-istex.md)
 

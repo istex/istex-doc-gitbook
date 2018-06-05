@@ -8,11 +8,7 @@ _La documentation technique qui suit est faite pour vous !_
 
 
 
-Test de la page api pour 
 
 
 
-
-
-[Lien vers recherche de documents](search/)
 
