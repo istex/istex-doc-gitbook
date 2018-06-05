@@ -106,4 +106,5 @@
     * [Liste des types de publication et de contenu dans ISTEX](tdm/annexes/publication-type.md)
     * [Liste des catégories scientifiques dans ISTEX](tdm/annexes/scientific-categories.md)
 * FAQ
+* [Documentation ISTEX](documentation-istex.md)
 
