@@ -1,5 +1,7 @@
 # Sélection des champs renvoyés
 
+ Apprendre les options disponibles dans l'API : [http://www.inist.fr/formations/Tuto\_API\_ISTEX\_Module\_4/story.html](http://www.inist.fr/formations/Tuto_API_ISTEX_Module_4/story.html)
+
 | Syntaxe |  |
 | --- | --- |
 | URI | https://api.istex.fr/document/?q={query}&output={liste\_des\_champs} |
