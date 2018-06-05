@@ -110,4 +110,5 @@
   * [Usage documentaire Vs. Usage recherche ?](faq/usage-documentaire-vs.-usage-recherche.md)
   * [Qu'est-ce que le format Mods ?](faq/quest-ce-que-le-format-mods.md)
   * [Qu'entend-t-on par identification avec basic-auth ?](faq/quentend-t-on-par-identification-avec-basic-auth.md)
+  * [Je n'arrive pas à me connecter à l'API, l'accès m'est refusé !](faq/je-narrive-pas-a-me-connecter-a-lapi-lacces-mest-refuse.md)
 
