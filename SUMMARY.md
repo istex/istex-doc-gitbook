@@ -57,7 +57,6 @@
     * [Accès aux fulltext](api/files/acces-aux-fulltext.md)
     * [Accès aux annexes](api/files/annexes.md)
     * [Accès aux couvertures](api/files/covers.md)
-  * Untitled
 * [Intégrer ISTEX dans un ENT](integration/README.md)
   * [Intégration dans les outils de découverte](integration/discovery-tools/README.md)
     * [EDS - EBSCO](integration/discovery-tools/eds-ebsco.md)
