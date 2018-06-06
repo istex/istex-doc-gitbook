@@ -11,5 +11,5 @@ Pour plus d'information n'hésitez pas à vous inscrire sur les liste de diffusi
 
 Pour contacter directement et uniquement l'équipe ISTEX pour toutes questions et/ou demandes de support utilisez : **contact@listes.istex.fr**.
 
-[Lien vers l'API](api-istex/)
+\[Lien vers l'API\]\(api/README.md\)
 
