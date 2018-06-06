@@ -107,9 +107,11 @@ Une fois le lien créé il faut l’assigner à tous les bouquets Licences Natio
 * Les rechercher ![Sch&#xE9;ma Bouquetsressources&#xE0;associer](../../.gitbook/assets/bouquetsressourcesaassocier.png)
 * Les associer au lien OpenURL ![Sch&#xE9;ma associerbouquetsISTEX](../../.gitbook/assets/associerbouquetsistex.png)
 
-### **!!!ATTENTION!!!**
+### 
 
+{% hint style="danger" %}
 Seuls les bouquets suivants sont déjà disponibles sur la plateforme ISTEX.
+{% endhint %}
 
 21 négociations mais 22 bouquets à sélectionner car la négociation "Numérique Premium" comporte 2 bouquets "Révolution française-Premier Empire" et "Littérature française et francophone".
 
