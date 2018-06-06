@@ -18,9 +18,9 @@ q=(title:(Arctic NOT (arctic AND /charr?/) OR Subarctic~1 OR Sub?arctic)) OR (ab
 
 &gt; &gt;
 
-Quelques champs particuliers
+## Quelques champs particuliers
 
-_**Langues**_
+### _**Langues**_
 
 Le champ `language` permet d'interroger la langue d’un document.
 
@@ -36,7 +36,7 @@ Pour savoir quel code langue utiliser, vous pouvez consulter en [**annexe**](htt
 
 NB : La valeur « unknown » est présente lorsqu'aucun code langue ne renseigne ce champ. Le champ `host.language` contient quant à lui systématiquement la valeur « unknown » car il n'est actuellement pas renseigné.
 
-_**Dates de publication**_
+### _**Dates de publication**_
 
 Le champ `publicationDate` permet de retrouver les documents publiés au cours d’une année particulière ou bien d’un intervalle de temps grâce à l’emploi de **crochets ou d’accolades**  \(voir à ce sujet le paragraphe « Intervalles » ci-dessous\).
 
