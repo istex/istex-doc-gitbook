@@ -30,6 +30,8 @@ _le service getDOI ajoute alors un DOI à l’OpenURL du parseur ISTEX à condit
 
 * La Target est activée
 
+
+
 ### Résultat
 
 * Rechercher l’article _"Disenchantment and the Environmental Crisis"_ dans l’outil de découverte
