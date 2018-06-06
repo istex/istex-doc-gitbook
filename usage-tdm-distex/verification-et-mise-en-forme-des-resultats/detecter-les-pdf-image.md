@@ -6,7 +6,7 @@ Pour cela, il faut d'abord calculer le nombre de mots par page contenus dans un 
 
 Le programme `harvestCorpus.pl` génère un fichier `logRequete.txt` qui conserve les métadonnées des documents Istex extraits et un fichier `.corpus`, lequel contient une mise en correspondance entre les identifiants Istex et les noms de fichiers.
 
-**Etape 1 : Récupération des données de** `logRequete.txt`
+## **Etape 1 : Récupération des données de** `logRequete.txt`
 
 Le programme ci-dessous calcule le ratio entre le nombre total de pages et le nombre total de mots pour un document. Celui-ci s'effectue sur une seule ligne.
 
@@ -46,7 +46,7 @@ Exemple :
 0007685B6CD6C8F51866F7BC893C5A5726B7A05B    11    3778    343.45
 ```
 
-**Etape 2 : Récupération des noms de fichiers correspondant aux identifiants ISTEX**
+## **Etape 2 : Récupération des noms de fichiers correspondant aux identifiants ISTEX**
 
 Ce programme récupère les noms de fichiers dans le fichier `.corpus` et fait la jointure avec le fichier précédent sur l'identifiant ISTEX.
 
@@ -77,7 +77,7 @@ Exemple :
 0007685B6CD6C8F51866F7BC893C5A5726B7A05B    Syst_veg6_v2_004392    11    3778    343.45
 ```
 
-**Etape 3 : Nettoyage**
+## **Etape 3 : Nettoyage**
 
 On supprime le fichier `tmp01.txt` qui n'a plus d'utilité.
 
@@ -85,7 +85,7 @@ On supprime le fichier `tmp01.txt` qui n'a plus d'utilité.
 rm tmp01.txt
 ```
 
-**Etape 4 : Procédure de vérification**
+## **Etape 4 : Procédure de vérification**
 
 Le fichier `DistNbMotNbPage.txt` ainsi obtenu indique, pour chaque document du corpus, le nombre de mots par page qui va servir à identifier les documents à vérifier manuellement :
 
@@ -107,7 +107,7 @@ La procédure de vérification est la suivante :
   * Si la sélection totale ou partielle du texte est possible et si en collant le texte dans un document Word, ce texte est illisible =&gt; il s’agit d’un PDF Image
   * Si la sélection totale du texte est possible et si en collant le texte dans un document Word, ce texte est identique au texte sélectionné =&gt; il s’agit d’un PDF Texte
 
-**Etape 5 : Procédure de suppression des PDF Image**
+## **Etape 5 : Procédure de suppression des PDF Image**
 
 Une fois les PDF Image identifiés, il faut les supprimer du corpus.
 
