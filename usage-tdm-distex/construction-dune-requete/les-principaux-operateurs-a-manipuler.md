@@ -1,6 +1,6 @@
 # Les principaux opérateurs à manipuler
 
-**Les opérateurs booléens**
+## **Les opérateurs booléens**
 
 Les opérateurs à disposition sont : **OR**, **AND** et **NOT**.
 
@@ -8,7 +8,7 @@ Les opérateurs à disposition sont : **OR**, **AND** et **NOT**.
 
 Si aucun opérateur n’est utilisé entre 2 champs ou 2 valeurs recherchées, l’opérateur par défaut OR s’applique.
 
-Les opérateurs d’inclusion/exclusion
+## Les opérateurs d’inclusion/exclusion
 
 L’opérateur d’inclusion « **+** » équivaut à **OR** \(et non pas AND\).
 
@@ -32,7 +32,7 @@ q=Greenland +"Sub-arctic"
   q=Iceland -(Jan AND Mayen)
   ```
 
-Les guillemets
+## Les guillemets
 
 Les guillemets permettent de faire une recherche extacte sur une chaîne de caractères donnée.
 
@@ -44,7 +44,7 @@ Sans les guillemets, ces mots sont considérés comme étant reliés par l'opér
 
 `q=speech therapy` ⇒ 2 813 753 résultats
 
-**Les troncatures**
+## **Les troncatures**
 
 Les troncatures sont très utiles pour ramener plusieurs résultats correspondant à une chaîne de caractères commune sans énumérer toutes les variantes possibles :
 
@@ -93,7 +93,7 @@ Pour ouvrir le choix des variantes recherchées sans toutefois générer trop de
 
 Cette requête se concentre en effet sur des variantes comme « fungi » « fungus », « funguses » et ignore les mots comme « fungicide », « fungal », etc.
 
-**Le parenthésage**
+## **Le parenthésage**
 
 L’utilisation de parenthèses permet de factoriser des valeurs dans des champs ou de faire des combinaisons d’associations entre opérateurs booléens.
 
