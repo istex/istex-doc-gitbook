@@ -8,7 +8,6 @@
     * [EndNote](usage-documentaire-distex/logiciels-de-gestion-bibliographique/endnote.md)
     * [Zotero](usage-documentaire-distex/logiciels-de-gestion-bibliographique/zotero.md)
 * [Usage TDM d'ISTEX](usage-tdm-distex/README.md)
-  * [Préambule à la constitution d'un corpus](usage-tdm-distex/preambule-a-la-constitution-dun-corpus.md)
   * [Construction d'une requête](usage-tdm-distex/construction-dune-requete/README.md)
     * [Le contenu de la requête](usage-tdm-distex/construction-dune-requete/le-contenu-de-la-requete.md)
     * [Sur quel\(s\) champ\(s\) faire son interrogation ?](usage-tdm-distex/construction-dune-requete/sur-quel-s-champ-s-faire-son-interrogation.md)

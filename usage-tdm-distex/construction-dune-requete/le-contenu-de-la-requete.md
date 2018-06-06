@@ -8,7 +8,7 @@ La liste des différentes valeurs possibles dans les champs `language`, `host.ge
 
 Le volume du corpus est apprécié en fonction des capacités de stockage, des capacités de traitement par l’outil auquel il est destiné et du degré de bruit et de silence toléré.
 
-**Facettes**
+## **Facettes**
 
 Les facettes représentent une aide précieuse pour préciser le contenu du corpus.
 
@@ -28,7 +28,7 @@ Pour afficher toutes les valeurs possibles dans un champ donné, on fait suivre 
 
 L’argument facultatif `size=0` fait que l'on n’affiche que le résultat de la distribution par facette et pas les informations relatives aux documents pertinents.
 
-**Facettes imbriquées**
+## **Facettes imbriquées**
 
 Les facettes imbriquées permettent de combiner plusieurs critères.
 
