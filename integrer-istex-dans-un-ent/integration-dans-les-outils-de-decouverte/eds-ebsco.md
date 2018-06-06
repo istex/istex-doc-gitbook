@@ -23,13 +23,13 @@ L'accès direct au document sur la plateforme ISTEX est possible de 2 façons en
 
 Le Holdings Management \(HLM\) dans EBSCOADMIN permet à l’administrateur du compte de gérer les collections ou abonnements et leur associer un résolveur de liens permettant l’accès au plein texte sur le site de l’éditeur.
 
-**A- Liens éditeurs pour Bouquets ou Titres de ressources**
+### **A- Liens éditeurs pour Bouquets ou Titres de ressources**
 
 Dans le HLM en cliquant sur **"Liens"**, l’administrateur peut visualiser les liens éditeurs disponibles dans le module d'administration qu'il faudra associer à un **"Titres"** ou un **"Bouquet"** de ressources pour aller jusqu'au plein texte. Dans notre exemple : 51 liens sont disponibles
 
 ![Sch&#xE9;ma HLMliens](../../.gitbook/assets/liens.png)
 
-**B- Création d'un lien vers la plateforme ISTEX**
+### **B- Création d'un lien vers la plateforme ISTEX**
 
 Cliquer sur **"Nouveau lien"**
 
@@ -59,7 +59,7 @@ Pour personnifier l'affichage du lien, rajouter l’icône ISTEX dont l'URL est 
 
 ![Sch&#xE9;ma IconeIstex](../../.gitbook/assets/iconeistex.png)
 
-**C- OpenURL sur le champ PMID**
+### **C- OpenURL sur le champ PMID**
 
 L'Open URL ne se fait pas que sur le champ DOI mais également sur le champ PMID et les résultats sont d'autant plus performants que 4 000 000 de PMID ont été ingérés dans la plateforme ISTEX. Il faut donc au préalable en plus de rajouter le PMID dans le paramétrage au moment de la création du lien "ISTEX Plateforme", modifier l'équation dans le résolveur de lien.
 
@@ -83,7 +83,7 @@ L'Open URL ne se fait pas que sur le champ DOI mais également sur le champ PMID
 
 ![Sch&#xE9;ma PMID5](../../.gitbook/assets/pmid5.png)
 
-**D- Open URL : erreur 404 et Istex View**
+### **D- Open URL : erreur 404 et Istex View**
 
 Il peut y avoir une différence de contenu entre la liste des revues négociées avec les éditeurs, disponible au format Kbart sur le site des licences nationales, et les documents, réellement livrés en xml, disponibles sur la plateforme ISTEX.
 
@@ -100,7 +100,7 @@ Il suffit pour le voir de remplacer `https://api.istex.fr/document/openurl` \(Po
 
 ![Sch&#xE9;ma istexview3](../../.gitbook/assets/istexview3.png)
 
-**E- Assigner le lien aux bouquets concernés**
+### **E- Assigner le lien aux bouquets concernés**
 
 Une fois le lien créé il faut l’assigner à tous les bouquets Licences Nationales ISTEX déjà présents dans la plateforme ISTEX :
 
@@ -148,7 +148,7 @@ L’activation par l’administrateur du compte se passe dans le sous onglet Lin
 
 ![Sch&#xE9;ma customlink1](../../.gitbook/assets/custom1.JPG)
 
-**A- Premier cas : ISTEX plateforme est déjà activé parmi les customlinks EDS**
+### **A- Premier cas : ISTEX plateforme est déjà activé parmi les customlinks EDS**
 
 1. Cliquer sur SetUp/Maintain CustomLinks
 2. Descendre jusqu’au lien ISTEX plateforme et cliquer sur le lien
@@ -166,7 +166,7 @@ L’activation par l’administrateur du compte se passe dans le sous onglet Lin
 
 ![Sch&#xE9;ma customlink4](../../.gitbook/assets/custom4.JPG)
 
-**B - Deuxième cas : ISTEX plateforme n’est pas activé parmi les customLinks EDS**
+### **B - Deuxième cas : ISTEX plateforme n’est pas activé parmi les customLinks EDS**
 
 1. Cliquer sur SetUp/Maintain CustomLinks
 2. Cliquer sur Add New CustomLink
