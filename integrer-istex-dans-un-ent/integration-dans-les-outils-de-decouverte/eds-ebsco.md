@@ -4,7 +4,7 @@
 
 Une recherche sur l’article suivant : _Tricuspid incompetence and right ventricular output in congestive heart failure_ de la revue **British Heart Journal Janvier 1957, Vol. 19 Issue 1**, du bouquet BMJ ISTEX
 
-![Sch&#xE9;ma interrogationbibcnrs](../../.gitbook/assets/recherchebibcnrs.png)
+[![Sch&#xE9;ma interrogationbibcnrs](../../.gitbook/assets/recherchebibcnrs.png)](cydgycsg)
 
 Deux propositions d'accès au PDF :
 
