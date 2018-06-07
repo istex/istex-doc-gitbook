@@ -24,6 +24,7 @@ _Exemple de formulaire de connexion d'un fournisseur d'identité : ici **Janus**
 ![](../../.gitbook/assets/formjanus.png)
 
 Note à l'attention des webmestres et responsables techniques des portails désirant intégrer ce processus :
+
 Pour déclencher la redirection vers la page Renater de choix de l'établissement \(WAYF\), il suffit d'ajouter le paramètre d'URL `auth=fede` aux requêtes HTTP faites à l'API ISTEX.
 
 Exemple :
