@@ -1,5 +1,5 @@
 {
-	"plugins": ["collapsible-chapters","navigator", "header-istex", "url-embed", "hints", "piwik"],
+	"plugins": ["collapsible-chapters","anchor-navigation-ex", "header-istex", "url-embed", "hints", "piwik"],
 	"pluginsConfig": {
 		"layout": {
 			"headerPath": "layouts/header.html"
