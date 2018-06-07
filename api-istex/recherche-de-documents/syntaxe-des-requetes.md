@@ -2,11 +2,9 @@
 
 Toutes les URL suivantes sont accédées via la méthode **HTTP GET**.
 
-  Apprendre à interroger l’API : 
+ Pour apprendre à interroger l’API _n'hésitez pas à consulter les tutoriels multimédias_ : 
 
 [http://www.inist.fr/formations/Tuto\_API\_ISTEX\_Module\_2/story.html](http://www.inist.fr/formations/Tuto_API_ISTEX_Module_2/story.html)  [http://www.inist.fr/formations/Tuto\_API\_ISTEX\_Module\_3/story.html](http://www.inist.fr/formations/Tuto_API_ISTEX_Module_3/story.html)
-
-
 
 
 
