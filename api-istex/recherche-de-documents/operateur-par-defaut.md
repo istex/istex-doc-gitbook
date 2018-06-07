@@ -6,7 +6,8 @@
 | --- | --- |
 | URI | [https://api.istex.fr/document/?q={query}**&defaultOperator={AND\_ou\_OR}**](https://api.istex.fr/document/?q={query}&defaultOperator={AND_ou_OR}) |
 | Explications | Cette option permet de sélectionner l'opérateur par défaut de l'API.  Si l'option est manquante, ce dernier sera le **OR**.   Par exemple, une recherche du type **https://api.istex.fr/document/?q=controllability study** doit chercher tous les documents ayant au moins un de ces mots : **controllability, study**. **Les seuls opérateurs autorisés sont AND et OR.** |
-| Paramètres | - **&defaultOperator** : l'option permettant de choisir l'opérateur par défaut, - {AND ou OR} : l'opérateur choisi. |
+| Paramètres | - **&defaultOperator** : l'option permettant de choisir l'opérateur par défaut, 
+| Paramètres | - {AND ou OR} : l'opérateur choisi. |
 | Code de retour | - 200 si OK,  - 500 en cas de problème \(dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)\) |
 
 | Exemples |  |
