@@ -23,14 +23,12 @@ _Exemple de formulaire de connexion d'un fournisseur d'identité : ici **Janus**
 
 ![](../../.gitbook/assets/formjanus.png)
 
-Note à l'attention des webmestres et responsables techniques des portails désirant intégrer ce processus&nbsp;:  
+Note à l'attention des webmestres et responsables techniques des portails désirant intégrer ce processus :  
 Pour déclencher la redirection vers la page Renater de choix de l'établissement \(WAYF\), il suffit d'ajouter le paramètre d'URL `auth=fede` aux requêtes HTTP faites à l'API ISTEX.
 
 Exemple :
 
 [https://api.istex.fr/document/3FAFD9ADF8DBB17F09F40AA390F704F9CAF041F6/fulltext/pdf?auth=fede](https://api.istex.fr/document/3FAFD9ADF8DBB17F09F40AA390F704F9CAF041F6/fulltext/pdf?auth=fede)
-
-
 
 ## Accès programmatique, via un token d'identification
 
@@ -44,16 +42,16 @@ La mise en place de cet accès se fait en deux temps :
 **Note importante :**
 
 {% hint style="warning" %}
- Le token mis en oeuvre dans cette méthode est **strictement personnel**. Il ne doit **en aucun cas être partagé** avec d'autres personnes, y compris vos collègues proches. Ceux-ci pourront aisément en obtenir un eux-mêmes.  
- Il ne doit pas non plus être utilisé pour interfacer l'API dans un site web tiers : l'authentification par adresse IP ou via le paramètre d'URL `auth=fede` sont faits pour ça.  
- Dans le cas où votre token personnel serait diffusé et utilisé par une personne non autorisée, votre responsabilité pourrait être engagée
+Le token mis en oeuvre dans cette méthode est **strictement personnel**. Il ne doit **en aucun cas être partagé** avec d'autres personnes, y compris vos collègues proches. Ceux-ci pourront aisément en obtenir un eux-mêmes.  
+Il ne doit pas non plus être utilisé pour interfacer l'API dans un site web tiers : l'authentification par adresse IP ou via le paramètre d'URL `auth=fede` sont faits pour ça.  
+Dans le cas où votre token personnel serait diffusé et utilisé par une personne non autorisée, votre responsabilité pourrait être engagée
 {% endhint %}
 
 ### **1ère étape : génération du token**
 
 Pour générer un nouveau token, connectez-vous à l'adresse [https://api.istex.fr/token/](https://api.istex.fr/token/) dans votre navigateur.  
- Vous serez automatiquement redirigés vers le mécanisme d'authentification par fédération d'identité \(cf paragraphe précédent\).  
- Une fois l'authentification effectuée, vous serez redirigés vers l'API ISTEX, qui vous communiquera votre token dans une réponse au format JSON, comme illustré sur l'image suivante :
+Vous serez automatiquement redirigés vers le mécanisme d'authentification par fédération d'identité \(cf paragraphe précédent\).  
+Une fois l'authentification effectuée, vous serez redirigés vers l'API ISTEX, qui vous communiquera votre token dans une réponse au format JSON, comme illustré sur l'image suivante :
 
 ![](../../.gitbook/assets/tokenjson.png)
 
