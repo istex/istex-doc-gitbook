@@ -6,8 +6,6 @@ Toutes les URL suivantes sont accédées via la méthode **HTTP GET**.
 
 [http://www.inist.fr/formations/Tuto\_API\_ISTEX\_Module\_2/story.html](http://www.inist.fr/formations/Tuto_API_ISTEX_Module_2/story.html)  [http://www.inist.fr/formations/Tuto\_API\_ISTEX\_Module\_3/story.html](http://www.inist.fr/formations/Tuto_API_ISTEX_Module_3/story.html)
 
-
-
 La recherche s'effectue sous la forme :
 
 | Syntaxe |  |
