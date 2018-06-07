@@ -30,8 +30,6 @@ _le service getDOI ajoute alors un DOI à l’OpenURL du parseur ISTEX à condit
 
 * La Target est activée
 
-
-
 **Résultat**
 
 * Rechercher l’article _"Disenchantment and the Environmental Crisis"_ dans l’outil de découverte
@@ -60,36 +58,36 @@ Un grand merci à Julien Sicot \(Université de Rennes 2\) pour ce développemen
 Cette intégration nécessite un accès SSH à l’instance locale SFX.
 {% endhint %}
 
-###  **A- Récupérer le code sur le site** : [https://github.com/jsicot/sfxbur2](https://github.com/jsicot/sfxbur2)
+### **A- Récupérer le code sur le site** : [https://github.com/jsicot/sfxbur2](https://github.com/jsicot/sfxbur2)
 
-* Parseur :     [https://github.com/jsicot/sfxbur2/tree/master/lib/Parsers/TargetParser/ISTEX](https://github.com/jsicot/sfxbur2/tree/master/lib/Parsers/TargetParser/ISTEX)
+* Parseur : [https://github.com/jsicot/sfxbur2/tree/master/lib/Parsers/TargetParser/ISTEX](https://github.com/jsicot/sfxbur2/tree/master/lib/Parsers/TargetParser/ISTEX)
 
-     Plugin :       [https://github.com/jsicot/sfxbur2/tree/master/lib/Parsers/PlugIn](https://github.com/jsicot/sfxbur2/tree/master/lib/Parsers/PlugIn)
+  Plugin : [https://github.com/jsicot/sfxbur2/tree/master/lib/Parsers/PlugIn](https://github.com/jsicot/sfxbur2/tree/master/lib/Parsers/PlugIn)
 
-* Configuration :  [https://github.com/jsicot/sfxbur2/tree/master/config](https://github.com/jsicot/sfxbur2/tree/master/config)
+* Configuration : [https://github.com/jsicot/sfxbur2/tree/master/config](https://github.com/jsicot/sfxbur2/tree/master/config)
 
-###  **B- Création du parseur ISTEX v2**
+### **B- Création du parseur ISTEX v2**
 
 * Créer un dossier ISTEX2 dans le dossier TargetParser de l’instance locale :`/exlibris/sfx_ver/sfx4_1/[instance]/lib/Parsers/TargetParser/ISTEX2`
 * Dans ce dossier, créer un fichier`istexapi.pm` et y copier le code du [Parseur](https://github.com/jsicot/sfxbur2/tree/master/lib/Parsers/TargetParser/ISTEX)
 
-###  **C- Création du plugin**
+### **C- Création du plugin**
 
 * Se déplacer dans le dossier PlugIn de l’instance locale :`/exlibris/sfx_ver/sfx4_1/[instance]/lib/Parsers/PlugIn`
 * Dans ce dossier, créer un fichier `istexapi.pm` et y copier le code du [Plugin](https://github.com/jsicot/sfxbur2/tree/master/lib/Parsers/PlugIn)
 
-###  **D- Créer le fichier de configuration**
+### **D- Créer le fichier de configuration**
 
 * Se déplacer dans le dossier config de l’instance locale :`/exlibris/sfx_ver/sfx4_1/[instance]/config/`
 * Dans ce dossier, créer un fichier `istex.config`  et y copier le code du fichier de [Configuration](https://github.com/jsicot/sfxbur2/tree/master/config)
 
 {% hint style="danger" %}
-les établissements qui utilisent plusieurs instances SFX doivent déposer le parseur, le plugin et le fichier de configuration dans l’instance globale puis créer des liens symboliques pour chaque instance locale vers l’instance globale 
+les établissements qui utilisent plusieurs instances SFX doivent déposer le parseur, le plugin et le fichier de configuration dans l’instance globale puis créer des liens symboliques pour chaque instance locale vers l’instance globale
 {% endhint %}
 
 `ln -s /exlibris/sfx_ver/sfx4_1/sfxglb41/lib/Parsers/TargetParser/ISTEX2/istexapi.pm` `ln –s /exlibris/sfx_ver/sfx4_1/sfxglb41/lib/Parsers/PlugIn/istexapi.pm` `ln -s /exlibris/sfx_ver/sfx4_1/sfxglb41/config/istex.config`
 
-###  **E- Création de la target ISTEX2**
+### **E- Création de la target ISTEX2**
 
 * Dans l’interface admin SFX, aller dans Targets, cliquer sur le bouton Add New Target :
 
@@ -121,6 +119,4 @@ les établissements qui utilisent plusieurs instances SFX doivent déposer le pa
 * [Université Rennes2](https://doc.istex.fr/users/integration/exemples/#universite-rennes2) =&gt; [Code source disponible sur GitHub](https://github.com/jsicot/sfxbur2)
 * [Université Paris Sciences Lettres](https://doc.istex.fr/users/integration/exemples/#universite-paris-sciences-lettres)
 * Vous très bientôt ? [dites-le à l'équipe ISTEX](mailto:contact@listes.istex.fr), savoir que la plateforme ISTEX est utilisée par la communauté et comment est très important.
-
-
 
