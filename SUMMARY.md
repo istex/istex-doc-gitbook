@@ -30,7 +30,6 @@
     * [Liste des catégories scientifiques dans ISTEX](usage-tdm-distex/annexes/liste-des-categories-scientifiques-dans-istex.md)
 * [API ISTEX](api-istex/README.md)
   * [Accès à l'API](api-istex/acces-a-lapi/README.md)
-    * [pour remplacer qu'estce que l'API](api-istex/acces-a-lapi/pour-remplacer-questce-que-lapi.md)
     * [S'authentifier sur l'API](api-istex/acces-a-lapi/sauthentifier-sur-lapi.md)
     * [Authentification par l'adresse IP](api-istex/acces-a-lapi/authentification-par-ladresse-ip.md)
     * [Authentification par fédération d'identités](api-istex/acces-a-lapi/authentification-par-federation-didentites.md)
