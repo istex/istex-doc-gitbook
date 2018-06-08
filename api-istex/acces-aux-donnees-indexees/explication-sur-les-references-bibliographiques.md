@@ -2,7 +2,7 @@
 
 Les références bibliographiques sont rassemblées sous le champ **refBibs**.
 
-Ces dernières sont soit **fournies par l'éditeur**, soit **extraites** à l'aide de l’outil d'analyse \[GROBID\]\[GROBID\] à partir du PDF. On y retrouvera :
+Ces dernières sont soit **fournies par l'éditeur**, soit **extraites** à l'aide de l’outil d'analyse [GROBID](https://github.com/kermitt2/grobid) à partir du PDF. On y retrouvera :
 
 | Champs | Type | Détails |
 | --- | --- | --- |
