@@ -3,7 +3,7 @@
 **La syntaxe est la suivante :**
 
 * URI
-  * https://api.istex.fr/document/?q={query}**&rankBy={type de ranking}**
+  * [https://api.istex.fr/document/?q={query}\*\*&rankBy={type](https://api.istex.fr/document/?q={query}**&rankBy={type) de ranking}\*\*
 * Explications
   * Chaque résultat affiche un champ **score**.
   * Cette option permet de sélectionner le type de score renvoyé lors de l'affichage des résultats. 
@@ -21,7 +21,6 @@
 * Code de retour
   * 200 si OK, 
   * 500 en cas de problème \(dans ce cas, contacter api-bug@listes.istex.fr\)
-
 
 | Exemples |  |
 | --- | --- |
