@@ -17,22 +17,22 @@ Google Scholar indique que l'activation \(et la mise à jour\) prend une à deux
 * Aller sur Google Scholar
 * Cliquer en haut à gauche pour voir les paramètrages
 
-![google1](../.gitbook/assets/google1.JPG)
+![](../.gitbook/assets/google1%20%281%29.JPG)
 
 * Choisir "Paramètres"
 * Puis "Liens vers des bibliothèques"
 
-![google2](../.gitbook/assets/google2.JPG)
+![](../.gitbook/assets/google2%20%281%29.JPG)
 
 * Rechercher ISTEX
 * Sélectionner
 * Retourner à votre recherche
 
-![google3](../.gitbook/assets/google3.JPG)
+![](../.gitbook/assets/google3%20%281%29.JPG)
 
 * \[PDF\]ISTEX signale un lien disponible
 
-![google4](../.gitbook/assets/google4.JPG)
+![](../.gitbook/assets/google4%20%281%29.JPG)
 
 * Accèder au PDFdisponible sur la plateforme ISTEX
 

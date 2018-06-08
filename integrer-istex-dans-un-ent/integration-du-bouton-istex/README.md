@@ -4,7 +4,7 @@ Vous disposez d'un portail documentaire \(exemple : base de données bibliograph
 
 C'est par exemple ce que fait la base de donnée bibliographique [LiSSa](http://www.lissa.fr). Lorsque vous arrivez sur [la page d'une ressource](http://www.lissa.fr/fr/rep/articles/11109591) et que cette dernière est présente dans la plateforme ISTEX le site propose alors un bouton d'accès au _fulltext_ de la ressource sur la droite \(le bouton n'est pas affiché dans le cas contraire\) comme vous pouvez le voir sur cette copie d'écran :
 
-![Bouton ISTEX int&#xE9;gran dans LiSSa](https://github.com/istex/istex-web-doc/tree/88fcfa8f829dbc904b8d48d366cb8ad04a4d5c8a/img/lissa-btn-istex.png)
+![](../../.gitbook/assets/lissa-btn-istex.png)
 
 Ce bouton peut être intégré dans n'importe quel site web similaire. Il est cependant nécessaire d'avoir des compétences de webmaster et que les ressources possèdent des métadonnées si possible de type identifiants \(ex: PMID ou un DOI\).
 

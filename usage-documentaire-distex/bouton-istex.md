@@ -18,25 +18,25 @@ L'extension ISTEX est disponible pour les navigateurs web Firefox et Chrome ici 
 
 =&gt; Aller sur [**https://addons.istex.fr**](https://addons.istex.fr/)
 
-![](../.gitbook/assets/firefox2.PNG)
+![](../.gitbook/assets/firefox2%20%281%29.PNG)
 
 =&gt; Cliquer sur « Ajouter l’extension à Firefox »
 
-![](../.gitbook/assets/firefox3.PNG)
+![](../.gitbook/assets/firefox3%20%281%29.PNG)
 
 =&gt; Autoriser l’installation
 
 _Retrouver l’extension dans « Ouvrir le menu/Modules/Extensions »_
 
-![](../.gitbook/assets/firefox4.PNG)
+![](../.gitbook/assets/firefox4%20%281%29.PNG)
 
 =&gt; Un écran propose alors la possibilité d’avoir un lien vers la bibliothèque ISTEX sur Google Scholar en cliquant sur «Oui» sans avoir besoin de l’installer
 
-![](../.gitbook/assets/firefox5.PNG)
+![](../.gitbook/assets/firefox5%20%281%29.PNG)
 
 =&gt; En cliquant «Passer » pas de lien vers la bibliothèque ISTEX
 
-![](../.gitbook/assets/firefox6%20%281%29.PNG)
+![](../.gitbook/assets/firefox6.PNG)
 
 =&gt; Recharger la page de Wikipédia « Ctrl F5 »
 
@@ -46,21 +46,21 @@ _Retrouver l’extension dans « Ouvrir le menu/Modules/Extensions »_
 
 =&gt; La recherche sur Wikipédia d’[**« Hélium »**](https://fr.wikipedia.org/wiki/Hélium) donne la bibliographie suivante :
 
-![](../.gitbook/assets/chrome1%20%281%29.PNG)
+![](../.gitbook/assets/chrome1%20%282%29.PNG)
 
 =&gt; Aller sur [**https://addons.istex.fr**](https://addons.istex.fr/)
 
-![](../.gitbook/assets/chrome2%20%281%29.PNG)
+![](../.gitbook/assets/chrome2%20%282%29.PNG)
 
 =&gt; Cliquer sur « Ajouter l’extension à Chrome »
 
-![](../.gitbook/assets/chrome3.PNG)
+![](../.gitbook/assets/chrome3%20%282%29.PNG)
 
 =&gt; Autoriser l’installation
 
 _Retrouver l’extension dans « Personnaliser et contrôler Google Chrome/Plus d'outils/Extensions »_
 
-![](../.gitbook/assets/chrome4%20%281%29.PNG)
+![](../.gitbook/assets/chrome4%20%282%29.PNG)
 
 =&gt; Un écran propose alors la possibilité d’avoir un lien vers la bibliothèque ISTEX sur Google Scholar en cliquant sur «Oui» sans avoir besoin de l’installer
 
@@ -68,7 +68,7 @@ _Retrouver l’extension dans « Personnaliser et contrôler Google Chrome/Plus 
 
 =&gt; En cliquant «Passer » pas de lien vers la bibliothèque ISTEX
 
-![](../.gitbook/assets/chrome6.PNG)
+![](../.gitbook/assets/chrome6%20%281%29.PNG)
 
 =&gt; Recharger la page de Wikipédia « Ctrl F5 »
 

@@ -6,7 +6,7 @@
 * Dans l'écran de recherche chercher les Targets ISTEX
 * Une liste s'affiche
 
-![Sch&#xE9;ma exlibris1](../../.gitbook/assets/exlibris1.png)
+![](../../.gitbook/assets/exlibris1.png)
 
 _Pour info une Target peut être associée à un bouquet de ressources plus un service comme "l'accès au texte intégral" ou **être associée uniquement à un service rebond vers un fournisseur de texte intégal sans bouquet associé**._
 
@@ -14,11 +14,11 @@ Dans notre interface d'administration : 20 Targets sont associées à des bouque
 
 * Activer la target ISTEX en cliquant sur la marque de coche à droite de l'écran
 
-![Sch&#xE9;ma exlibris2](../../.gitbook/assets/exlibris2.png)
+![](../../.gitbook/assets/exlibris2%20%281%29.png)
 
 * Cliquer sur le bouton S pour sélectionner un service 
 
-![Sch&#xE9;ma exlibris3](../../.gitbook/assets/exlibris3.png)
+![](../../.gitbook/assets/exlibris3%20%281%29.png)
 
 * Cliquer sur la marque de coche pour activer le service comme indiquer sur la capture d'écran
 
@@ -26,7 +26,7 @@ _le service getDOI ajoute alors un DOI à l’OpenURL du parseur ISTEX à condit
 
 * Cliquer sur le bouton “E” \(edit\) pour afficher le service 
 
-![Sch&#xE9;ma exlibris4](../../.gitbook/assets/exlibris4.png)
+![](../../.gitbook/assets/exlibris4%20%281%29.png)
 
 * La Target est activée
 
@@ -34,17 +34,17 @@ _le service getDOI ajoute alors un DOI à l’OpenURL du parseur ISTEX à condit
 
 * Rechercher l’article _"Disenchantment and the Environmental Crisis"_ dans l’outil de découverte
 
-![Sch&#xE9;ma exlibris5](../../.gitbook/assets/exlibris5.png)
+![](../../.gitbook/assets/exlibris5.png)
 
 * Cliquer sur l’onglet “Ressource en ligne” \(résolveur de liens SFX\)
 
 _Le texte intégral disponible chez l’éditeur est affiché dans la partie gauche alors que les services supplémentaires sont accessibles avec le bouton “Plus” situé à droite_
 
-![Sch&#xE9;ma exlibris6](../../.gitbook/assets/exlibris6.png)
+![](../../.gitbook/assets/exlibris6.png)
 
 * Cliquer sur “Accès au texte intégral” sur la plateforme ISTEX
 
-![Sch&#xE9;ma exlibris7](../../.gitbook/assets/exlibris7.png)
+![](../../.gitbook/assets/exlibris7%20%281%29.png)
 
 Un grand merci à Laurent Aucher pour la création de la target Istex et les contacts avec Ex-libris\(Université PSL/ACEF\)
 
@@ -91,27 +91,27 @@ les établissements qui utilisent plusieurs instances SFX doivent déposer le pa
 
 * Dans l’interface admin SFX, aller dans Targets, cliquer sur le bouton Add New Target :
 
-![Sch&#xE9;ma sfxv2-1](../../.gitbook/assets/sfxv2-1.png)
+![](../../.gitbook/assets/sfxv2-1%20%281%29.png)
 
 * Renseigner les champs, cliquer sur le bouton Submit :
 
-![Sch&#xE9;ma sfxv2-2](../../.gitbook/assets/sfxv2-2.png)
+![](../../.gitbook/assets/sfxv2-2.png)
 
 ### **F- Création du service**
 
 * Cliquer sur le bouton S :
 
-![Sch&#xE9;ma sfxv2-3](../../.gitbook/assets/sfxv2-3.png)
+![](../../.gitbook/assets/sfxv2-3.png)
 
 * Dans l’écran des services, cliquer sur le bouton Add New Service :
 
-![Sch&#xE9;ma sfxv2-4](../../.gitbook/assets/sfxv2-4.png)
+![](../../.gitbook/assets/sfxv2-4.png)
 
 * Renseigner les champs des deux onglets \(personnaliser le sid\) puis cliquer sur le bouton Submit :
 
-![Sch&#xE9;ma sfxv2-5](../../.gitbook/assets/sfxv2-5.png)
+![](../../.gitbook/assets/sfxv2-5%20%281%29.png)
 
-![Sch&#xE9;ma sfxv2-6](../../.gitbook/assets/sfxv2-6.png)
+![](../../.gitbook/assets/sfxv2-6%20%281%29.png)
 
 ### G- Des intégrations similaires sont réalisées dans différents établissements en France :
 

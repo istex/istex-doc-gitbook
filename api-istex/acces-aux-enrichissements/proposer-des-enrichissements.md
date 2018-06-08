@@ -32,5 +32,5 @@ Les TEI doivent **impérativement** contenir l'identifiant ISTEX sous la forme *
 
 Exemple :
 
-![Exemple de TEI d&apos;enrichissement valable](https://github.com/istex/istex-web-doc/tree/53fb218dd3f2adbc934a74965ab0b26b12f83bc5/api/acces-aux-enrichissements/img/teiEnrich.png)
+![](../../.gitbook/assets/teienrich.png)
 

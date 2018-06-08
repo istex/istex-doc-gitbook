@@ -2,7 +2,7 @@
 
 On peut décomposer une URL d’accès à un document ISTEX via son identifiant ARK ainsi :
 
-![](../../.gitbook/assets/what-is-an-ark.png)
+![](../../.gitbook/assets/what-is-an-ark%20%281%29.png)
 
 On peut voir sur ce schéma que le cœur de l’URL est son « nom ARK » \(encadré rouge\), partie identifiant de manière unique ce document parmi l’ensemble des ARK existant par ailleurs.
 
