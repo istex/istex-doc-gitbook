@@ -17,11 +17,11 @@
   - Ce code est visible dans les champs **nextPageURI, prevPageURI, firstPageURI ou lastPageURI.**
   - L'option indiquant le code et permettant de retrouver le même ordre est **&randomSeed={code}**.
 - Paramètres
-- &rankBy : l'option permettant de définir le type de score,
-- {type de ranking} : mot-clé désignant le type de score spécial **(qualityOverRelevance, random)**.
+ - &rankBy : l'option permettant de définir le type de score,
+ - {type de ranking} : mot-clé désignant le type de score spécial **(qualityOverRelevance, random)**.
 - Code de retour
-- 200 si OK, 
-- 500 en cas de problème (dans ce cas, contacter api-bug@listes.istex.fr)
+ - 200 si OK, 
+ - 500 en cas de problème (dans ce cas, contacter api-bug@listes.istex.fr)
 
 | Syntaxe |  |
 | --- | --- |
