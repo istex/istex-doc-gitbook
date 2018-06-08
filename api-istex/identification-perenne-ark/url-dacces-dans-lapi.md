@@ -10,9 +10,9 @@ Dans une URL d'accès de type ARK, l'utilisation des qualificatifs permet de sé
 
 | Syntaxe |  |
 | --- | --- |
-| URI | [https://api.istex.fr/67375/{nom-ark}](https://api.istex.fr/67375/{nom-ark}) |
-| Paramètres | - {nom-ark} : le **nom ark** ISTEX du document auquel correspond la notice \(ex : GT4-FJLCPBW9-Q\) |
-| Code de retour | - 200 si OK,  - 400 si le nom ark est invalide \(nombre de caractère incorrect ou caractère de contrôle incorrect, par exemple\) - 404 si le nom ark n'est pas trouvé dans la plateforme ISTEX |
+| URI | https://api.istex.fr/67375/**{nom-ark}** |
+| Paramètres |  **{nom-ark}** : le **nom ark** ISTEX du document auquel correspond la notice \(ex : GT4-FJLCPBW9-Q\) |
+| Code de retour | **200 si OK**,  **400 si le nom ark est invalid**e \(nombre de caractère incorrect ou caractère de contrôle incorrect, par exemple\)  et  **404 si le nom ark n'est pas trouvé** dans la plateforme ISTEX |
 | Exemple | [https://api.istex.fr/ark:/67375/GT4-FJLCPBW9-Q](https://api.istex.fr/ark:/67375/GT4-FJLCPBW9-Q) |
 
 Format de la réponse :
@@ -75,10 +75,10 @@ Format de la réponse :
 
 | Syntaxe |  |
 | --- | --- |
-| URI | [https://api.istex.fr/67375/{nom-ark}/{typologie}](https://api.istex.fr/67375/{nom-ark}/{typologie}) |
-| Paramètres | - {nom-ark} : le **nom ark** ISTEX du document auquel correspond la notice \(ex : GT4-FJLCPBW9-Q\) - {typologie} : la typologie demandée |
-| Code de retour | - 200 si OK,  - 400 si le nom ark est invalide \(nombre de caractère incorrect ou caractère de contrôle incorrect, par exemple\) - 404 si la typologie demandée n'est pas disponible ou si le nom ark n'est pas trouvé dans la plateforme ISTEX |
-| Exemple | [https://api.istex.fr/ark:/67375/GT4-FJLCPBW9-Q/record](https://api.istex.fr/ark:/67375/GT4-FJLCPBW9-Q/record) |
+| URI | https://api.istex.fr/67375/**{nom-ark}/{typologie}** |
+| Paramètres |  **{nom-ark}** : le **nom ark** ISTEX du document auquel correspond la notice \(ex : GT4-FJLCPBW9-Q\) - {typologie} : la typologie demandée |
+| Code de retour | **200 si OK**,  **400 si le nom ark est invalide** \(nombre de caractère incorrect ou caractère de contrôle incorrect, par exemple\) et  **404 si la typologie demandée n'est pas disponible** ou si le nom ark n'est pas trouvé dans la plateforme ISTEX |
+| Exemple | [https://api.istex.fr/ark:/67375/**GT4-FJLCPBW9-Q/record**](https://api.istex.fr/ark:/67375/GT4-FJLCPBW9-Q/record) |
 
 Format de la réponse :
 
@@ -114,9 +114,9 @@ Format de la réponse :
 
 | Syntaxe |  |
 | --- | --- |
-| Paramètres | - {nom-ark} : le **nom ark** ISTEX du document auquel correspond la notice \(ex : GT4-FJLCPBW9-Q\) - {typologie}: la typologie demandée - {format} : le format demandé |
-| Code de retour | - 200 si OK,  - 400 si le nom ark est invalide \(nombre de caractère incorrect ou caractère de contrôle incorrect, par exemple\) - 404 si le format ou la typologie demandé n'est pas disponible ou si le nom ark n'est pas trouvé dans la plateforme ISTEX |
-| Exemple | [https://api.istex.fr/ark:/67375/GT4-FJLCPBW9-Q/record.json](https://api.istex.fr/ark:/67375/GT4-FJLCPBW9-Q/record.json) |
+| Paramètres | **{nom-ark}** : le **nom ark** ISTEX du document auquel correspond la notice \(ex : GT4-FJLCPBW9-Q\) , **{typologie}**: la typologie demandée  et  **{format}** : le format demandé |
+| Code de retour | **200 si OK**,   **400 si le nom ark est invalide** \(nombre de caractère incorrect ou caractère de contrôle incorrect, par exemple\) et **404 si le format ou la typologie demandé n'est pas disponible ou si le nom ark n'est pas trouvé** dans la plateforme ISTEX |
+| Exemple | [https://api.istex.fr/ark:/67375/**GT4-FJLCPBW9-Q/record.json**](https://api.istex.fr/ark:/67375/GT4-FJLCPBW9-Q/record.json) |
 
 En retour, l'API renverra le document dans le format souhaité dans le corps de la réponse.
 

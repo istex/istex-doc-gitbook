@@ -5,7 +5,7 @@ Toutes les URL suivantes sont accédées via la méthode **HTTP GET**.
 Les URL d'accès aux **métadonnées** sont de la forme :
 
 * URI
-  * [https://api.istex.fr/document/](https://api.istex.fr/document/){id}/metadata/{ext}
+  * https://api.istex.fr/document/**{id}/metadata/{ext}**
 * Paramètres
   * {id} : l'identifiant ISTEX du document auquel correspond la notice,
   * {ext} : extension du fichier souhaité \(ex : "xml"\).
@@ -36,7 +36,7 @@ uri:"https://api.istex.fr/document/55420CDEEA0F6538E215A511C72E2E5E57570138/meta
 }
 ```
 
- Pour plus de détails sur les champs envoyés en réponse, consultez le chapitre correspondant.
+ Pour plus de détails sur les champs envoyés en réponse, consultez [le chapitre correspondant](https://api.istex.fr/documentation/fields/#champs-dacces-aux-fichiers-lies-au-document).
 
 Il est possible de demander directement la notice fournie par l'éditeur en précisant comme extension "original".
 
