@@ -2,22 +2,21 @@
 
 Toutes les URL suivantes sont accédées via la méthode **HTTP GET**.
 
- _Pour apprendre à interroger l’API n'hésitez pas à consulter les tutoriels multimédias :_ 
+_Pour apprendre à interroger l’API n'hésitez pas à consulter les tutoriels multimédias :_
 
-[http://www.inist.fr/formations/Tuto\_API\_ISTEX\_Module\_2/story.html](http://www.inist.fr/formations/Tuto_API_ISTEX_Module_2/story.html)  [http://www.inist.fr/formations/Tuto\_API\_ISTEX\_Module\_3/story.html](http://www.inist.fr/formations/Tuto_API_ISTEX_Module_3/story.html)
+[http://www.inist.fr/formations/Tuto\_API\_ISTEX\_Module\_2/story.html](http://www.inist.fr/formations/Tuto_API_ISTEX_Module_2/story.html) [http://www.inist.fr/formations/Tuto\_API\_ISTEX\_Module\_3/story.html](http://www.inist.fr/formations/Tuto_API_ISTEX_Module_3/story.html)
 
 La recherche s'effectue sous la forme :
 
 | Syntaxe |  |
 | --- | --- |
-| URI | https://api.istex.fr/document/?q={query} |
+| URI | [https://api.istex.fr/document/?q={query}](https://api.istex.fr/document/?q={query}) |
 | Paramètres | - q= : la lettre clé permettant d'indiquer que ce qui suit est la requête,  - {query} : la chaîne de recherche. Celle-ci correspond à une requête du type "Google" ou "Bing".  Plus de précisions sur [cette page de la documentation de Lucene](https://lucene.apache.org/core/4_3_0/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#package_description). |
 | Code de retour | - 200 si OK,  - 500 en cas de problème \(dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)\) |
 
 * _Formatage des résultats renvoyés_ :
 
 ```text
-
 {
     total : nombre de résultats,
     hits : [
@@ -70,7 +69,7 @@ Les termes cherchés sont reliés par des opérateurs booléens, l'opérateur `O
 | --- | --- |
 | Recherche des documents contenant le terme "api" **ou** "study" dans un de leurs champs indexés | [https://api.istex.fr/document/?**q=api OR study**](https://api.istex.fr/document/?q=api%20OR%20study)   [https://api.istex.fr/document/?**q=api study**](https://api.istex.fr/document/?q=api%20study) |
 | Recherche des documents contenant le terme "test" **et** "study" dans un de leurs champs indexés | [https://api.istex.fr/document/?**q=test AND study**](https://api.istex.fr/document/?q=test%20AND%20study) |
-| Recherche des documents contenant le terme "test" **mais pas** "study" dans un de leurs champs indexés | [https://api.istex.fr/document/?**q=test NOT study**](https://api.istex.fr/document/?q=api%20NOT%20study) ****  [https://api.istex.fr/document/?**q=api -study**](https://api.istex.fr/document/?q=api%20-study) |
+| Recherche des documents contenant le terme "test" **mais pas** "study" dans un de leurs champs indexés | [https://api.istex.fr/document/?**q=test NOT study**](https://api.istex.fr/document/?q=api%20NOT%20study) **\*\*  \[**[https://api.istex.fr/document/?](https://api.istex.fr/document/?)q=api -study\*\*\]\([https://api.istex.fr/document/?q=api -study](https://api.istex.fr/document/?q=api%20-study)\) |
 
 L'utilisation de jokers `*` et `?` est possible, permettant de remplacer un certain nombre de caractères.
 
@@ -96,14 +95,14 @@ La **recherche de proximité** permet, quant à elle, de trouver une suite de mo
 
 | Exemples |  |
 | --- | --- |
-| Recherche des documents contenant **les termes "ham" et "jam" distants d'une longueur de 10 mots** dans un de leurs champs indexés | [https://api.istex.fr/document/?**q="ham jam"~10**](https://api.istex.fr/document/?q=%22ham%20jam%22~10) |
+| Recherche des documents contenant **les termes "ham" et "jam" distants d'une longueur de 10 mots** dans un de leurs champs indexés | [https://api.istex.fr/document/?**q="ham jam"~10**](https://api.istex.fr/document/?q="ham%20jam"~10) |
 
 L'API permet également de **privilégier des termes** lors de la recherche, avec l'aide du symbole `^` \(puissance\) suivant le ou les termes à amplifier, et accompagné d'un nombre facteur. Plus ce nombre est **élevé**, plus le terme sera **privilégié** par rapport aux autres. Ce nombre est obligatoirement un **nombre positif**, mais peut être inférieur à 1 \(par exemple, 0.5\).
 
 | Exemples |  |
 | --- | --- |
 | Recherche des documents contenant **les termes "ham" et "jam"**, avec une **importance deux fois plus grande pour "ham"** | [https://api.istex.fr/document/?**q=ham^2 jam**](https://api.istex.fr/document/?q=ham^2%20jam) [https://api.istex.fr/document/?**q=ham^4 jam^2**](https://api.istex.fr/document/?q=ham^4%20jam^2) [https://api.istex.fr/document/?**q=ham jam^0.5**](https://api.istex.fr/document/?q=ham%20jam^0.5) |
-| Recherche des documents contenant **les termes "ham jam" et "old"**, avec une **importance deux fois plus grande pour "ham jam"** | [https://api.istex.fr/document/?**q="ham jam"^2 old**](https://api.istex.fr/document/?q=%22ham%20jam%22^2%20old) |
+| Recherche des documents contenant **les termes "ham jam" et "old"**, avec une **importance deux fois plus grande pour "ham jam"** | [https://api.istex.fr/document/?**q="ham jam"^2 old**](https://api.istex.fr/document/?q="ham%20jam"^2%20old) |
 
 Il est possible d'interroger un **champ particulier**, à partir du moment où ce dernier est bien indexé. En effet, tous les objets documentaires sont homogénéisés, c'est-à-dire qu'un même type d'information est disponible dans le même nom de champ. Par exemple, pour savoir à quel corpus appartient un objet, il suffira de consulter le champ `corpusName`, quelque soit l'objet documentaire. Mais tous les objets documentaires ne se valant pas, certaines informations peuvent manquer pour certains, et être restitué pour d'autres, comme par exemple pour le champ `pii`.
 
@@ -120,7 +119,7 @@ Il est également possible de chercher sur un **intervalle**, avec l'utilisation
 
 | Exemples |  |
 | --- | --- |
-| Recherche des documents contenant une **date de publication entre 1900 et 1905** | [https://api.istex.fr/document/?**q=publicationDate:\[1900 TO 1905\]**](https://api.istex.fr/document/?q=publicationDate:[1900%20TO%201905]) [https://api.istex.fr/document/?**q=publicationDate:{1899 TO 1906}**](https://api.istex.fr/document/?q=publicationDate:{1889%20TO%201906}) [https://api.istex.fr/document/?**q=publicationDate:\[1900 TO 1906}**](https://api.istex.fr/document/?q=publicationDate:{1889%20TO%201906}) |
+| Recherche des documents contenant une **date de publication entre 1900 et 1905** | [https://api.istex.fr/document/?**q=publicationDate:\[1900 TO 1905\]**](https://api.istex.fr/document/?q=publicationDate:[1900%20TO%201905]) [https://api.istex.fr/document/?**q=publicationDate:{1899 TO 1906}**](https://api.istex.fr/document/?q=publicationDate:{1889%20TO%201906}) \[[https://api.istex.fr/document/?\*\*q=publicationDate:\[1900](https://api.istex.fr/document/?**q=publicationDate:[1900) TO 1906}\*\*\]\([https://api.istex.fr/document/?q=publicationDate:{1889 TO 1906}](https://api.istex.fr/document/?q=publicationDate:{1889%20TO%201906})\) |
 | Recherche des documents contenant un **terme entre "half" et "ham" dans son titre** | [https://api.istex.fr/document/?**q=title:\[half TO ham\]**](https://api.istex.fr/document/?q=title:[half%20TO%20ham]) |
 
 Pour plus de détails sur cette syntaxe, nous vous invitons à consulter [la documentation officielle](https://lucene.apache.org/core/4_3_0/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#package_description).

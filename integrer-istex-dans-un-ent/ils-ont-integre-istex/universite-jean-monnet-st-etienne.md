@@ -5,7 +5,5 @@
 
 En recherchant un article dans le BRISE-ES, le portail des ressources des bibliothèques de l'enseignement supérieur de Saint Etienne, on a le lien vers un document ISTEX au niveau du catalogue et les résultats uniquement dans ISTEX.
 
-
-
 [Voir la documentation technique](https://doc.istex.fr/users/integration/ent-web/#bouton-istex-integre)
 

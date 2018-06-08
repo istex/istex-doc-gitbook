@@ -14,7 +14,7 @@ Il s'agit d'une fonction du moteur de recherche de l'API ISTEX permettant d’ex
   * pour que la fonction `extract` soit opérationnelle, il faut la faire suivre obligatoirement par le signe "=" et une valeur quelconque, mais seuls les fichiers JSON sont extraits. Indiquer un \(ou plusieurs\) type de fichiers pour obtenir leur extraction.
     * **\*Exemple :** moissonnage des métadonnées au format JSON pour les documents contenant l'expression "by draconis stars" dans le résumé\*
 
-      [_https://api.istex.fr/document/?q=abstract:"by draconis stars"&extract=lhjd_](https://api.istex.fr/document/?q=abstract:"by%20draconis%20stars"&extract=lhjd)
+      \[[https://api.istex.fr/document/?q=abstract:"by](https://api.istex.fr/document/?q=abstract:"by) _draconis stars"&extract=lhjd_\]\([https://api.istex.fr/document/?q=abstract:"by draconis stars"&extract=lhjd](https://api.istex.fr/document/?q=abstract:"by%20draconis%20stars"&extract=lhjd)\)
   * sans indication de format, tous les formats disponibles pour un type de fichiers sont extraits
   * la syntaxe pour extraire les enrichissements ne comporte pas de "s" \(_enrichment_\).
   * indiquer une taille de corpus au moins égale au nombre de documents à extraire. Sans cette précision, 5 documents sont extraits par défaut.

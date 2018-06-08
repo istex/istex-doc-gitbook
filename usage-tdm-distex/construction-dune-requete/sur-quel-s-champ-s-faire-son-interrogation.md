@@ -38,7 +38,7 @@ NB : La valeur « unknown » est présente lorsqu'aucun code langue ne renseigne
 
 ### _**Dates de publication**_
 
-Le champ `publicationDate` permet de retrouver les documents publiés au cours d’une année particulière ou bien d’un intervalle de temps grâce à l’emploi de **crochets ou d’accolades**  \(voir à ce sujet le paragraphe « Intervalles » ci-dessous\).
+Le champ `publicationDate` permet de retrouver les documents publiés au cours d’une année particulière ou bien d’un intervalle de temps grâce à l’emploi de **crochets ou d’accolades** \(voir à ce sujet le paragraphe « Intervalles » ci-dessous\).
 
 Quelques types de requêtes :
 

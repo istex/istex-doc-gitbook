@@ -16,24 +16,12 @@ Google Scholar indique que l'activation \(et la mise à jour\) prend une à deux
 
 * Aller sur Google Scholar
 * Cliquer en haut à gauche pour voir les paramètrages
-
-
-
 * Choisir "Paramètres"
 * Puis "Liens vers des bibliothèques"
-
-
-
 * Rechercher ISTEX
 * Sélectionner
 * Retourner à votre recherche
-
-
-
 * \[PDF\]ISTEX signale un lien disponible
-
-
-
 * Accèder au PDFdisponible sur la plateforme ISTEX
 
 **Autre possibilité**

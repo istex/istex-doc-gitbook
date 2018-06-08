@@ -5,7 +5,6 @@ Si vous avez une **idée d'enrichissement** et que vous souhaitez l'intégrer da
 L'enrichissement en question se doit d'être un fichier **TEI** de la forme :
 
 ```text
-
 document
   └── teiCorpus
           └── TEI                             (1)
@@ -21,7 +20,6 @@ document
                   │   └── revisionDesc
                   │       └── change
                   └ ...
-
 ```
 
 **\(1\)** : TEI sont les balises contenant l'enrichissement en question. L'arborescence se doit d'être exacte pour pouvoir intégrer le TEI de base.
@@ -31,6 +29,4 @@ document
 Les TEI doivent **impérativement** contenir l'identifiant ISTEX sous la forme **istex-{id}** pour permettre le recoupement avec les données actuelles.
 
 Exemple :
-
-
 

@@ -6,7 +6,7 @@ Les URL d'accès aux **enrichissements** sont de la forme :
 
 | Syntaxe |  |
 | --- | --- |
-| URI | https://api.istex.fr/document/{id}/enrichments/{type} |
+| URI | [https://api.istex.fr/document/{id}/enrichments/{type}](https://api.istex.fr/document/{id}/enrichments/{type}) |
 | Paramètres | - {id} : l'**identifiant** ISTEX du document auquel correspond la notice, - {type} : **type** de l'enrichissement \(ex : "multicat" pour les catégories \[WOS\]\[WOS\] et \[Science-Metrix\]\[scienceMetrix\]\). |
 | Code de retour | - 200 si OK,  - 404 si le fichier n'est pas trouvé |
 | Détails | La **liste des enrichissements** disponibles pour un objet documentaire est accessible **si on ne précise pas de type**. On obtiendra alors un **JSON** avec cette liste, par exemple :  Si le document interrogé ne possède **aucun enrichissement**, l'API renverra un message **JSON**, comme :Pour plus de **détails sur les champs** envoyés en réponse, consultez le chapitre \[correspondant\]\[fields\].  Il est possible de récupérer **plusieurs types** d'enrichissement en **une seule fois** en séparant les types voulus par des `,`**\(virgules\)**. Dans ce cas, l'API renverra une archive au format **ZIP**.   Pour **consolider** les enrichissements avec le **TEI** présent dans le fulltext, il suffit d'activer l'option **?consolidate** dans la requête. La consolidation peut se **combiner** avec la récupération de plusieurs types d'enrichissement. |

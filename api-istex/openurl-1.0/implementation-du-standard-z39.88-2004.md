@@ -16,7 +16,7 @@ Exemples :
 https://api.istex.fr/document/openurl?rft_id=info:doi/10.1136/acupmed-2012-010183
 ```
 
-&lt;/a&gt; 
+&lt;/a&gt;
 
 ```text
 https://api.istex.fr/document/openurl?rft_id=info:pii/S0143-0807(98)90774-7

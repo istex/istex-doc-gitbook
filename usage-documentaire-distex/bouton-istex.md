@@ -14,63 +14,37 @@ L'extension ISTEX est disponible pour les navigateurs web Firefox et Chrome ici 
 
 =&gt; La recherche sur Wikipédia d’[**« Hélium »**](https://fr.wikipedia.org/wiki/Hélium) donne la bibliographie suivante :
 
-![](../.gitbook/assets/firefox1%20%283%29.PNG)
+![](../.gitbook/assets/firefox1.PNG)
 
 =&gt; Aller sur [**https://addons.istex.fr**](https://addons.istex.fr/)
 
-
-
 =&gt; Cliquer sur « Ajouter l’extension à Firefox »
-
-
 
 =&gt; Autoriser l’installation
 
 _Retrouver l’extension dans « Ouvrir le menu/Modules/Extensions »_
 
-
-
 =&gt; Un écran propose alors la possibilité d’avoir un lien vers la bibliothèque ISTEX sur Google Scholar en cliquant sur «Oui» sans avoir besoin de l’installer
-
-
 
 =&gt; En cliquant «Passer » pas de lien vers la bibliothèque ISTEX
 
-
-
 =&gt; Recharger la page de Wikipédia « Ctrl F5 »
-
-
 
 ## Chrome
 
 =&gt; La recherche sur Wikipédia d’[**« Hélium »**](https://fr.wikipedia.org/wiki/Hélium) donne la bibliographie suivante :
 
-
-
 =&gt; Aller sur [**https://addons.istex.fr**](https://addons.istex.fr/)
 
-
-
 =&gt; Cliquer sur « Ajouter l’extension à Chrome »
-
-
 
 =&gt; Autoriser l’installation
 
 _Retrouver l’extension dans « Personnaliser et contrôler Google Chrome/Plus d'outils/Extensions »_
 
-
-
 =&gt; Un écran propose alors la possibilité d’avoir un lien vers la bibliothèque ISTEX sur Google Scholar en cliquant sur «Oui» sans avoir besoin de l’installer
-
-
 
 =&gt; En cliquant «Passer » pas de lien vers la bibliothèque ISTEX
 
-
-
 =&gt; Recharger la page de Wikipédia « Ctrl F5 »
-
-
 

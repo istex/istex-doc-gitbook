@@ -137,7 +137,7 @@ L'**ordre des termes** dans la requête impacte les résultats obtenus !
 
 Donne plus de poids à un terme de recherche par rapport à un autre terme \(ou à plusieurs autres\).
 
-Faire suivre le terme à booster du **symbole ^** et d’un chiffre \(**nombre entier ou décimal,**  **obligatoirement positif**\). Plus ce chiffre est élevé, plus le poids donné au terme à privilégier est fort.
+Faire suivre le terme à booster du **symbole ^** et d’un chiffre \(**nombre entier ou décimal,** **obligatoirement positif**\). Plus ce chiffre est élevé, plus le poids donné au terme à privilégier est fort.
 
 La pondération **impacte le tri des résultats** mais pas leur nombre :
 

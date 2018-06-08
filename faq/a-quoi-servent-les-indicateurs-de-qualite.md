@@ -10,8 +10,5 @@ Un exemple concret d'utilisation est de pouvoir récupérer des fichiers PDF con
 
 ```text
 https://api.istex.fr/document/?q=* AND qualityIndicators.pdfWordCount:[2000 TO *]
-
 ```
-
-
 
