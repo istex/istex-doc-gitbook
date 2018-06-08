@@ -9,6 +9,8 @@ Pour le moment, et pour des raisons purement techniques, le nombre de documents 
 
 ## Syntaxe
 
+**La syntaxe est la suivante :**
+
 * URI
   * [https://api.istex.fr/document/?q={valeur}&extract](https://api.istex.fr/document/?q={valeur}&extract)
 * Paramètres 
@@ -19,17 +21,17 @@ Pour le moment, et pour des raisons purement techniques, le nombre de documents 
   * 200 si OK
   * 500 en cas de problème \(dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)\)
 
-Plus de détails sur la syntaxe extract:${typefichier}\[${formats}\] :
+**Plus de détails sur la syntaxe** **extract:${typefichier}\[${formats}\]** :
 
-* ${typefichier} est une liste parmi les valeurs `metadata`, `fulltext`, `enrichments`, `cover`,`annexes`, séparée par le caractère `;`.
-* ${formats} correspond à la liste des formats de fichiers \(au sens "mimetype"\). Il peut être renseigné pour chaque type \(metadata, fulltext...\). Pour cela, la liste des formats est mentionnée entre crochets `[`...`]` et séparée par des virgules.
-* si extract est utilisé seul, l'ensemble des fichiers disponibles est extrait. 
+* **${typefichier}** est une liste parmi les valeurs `metadata`, `fulltext`, `enrichments`, `cover`,`annexes`, séparée par le caractère `;`.
+* **${formats}** correspond à la liste des formats de fichiers \(au sens "mimetype"\). Il peut être renseigné pour chaque type \(metadata, fulltext...\). Pour cela, la liste des formats est mentionnée entre crochets `[`...`]` et séparée par des virgules.
+* si **extract** est utilisé seul, l'ensemble des fichiers disponibles est extrait. 
 
 | Exemples |  |
 | --- | --- |
-| Extraction de toutes les documents relatifs au terme "brain" | [https://api.istex.fr/document/?q=brain&extract&output=\*](https://api.istex.fr/document/?q=brain&extract) |
-| Extraction de tous les fichiers de méta-données et de plein-texte correspondant au terme "brain" | [https://api.istex.fr/document/?q=brain&extract=metadata;fulltext](https://api.istex.fr/document/?q=brain&extract=metadata;fulltext) |
-| Extraction des méta-données en Mods uniquement, du plein-texte en PDF et TEI, et toutes les annexes pour le terme "brain" | [https://api.istex.fr/document/?q=brain&extract=metadata\[mods\];fulltext\[pdf,tei\];annexes](https://api.istex.fr/document/?q=brain&extract=metadata[mods];fulltext[pdf,tei];annexes) |
+| Extraction de toutes les documents relatifs au terme "brain" | [https://api.istex.fr/document/?q=brain&**extract**&output=\*](https://api.istex.fr/document/?q=brain&extract) |
+| Extraction de tous les fichiers de méta-données et de plein-texte correspondant au terme "brain" | [https://api.istex.fr/document/?q=brain&**extract=metadata;fulltext**](https://api.istex.fr/document/?q=brain&extract=metadata;fulltext) |
+| Extraction des méta-données en Mods uniquement, du plein-texte en PDF et TEI, et toutes les annexes pour le terme "brain" | [https://api.istex.fr/document/?q=brain&**extract=metadata\[mods\];fulltext\[pdf,tei\];annexes**](https://api.istex.fr/document/?q=brain&extract=metadata[mods];fulltext[pdf,tei];annexes) |
 
 Vous pouvez aussi utiliser les paramètres de recherche classiques `from`, `size`, `rankBy`, `sortBy` et `randomSeed`, ce qui vous permettra d'influencer le nombre et l'ordre des documents archivés.
 
