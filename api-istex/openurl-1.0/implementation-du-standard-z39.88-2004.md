@@ -46,21 +46,9 @@ Vos critères doivent être suffisamment précis pour identifier une unique ress
 
 Exemple :
 
-
-
-
-
-```text
-https://api.istex.fr/document/openurl?rft.au=Richard James Clark&rft.issn=0964-5284&rft.volume=30&rft.issue=4&rft.spage=298
-```
-
-&lt;/a&gt;
+[https://api.istex.fr/document/openurl?rft.au=Richard James Clark&rft.issn=0964-5284&rft.volume=30&rft.issue=4&rft.spage=298](https://api.istex.fr/document/openurl?rft.au=Richard%20James%20Clark&rft.issn=0964-5284&rft.volume=30&rft.issue=4&rft.spage=298)
 
 Exemple d'un manque d'exhaustivité :
 
-```text
-https://api.istex.fr/document/openurl?rft.au=Richard
-```
-
-&lt;/a&gt;
+[https://api.istex.fr/document/openurl?rft.au=Richard](https://api.istex.fr/document/openurl?rft.au=Richard)
 
