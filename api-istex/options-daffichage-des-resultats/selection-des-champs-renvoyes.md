@@ -7,33 +7,21 @@ Apprendre les options disponibles dans l'API : [http://www.inist.fr/formations/T
 
 - URI	
   - https://api.istex.fr/document/?q={query}&output={liste des champs}
-
 - Explications	
-
   - Cette option permet de sélectionner les champs renvoyés lors de l'affichage des résultats 
-
   - Si l'option est manquante, les résultats afficheront leur champ title
-
   - Dans tous les cas, les champs id et score seront présents
-
   - La liste des champs est séparée par des , (virgules)Il est possible de demander l'affichage : 
-
     - de l'ensemble des champs disponibles avec le caractère * (étoile), 
     - de l'ensemble des fichiers fulltext disponibles avec le mot-clé fulltext, 
     - de l'ensemble des fichiers metadata disponibles avec le mot-clé metadata, 
     - de l'ensemble des enrichissements disponibles avec le mot-clé enrichments, 
     - de l'ensemble des annexes disponibles avec le mot-clé annexes. 
-
   - Si, pour un résultat, le champ n'est pas affiché, cela indique que le résultat en question n'a pas ce champ renseigné.
- 
-- Paramètres	
-
+ - Paramètres	
   - **&output** : l'option permettant de définir la liste des champs,
-
   - **{liste des champs}** : la liste en question, séparée par des virgules
-    
-- Code de retour
-
+ - Code de retour
   - 200 si OK, 
   - 501 si le champ demandé n'est pas disponible, 
   - 500 en cas de problème (dans ce cas, contacter api-bug@listes.istex.fr)
