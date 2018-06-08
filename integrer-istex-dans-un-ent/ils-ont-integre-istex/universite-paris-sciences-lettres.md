@@ -5,5 +5,7 @@
 
 _Cliquer sur RESSOURCE EN LIGNE_
 
+![](../../.gitbook/assets/pslexemple.png)
+
 [Voir la documentation technique](https://doc.istex.fr/users/integration/discovery-tools/#1-parametrage-du-resolveur-sfxv1-vers-la-plateforme-istex)
 

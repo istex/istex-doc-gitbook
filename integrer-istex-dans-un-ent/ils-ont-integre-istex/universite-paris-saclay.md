@@ -1,5 +1,7 @@
 # Université Paris Saclay
 
+![](../../.gitbook/assets/parissaclay.png)
+
 * [Intégration du bouton ISTEX](https://doc.istex.fr/users/integration/ent-web/#bouton-istex-integre) dans l'outil de découverte Primo, renommé FOCUS à l'Université Paris-Saclay
 * Un grand merci à Camille Maze et Vincent Thébault pour cette intégration !
 
