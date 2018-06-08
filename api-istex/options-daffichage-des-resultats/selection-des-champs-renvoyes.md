@@ -25,7 +25,6 @@ Apprendre les options disponibles dans l'API : [http://www.inist.fr/formations/T
   * 501 si le champ demandé n'est pas disponible, 
   * 500 en cas de problème \(dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)\) 
 
-
 | Exemples |  |
 | --- | --- |
 | Récupération des champs **title et fulltext** sur l'ensemble des résultats | [https://api.istex.fr/document/?q=\*&output=title,fulltext](https://api.istex.fr/document/?q=*&output=title,fulltext) |
