@@ -2,39 +2,38 @@
 
 Les paramètres de pagination se basent sur les deux options `from` et `size` qui s'utilisent et se combinent comme suit :
 
-**La syntaxe  pour la position est la suivante :**	
+**La syntaxe pour la position est la suivante :**
 
-- URI
-    - https://api.istex.fr/document/?q={query}&from={position}
-- Explications	
-    - Cette option permet d'indiquer le numéro de départ du premier résultat renvoyé.
-    - Si l'option est manquante, l'affichage commencera au premier résultat.
-    - La position est un entier.
-    - Si ce nombre dépasse le nombre de résultats, la page n'affichera aucun résultat.
-- Paramètres
-    - &from : l'option permettant de définir le numéro de départ,
-    - {position} : le numéro de départ en question.
-- Code de retour
-    - 200 si OK, 
-    - 500 en cas de problème (dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr))
+* URI
+  * [https://api.istex.fr/document/?q={query}&from={position}](https://api.istex.fr/document/?q={query}&from={position})
+* Explications    
+  * Cette option permet d'indiquer le numéro de départ du premier résultat renvoyé.
+  * Si l'option est manquante, l'affichage commencera au premier résultat.
+  * La position est un entier.
+  * Si ce nombre dépasse le nombre de résultats, la page n'affichera aucun résultat.
+* Paramètres
+  * &from : l'option permettant de définir le numéro de départ,
+  * {position} : le numéro de départ en question.
+* Code de retour
+  * 200 si OK, 
+  * 500 en cas de problème \(dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)\)
 
+**La syntaxe pour le nombre est la suivante :**
 
-**La syntaxe pour le nombre est la suivante :**	
+* URI
+  * [https://api.istex.fr/document/?q={query}&size={nombre}](https://api.istex.fr/document/?q={query}&size={nombre})
+* Explications
+  * Cette option permet d'indiquer le nombre de résultats renvoyés par page.
+  * Si l'option est manquante, chaque page affichera 10 résultats.
+  * Le nombre est un entier ne pouvant pas dépasser 5000.
 
-- URI
-    - https://api.istex.fr/document/?q={query}&size={nombre}
-- Explications
-  - Cette option permet d'indiquer le nombre de résultats renvoyés par page.
-  - Si l'option est manquante, chaque page affichera 10 résultats.
-  - Le nombre est un entier ne pouvant pas dépasser 5000.
-Dans le cas contraire, ce nombre sera descendu automatique à 5000. 
-- Paramètres
-  - &from : l'option permettant de définir le numéro de départ,
-  - {position} : le numéro de départ en question.
-- Code de retour
-    - 200 si OK, 
-    - 500 en cas de problème (dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr))
-
+    Dans le cas contraire, ce nombre sera descendu automatique à 5000. 
+* Paramètres
+  * &from : l'option permettant de définir le numéro de départ,
+  * {position} : le numéro de départ en question.
+* Code de retour
+  * 200 si OK, 
+  * 500 en cas de problème \(dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)\)
 
 | Exemples |  |
 | --- | --- |

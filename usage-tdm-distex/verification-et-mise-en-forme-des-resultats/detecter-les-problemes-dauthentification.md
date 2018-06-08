@@ -6,6 +6,8 @@ Le texte du document ne correspond alors plus au document souhaité et peut ains
 
 Ci-dessous un exemple de fichier extrait \(`Vieil_00718.txt` issu du Corpus Vieillissement V2 old\):
 
+![](../../.gitbook/assets/pbauthentification.png)
+
 Ce phénomène est aléatoire et peut survenir sur n'importe quel document, lors d'une extraction de nuit.
 
 Dans ce cas, il faut simplement vérifier que le corpus ne contient pas de document HTML même si l'extension indique .txt, .zip, .pdf, etc.
