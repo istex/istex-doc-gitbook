@@ -14,7 +14,7 @@ Voici quelques exemples d'intégrations permettant l'accès documentaire aux res
 
 Exemple : les archives de la revue **Europeen Journal of Cardio-Thoracic Surgery** \(1987- 2010\) achetées dans le cadre du projet ISTEX
 
-![](../.gitbook/assets/fac1.JPG)
+
 
 **Recherche par article**
 
@@ -22,24 +22,24 @@ Exemple : les archives de la revue **Europeen Journal of Cardio-Thoracic Surgery
 
 =&gt; Via votre Portail
 
-![](../.gitbook/assets/fac2.JPG)
+
 
 * Le 1er accès du pdf se fait directement sur la plateforme ISTEX
 * Le 2ème accès qui est le même est consultable sur la plateforme éditeur, car l'accès éditeur et pour l'instant toujours disponible
 
-![](../.gitbook/assets/fac3.JPG)
+
 
 =&gt; Via NCBI - PubMed
 
 L'accès au texte intégral se fait en cliquant sur le logo du portail directement à partir de la notice bibliographique
 
-![](../.gitbook/assets/fac4.JPG)
+
 
 =&gt; Via Google Scholar
 
 En déchargeant [l’extension disponible pour chrome et firefox](https://addons.istex.fr/) l'icône ISTEX permet d’accéder directement au PDF de l’article présent sur la plateforme ISTEX.
 
-![](../.gitbook/assets/fac5.JPG)
+
 
 **2\) De développer une plateforme d’exploitation de ces ressources en proposant des services uniques à valeur ajoutée , notamment de fouille de textes et de contenus.** C'est l'interrogation par API de la plateforme ISTEX.
 
@@ -49,5 +49,5 @@ L’équation d'interrogation peut se préparer directement depuis le navigateur
 
 Le profil des utilisateurs est alors plus informaticien que documentaire.
 
-![](../.gitbook/assets/fac6%20%281%29.JPG)
+
 

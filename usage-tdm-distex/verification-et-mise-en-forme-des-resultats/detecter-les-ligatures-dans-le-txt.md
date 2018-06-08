@@ -4,7 +4,7 @@ En typographie, on appelle ligature la fusion de plusieurs caractères. Une liga
 
 Par exemple, la recherche de noms d'espèces végétales à partir d'une ressource terminologique \(taxonomie\) sera incomplète si on ne remplace pas les ligatures par les chaînes de caractères correspondantes. Le tableau suivant montre les différentes ligatures concernées avec des exemples pris dans le texte et dans la ressource \([The Plant List](http://www.theplantlist.org/)\). La différence est parfois subtile à nos yeux, mais elle est rédhibitoire pour un programme.
 
-![](../../.gitbook/assets/ligatures.png)
+
 
 Pour ne pas gêner la reconnaissance de mots dans le texte, on recherche les ligatures afin de les remplacer par la forme sans ligature.
 

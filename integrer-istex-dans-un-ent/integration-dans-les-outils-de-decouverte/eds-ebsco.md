@@ -4,14 +4,14 @@
 
 Une recherche sur l’article suivant : _Tricuspid incompetence and right ventricular output in congestive heart failure_ de la revue **British Heart Journal Janvier 1957, Vol. 19 Issue 1**, du bouquet BMJ ISTEX
 
-![](../../.gitbook/assets/recherchebibcnrs.png)
+
 
 Deux propositions d'accès au PDF :
 
 * Directement à partir de la plateforme ISTEX par OpenURL avec pérennité de l’accès
 * Ou par rebond à partir du site de l'éditeur via le résolveur de lien FTF d'EBSCO
 
-![](../../.gitbook/assets/lien%20%281%29.png)
+
 
 L'accès direct au document sur la plateforme ISTEX est possible de 2 façons en fonction des habitudes de travail.
 
@@ -27,13 +27,13 @@ Le Holdings Management \(HLM\) dans EBSCOADMIN permet à l’administrateur du c
 
 Dans le HLM en cliquant sur **"Liens"**, l’administrateur peut visualiser les liens éditeurs disponibles dans le module d'administration qu'il faudra associer à un **"Titres"** ou un **"Bouquet"** de ressources pour aller jusqu'au plein texte. Dans notre exemple : 51 liens sont disponibles
 
-![](../../.gitbook/assets/liens.png)
+
 
 ### **B- Création d'un lien vers la plateforme ISTEX**
 
 Cliquer sur **"Nouveau lien"**
 
-![](../../.gitbook/assets/creationdelienistex%20%281%29.png)
+
 
 Remplir le formulaire **"Url\* de base"**
 
@@ -43,7 +43,7 @@ Au niveau de la **"Chaîne de requête"** préciser le champ DOI et PMID plus le
 
 `?rft_id=info:doi/{DOI}&rft_id=info:pmid/{PMID}&sid=ebsco&auth=ip,fede`
 
-![](../../.gitbook/assets/istexview2%20%281%29.jpg)
+
 
 Ainsi que les métadonnées prises en compte :
 
@@ -51,13 +51,13 @@ Ainsi que les métadonnées prises en compte :
 
 Ne pas oublier de cocher l'affichage du lien "Pour mes fonds documentaires associés"
 
-![](../../.gitbook/assets/liensuite%20%281%29.PNG)
+
 
 Pour personnifier l'affichage du lien, rajouter l’icône ISTEX dont l'URL est :
 
 `https://content-delivery.istex.fr/assets/img/istex-minilink.png`
 
-![](../../.gitbook/assets/iconeistex.png)
+
 
 ### **C- OpenURL sur le champ PMID**
 
@@ -65,23 +65,23 @@ L'Open URL ne se fait pas que sur le champ DOI mais également sur le champ PMID
 
 =&gt; EDS/Linking/Custom Links puis Modify
 
-![](../../.gitbook/assets/pmid1.png)
+
 
 =&gt; Choisir SetUp MaintainCustomLink
 
-![](../../.gitbook/assets/pmid2.png)
+
 
 =&gt; Sélectionner le résolver de lien FullTextFinder
 
-![](../../.gitbook/assets/pmid3.png)
+
 
 =&gt; Dans Query String, vérifier
 
-![](../../.gitbook/assets/pmid4%20%281%29.png)
+
 
 =&gt; et complèter l'équation.
 
-![](../../.gitbook/assets/pmid5.png)
+
 
 ### **D- Open URL : erreur 404 et Istex View**
 
@@ -89,16 +89,16 @@ Il peut y avoir une différence de contenu entre la liste des revues négociées
 
 =&gt; Un message code 404 peu **user friendly** s’affiche :
 
-![](../../.gitbook/assets/istexview1%20%281%29.jpg)
+
 
 =&gt; **Une couche IHM** \(pour interface Homme-Machine\) a été développée et rajoutée au-dessus de l'API ISTEX et en particulier de son OpenURL pour permettre l’affichage d’un message plus explicite pour l’utilisateur.  
 Il suffit pour le voir de remplacer `https://api.istex.fr/document/openurl` \(Pour ceux qui ont paramétré le lien avant ISTEX View\) par `https://view.istex.fr/document/openurl` dans le champ **« URL\* de base »** de la fenêtre de paramétrage du lien ISTEX plateforme.
 
-![](../../.gitbook/assets/istexview2%20%282%29.jpg)
+
 
 =&gt;Le message devient :
 
-![](../../.gitbook/assets/istexview3.png)
+
 
 ### **E- Assigner le lien aux bouquets concernés**
 
@@ -106,11 +106,11 @@ Une fois le lien créé il faut l’assigner à tous les bouquets Licences Natio
 
 * Les rechercher
 
-![](../../.gitbook/assets/bouquetsressourcesaassocier%20%281%29.png)
+
 
 * Les associer au lien OpenURL
 
-![](../../.gitbook/assets/associerbouquetsistex.png)
+
 
 {% hint style="danger" %}
 Seuls les bouquets suivants sont déjà disponibles sur la plateforme ISTEX.
@@ -149,7 +149,7 @@ Contrairement au cas précédent ou un lien plateforme est créé par l'utilisat
 
 L’activation par l’administrateur du compte se passe dans le sous onglet Linking du ou des Group\(s\) et profil\(s\) concernés. Elle sera à répéter pour chaque profil et ou Group. Exemple le plus fréquent, Group Main, profil \(eds\), onglet Linking, puis Customlinks / lien Modify.
 
-![](../../.gitbook/assets/custom1%20%281%29.JPG)
+
 
 ### **A- Premier cas : ISTEX plateforme est déjà activé parmi les customlinks EDS**
 
@@ -157,17 +157,17 @@ L’activation par l’administrateur du compte se passe dans le sous onglet Lin
 2. Descendre jusqu’au lien ISTEX plateforme et cliquer sur le lien
 3. Descendre jusqu’à la fonction Local Collections for Filter
 
-![](../../.gitbook/assets/custom2%20%281%29.JPG)
+
 
 1. Appuyer sur la touche ctrl du clavier et en même temps cliquer sur la source déjà sélectionnée \(si elle se désélectionne, la cocher de nouveau sans lâcher la touche ctrl\)
 2. Toujours en appuyant sur la touche ctrl, appuyer sur la touche F du clavier pour ouvrir le champ de recherche dans la page et tapez ISTEX pour aller à toutes les occurrences du mot.
 
-![](../../.gitbook/assets/custom3.JPG)
+
 
 1. Utiliser les flèches du champ de recherche pour naviguer d’occurrence en occurrence.
 2. Sans lâcher la touche ctrl, sélectionner la/les nouvelle\(s\) source\(s\) choisie\(s\) puis valider.
 
-![](../../.gitbook/assets/custom4%20%281%29.JPG)
+
 
 ### **B - Deuxième cas : ISTEX plateforme n’est pas activé parmi les customLinks EDS**
 
@@ -185,19 +185,19 @@ L’activation par l’administrateur du compte se passe dans le sous onglet Lin
 
 "leave as an EBSCO-managed link..."
 
-![](../../.gitbook/assets/ebscogestion%20%281%29.PNG)
+
 
 * Il est possible de vérifier les corpus présents dans le custom link ISTEX plateforme en sélectionnant:
 
 Linking/Add New CustomLinks
 
-![](../../.gitbook/assets/setup.png)
+
 
 Chercher ISTEX plateforme et cliquer sur Go
 
-![](../../.gitbook/assets/controlecustom%20%281%29.JPG)
+
 
 Voir la rubrique : Local Collections for Filter
 
-![](../../.gitbook/assets/customcomplet.PNG)
+
 

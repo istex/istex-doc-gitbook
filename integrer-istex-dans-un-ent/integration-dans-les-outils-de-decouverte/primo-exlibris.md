@@ -6,7 +6,7 @@
 * Dans l'écran de recherche chercher les Targets ISTEX
 * Une liste s'affiche
 
-![](../../.gitbook/assets/exlibris1.png)
+
 
 _Pour info une Target peut être associée à un bouquet de ressources plus un service comme "l'accès au texte intégral" ou **être associée uniquement à un service rebond vers un fournisseur de texte intégal sans bouquet associé**._
 
@@ -14,11 +14,11 @@ Dans notre interface d'administration : 20 Targets sont associées à des bouque
 
 * Activer la target ISTEX en cliquant sur la marque de coche à droite de l'écran
 
-![](../../.gitbook/assets/exlibris2%20%281%29.png)
+
 
 * Cliquer sur le bouton S pour sélectionner un service 
 
-![](../../.gitbook/assets/exlibris3%20%281%29.png)
+
 
 * Cliquer sur la marque de coche pour activer le service comme indiquer sur la capture d'écran
 
@@ -26,7 +26,7 @@ _le service getDOI ajoute alors un DOI à l’OpenURL du parseur ISTEX à condit
 
 * Cliquer sur le bouton “E” \(edit\) pour afficher le service 
 
-![](../../.gitbook/assets/exlibris4%20%281%29.png)
+
 
 * La Target est activée
 
@@ -34,17 +34,17 @@ _le service getDOI ajoute alors un DOI à l’OpenURL du parseur ISTEX à condit
 
 * Rechercher l’article _"Disenchantment and the Environmental Crisis"_ dans l’outil de découverte
 
-![](../../.gitbook/assets/exlibris5.png)
+
 
 * Cliquer sur l’onglet “Ressource en ligne” \(résolveur de liens SFX\)
 
 _Le texte intégral disponible chez l’éditeur est affiché dans la partie gauche alors que les services supplémentaires sont accessibles avec le bouton “Plus” situé à droite_
 
-![](../../.gitbook/assets/exlibris6.png)
+
 
 * Cliquer sur “Accès au texte intégral” sur la plateforme ISTEX
 
-![](../../.gitbook/assets/exlibris7%20%281%29.png)
+
 
 Un grand merci à Laurent Aucher pour la création de la target Istex et les contacts avec Ex-libris\(Université PSL/ACEF\)
 
@@ -91,27 +91,27 @@ les établissements qui utilisent plusieurs instances SFX doivent déposer le pa
 
 * Dans l’interface admin SFX, aller dans Targets, cliquer sur le bouton Add New Target :
 
-![](../../.gitbook/assets/sfxv2-1%20%281%29.png)
+
 
 * Renseigner les champs, cliquer sur le bouton Submit :
 
-![](../../.gitbook/assets/sfxv2-2.png)
+
 
 ### **F- Création du service**
 
 * Cliquer sur le bouton S :
 
-![](../../.gitbook/assets/sfxv2-3.png)
+
 
 * Dans l’écran des services, cliquer sur le bouton Add New Service :
 
-![](../../.gitbook/assets/sfxv2-4.png)
+
 
 * Renseigner les champs des deux onglets \(personnaliser le sid\) puis cliquer sur le bouton Submit :
 
-![](../../.gitbook/assets/sfxv2-5%20%281%29.png)
 
-![](../../.gitbook/assets/sfxv2-6%20%281%29.png)
+
+
 
 ### G- Des intégrations similaires sont réalisées dans différents établissements en France :
 
