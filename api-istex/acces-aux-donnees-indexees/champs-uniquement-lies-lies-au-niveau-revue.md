@@ -1,4 +1,4 @@
-# Champs uniquement liés liés au niveau revue
+# Champs uniquement liés au niveau revue
 
 Certains champs sont également présents uniquement **au niveau de la revue**, c'est-à-dire précédés de `host` \(voir le \[chapitre sur la granularité\]\[granularité\]\) :
 
@@ -7,10 +7,10 @@ Certains champs sont également présents uniquement **au niveau de la revue**, 
 | host.bookId | string | ------------- |
 | host.conference | \[{}\] | **Tableau d'objets**, chaque objet correspondant à une **conférence** |
 | host.conference.name | string | **Nom de la conférence** |
-| host.eisbn | string | **\[International Standard Book Number\]\[ISBN\] électronique** |
-| host.eissn | string | **\[International Standard Serial Number\]\[ISSN\] électronique** |
-| host.isbn | string | **\[International Standard Book Number\]\[ISBN\] papier** |
-| host.issn | string | **\[International Standard Serial Number\]\[ISSN\] papier** |
+| host.eisbn | string | [**International Standard Book Number**](https://www.isbn-international.org/fr) **électronique** |
+| host.eissn | string | [**International Standard Serial Number**](http://www.issn.org/) **électronique** |
+| host.isbn | string | [**International Standard Book Number**](https://www.isbn-international.org/fr) **papier** |
+| host.issn | string | [**International Standard Serial Number**](http://www.issn.org/) **papier** |
 | host.issue | integer | **Numéro** de la revue |
 | host.journalId | string | ------------- |
 | host.pages | {} | **Objet** contenant les données sur les **pages** de l'article dans la revue |

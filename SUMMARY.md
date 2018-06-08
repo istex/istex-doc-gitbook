@@ -63,7 +63,7 @@
     * [Explication sur les indicateurs de qualité](api-istex/acces-aux-donnees-indexees/explication-sur-les-indicateurs-de-qualite.md)
     * [Explication sur les références bibliographiques](api-istex/acces-aux-donnees-indexees/explication-sur-les-references-bibliographiques.md)
     * [Autres champs uniquement liés à l'article](api-istex/acces-aux-donnees-indexees/autres-champs-uniquement-lies-a-larticle.md)
-    * [Champs uniquement liés liés au niveau revue](api-istex/acces-aux-donnees-indexees/champs-uniquement-lies-lies-au-niveau-revue.md)
+    * [Champs uniquement liés au niveau revue](api-istex/acces-aux-donnees-indexees/champs-uniquement-lies-lies-au-niveau-revue.md)
     * [Champs dépendant de la granularité](api-istex/acces-aux-donnees-indexees/champs-dependant-de-la-granularite.md)
     * [Champs d'accès aux fichiers liés au document](api-istex/acces-aux-donnees-indexees/champs-dacces-aux-fichiers-lies-au-document.md)
     * [Liste des corpus disponibles](api-istex/acces-aux-donnees-indexees/liste-des-corpus-disponibles.md)
