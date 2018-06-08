@@ -26,7 +26,7 @@
     }
     ```
 * Explications
-  * - buckets : tableau contenant l'état de collection,
+  * buckets : tableau contenant l'état de collection,
   * key : correspond à "y - z" \(string\),
   * from : correspond à y \(numérique\),
   * fromAsString : correspond à y \(string\),
