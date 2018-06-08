@@ -115,7 +115,7 @@ Format de la réponse :
 | Syntaxe |  |
 | --- | --- |
 | Paramètres | **{nom-ark}** : le **nom ark** ISTEX du document auquel correspond la notice \(ex : GT4-FJLCPBW9-Q\) , **{typologie}**: la typologie demandée  et  **{format}** : le format demandé |
-| Code de retour | **200 si OK**,   **400 si le nom ark est invalide** \(nombre de caractère incorrect ou caractère de contrôle incorrect, par exemple\) et **404 si le format ou la typologie demandé n'est pas disponible ou si le nom ark n'est pas trouvé** dans la plateforme ISTEX |
+| Code de retour | **200 si OK**, **400 si le nom ark est invalide** \(nombre de caractère incorrect ou caractère de contrôle incorrect, par exemple\) et **404 si le format ou la typologie demandé n'est pas disponible ou si le nom ark n'est pas trouvé** dans la plateforme ISTEX |
 | Exemple | [https://api.istex.fr/ark:/67375/**GT4-FJLCPBW9-Q/record.json**](https://api.istex.fr/ark:/67375/GT4-FJLCPBW9-Q/record.json) |
 
 En retour, l'API renverra le document dans le format souhaité dans le corps de la réponse.

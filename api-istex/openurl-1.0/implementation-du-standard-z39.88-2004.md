@@ -12,19 +12,13 @@ Voici la liste des descripteurs d'identification disponibles \(rft\_id\), qui pe
 
 Exemples :
 
-```text
-https://api.istex.fr/document/openurl?rft_id=info:doi/10.1136/acupmed-2012-010183
-```
+ [https://api.istex.fr/document/openurl?rft\_id=info:doi/10.1136/acupmed-2012-010183](https://api.istex.fr/document/openurl?rft_id=info:doi/10.1136/acupmed-2012-010183)
 
-&lt;/a&gt;
+[ https://api.istex.fr/document/openurl?rft\_id=info:pii/S0143-0807\(98\)90774-7](https://api.istex.fr/document/openurl?rft_id=info:pii/S0143-0807%2898%2990774-7)
 
-```text
-https://api.istex.fr/document/openurl?rft_id=info:pii/S0143-0807(98)90774-7
-```
-
-&lt;/a&gt;
-
-**ATTENTION : Il doit s'agir du DOI d'une ressource** _**unique**_ **\(article ou chapitre\). Le DOI d'un livre ou d'une revue ne fonctionneront pas. Si vous ne possédez que le DOI du livre ou de la revue, utilisez les descripteurs de méta-données jdoi et bdoi comme décrits ci-dessous.**
+{% hint style="danger" %}
+ **Il doit s'agir du DOI d'une ressource** _**unique**_ **\(article ou chapitre\). Le DOI d'un livre ou d'une revue ne fonctionneront pas. Si vous ne possédez que le DOI du livre ou de la revue, utilisez les descripteurs de méta-données jdoi et bdoi comme décrits ci-dessous.**
+{% endhint %}
 
 Et les descripteurs de meta-données :
 
@@ -51,6 +45,10 @@ Et les descripteurs de meta-données :
 Vos critères doivent être suffisamment précis pour identifier une unique ressource. S'ils ne sont pas suffisamment exhaustifs, le résolveur vous retournera un message de notification et un code HTTP 300. Le DOI d'un article ou d'un chapitre permettra d'identifier quasi-systématiquement une ressource unique, d'autres combinaisons sont possibles, comme "ISSN+Volume+N° Issue+Auteur+Page du début de l'article" qui possèdent également un taux satisfaisant d'identification.
 
 Exemple :
+
+
+
+
 
 ```text
 https://api.istex.fr/document/openurl?rft.au=Richard James Clark&rft.issn=0964-5284&rft.volume=30&rft.issue=4&rft.spage=298
