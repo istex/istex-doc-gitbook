@@ -24,7 +24,6 @@
   * 200 si OK, 
   * 500 en cas de problème \(dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)\)
 
-
 | Exemples |  |
 | --- | --- |
 | Affichage de l'ensemble des documents triés selon le champ **host.copyrightDate** | [https://api.istex.fr/document/?q=\*&sortBy=host.copyrightDate&output=host.copyrightDate](https://api.istex.fr/document/?q=*&sortBy=host.copyrightDate&output=host.copyrightDate) |

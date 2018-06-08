@@ -30,3 +30,5 @@ Les TEI doivent **impérativement** contenir l'identifiant ISTEX sous la forme *
 
 Exemple :
 
+![](../../.gitbook/assets/teienrich.png)
+
