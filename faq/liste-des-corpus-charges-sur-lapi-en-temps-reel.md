@@ -6,5 +6,3 @@
 
 =&gt; Vous avez la liste des corpus chargés dans la plateforme ISTEX qui s'affiche avec le nombre de documents associés.
 
-![](../.gitbook/assets/listecorpus.JPG)
-

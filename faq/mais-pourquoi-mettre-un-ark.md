@@ -32,8 +32,6 @@ _« Theatre in the Arab World: A Difficult Birth »_ qui provient de “Cambridg
 
 La racine sans qualificatif indique toutes les typologies qui existent pour ce document
 
-![](../.gitbook/assets/ark.jpg)
-
 **Le qualificatif** permet l’accès à un format spécifique.
 
 [**https://api.istex.fr/ark:/67375/6GQ-9JJ7RGZM-W/fulltext.tei**](https://api.istex.fr/ark:/67375/6GQ-9JJ7RGZM-W/fulltext.tei)
