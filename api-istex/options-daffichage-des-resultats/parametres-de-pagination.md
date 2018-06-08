@@ -2,7 +2,7 @@
 
 Les paramètres de pagination se basent sur les deux options `from` et `size` qui s'utilisent et se combinent comme suit :
 
-**La syntaxe pour la position est la suivante :**
+**La syntaxe pour la "position" est la suivante :**
 
 * URI
   * https://api.istex.fr/document/?q={query}**&from={position}**
@@ -18,7 +18,7 @@ Les paramètres de pagination se basent sur les deux options `from` et `size` qu
   * 200 si OK, 
   * 500 en cas de problème \(dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)\)
 
-**La syntaxe pour le nombre est la suivante :**
+**La syntaxe pour le "nombre" est la suivante :**
 
 * URI
   * https://api.istex.fr/document/?q={query}**&size={nombre}**
