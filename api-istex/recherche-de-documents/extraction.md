@@ -10,22 +10,19 @@ Pour le moment, et pour des raisons purement techniques, le nombre de documents 
 ## Syntaxe
 
 
+- URI
+  - https://api.istex.fr/document/?q={valeur}&extract
 
 
+- Paramètres 
+  - **q** : la requête
+  - **extract:${typefichier}\[${formats}\]** : la sélection des type et formats de fichiers à extraire
+  - **spread:{true/_false_}** : active la répartition des fichiers téléchargés dans une arborescence à 4 niveaux \(utile pour un nombre important de documents\). Option désactivée par défaut \(spread=false\)
 
 
-
-| Syntaxe |  |
-| --- | --- |
-| URI | [https://api.istex.fr/document/?**q={valeur}&extract**](https://api.istex.fr/document/?q={valeur}&extract) |
-| Paramètres | - **q** : la requête - extract:${typefichier}\[${formats}\] : la sélection des type et formats de fichiers à extraire - spread:{true/_false_} : active la répartition des fichiers téléchargés dans une arborescence à 4 niveaux \(utile pour un nombre important de documents\). Option désactivée par défaut \(spread=false\) |
-| Code de retour | - 200 si OK,  - 500 en cas de problème \(dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)\) |
-
-
-
-
-
-
+- Code de retour
+  - 200 si OK
+  - 500 en cas de problème \(dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)\)
 
 Plus de détails sur la syntaxe extract:${typefichier}\[${formats}\] :
 
