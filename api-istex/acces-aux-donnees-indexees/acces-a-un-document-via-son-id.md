@@ -6,8 +6,8 @@ Pour **récupérer la liste des champs et formats** \(métadonnées, fulltext, a
 
 | Syntaxe |  |
 | --- | --- |
-| URI | [https://api.istex.fr/document/{id}](https://api.istex.fr/document/{id}) |
-| Paramètres | - {id} : l'identifiant ISTEX du document auquel correspond la notice. |
+| URI | https://api.istex.fr/document/**{id}** |
+| Paramètres | - **{id}** : l'identifiant ISTEX du document auquel correspond la notice. |
 | Code de retour | - 200 si OK,  - 404 si la notice n'est pas trouvée |
-| Exemple | [https://api.istex.fr/document/55420CDEEA0F6538E215A511C72E2E5E57570138](https://api.istex.fr/document/55420CDEEA0F6538E215A511C72E2E5E57570138) |
+| Exemple | https://api.istex.fr/document/**55420CDEEA0F6538E215A511C72E2E5E57570138** |
 
