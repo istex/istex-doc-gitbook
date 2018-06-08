@@ -1,10 +1,10 @@
 # un exemple est toujours plus parlant
 
-Reprenons le schéma ci-dessus. Nous souhaitons connaître \*\*tous les documents de la base ISTEX comprenant le mot "einstein"\*\*. Nous avons donc effectué une requête \[?q=einstein\]\([http://api.istex.fr/document/?q=einstein\](http://api.istex.fr/document/?q=einstein\)\), ce qui correspond à la première partie du schéma :
+Reprenons le schéma ci-dessus. Nous souhaitons connaître **tous les documents de la base ISTEX comprenant le mot "einstein**". Nous avons donc effectué une requête ?[q=einstein](http://api.istex.fr/document/?q=einstein) , ce qui correspond à la première partie du schéma :
 
 ![](../../.gitbook/assets/schemafacets1.png)
 
-Ici, la recherche ne nous a retourné que \*\*5 résultats\*\*, représentés par les points bleus \(il s'agit évidemment d'un exemple\). Nous souhaitons maintenant, en plus, connaître \*\*quels sont les corpus concernés, et combien de documents sont affectés à ces corpus\*\*. Il existe alors plusieurs solutions :
+Ici, la recherche ne nous a retourné que **5 résultats**, représentés par les points bleus \(il s'agit évidemment d'un exemple\). Nous souhaitons maintenant, en plus, connaître **quels sont les corpus concernés, et combien de documents sont affectés à ces corpus**. Il existe alors plusieurs solutions :
 
 \* Nous pouvons, par exemple, effectuer plusieurs requêtes en ajoutant à la recherche précédente les noms des corpus, par exemple \[?q=einstein AND corpusName:elsevier\]\([http://api.istex.fr/document/?q=einstein](http://api.istex.fr/document/?q=einstein) AND corpusName:elsevier\), puis \[?q=einstein AND corpusName:wiley\]\([http://api.istex.fr/document/?q=einstein](http://api.istex.fr/document/?q=einstein) AND corpusName:wiley\), etc. Non seulement faire cet ensemble de requête est fastidieux, mais le risque d'oublier un corpus est important.
 
