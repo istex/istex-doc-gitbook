@@ -5,10 +5,10 @@ Toutes les URL suivantes sont accédées via la méthode **HTTP GET**.
 **La syntaxe des URL d'accès aux enrichissements est de la forme :**
 
 * URI
-  * [https://api.istex.fr/document/**{id}/enrichments/{type}**](https://api.istex.fr/document/{id}/enrichments/{type})
+  * https://api.istex.fr/document/**{id}/enrichments/{type}**
 * Paramètres
-  * {id} : l'**identifiant** ISTEX du document auquel correspond la notice,
-  * {type} : **type** de l'enrichissement \(ex : "multicat" pour les catégories [WOS](http://thomsonreuters.com/en/products-services/scholarly-scientific-research/scholarly-search-and-discovery/web-of-science.html) et [Science-Metrix](http://science-metrix.com/)\).
+  * **{id}** : l'**identifiant** ISTEX du document auquel correspond la notice,
+  * **{type}** : **type** de l'enrichissement \(ex : "multicat" pour les catégories [WOS](http://thomsonreuters.com/en/products-services/scholarly-scientific-research/scholarly-search-and-discovery/web-of-science.html) et [Science-Metrix](http://science-metrix.com/)\).
 * Code de retour
   * 200 si OK,
   * 404 si le fichier n'est pas trouvé
@@ -48,7 +48,7 @@ Toutes les URL suivantes sont accédées via la méthode **HTTP GET**.
      Pour **consolider** les enrichissements avec le **TEI** présent dans le fulltext, il suffit d'activer l'option **?consolidate** dans la requête.  
     La consolidation peut se **combiner** avec la récupération de plusieurs types d'enrichissement.
 * Types existants
-  * - **abesAuthors** : auteurs extraits du [Hub de métadonnées de l'ABES](http://www.abes.fr/Projets-en-cours/Hub-de-metadonnees),
+  * **abesAuthors** : auteurs extraits du [Hub de métadonnées de l'ABES](http://www.abes.fr/Projets-en-cours/Hub-de-metadonnees),
   * **abesSubjects** : sujets extraits du [Hub de métadonnées de l'ABES](http://www.abes.fr/Projets-en-cours/Hub-de-metadonnees),
   * **multicat** : catégories [Web Of Science](http://thomsonreuters.com/en/products-services/scholarly-scientific-research/scholarly-search-and-discovery/web-of-science.html) et [Science-Metrix](http://science-metrix.com/) du document,
   * **nb** : catégories déterminées par [méthode bayésienne naïve](https://fr.wikipedia.org/wiki/Classification_na%C3%AFve_bay%C3%A9sienne),
