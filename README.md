@@ -11,5 +11,5 @@ Pour plus d'information n'hésitez pas à vous inscrire sur les liste de diffusi
 
 Pour contacter directement et uniquement l'équipe ISTEX pour toutes questions et/ou demandes de support utilisez : **contact@listes.istex.fr**.
 
-{% urlembed %} https://www.istex.fr {% endurlembed %}
+{% urlembed %} //publication-language.data.istex.fr/api/widget?type=widget&fields=%5B%22ZzIH%22%2C%22rfkZ%22%2C%22Vn8c%22%5D {% endurlembed %}
 
