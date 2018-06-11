@@ -6,7 +6,7 @@ Le bouton « ISTEX » peut s’activer notamment sur les pages Wikipédia, Googl
 
 Comme pour tous les autres modes d’accès au PDF \([widgets](https://widgets.istex.fr), [démonstrateur](http://demo.istex.fr)…\) il est limité aux ayants droit ISTEX, c'est-à-dire les personnels de l'Enseignement Supérieur et de la Recherche.
 
-Cette extension fait un usage intensif du [**service de résolution OpenURL de l’API ISTEX**](https://api.istex.fr/documentation/openurl/).
+Cette extension fait un usage intensif du [**service de résolution OpenURL de l’API ISTEX**](https://doc.istex.fr/api/openurl/README.md).
 
 L'extension ISTEX est disponible pour les navigateurs web Firefox et Chrome ici : [**https://addons.istex.fr**](https://addons.istex.fr/). Vous trouverez ci-dessous comment l'installer étape par étape pour les différents navigateurs web.
 
