@@ -4,7 +4,7 @@ Cette liste de valeurs permet d'interroger le champ `language`.
 
 > Cette liste est issue de l'ISO 639-2, partie de la norme [ISO 639](https://fr.wikipedia.org/wiki/ISO_639) définissant une codification des noms de langues.
 >
-> Des informations complémentaires sur chaque langue présente dans Istex, exposées selon les normes du web sémantique, sont accessibles sur le site [data.istex.fr](https://data.istex.fr/home) à la page dédiée aux [langues](https://publication-language.data.istex.fr/home).
+> Des informations complémentaires sur chaque langue présente dans Istex, exposées selon les normes du web sémantique, sont accessibles sur le site [data.istex.fr](https://data.istex.fr) à la page dédiée aux [langues](https://publication-language.data.istex.fr).
 
 | Code | Nom en Français |
 | --- | --- |
