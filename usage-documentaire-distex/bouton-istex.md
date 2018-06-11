@@ -10,8 +10,6 @@ Cette extension fait un usage intensif du [**service de résolution OpenURL de l
 
 L'extension ISTEX est disponible pour les navigateurs web Firefox et Chrome ici : [**https://addons.istex.fr**](https://addons.istex.fr/). Vous trouverez ci-dessous comment l'installer étape par étape pour les différents navigateurs web.
 
-coucou voilà c'est un test 
-
 ## Firefox
 
 =&gt; La recherche sur Wikipédia d’[**« Hélium »**](https://fr.wikipedia.org/wiki/Hélium) donne la bibliographie suivante :
