@@ -1,12 +1,12 @@
 # Table of contents
 
 * [Documentation ISTEX](README.md)
-* [Usage documentaire d'ISTEX](usage-documentaire-distex/README.md)
-  * [Bouton ISTEX](usage-documentaire-distex/bouton-istex.md)
-  * [Google Scholar](usage-documentaire-distex/google-scholar.md)
-  * [Logiciels de gestion bibliographique](usage-documentaire-distex/logiciels-de-gestion-bibliographique/README.md)
-    * [EndNote](usage-documentaire-distex/logiciels-de-gestion-bibliographique/endnote.md)
-    * [Zotero](usage-documentaire-distex/logiciels-de-gestion-bibliographique/zotero.md)
+* [Usage documentaire d'ISTEX](doc/README.md)
+  * [Bouton ISTEX](doc/bouton-istex.md)
+  * [Google Scholar](doc/google-scholar.md)
+  * [Logiciels de gestion bibliographique](doc/logiciels-de-gestion-bibliographique/README.md)
+    * [EndNote](doc/logiciels-de-gestion-bibliographique/endnote.md)
+    * [Zotero](doc/logiciels-de-gestion-bibliographique/zotero.md)
 * [Usage TDM d'ISTEX](usage-tdm-distex/README.md)
   * [Construction d'une requête](usage-tdm-distex/construction-dune-requete/README.md)
     * [Le contenu de la requête](usage-tdm-distex/construction-dune-requete/le-contenu-de-la-requete.md)
