@@ -13,7 +13,7 @@
 * N'oublier pas de choisir la **version 1.0** pour l'OpenURL
 
 {% hint style="danger" %}
-Un seul résolveur de lien OpenURL possible
+Un seul résolveur de liens OpenURL possible
 {% endhint %}
 
 ## Accès au PDF après une recherche
