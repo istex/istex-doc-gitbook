@@ -1,6 +1,6 @@
 # Sur quel\(s\) champ\(s\) faire son interrogation ?
 
-Les champs interrogeables sont présentés dans la rubrique [**Accès aux données indexées**](https://api.istex.fr/documentation/fields/) de la documentation technique de l’API ISTEX.
+Les champs interrogeables sont présentés dans la rubrique [**Accès aux données indexées**](https://doc.istex.fr/api/results/README.md) de la documentation technique de l’API ISTEX.
 
 Par défaut, sans mention de champ, la recherche est effectuée sur tout le document.
 
@@ -32,7 +32,7 @@ L’interrogation nécessite d’utiliser des codes langues \(généralement 3 l
   q=language:moh
 ```
 
-Pour savoir quel code langue utiliser, vous pouvez consulter en [**annexe**](https://github.com/istex/istex-web-doc/tree/339773edda60c129d5b81201b7ed7ed264a762b7/usage-tdm-distex/construction-dune-requete/annexes/README.md) la liste des codes interrogeables dans Istex.
+Pour savoir quel code langue utiliser, vous pouvez consulter en [**annexe**](https://doc.istex.fr/tdm/annexes/README.md) la liste des codes interrogeables dans Istex.
 
 NB : La valeur « unknown » est présente lorsqu'aucun code langue ne renseigne ce champ. Le champ `host.language` contient quant à lui systématiquement la valeur « unknown » car il n'est actuellement pas renseigné.
 
