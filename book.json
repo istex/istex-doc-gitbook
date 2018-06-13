@@ -1,5 +1,5 @@
 {
-	"plugins": ["collapsible-chapters","anchor-navigation-ex", "header-istex", "url-embed", "hints", "piwik"],
+	"plugins": ["collapsible-chapters","anchor-navigation-ex", "header-istex", "url-embed", "custom-js-css", "hints", "piwik"],
 	"pluginsConfig": {
 		"layout": {
 			"headerPath": "layouts/header.html"
@@ -7,6 +7,14 @@
 		"piwik": {
         	"URL": "piwik2.inist.fr/",
         	"siteId": 49
-        	}
+        	},
+		"custom-js-css": {
+	    		"js": [
+	      			"./theming/index.js"
+	    		],
+	    		"css": [
+	      			"./theming/index.css"
+	    		]
+	  	}		
 	}
 }
