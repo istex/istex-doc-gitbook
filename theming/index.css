@@ -1,0 +1,6 @@
+header {
+    transition: height 1s;
+}
+body {
+	overflow: hidden;
+}
