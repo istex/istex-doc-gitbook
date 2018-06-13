@@ -1,10 +1,26 @@
 window.onload = function(){
-	var book = document.getElementsByClassName('body-inner');
+	// Call allow to have the transition for 
+	// the first consult	
+	callback();
+
+	var targetNode = document.body;
+
+	// Options of the observer
+	var config = { attributes: true, childList: true };
+	
+	var observer = new MutationObserver(callback);
+	
+	observer.observe(targetNode, config);
+	
+};
+
+function callback(){
+	
+	var book = document.getElementsByClassName('book-body');
 	var header = document.getElementById("istex_web_header");
 	var hauteur = header.offsetHeight;
-	console.log(hauteur);
-	book[0].onscroll = function() {ma_fonction()};
-	function ma_fonction() {
+	book[0].onscroll = ma_fonction;
+	function ma_fonction(e) {
 	    if (book[0].scrollTop > 200) {
 		header.style.opacity = 0;
 		document.getElementById("istex_web_header").style.height = 0 + "px";
@@ -13,4 +29,5 @@ window.onload = function(){
 		document.getElementById("istex_web_header").style.height = hauteur + "px";
 	    }
 	}
-};
+
+}
