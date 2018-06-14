@@ -26,10 +26,8 @@ function callback(){
 	book[0].onscroll = headerTransform;
 	function headerTransform() {
 	    if (book[0].scrollTop > 200) {
-		//document.getElementById("istex_web_header").style.opacity = 0;
 		document.getElementById("istex_web_header").style.height = 0 + "px";
 	    } else {
-		//document.getElementById("istex_web_header").style.opacity = 1;
 		document.getElementById("istex_web_header").style.height = hauteur + "px";
 	    }
 	}
