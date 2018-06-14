@@ -16,7 +16,7 @@ window.onload = function(){
 
 function callback(){
 	
-	var book = document.getElementsByClassName('book-body');
+	var book = document.getElementsByClassName('body-inner');
 	var header = document.getElementById("istex_web_header");
 	var hauteur = header.offsetHeight;
 	book[0].onscroll = ma_fonction;
