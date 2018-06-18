@@ -38,5 +38,5 @@ Google Scholar indique que l'activation \(et la mise à jour\) prend une à deux
 
 **Autre possibilité**
 
-L'option de sélectionner le lien vers la bibliothèque ISTEX est proposée automatiquement au moment de l'installation du bouton ISTEX voir [**Bouton ISTEX**](https://doc.istex.fr/doc/bouton-istex.md)
+L'option de sélectionner le lien vers la bibliothèque ISTEX est proposée automatiquement au moment de l'installation du bouton ISTEX voir [**Bouton ISTEX**](bouton-istex.md)
 
