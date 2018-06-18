@@ -9,7 +9,7 @@ Il s'agit d'une fonction du moteur de recherche de l'API ISTEX permettant d’ex
 * **Inconvénients :** 
   * les corpus ne peuvent être extraits actuellement que dans la limite de 10 000 documents
   * l'extraction des annexes et des enrichissements n'est actuellement pas utilisable, mais le fichier JSON extrait par défaut reprend la totalité des enrichissements disponibles d'un document numérique donné.
-* **Mode d'emploi :** cette fonction et la syntaxe requise pour son utilisation sont décrites dans la rubrique [**"Extraction"**](https://doc.istex.fr/api/search/README.md) de la documentation technique ISTEX.
+* **Mode d'emploi :** cette fonction et la syntaxe requise pour son utilisation sont décrites dans la rubrique **"**[**Extraction**](../../api/search/extract-feature.md)**"** de la documentation technique ISTEX.
 * **Astuces :**
   * pour que la fonction `extract` soit opérationnelle, il faut la faire suivre obligatoirement par le signe "=" et une valeur quelconque, mais seuls les fichiers JSON sont extraits. Indiquer un \(ou plusieurs\) type de fichiers pour obtenir leur extraction.
     * **\*Exemple :** moissonnage des métadonnées au format JSON pour les documents contenant l'expression "by draconis stars" dans le résumé\*

@@ -69,7 +69,7 @@ Les termes cherchés sont reliés par des opérateurs booléens, l'opérateur `O
 | --- | --- |
 | Recherche des documents contenant le terme "api" **ou** "study" dans un de leurs champs indexés | [https://api.istex.fr/document/?**q=api OR study**](https://api.istex.fr/document/?q=api%20OR%20study)   [https://api.istex.fr/document/?**q=api study**](https://api.istex.fr/document/?q=api%20study) |
 | Recherche des documents contenant le terme "test" **et** "study" dans un de leurs champs indexés | [https://api.istex.fr/document/?**q=test AND study**](https://api.istex.fr/document/?q=test%20AND%20study) |
-| Recherche des documents contenant le terme "test" **mais pas** "study" dans un de leurs champs indexés | [https://api.istex.fr/document/?**q=test NOT study**](https://api.istex.fr/document/?q=api%20NOT%20study) **\*\*  \[**[https://api.istex.fr/document/?](https://api.istex.fr/document/?)q=api -study\*\*\]\([https://api.istex.fr/document/?q=api -study](https://api.istex.fr/document/?q=api%20-study)\) |
+| Recherche des documents contenant le terme "test" **mais pas** "study" dans un de leurs champs indexés | [https://api.istex.fr/document/?**q=test NOT study** ](https://api.istex.fr/document/?q=api%20NOT%20study) ****[https://api.istex.fr/document/?**q=api -study**](https://api.istex.fr/document/?q=api%20-study) |
 
 L'utilisation de jokers `*` et `?` est possible, permettant de remplacer un certain nombre de caractères.
 
@@ -119,7 +119,7 @@ Il est également possible de chercher sur un **intervalle**, avec l'utilisation
 
 | Exemples |  |
 | --- | --- |
-| Recherche des documents contenant une **date de publication entre 1900 et 1905** | [https://api.istex.fr/document/?**q=publicationDate:\[1900 TO 1905\]**](https://api.istex.fr/document/?q=publicationDate:[1900%20TO%201905]) [https://api.istex.fr/document/?**q=publicationDate:{1899 TO 1906}**](https://api.istex.fr/document/?q=publicationDate:{1889%20TO%201906}) \[[https://api.istex.fr/document/?\*\*q=publicationDate:\[1900](https://api.istex.fr/document/?**q=publicationDate:[1900) TO 1906}\*\*\]\([https://api.istex.fr/document/?q=publicationDate:{1889 TO 1906}](https://api.istex.fr/document/?q=publicationDate:{1889%20TO%201906})\) |
+| Recherche des documents contenant une **date de publication entre 1900 et 1905** | [https://api.istex.fr/document/?**q=publicationDate:\[1900 TO 1905\]**](https://api.istex.fr/document/?q=publicationDate:[1900%20TO%201905]) [https://api.istex.fr/document/?**q=publicationDate:{1899 TO 1906}**](https://api.istex.fr/document/?q=publicationDate:{1889%20TO%201906}) [https://api.istex.fr/document/?**q=publicationDate:{1889 TO 1906}**](https://api.istex.fr/document/?q=publicationDate:{1889%20TO%201906}) |
 | Recherche des documents contenant un **terme entre "half" et "ham" dans son titre** | [https://api.istex.fr/document/?**q=title:\[half TO ham\]**](https://api.istex.fr/document/?q=title:[half%20TO%20ham]) |
 
 Pour plus de détails sur cette syntaxe, nous vous invitons à consulter [la documentation officielle](https://lucene.apache.org/core/4_3_0/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#package_description).

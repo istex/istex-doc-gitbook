@@ -9,6 +9,8 @@
 
 | Exemples |  |
 | --- | --- |
-| Recherche des documents contenant les **termes** "controllability" **et** "study" | [https://api.istex.fr/document/?q=controllability study&defaultOperator=AND](https://api.istex.fr/document/?q=controllability%20study&defaultOperator=AND) [https://api.istex.fr/document/?q=controllability AND study](https://api.istex.fr/document/?q=controllability%20AND%20study) |
-| Recherche des documents contenant les **termes** "controllability" **ou** "study" | [https://api.istex.fr/document/?q=controllability study&defaultOperator=OR](https://api.istex.fr/document/?q=controllability%20study&defaultOperator=OR) [https://api.istex.fr/document/?q=controllability OR study](https://api.istex.fr/document/?q=controllability%20OR%20study) [https://api.istex.fr/document/?q=controllability study](https://api.istex.fr/document/?q=controllability%20study) |
+| Recherche des documents contenant les **termes** "controllability" **et** "study" | [https://api.istex.fr/document/?**q=controllability study&defaultOperator=AND**](https://api.istex.fr/document/?q=controllability%20study&defaultOperator=AND) ; [https://api.istex.fr/document/?**q=controllability AND study**](https://api.istex.fr/document/?q=controllability%20AND%20study) |
+| Recherche des documents contenant les **termes** "controllability" **ou** "study" | [https://api.istex.fr/document/?**q=controllability study&defaultOperator=OR**](https://api.istex.fr/document/?q=controllability%20study&defaultOperator=OR) ; [https://api.istex.fr/document/?**q=controllability OR study**](https://api.istex.fr/document/?q=controllability%20OR%20study) ; [https://api.istex.fr/document/?**q=controllability study**](https://api.istex.fr/document/?q=controllability%20study) |
+
+
 
