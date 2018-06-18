@@ -16,3 +16,5 @@ Il s'agit d'une application Web permettant de télécharger très facilement, vi
   * si l'on souhaite extraire tous les formats pour un type de fichier particulier, il suffit de cocher ce type de fichier sans autre précision
     * **\*Exemple :** voir en page d'accueil le type de fichier "Métadonnées" \(case cochée par défaut\)\*
 
+
+
