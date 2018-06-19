@@ -1,20 +1,12 @@
 {
     "redirects": [
             {
-                "from": "/users/#bienvenue-sur-la-documentation-utilisateur-de-la-plateforme-istex",
+                "from": "users/index.html#bienvenue-sur-la-documentation-utilisateur-de-la-plateforme-istex",
                 "to": "index.html"
             },
             {
                 "from": "annexes/index.html",
                 "to": "tdm/annexes/index.html"
-            },
-            {
-                "from": "users/tdm/extraction/",
-                "to": "tdm/extraction/istex-dl.html"
-            },
-            {
-                "from": "users/corpus/extraction/",
-                "to": "tdm/extraction/istex-dl.html"
             }
         ]
 }
