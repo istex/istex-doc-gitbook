@@ -11,6 +11,10 @@
             {
                 "from": "users/tdm/extraction/",
                 "to": "tdm/extraction/istex-dl.html"
+            },
+            {
+                "from": "users/corpus/extraction/",
+                "to": "tdm/extraction/istex-dl.html"
             }
         ]
 }
