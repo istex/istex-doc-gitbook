@@ -1,11 +1,11 @@
 {
     "redirects": [
             {
-                "from": "https://doc.istex.fr/users/index.html",
+                "from": "users/index.html",
                 "to": "index.html"
             },
             {
-                "from": "https://doc.istex.fr/annexes/index.html",
+                "from": "annexes/index.html",
                 "to": "tdm/annexes/index.html"
             }
         ]
