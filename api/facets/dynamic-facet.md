@@ -1,4 +1,4 @@
-# Facettes dynamiques delon le mapping
+# Facettes dynamiques selon le mapping
 
 L'API permet d'utiliser des facettes "à la volée", en se basant sur les champs disponibles : \[ici\]\(fields\). Il s'agit de la **manière classique** d'utilisation des facettes.
 

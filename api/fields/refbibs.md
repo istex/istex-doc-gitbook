@@ -9,7 +9,7 @@ Ces dernières sont soit **fournies par l'éditeur**, soit **extraites** à l'ai
 | refBibs | \[{}\] | **Tableau d'objets**, chaque objet correspondant à une **référence bibliographique** |
 | refBibs.author | \[{}\] | **Tableau d'objets**, chaque objet correspondant à un **auteur référencé** |
 | rebBibs.author.name | string | **Nom** d'un auteur référencé |
-| refBibs.host | {} | **Objet** contenant les informations liées à la **revue** ou le **livre** \(voir le chapitre sur la \[granularité\]\[granularité\]\) |
+| refBibs.host | {} | **Objet** contenant les informations liées à la **revue** ou le **livre** \(voir le chapitre sur la [granularité](doc-object-granularity.md)\) |
 | refBibs.host.author | \[{}\] | **Tableau d'objets**, chaque objet correspondant à un **auteur de la revue référencée** |
 | refBibs.host.author.name | string | **Nom d'un auteur de la revue** référencée |
 | refBibs.host.issue | integer | **Numéro de la revue** référencée |

@@ -3,7 +3,7 @@
 **La syntaxe est la suivante :**
 
 * URI
-  * [https://api.istex.fr/document/?q={query}\*\*&rankBy={type](https://api.istex.fr/document/?q={query}**&rankBy={type) de ranking}\*\*
+  * https://api.istex.fr/document/?q={query}**&rankBy={type de ranking}**
 * Explications
   * Chaque résultat affiche un champ **score**.
   * Cette option permet de sélectionner le type de score renvoyé lors de l'affichage des résultats. 
@@ -24,6 +24,8 @@
 
 | Exemples |  |
 | --- | --- |
-| Résultats ayant le mot **"agile"** avec un **affichage relevé par qualité** | [https://api.istex.fr/document/?q=agile&rankBy=qualityOverRelevance](https://api.istex.fr/document/?q=agile&rankBy=qualityOverRelevance) |
-| Résultats ayant le mot **"agile"** avec un **affichage aléatoire** | [https://api.istex.fr/document/?q=agile&rankBy=random](https://api.istex.fr/document/?q=agile&rankBy=random) |
+| Résultats ayant le mot **"agile"** avec un **affichage relevé par qualité** | [https://api.istex.fr/document/?q=agile**&rankBy=qualityOverRelevance**](https://api.istex.fr/document/?q=agile&rankBy=qualityOverRelevance) |
+| Résultats ayant le mot **"agile"** avec un **affichage aléatoire** | [https://api.istex.fr/document/?q=agile**&rankBy=random**](https://api.istex.fr/document/?q=agile&rankBy=random) |
+
+
 

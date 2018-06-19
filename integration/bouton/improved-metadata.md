@@ -1,6 +1,10 @@
 # Métadonnées pour l'intégration du bouton ISTEX
 
-L'[extension pour navigateur ISTEX](https://github.com/istex/istex-web-doc/tree/62a39c54fe1cf44108298273cc203c0e18bb4c54/usage/button/README.md) permet de venir afficher des boutons ISTEX ![](https://github.com/istex/istex-web-doc/tree/62a39c54fe1cf44108298273cc203c0e18bb4c54/img/istex-button.png) au sein de vos pages web lorsque des références bibliographiques y sont trouvées et qu'elles correspondent à des ressources présentes dans la plateforme ISTEX. Pour que cette technique fonctionne cela nécessite d'[installer dans son navigateur web l'extension ISTEX](https://github.com/istex/istex-web-doc/tree/62a39c54fe1cf44108298273cc203c0e18bb4c54/usage/button/README.md).
+L'[extension pour navigateur ISTEX](../../doc/bouton-istex.md) permet de venir afficher des boutons ISTEX
+
+![](../../.gitbook/assets/istex-button%20%281%29.png)
+
+au sein de vos pages web lorsque des références bibliographiques y sont trouvées et qu'elles correspondent à des ressources présentes dans la plateforme ISTEX. Pour que cette technique fonctionne cela nécessite d'[installer dans son navigateur web l'extension ISTEX](../../doc/bouton-istex.md).
 
 Ces références bibliographiques sont le plus souvent des identifiants forts de documents comme des DOI ou des PMID mais elle peuvent également être des OpenURL que le bouton ISTEX sera aussi capable de repérer. Ces métadonnées peuvent apparaitre dans la page HTML sous différentes formes.
 
@@ -42,5 +46,9 @@ Ces deux dernière manières de procéder avec COinS couplé à une balise span 
 
 Toutes ces techniques sont des bonnes manières de procéder surtout lorsque vous avez des listes d'articles à présenter. C'est souvent le cas lorsqu'un portail documentaire ou une base de données bibliographique affiche une liste de résultats suite à une recherche.
 
-Donc si vous voulez que des ![acc&#xE8;s aux ressources ISTEX](https://github.com/istex/istex-web-doc/tree/62a39c54fe1cf44108298273cc203c0e18bb4c54/img/istex-button.png) apparaissent automatiquement dans vos listes de résultats **pensez à y indiquer d'une façon ou d'une autre le DOI ou le PMID des ressources en question**.
+Donc si vous voulez que des 
+
+![](../../.gitbook/assets/istex-button.png)
+
+apparaissent automatiquement dans vos listes de résultats **pensez à y indiquer d'une façon ou d'une autre le DOI ou le PMID des ressources en question**.
 

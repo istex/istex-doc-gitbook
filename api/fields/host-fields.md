@@ -1,6 +1,6 @@
 # Champs uniquement liés au niveau revue
 
-Certains champs sont également présents uniquement **au niveau de la revue**, c'est-à-dire précédés de `host` \(voir le \[chapitre sur la granularité\]\[granularité\]\) :
+Certains champs sont également présents uniquement **au niveau de la revue**, c'est-à-dire précédés de `host` \(voir le \[chapitre sur la [granularité](doc-object-granularity.md)\) :
 
 | Champs | Type | Détails |
 | --- | --- | --- |

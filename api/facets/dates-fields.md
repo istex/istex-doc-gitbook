@@ -94,5 +94,4 @@ La facette affiche les dates **de la plus ancienne à la plus récente**.
 | Affichage de l'ensemble des documents avec une facette sur **l'ensemble des dates de publication** | [https://api.istex.fr/document/?q=\***&facet=publicationDate**](https://api.istex.fr/document/?q=*&facet=publicationDate) |
 | Affichage de l'ensemble des documents avec une facette sur les **dates de publication compris entre 1900 et 2000** | [https://api.istex.fr/document/?q=\***&facet=publicationDate\[1900-2000\]**](https://api.istex.fr/document/?q=*&facet=publicationDate[1900-2000]) |
 | Affichage de l'ensemble des documents avec une facette sur **l'ensemble des dates de publication, découpé par année** | [https://api.istex.fr/document/?q=\***&facet=publicationDate\[perYear\]**](https://api.istex.fr/document/?q=*&facet=publicationDate[perYear]) ****[https://api.istex.fr/document/?q=\***&facet=publicationDate\[\*-\*:1**\]](https://api.istex.fr/document/?q=*&facet=[*-*:1])                               [https://api.istex.fr/document/?q=\***&facet=publicationDateOverTime**](https://api.istex.fr/document/?q=*&facet=publicationDateOverTime) |
-|  |  |
 

@@ -8,7 +8,7 @@ _Champ concerné_ : **corpusName:{valeur}**
 
 | Syntaxe |  |
 | --- | --- |
-| URI | [https://api.istex.fr/document/?\*\*q=corpusName:{valeur}\*\*](https://api.istex.fr/document/?**q=corpusName:{valeur}**) |
+| URI | https://api.istex.fr/document/?q=**corpusName:{valeur}** |
 | Paramètres | - **corpusName** : le champ concerné, - **{valeur}** : la valeur recherchée. |
 | Code de retour | - 200 si OK,  - 500 en cas de problème \(dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)\) |
 
@@ -21,7 +21,7 @@ _Champ concerné_ : **corpusName:{valeur}**
 
 | Syntaxe |  |
 | --- | --- |
-| URI | [https://api.istex.fr/document/?\*\*q=author.name:{nom}\*\*](https://api.istex.fr/document/?**q=author.name:{nom}**) |
+| URI | https://api.istex.fr/document/?q=**author.name:{nom}** |
 | Paramètres | - **author.name** : le champ concerné, - **{nom}** : le nom recherché. |
 | Code de retour | - 200 si OK,  - 500 en cas de problème \(dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)\) |
 
@@ -34,7 +34,7 @@ _Champ concerné_ : **corpusName:{valeur}**
 
 | Syntaxe |  |
 | --- | --- |
-| URI | [https://api.istex.fr/document/?q=\*\*host.editor.name:{nom}\*\*](https://api.istex.fr/document/?q=**host.editor.name:{nom}**) |
+| URI | https://api.istex.fr/document/?q=**host.editor.name:{nom}** |
 | Paramètres | - **host.editor.name** : le champ concerné,  - **{nom}** : le nom recherché. |
 | Code de retour | - 200 si OK,  - 500 en cas de problème \(dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)\) |
 
@@ -47,7 +47,7 @@ _Champ concerné_ : **corpusName:{valeur}**
 
 | Syntaxe |  |
 | --- | --- |
-| URI | [https://api.istex.fr/document/?\*\*q=genre:{valeur}\*\*](https://api.istex.fr/document/?**q=genre:{valeur}**) |
+| URI | https://api.istex.fr/document/?q=**genre:{valeur}** |
 | Paramètres | - **genre** : le champ concerné, - **{valeur}** : la valeur recherchée. |
 | Code de retour | - 200 si OK,  - 500 en cas de problème \(dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)\) |
 
@@ -60,7 +60,7 @@ _Champ concerné_ : **corpusName:{valeur}**
 
 | Syntaxe |  |
 | --- | --- |
-| URI | [https://api.istex.fr/document/?\*\*q=host.genre:{valeur}\*\*](https://api.istex.fr/document/?**q=host.genre:{valeur}**) |
+| URI | https://api.istex.fr/document/?q=**host.genre:{valeur}** |
 | Paramètres | - **host.genre** : le champ concerné, - **{valeur}** : la valeur recherchée. |
 | Code de retour | - 200 si OK,  - 500 en cas de problème \(dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)\) |
 
@@ -75,7 +75,7 @@ _Champ concerné_ : **subject.value:{valeur}**
 
 | Syntaxe |  |
 | --- | --- |
-| URI | [https://api.istex.fr/document/?q=\*\*subject.value:{valeur}\*\*](https://api.istex.fr/document/?q=**subject.value:{valeur}**) |
+| URI | https://api.istex.fr/document/?q=**subject.value:{valeur}** |
 | Paramètres | - **subject.value** : le champ concerné, - **{valeur}** : la valeur recherchée. |
 | Code de retour | - 200 si OK,  - 500 en cas de problème \(dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)\) |
 
@@ -90,7 +90,7 @@ _Champ concerné_ : **host.subject.value:{valeur}**
 
 | Syntaxe |  |
 | --- | --- |
-| URI | [https://api.istex.fr/document/?q=host.subject.value:{valeur}](https://api.istex.fr/document/?q=host.subject.value:{valeur}) |
+| URI | https://api.istex.fr/document/?q=**host.subject.value:{valeur}** |
 | Paramètres | **- host.subject.value** : le champ concerné, - **{valeur}** : la valeur recherchée. |
 | Code de retour | - 200 si OK,  - 500 en cas de problème \(dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)\) |
 
@@ -105,7 +105,7 @@ _Champ concerné_ : **language:{valeur}**
 
 | Syntaxe |  |
 | --- | --- |
-| URI | [https://api.istex.fr/document/?\*\*q=language:{valeur}\*\*](https://api.istex.fr/document/?**q=language:{valeur}**) |
+| URI | https://api.istex.fr/document/?q=**language:{valeur}** |
 | Paramètres | - **language** : le champ concerné, - **{valeur}** : la valeur recherchée. |
 | Code de retour | - 200 si OK,  - 500 en cas de problème \(dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)\) |
 

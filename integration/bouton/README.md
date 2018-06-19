@@ -31,7 +31,7 @@ Voici alors comment procéder au niveau de votre page HTML en reprenant l'exempl
 </div>
 ```
 
-Vous remarquez que l'[OpenURL de l'API ISTEX](https://api.istex.fr/documentation/openurl/) est appelée en AJAX en interrogeant le DOI :
+Vous remarquez que l'[OpenURL de l'API ISTEX](../../api/openurl/) est appelée en AJAX en interrogeant le DOI :
 
 `https://api.istex.fr/document/openurl?rft_id=info:doi/10.1016/S0248-8663(00)00250-2&noredirect=1&sid=lissa`
 
@@ -43,10 +43,12 @@ Si possible, merci également d'indiquer `sid=lissa` à la fin de l'appel à l'O
 
 **Des intégrations similaires sont réalisées dans différents établissements en France :**
 
-* [Archive ouverte HAL](https://doc.istex.fr/users/integration/exemples/#archive-ouverte-hal)
-* [CHU Rouen](https://doc.istex.fr/users/integration/exemples/#chu-rouen-normandie)
-* [Université Aix Marseille](https://doc.istex.fr/users/integration/exemples/#universite-aix-marseille) =&gt; [Code source disponible sur GitHub](https://github.com/SCD-Aix-Marseille-Universite/SMASH/blob/master/resolver.js#L726-L746)
-* [Université de Jean Monnet St Etienne](https://doc.istex.fr/users/integration/exemples/#universite-jean-monnet-st-etienne)
-* [Université de Paris Saclay](https://doc.istex.fr/users/integration/exemples/#universite-paris-saclay) =&gt;[Code source disponible sur GitHub](https://github.com/istex/istex-button-primo)
+* [Archive ouverte HAL](../examples/ccsd.md)
+* [CHU Rouen](../examples/chu-rouen-normandie.md)
+* [Université Aix Marseille](../examples/amu.md) =&gt; [Code source disponible sur GitHub](https://github.com/SCD-Aix-Marseille-Universite/SMASH/blob/master/resolver.js#L726-L746)
+* [Université de Jean Monnet St Etienne](../examples/ujm.md)
+* [Université de Paris Saclay](../examples/univ-paris-saclay.md) =&gt;[Code source disponible sur GitHub](https://github.com/istex/istex-button-primo)
 * Vous très bientôt ? [dites-le à l'équipe ISTEX](mailto:contact@listes.istex.fr), savoir que la plateforme ISTEX est utilisée par la communauté et comment est très important.
+
+
 

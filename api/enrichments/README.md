@@ -40,7 +40,7 @@ Toutes les URL suivantes sont accédées via la méthode **HTTP GET**.
     }
     ```
 
-    Pour plus de **détails sur les champs** envoyés en réponse, consultez le chapitre [correspondant](https://api.istex.fr/documentation/fields/#champs-dacces-aux-fichiers-lies-au-document).  
+    Pour plus de **détails sur les champs** envoyés en réponse, consultez le chapitre [correspondant](../fields/files.md).  
   
     Il est possible de récupérer **plusieurs types** d'enrichissement en **une seule fois** en séparant les types voulus par des **`,`\(virgules\)**.  
     Dans ce cas, l'API renverra une archive au format **ZIP**.  

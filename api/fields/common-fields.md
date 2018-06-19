@@ -1,6 +1,6 @@
 # Champs dépendant de la granularité
 
-La liste suivante concerne les champs disponibles à la fois **au niveau de l'article** et **au niveau de la revue ou livre** \(voir le \[chapitre sur la granularité\]\[granularité\]\). Pour changer entre ces deux niveaux de granularité, il suffit d'ajouter le champ `host` pour accéder aux **données niveau revue**, et de ne rien ajouter pour les **données niveau article** :
+La liste suivante concerne les champs disponibles à la fois **au niveau de l'article** et **au niveau de la revue ou livre** \(voir le \[chapitre sur la [granularité](doc-object-granularity.md)\). Pour changer entre ces deux niveaux de granularité, il suffit d'ajouter le champ `host` pour accéder aux **données niveau revue**, et de ne rien ajouter pour les **données niveau article** :
 
 | Champs | Type | Détails |
 | --- | --- | --- |

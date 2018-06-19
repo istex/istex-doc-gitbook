@@ -5,7 +5,7 @@ Apprendre les options disponibles dans l'API : [http://www.inist.fr/formations/T
 **La syntaxe est la suivante :**
 
 * URI
-  * [https://api.istex.fr/document/?q={query}&output={liste](https://api.istex.fr/document/?q={query}&output={liste) des champs}
+  * https://api.istex.fr/document/?q={query}**&output={liste des champs}**
 * Explications
   * Cette option permet de sélectionner les champs renvoyés lors de l'affichage des résultats
   * Si l'option est manquante, les résultats afficheront leur champ title
@@ -27,6 +27,8 @@ Apprendre les options disponibles dans l'API : [http://www.inist.fr/formations/T
 
 | Exemples |  |
 | --- | --- |
-| Récupération des champs **title et fulltext** sur l'ensemble des résultats | [https://api.istex.fr/document/?q=\*&output=title,fulltext](https://api.istex.fr/document/?q=*&output=title,fulltext) |
-| Récupération de **tous les champs disponibles** sur l'ensemble des résultats | [https://api.istex.fr/document/?q=_&output=\_](https://api.istex.fr/document/?q=*&output=*) |
+| Récupération des champs **title et fulltext** sur l'ensemble des résultats | [https://api.istex.fr/document/?q=\***&output=title,fulltext**](https://api.istex.fr/document/?q=*&output=title,fulltext) |
+| Récupération de **tous les champs disponibles** sur l'ensemble des résultats | [https://api.istex.fr/document/?q=\***&output=\***](https://api.istex.fr/document/?q=*&output=*) |
+
+
 

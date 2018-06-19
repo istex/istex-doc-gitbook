@@ -37,8 +37,8 @@ Les paramètres de pagination se basent sur les deux options `from` et `size` qu
 
 | Exemples |  |
 | --- | --- |
-| Récupération des **7 premiers résultats** pour le terme "controllability" | [https://api.istex.fr/document/?q=controllability&size=7](https://api.istex.fr/document/?q=controllability&size=7) [https://api.istex.fr/document/?q=controllability&from=0&size=7](https://api.istex.fr/document/?q=controllability&from=0&size=7) |
-| Récupération des **résultats 3 à 7** pour le terme "controllability" | [https://api.istex.fr/document/?q=controllability&from=3&size=4](https://api.istex.fr/document/?q=controllability&from=3&size=4) |
+| Récupération des **7 premiers résultats** pour le terme "controllability" | [https://api.istex.fr/document/?q=controllability**&size=7**](https://api.istex.fr/document/?q=controllability&size=7) [https://api.istex.fr/document/?q=controllability**&from=0&size=7**](https://api.istex.fr/document/?q=controllability&from=0&size=7) |
+| Récupération des **résultats 3 à 7** pour le terme "controllability" | [https://api.istex.fr/document/?q=controllability**&from=3&size=4**](https://api.istex.fr/document/?q=controllability&from=3&size=4) |
 
 Une fois cette requête effectuée, il est possible de **naviguer dans les résultats** grâce aux champs suivants, présents dans la réponse de l'API :
 
@@ -48,8 +48,6 @@ Une fois cette requête effectuée, il est possible de **naviguer dans les résu
 * **nextPageURI** : fournit l'URI permettant d'atteindre la page suivante. N'est pas présent si la page actuelle est la dernière page.
 
 {% hint style="danger" %}
-
-
 * Il est **impossible de parcourir les résultats au-delà de la 10 000ème réponse**. En d'autres termes, la somme des paramètres `from` et `size` ne doit jamais dépasser 10 000. Si vous avez besoin de dépasser ce seuil, vous devez utiliser la pagination de type _scroll_ présentée ci-dessous.
 * Le paramètre `lastPageURI` est par conséquent déprécié et ne doit plus être utilisé
 {% endhint %}

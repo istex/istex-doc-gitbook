@@ -13,7 +13,7 @@ Dans une URL d'accès de type ARK, l'utilisation des qualificatifs permet de sé
 | URI | https://api.istex.fr/67375/**{nom-ark}** |
 | Paramètres |  **{nom-ark}** : le **nom ark** ISTEX du document auquel correspond la notice \(ex : GT4-FJLCPBW9-Q\) |
 | Code de retour | **200 si OK**,  **400 si le nom ark est invalid**e \(nombre de caractère incorrect ou caractère de contrôle incorrect, par exemple\)  et  **404 si le nom ark n'est pas trouvé** dans la plateforme ISTEX |
-| Exemple | [https://api.istex.fr/ark:/67375/GT4-FJLCPBW9-Q](https://api.istex.fr/ark:/67375/GT4-FJLCPBW9-Q) |
+| Exemple | [https://api.istex.fr/ark:/67375/**GT4-FJLCPBW9-Q**](https://api.istex.fr/ark:/67375/GT4-FJLCPBW9-Q) |
 
 Format de la réponse :
 
