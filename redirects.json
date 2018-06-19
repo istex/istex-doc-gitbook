@@ -7,6 +7,10 @@
             {
                 "from": "annexes/index.html",
                 "to": "tdm/annexes/index.html"
+            },
+            {
+                "from": "users/corpus/extraction/#application-istex-dl-istex-download",
+                "to": "tdm/extraction/istex-dl.html"
             }
         ]
 }
