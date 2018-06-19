@@ -9,7 +9,7 @@
                 "to": "tdm/annexes/index.html"
             },
             {
-                "from": "users/tdm/extraction/#application-istex-dl-istex-download",
+                "from": "users/tdm/extraction/",
                 "to": "tdm/extraction/istex-dl.html"
             }
         ]
