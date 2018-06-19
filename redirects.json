@@ -1,7 +1,7 @@
 {
     "redirects": [
             {
-                "from": "users/#bienvenue-sur-la-documentation-utilisateur-de-la-plateforme-istex",
+                "from": "users/",
                 "to": "index.html"
             }
         ]
