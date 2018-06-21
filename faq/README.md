@@ -14,5 +14,3 @@
 
 [Liste des corpus chargés sur l'API en temps réel ?](corpusapi.md)
 
-![](../.gitbook/assets/bg_istex_light_desktop.jpg)
-
