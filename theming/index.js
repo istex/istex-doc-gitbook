@@ -30,6 +30,15 @@ window.onload = function(){
 };
 
 function callback(){
+	var regex = new RegExp('^([^?#]*\/)([^?#.\/]+)$');
+
+	var tableauA = document.getElementsByClassName('page-wrapper')[0].getElementsByTagName('a');
+
+	for(var i=0; i<tableauA.length; i++){
+	    if (tableauA[i].href.match(regex)){
+		    tableauA[i].href += '/';
+	    }
+	}
 	
 	var book = document.getElementsByClassName('body-inner');
 	document.getElementById("istex_web_header").style.height = hauteur + "px";
