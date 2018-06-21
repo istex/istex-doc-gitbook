@@ -1,10 +1,6 @@
 var header, hauteur;
 window.onload = function(){
 	
-	// change the search placeholder
-	
-	document.getElementById('book-search-input').children[0].placeholder = "Taper pour rechercher";
-	
 	// Call allow to have the transition for
 	// the first consult
 
@@ -25,6 +21,12 @@ window.onload = function(){
 };
 
 function callback(){
+	
+	// change the search placeholder
+	
+	document.getElementById('book-search-input').children[0].placeholder = "Taper pour rechercher";
+	
+	// Change url
 	var regex = new RegExp('^([^?#]*\/)([^?#.\/]+)$');
 
 	var tableauA = document.getElementsByClassName('page-wrapper')[0].getElementsByTagName('a');
