@@ -1,15 +1,5 @@
 var header, hauteur;
 window.onload = function(){
-	
-	var regex = new RegExp('^([^?#]*\/)([^?#.\/]+)$');
-
-	var tableauA = document.getElementsByClassName('page-wrapper')[0].getElementsByTagName('a');
-
-	for(var i=0; i<tableauA.length; i++){
-	    if (tableauA[i].href.match(regex)){
-		    tableauA[i].href += '/';
-	    }
-	}
 	// Call allow to have the transition for 
 	// the first consult	
 
