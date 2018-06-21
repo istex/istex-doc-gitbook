@@ -104,7 +104,7 @@
     * [Université Paris Sciences Lettres](integration/examples/psl.md)
     * [Université Rennes 2](integration/examples/univ-rennes2.md)
 * [FAQ](faq/README.md)
-  * [A quoi sert ISTEX ?](faq/a-quoi-sert-istex.md)
+  * [A quoi sert ISTEX ?](faq/aquoisertistex.md)
   * [Mais pourquoi mettre un ARK ?](faq/ark.md)
   * [Usage documentaire Vs. Usage recherche ?](faq/doc-vs-tdm.md)
   * [Qu'est-ce que le format Mods ?](faq/mods.md)
