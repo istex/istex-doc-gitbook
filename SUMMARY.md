@@ -106,7 +106,7 @@
 * [FAQ](faq/README.md)
   * [A quoi sert ISTEX ?](faq/a-quoi-sert-istex.md)
   * [Mais pourquoi mettre un ARK ?](faq/ark.md)
-  * [Usage documentaire Vs. Usage recherche ?](faq/usage-documentaire-vs-usage-recherche.md)
+  * [Usage documentaire Vs. Usage recherche ?](faq/doc-vs-tdm.md)
   * [Qu'est-ce que le format Mods ?](faq/mods.md)
   * [Qu'entend-t-on par identification avec basic-auth ?](faq/basic-auth.md)
   * [Je n'arrive pas à me connecter à l'API, l'accès m'est refusé !](faq/acces-denied.md)
