@@ -34,7 +34,7 @@
     * [Authentification par l'adresse IP](api/access/ip.md)
     * [Authentification par fédération d'identités](api/access/fede.md)
     * [Accès nomade \(LDAP\)](api/access/ldap.md)
-    * [URL de vérification de connexion](api/access/check.md)
+    * [Vérification de votre accès à l'API](api/access/check.md)
   * [Recherche de documents](api/search/README.md)
     * [Syntaxe des requêtes](api/search/syntaxe.md)
     * [Opérateur par défaut](api/search/default-operator.md)
