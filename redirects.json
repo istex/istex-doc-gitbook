@@ -13,10 +13,6 @@
                 "to": "tdm/annexes/index.html"
             },
             {
-                "from": "users/corpus/extraction/index.html",
-                "to": "tdm/extraction/index.html"
-            },
-            {
                 "from": "users/corpus/introduction/index.html",
                 "to": "tdm/index.html"
             },
@@ -39,10 +35,6 @@
             {
                 "from": "users/faq/corpusapi/index.html",
                 "to": "faq/corpusapi.html"
-            },
-            {
-                "from": "users/img/",
-                "to": ".gitbook/assets/"
             },
             {
                 "from": "users/integration/index.html",
