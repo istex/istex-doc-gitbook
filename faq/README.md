@@ -12,5 +12,5 @@
 
 [À quoi servent les "indicateurs de qualité" ?](quality-indicators.md)
 
-[Liste des corpus chargés sur l'API en temps réel ?](loaded-corpus.md)
+[Comment connaître la liste des corpus chargés dans la plateforme ISTEX ?](loaded-corpus.md)
 
