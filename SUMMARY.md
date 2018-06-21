@@ -111,5 +111,5 @@
   * [Qu'entend-t-on par identification avec basic-auth ?](faq/basic-auth.md)
   * [Je n'arrive pas à me connecter à l'API, l'accès m'est refusé !](faq/acces-denied.md)
   * [À quoi servent les "indicateurs de qualité" ?](faq/quality-indicators.md)
-  * [Liste des corpus chargés sur l'API en temps réel ?](faq/corpusapi.md)
+  * [Comment connaître la liste des corpus chargés dans la plateforme ISTEX ?](faq/loaded-corpus.md)
 
