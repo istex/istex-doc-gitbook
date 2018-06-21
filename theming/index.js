@@ -1,5 +1,10 @@
 var header, hauteur;
 window.onload = function(){
+	
+	// change the search placeholder
+	
+	document.getElementById('book-search-input').children[0].placeholder = "Taper pour rechercher";
+	
 	// Call allow to have the transition for
 	// the first consult
 
