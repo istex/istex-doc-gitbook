@@ -1,6 +1,11 @@
 header {
     transition: height 1s;
 }
+
 body {
 	overflow: hidden;
+}
+
+.book-body{
+	background: url('../../.gitbook/assets/BG_ISTEX_LIGHT_DESKTOP.jpg');
 }
