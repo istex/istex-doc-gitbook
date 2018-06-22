@@ -33,12 +33,12 @@ h3 {
 	font-size: 25px !important;	
 }
 
-a {
+.page-wrapper a {
 	color: #458CA5 !important;
         text-decoration: none !important;
 }
 
-a:hover {
+.page-wrapper a:hover {
 	color: #458CA5 !important;
         text-decoration: underline !important;
 }
