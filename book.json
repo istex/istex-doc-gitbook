@@ -4,6 +4,12 @@
 		"layout": {
 			"headerPath": "layouts/header.html"
 		},
+		"hints": {
+		    "info": "fa fa-info-circle",
+		    "tip": "fa fa-mortar-board",
+		    "danger": "fa fa-exclamation-cicle",
+		    "working": "fa fa-wrench"
+		},
 		"piwik": {
         	"URL": "piwik2.inist.fr/",
         	"siteId": 49
