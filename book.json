@@ -1,14 +1,14 @@
 {
-	"plugins": ["collapsible-menu","ancre-navigation", "header-istex", "bulk-redirect", "url-embed", "add-js-css", "hints", "piwik"],
+	"plugins": ["collapsible-menu","ancre-navigation", "header-istex", "bulk-redirect", "url-embed", "add-js-css", "hints-istex", "piwik"],
 	"pluginsConfig": {
 		"layout": {
 			"headerPath": "layouts/header.html"
 		},
 		"hints": {
 		    "info": "fa fa-info-circle",
-		    "tip": "fa fa-mortar-board",
-		    "danger": "fa fa-exclamation-cicle",
-		    "working": "fa fa-wrench"
+		    "success": "fa fa-check-circle",
+		    "danger": "fa fa-exclamation-triangle",
+		    "warning": "fa fa-exclamation-circle"
 		},
 		"piwik": {
         	"URL": "piwik2.inist.fr/",
