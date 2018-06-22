@@ -6,9 +6,9 @@
 		},
 		"hints": {
 		    "info": "fa fa-info-circle",
-		    "warning": "fa fa-mortar-board",
+		    "tip": "fa fa-mortar-board",
 		    "danger": "fa fa-exclamation-cicle",
-		    "success": "fa fa-wrench"
+		    "working": "fa fa-wrench"
 		},
 		"piwik": {
         	"URL": "piwik2.inist.fr/",
