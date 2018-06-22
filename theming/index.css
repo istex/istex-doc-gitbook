@@ -57,6 +57,12 @@ h3 {
         text-decoration: underline !important;
 }
 
+.page-wrapper li {
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 18px !important;
+	color: #303030 !important;
+}
+
 @media only screen and (max-width: 600px){
 	p {
 	font-family: 'Open Sans', sans-serif !important;
@@ -79,5 +85,11 @@ h3 {
 
 	h3 {
 		font-size: 20px !important;	
+	}
+	
+	.page-wrapper li {
+		font-family: 'Open Sans', sans-serif !important;
+		font-size: 14px !important;
+		color: #303030 !important;
 	}
 }
