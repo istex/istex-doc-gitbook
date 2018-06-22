@@ -12,6 +12,16 @@ body {
 
 .book-summary ul.summary li.active > a {
 	color: #458CA5 !important;
+	font-weight: bold;
+}
+
+.chapter.active {
+    border-left: 5px solid rgba(69, 140, 165, 0.5);
+    background: url("../../.gitbook/assets/bg_istex_light_desktop.jpg");
+}
+
+.book-summary {
+    border-right: 5px solid rgba(69, 140, 165, 0.2);
 }
 
 p {
