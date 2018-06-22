@@ -10,6 +10,10 @@ body {
 	background: url('../../.gitbook/assets/bg_istex_light_desktop.jpg');
 }
 
+.book-summary ul.summary li.active > a {
+	color: #458CA5 !important;
+}
+
 p {
 	font-family: 'Open Sans', sans-serif !important;
 	font-size: 18px !important;
