@@ -24,6 +24,14 @@ body {
     border-right: 5px solid rgba(69, 140, 165, 0.2);
 }
 
+#anchor-navigation-ex-navbar li {
+	color: #333;
+}
+
+#anchorNavigationExGoTop {
+	color: #333;	
+}
+
 p {
 	font-family: 'Open Sans', sans-serif !important;
 	font-size: 18px !important;
