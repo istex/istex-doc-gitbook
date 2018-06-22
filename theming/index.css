@@ -11,59 +11,59 @@ body {
 }
 
 p {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
-	color: #303030;
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 18px !important;
+	color: #303030 !important;
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Montserrat regular', sans-serif;
+	font-family: 'Montserrat regular', sans-serif !important;
 }
 
 h1 {
 	text-transform: uppercase;
-	font-size: 35px;
+	font-size: 35px !important;
 }
 
 h2 {	
-	font-size: 30px;	
+	font-size: 30px !important;	
 }
 
 h3 {
-	font-size: 25px;	
+	font-size: 25px !important;	
 }
 
 a {
-	color: #458CA5;
-        text-decoration: none;
+	color: #458CA5 !important;
+        text-decoration: none !important;
 }
 
 a:hover {
-	color: #458CA5;
-        text-decoration: underline;
+	color: #458CA5 !important;
+        text-decoration: underline !important;
 }
 
 @media only screen and (max-width: 600px){
 	p {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	color: #303030;
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 14px !important;
+	color: #303030 !important;
 	}
 	
 	h1,h2,h3,h4,h5,h6 {
-		font-family: 'Montserrat regular', sans-serif;
+		font-family: 'Montserrat regular', sans-serif !important;
 	}
 
 	h1 {
-		text-transform: uppercase;
-		font-size: 24px;
+		text-transform: uppercase !important;
+		font-size: 24px !important;
 	}
 
 	h2 {	
-		font-size: 22px;	
+		font-size: 22px !important;	
 	}
 
 	h3 {
-		font-size: 20px;	
+		font-size: 20px !important;	
 	}
 }
