@@ -102,7 +102,7 @@
             },
             {
                 "from": "users/usage/googlescholar/index.html",
-                "to": "doc/bgoogle-scholar.html"
+                "to": "doc/google-scholar.html"
             }
         ]
 }
