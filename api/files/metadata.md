@@ -16,7 +16,7 @@ Les URL d'accès aux **métadonnées** sont de la forme :
   * La liste des formats disponibles pour un objet documentaire est accessible si on ne précise pas d'extension.
   * On obtiendra alors un JSON avec la liste des fichiers disponibles, par exemple :
 
-```text
+```javascript
 {
     id: "55420CDEEA0F6538E215A511C72E2E5E57570138",
     metadata: [

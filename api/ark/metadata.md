@@ -44,7 +44,6 @@ Dans ce format, il se retrouve à la racine de la structure représentant le doc
 
 ```javascript
 {
-
     "corpusName": "nature",
     "arkIstex": "ark:/67375/GT4-FJLCPBW9-Q",
     "language": [

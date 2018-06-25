@@ -7,7 +7,7 @@
   * **x\[y-z\]** : renvoie le nombre de résultats ayant un chiffre pour le champ x compris **entre y et z**,
   * **x\[y-z:i\]** : renvoie le nombre de résultats **par intervalle i** ayant un chiffre pour le champ x compris **entre y et z**.  Les valeurs **y et z** peuvent prendre comme valeur **\* \(étoile\)** pour désigner **les valeurs minimale et maximale**.
 * Format de réponse pour une facette **x\[y-z\]**
-  *   ```text
+  *   ```javascript
     {
       "aggregations": {
         "qualityIndicators.score": {

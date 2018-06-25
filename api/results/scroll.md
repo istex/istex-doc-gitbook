@@ -20,7 +20,7 @@ Le principe d'utilisation est le suivant :
 
 * Formatage des résultats renvoyés :
 
-```text
+```javascript
 {
 
     "total": nombre de résultats,

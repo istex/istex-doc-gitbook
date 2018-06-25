@@ -16,7 +16,7 @@ certains champs ne peuvent être interrogés, leur résultat étant jugé non pe
 {% endhint %}
 
 * Format de réponse pour une facette x\[y-z\]
-  *   ```text
+  *   ```javascript
     {
       "aggregations": {
         "publicationDate": {
@@ -43,7 +43,7 @@ certains champs ne peuvent être interrogés, leur résultat étant jugé non pe
   * **toAsString** : correspond à z \(string\),
   * **docCount** : nombre de résultats trouvé dans cet intervalle.
 * Format de réponse pour une facette **x\[y-z:i\]**
-  *   ```text
+  *   ```javascript
     {
       "aggregations": {
         "copyrightDate": {

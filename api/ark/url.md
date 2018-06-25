@@ -19,7 +19,6 @@ Format de la réponse :
 
 ```javascript
 {
-
     "_comment": "Objet documentaire identifié par l'indentifiant ARK ark:/67375/GT4-FJLCPBW9-Q. Liste des typologies et formats disponibles correspondant",
     "idIstex": "087661D669BF44CA05AA6CE08ADD6399F6A439C4",
     "arkIstex": "67375/GT4-FJLCPBW9-Q",
@@ -67,7 +66,6 @@ Format de la réponse :
             }
         ]
     }
-
 }
 ```
 
@@ -84,7 +82,6 @@ Format de la réponse :
 
 ```javascript
 {
-
     "_comment": "Objet documentaire identifié par l'indentifiant ARK ark:/67375/GT4-FJLCPBW9-Q. Liste des formats disponibles correspondant à la typologie 'record' pour ce document ",
     "idIstex": "087661D669BF44CA05AA6CE08ADD6399F6A439C4",
     "arkIstex": "ark:/67375/GT4-FJLCPBW9-Q",
@@ -106,7 +103,6 @@ Format de la réponse :
             "uri": "https://api-dev.istex.fr/ark:/67375/GT4-FJLCPBW9-Q/record.xml"
         }
     ]
-
 }
 ```
 

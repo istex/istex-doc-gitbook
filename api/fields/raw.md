@@ -4,7 +4,7 @@ Les champs de type **string** possèdent tous un sous-champ **raw**. Ce dernier 
 
 Par exemple, le champ `corpusName` possède un champ `corpusName.raw`. La requête [https://api.istex.fr/document/?q=corpusName:brill-journals&facet=corpusName](https://api.istex.fr/document/?q=corpusName:brill-journals&facet=corpusName) va renvoyer les résultats contenant soit le terme "brill", soit "journals". On voit donc dans le résultat de la facette :
 
-```text
+```javascript
   aggregations: {
     corpusName: {
       docCountErrorUpperBound: 0,
@@ -34,7 +34,7 @@ Par exemple, le champ `corpusName` possède un champ `corpusName.raw`. La requê
 
 La requête [https://api.istex.fr/document/?q=corpusName.raw:brill-journals&facet=corpusName](https://api.istex.fr/document/?q=corpusName.raw:brill-journals&facet=corpusName) quant à elle renverra les résultats contenant exactement le terme "brill-journals" :
 
-```text
+```javascript
   aggregations: {
     corpusName: {
       docCountErrorUpperBound: 0,

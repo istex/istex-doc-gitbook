@@ -17,7 +17,7 @@ Toutes les URL suivantes sont accédées via la méthode **HTTP GET**.
     On obtiendra alors un **JSON** avec cette liste, par exemple :  
 
 
-    ```text
+    ```javascript
     {
       id: "087661D669BF44CA05AA6CE08ADD6399F6A439C4",
       enrichments: {
@@ -33,7 +33,7 @@ Toutes les URL suivantes sont accédées via la méthode **HTTP GET**.
 
   * Si le document interrogé ne possède **aucun enrichissement**, l'API renverra un message **JSON**, comme :
 
-    ```text
+    ```javascript
     {
       id: "0134F1716893F9118DCE7278BE3333CC40D50461",
       _error: "Il n'existe actuellement aucun résultat pour ce type de data"

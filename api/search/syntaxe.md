@@ -16,7 +16,7 @@ La recherche s'effectue sous la forme :
 
 * _Formatage des résultats renvoyés_ :
 
-```text
+```javascript
 {
     total : nombre de résultats,
     hits : [
