@@ -22,6 +22,7 @@ body {
 
 .book-summary {
     border-right: 5px solid rgba(69, 140, 165, 0.2);
+    font-family: Open Sans;
 }
 
 p {
