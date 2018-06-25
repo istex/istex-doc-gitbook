@@ -25,13 +25,13 @@ body {
 }
 
 p {
-	font-family: 'Open Sans', sans-serif !important;
+	font-family: Open Sans;
 	font-size: 18px !important;
 	color: #303030 !important;
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Montserrat regular', sans-serif !important;
+	font-family: Montserrat regular;
 }
 
 h1 {
@@ -58,7 +58,7 @@ h3 {
 }
 
 .page-wrapper li {
-	font-family: 'Open Sans', sans-serif !important;
+	font-family: Open Sans;
 	font-size: 18px !important;
 	color: #303030 !important;
 }
@@ -73,13 +73,13 @@ h3 {
 
 @media only screen and (max-width: 600px){
 	p {
-	font-family: 'Open Sans', sans-serif !important;
+	font-family: Open Sans;
 	font-size: 14px !important;
 	color: #303030 !important;
 	}
 	
 	h1,h2,h3,h4,h5,h6 {
-		font-family: 'Montserrat regular', sans-serif !important;
+		font-family: Montserrat regular;
 	}
 
 	h1 {
@@ -96,7 +96,7 @@ h3 {
 	}
 	
 	.page-wrapper li {
-		font-family: 'Open Sans', sans-serif !important;
+		font-family: Open Sans;
 		font-size: 14px !important;
 		color: #303030 !important;
 	}
