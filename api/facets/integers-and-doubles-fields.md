@@ -36,7 +36,7 @@
   * **docCount** : nombre de résultats trouvé.
 
 * Format de réponse pour une facette **x\[y-z:i\]**
-  *   ```text
+  *   ```javascript
     {
       "aggregations": {
         "qualityIndicators.score": {
