@@ -58,55 +58,17 @@ DOC ou doc est une extension de nom de fichier, utilisée pour la documentation 
 
 Ce n’est pas une norme industrielle, ce qui pose des problèmes d’interopérabilité.
 
-#### o   **JPEG :** Joint Photographic Experts Group \(groupe mixte d'experts en photographie\)
+#### o   **RTF :** Rich Text Format \(format de texte enrichi\)
 
-Norme qui définit le format d'encodage et l'algorithme de décodage pour une représentation numérique compressée d'une image fixe.
+Format descriptif, non compressé, de fichier de traitement de texte, créé par Microsoft. Il est reconnu par la plupart des logiciels de traitement de texte comme OpenOffice.org Writer, LibreOffice Writer ou Word et peut être lu sur tous les systèmes d’exploitation \(Windows, Mac, Linux, Unix, etc.\). Il a été créé pour être un format pivot entre logiciels et plates-formes hétérogènes.
 
-Le Joint Photographic Experts Group travaille en partenariat avec l'Union Internationale des Télécommunications \(d'où le « joint » pour mixte\).
-
-Les images JPEG ont l'extension ".jpg", ".jpeg", ".jpe" ou ".jfif".
-
-Le format JPEG permet de compresser des images bitmap très détaillées, en utilisant un algorithme de compression destructif \(taux de compression élevé, mais dégradation de la qualité d'image\).
-
-#### o   **QT :** Quick Time
-
-Format multimédia développé par Apple ; il est multiplateforme \(pris en charge sur les systèmes Macintosh et Windows\) ; il peut contenir une piste audio et vidéo compressée.
-
-L’extension .mov est souvent utilisée pour les fichiers vidéo QuickTime.
-
-#### o   **MPEG :** Moving Pictures Experts Group \(groupe d’experts internationaux de l’industrie de l’image\)
-
-Le MPEG est un groupe d’experts ayant développé des standards internationaux pour la compression, le traitement et le codage d’images animées et de données audio.
-
-Ces standards internationaux sont le MPEG-1, le MPEG-2,  le MPEG-4, le MPEG-7, le MPEG-21.
-
-Le format MPEG est un format de compression des données vidéo.
-
-Dans les séquences vidéo, une majorité de scènes sont fixes ou changent très peu : on parle de "redondance temporelle". Puisque seuls quelques pixels changent d'une image à l'autre, on peut réduire les redondances temporelles en se contentant de décrire ce changement.
-
-Pour ce faire, les formats MPEG-1 et MPEG-2 utilisent la prédiction compensée de mouvement.
-
-·         MPEG-1 : compression des données vidéo et des canaux audio associés.
-
-·         MPEG-2 : dédié à l’origine à la télévision numérique, il offre une qualité élevée à un débit pouvant aller jusqu'à 40 Mbps ainsi que 5 canaux audio surround.
-
-·         MPEG-4 ou ISO/CEI 14496 : codage de données multimédia sous forme d'objets numériques, afin de permettre une plus grande interactivité ; ses multiples paramètres d'encodage lui permettent de s'adapter à presque tous les supports de diffusion comme le téléchargement et le streaming sur Internet, le multimédia sur téléphone mobile, la radio numérique, les jeux vidéo, la télévision et les supports haute définition. Ses multiples paramètres d'encodage lui permettent de s'adapter à presque tous les supports de diffusion et d'obtenir différentes qualités d'image, allant du petit écran de téléphone au cinéma haute définition.
-
-·         MPEG-7 : fournit une représentation standard des données audio et vidéo pour décrire et chercher du contenu multimédia.
-
-·         MPEG-21 : offre un cadre de travail pour l’interopérabilité et l’utilisation de tous les contenus multimédia.
-
-#### o   **MP4 :** Moving Pictures Experts Group \(groupe d’experts internationaux de l’industrie de l’image\)
-
-Le MPEG est un groupe d’experts ayant développé des standards internationaux pour la compression, le traitement et le codage d’images animées et de données audio.
-
-MPEG-4 ou ISO/CEI 14496 : codage de données multimédia sous forme d'objets numériques, afin de permettre une plus grande interactivité ; ses multiples paramètres d'encodage lui permettent de s'adapter à presque tous les supports de diffusion comme le téléchargement et le streaming sur Internet, le multimédia sur téléphone mobile, la radio numérique, les jeux vidéo, la télévision et les supports haute définition. Ses multiples paramètres d'encodage lui permettent de s'adapter à presque tous les supports de diffusion et d'obtenir différentes qualités d'image, allant du petit écran de téléphone au cinéma haute définition.
+Son codage textuel des données, non compressé, le rend théoriquement lisible par l’œil humain.
 
 #### o   **PPT :** PowerPoinT
 
 PowerPoint est un logiciel de présentation de diaporama édité par Microsoft et faisant partie de la suite Microsoft Office. Il fonctionne sous Windows et Mac OS. Un fichier PPT est un diaporama.
 
-#### **XLS :** eXceL Spreadsheet \(feuille de calcul Excel\)
+#### o   **XLS :** eXceL Spreadsheet \(feuille de calcul Excel\)
 
 Le logiciel Excel est un logiciel tableur \(permet de créer des tableaux\) et grapheur \(permet de générer des graphiques à partir de ces tableaux\). Il intègre des fonctions de calcul numérique, de représentation graphique, d'analyse de données  et de programmation.
 
@@ -118,23 +80,49 @@ Excel utilise des fichiers portant l'extension xls ou xlsx. Chaque fichier corre
 
 Le nouveau format xlsx permet de bénéficier des nouveaux outils \(comme les tables ou mises en forme conditionnelles avancées\).
 
-#### o   **AVI :** Audio Video Interleave \(imbrication audio vidéo\)
-
-L'AVI est un format d'empaquetage conçu pour stocker des données audio et vidéo.
-
-C’est un conteneur transportant des fichiers vidéo et audio, eux-mêmes écrits dans d'autres formats. Un fichier .avi peut ainsi abriter des fichiers vidéo MPeg ou DivX, ou encore des musiques codées en MP3.
-
-#### o   **RTF :** Rich Text Format \(format de texte enrichi\)
-
-Format descriptif, non compressé, de fichier de traitement de texte, créé par Microsoft. Il est reconnu par la plupart des logiciels de traitement de texte comme OpenOffice.org Writer, LibreOffice Writer ou Word et peut être lu sur tous les systèmes d’exploitation \(Windows, Mac, Linux, Unix, etc.\). Il a été créé pour être un format pivot entre logiciels et plates-formes hétérogènes.
-
-Son codage textuel des données, non compressé, le rend théoriquement lisible par l’œil humain.
-
 #### o   **GIF :** Graphics Interchange Format \(format d'échange d'images\)
 
 Format d’image numérique, à mi-chemin entre une image fixe et une courte vidéo, couramment utilisé sur le web.
 
 Il a été créé par CompuServe pour réaliser des images de poids assez faible \(légèreté obtenue par une limitation du nombre des couleurs à 256\). Il utilise l’algorithme non destructeur LZW \(Lampel Ziv Welch : noms de ses auteurs\) pour la compression d'images, breveté par l’entreprise Unisys à laquelle une redevance devait être versée par les éditeurs de logiciels manipulant des images GIF. C’est une des raisons pour lesquelles le format PNG \(aussi limité à 256 couleurs\), libre de droits, a été préféré. Le fait que le GIF soit tombé dans le domaine public ne devrait pas changer cette préférence, car le PNG qui permet un codage des couleurs sur 32 bits \(contre 8 pour le GIF\) et plusieurs niveaux de transparence, est désormais techniquement supérieur au GIF.
+
+#### o   **JPEG :** Joint Photographic Experts Group \(groupe mixte d'experts en photographie\)
+
+Norme qui définit le format d'encodage et l'algorithme de décodage pour une représentation numérique compressée d'une image fixe.
+
+Le Joint Photographic Experts Group travaille en partenariat avec l'Union Internationale des Télécommunications \(d'où le « joint » pour mixte\).
+
+Les images JPEG ont l'extension ".jpg", ".jpeg", ".jpe" ou ".jfif".
+
+Le format JPEG permet de compresser des images bitmap très détaillées, en utilisant un algorithme de compression destructif \(taux de compression élevé, mais dégradation de la qualité d'image\).
+
+#### o   **MPEG :** Moving Pictures Experts Group \(groupe d’experts internationaux de l’industrie de l’image\)
+
+Le MPEG est un groupe d’experts ayant développé des standards internationaux pour la compression, le traitement et le codage d’images animées et de données audio. Ces standards internationaux sont le MPEG-1, le MPEG-2,  le MPEG-4, le MPEG-7, le MPEG-21.
+
+Le format MPEG est un format de compression des données vidéo.
+
+Dans les séquences vidéo, une majorité de scènes sont fixes ou changent très peu : on parle de "redondance temporelle". Puisque seuls quelques pixels changent d'une image à l'autre, on peut réduire les redondances temporelles en se contentant de décrire ce changement.
+
+Pour ce faire, les formats MPEG-1 et MPEG-2 utilisent la prédiction compensée de mouvement.
+
+* MPEG-1 : compression des données vidéo et des canaux audio associés.
+* MPEG-2 : dédié à l’origine à la télévision numérique, il offre une qualité élevée à un débit pouvant aller jusqu'à 40 Mbps ainsi que 5 canaux audio surround.
+* MPEG-4 ou ISO/CEI 14496 : codage de données multimédia sous forme d'objets numériques, afin de permettre une plus grande interactivité ; ses multiples paramètres d'encodage lui permettent de s'adapter à presque tous les supports de diffusion comme le téléchargement et le streaming sur Internet, le multimédia sur téléphone mobile, la radio numérique, les jeux vidéo, la télévision et les supports haute définition. Ses multiples paramètres d'encodage lui permettent de s'adapter à presque tous les supports de diffusion et d'obtenir différentes qualités d'image, allant du petit écran de téléphone au cinéma haute définition.
+* MPEG-7 : fournit une représentation standard des données audio et vidéo pour décrire et chercher du contenu multimédia.
+* MPEG-21 : offre un cadre de travail pour l’interopérabilité et l’utilisation de tous les contenus multimédia.
+
+#### o   **MP4 :** Moving Pictures Experts Group \(groupe d’experts internationaux de l’industrie de l’image\)
+
+Le MPEG est un groupe d’experts ayant développé des standards internationaux pour la compression, le traitement et le codage d’images animées et de données audio.
+
+MPEG-4 ou ISO/CEI 14496 : codage de données multimédia sous forme d'objets numériques, afin de permettre une plus grande interactivité ; ses multiples paramètres d'encodage lui permettent de s'adapter à presque tous les supports de diffusion comme le téléchargement et le streaming sur Internet, le multimédia sur téléphone mobile, la radio numérique, les jeux vidéo, la télévision et les supports haute définition. Ses multiples paramètres d'encodage lui permettent de s'adapter à presque tous les supports de diffusion et d'obtenir différentes qualités d'image, allant du petit écran de téléphone au cinéma haute définition.
+
+#### o   **AVI :** Audio Video Interleave \(imbrication audio vidéo\)
+
+L'AVI est un format d'empaquetage conçu pour stocker des données audio et vidéo.
+
+C’est un conteneur transportant des fichiers vidéo et audio, eux-mêmes écrits dans d'autres formats. Un fichier .avi peut ainsi abriter des fichiers vidéo MPeg ou DivX, ou encore des musiques codées en MP3.
 
 #### o   **WMV :** Windows Media Video
 
@@ -142,13 +130,12 @@ Windows Media Video \(WMV\) est le nom d'une famille de codecs vidéo propriéta
 
 Un fichier WMV est une vidéo au format propriétaire Windows Media Video. Un fichier au format WMV possède à la fois des données audio et vidéo, compressées pour pouvoir être diffusées en streaming, à la manière du MPEG-2 ou du MEPG-4.
 
-               Distinguer les notions de **codec**, **standard** et **format conteneur** :
+Distinguer les notions de **codec**, **standard** et **format conteneur** :
 
-Le **standard** décrit un procédé, pouvant définir un **format conteneur** ou un format de compression.
+* Le **standard** décrit un procédé, pouvant définir un **format conteneur** ou un format de compression.
+* Le **codec** est l'implémentation matérielle ou logicielle qui met en œuvre un standard.
 
-Le **codec** est l'implémentation matérielle ou logicielle qui met en œuvre un standard.
-
-Exemple : MPEG-4 AVC/H.264 est un standard vidéo, et x264 est un codec capable de produire un flux vidéo dans le format de compression décrit par le standard.
+        Exemple : MPEG-4 AVC/H.264 est un standard vidéo, et x264 est un codec capable de produire un     flux vidéo dans le format de compression décrit par le standard.
 
 Le **format conteneur** peut embarquer des flux audio et/ou vidéo, des données techniques descriptives des flux en présence pour permettre leur décodage, mais aussi, en fonction du conteneur, toute sorte de métadonnées comme des sous-titres, du chapitrage, du timecode etc. Les formats conteneurs ne sont pas compatibles avec tous les formats de compression.
 
@@ -158,7 +145,13 @@ Les **codecs propriétaires** sont développés par des entreprises, et font sou
 
 Les **codecs libres** ou ouverts comme Vorbis sont inventés et développés par des acteurs du logiciel libre pour permettre aux utilisateurs de garder le contrôle des médias qu'ils produisent eux-mêmes.
 
-Le mot-valise « codec » vient de « codeur décodeur » \(en anglais : coder-decoder\).
+_NB : le mot-valise « codec » vient de « codeur décodeur » \(en anglais : coder-decoder\)._
+
+#### o   **QT :** Quick Time
+
+Format multimédia développé par Apple ; il est multiplateforme \(pris en charge sur les systèmes Macintosh et Windows\) ; il peut contenir une piste audio et vidéo compressée.
+
+L’extension .mov est souvent utilisée pour les fichiers vidéo QuickTime.
 
 ## Couvertures
 
