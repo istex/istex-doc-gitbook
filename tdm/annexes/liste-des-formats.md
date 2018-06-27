@@ -15,7 +15,7 @@ Fichier original fourni par l’éditeur.
 
 Format d’encodage de textes permettant de traiter tout type de document numérique exprimé en langage de balisage XML.
 
-La Text Encoding Initiative est une communauté académique internationale qui définit des recommandations pour la syntaxe de ce format et un métalangage pour la description des structures d’encodage de textes. Le consortium de la TEI s’organise en différentes instances : conseil d’administration, conseil technique, groupes de travail, groupes d’intérêt spécifique. Les groupes font des propositions pour les recommandations qui sont ensuite adoptées \(ou non\) par le conseil technique. Ces recommandations sont regroupées dans un guide : [http://www.tei-c.org/Guidelines/P5/](http://www.tei-c.org/Guidelines/P5/)
+La Text Encoding Initiative est une communauté académique internationale qui définit des recommandations pour la syntaxe de ce format et un métalangage pour la description des structures d’encodage de textes. Le consortium de la TEI s’organise en différentes instances : conseil d’administration, conseil technique, groupes de travail, groupes d’intérêt spécifique. Les groupes font des propositions pour les recommandations qui sont ensuite adoptées \(ou non\) par le conseil technique. Ces recommandations sont regroupées dans un guide : [TEI: P5 Guidelines](http://www.tei-c.org/Guidelines/P5/).
 
 Fichier XML produit par ISTEX selon les guidelines P5 du format TEI qui sert de format pivot. Ces fichiers XML TEI sont produits à partir des XML originaux fournis par l’éditeur et peuvent dans ce cas bénéficier d’une structuration fine du texte. Dans le cas où l’éditeur ne fournit pas de XML, les fichiers XML TEI sont générés à partir du PDF via une transformation PDF to Text et une injection du texte brut non structuré dans la balise &lt;body&gt;.
 
@@ -33,7 +33,7 @@ Fichier en texte brut produit par ISTEX à partir d’une transformation du PDF 
 
 La reconnaissance optique de caractères, ou océrisation, est une technique informatique permettant – grâce à un procédé optique - de lire et stocker des images de textes imprimés, dactylographiés ou manuscrits, et de les traduire en fichiers textes.
 
-Fichier produit par ISTEX grâce à une chaîne de réocérisation basée sur l’outil Tesseract qui fonctionne par reconnaissance optique de caractères. Cette chaîne permet d’améliorer la qualité des documents originaux dont le texte est absent \(PDF image\) ou non exploitable \(problèmes de reconnaissance de caractères\). Pour plus de détails, voir le billet de blog [https://blog.istex.fr/ocr-production-de-plein-texte/](https://blog.istex.fr/ocr-production-de-plein-texte/). Lorsqu’il est disponible, ce fichier OCR doit être utilisé à la place du fichier TXT.
+Fichier produit par ISTEX grâce à une chaîne de réocérisation basée sur l’outil Tesseract qui fonctionne par reconnaissance optique de caractères. Cette chaîne permet d’améliorer la qualité des documents originaux dont le texte est absent \(PDF image\) ou non exploitable \(problèmes de reconnaissance de caractères\). Pour plus de détails, voir le billet de blog [OCR : production de plein texte](https://blog.istex.fr/ocr-production-de-plein-texte/). Lorsqu’il est disponible, ce fichier OCR doit être utilisé à la place du fichier TXT.
 
 #### o   **ZIP**
 
