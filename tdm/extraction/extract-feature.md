@@ -12,7 +12,7 @@ Il s'agit d'une fonction du moteur de recherche de l'API ISTEX permettant d’ex
 * **Mode d'emploi :** cette fonction et la syntaxe requise pour son utilisation sont décrites dans la rubrique **"**[**Extraction**](../../api/search/extract-feature.md)**"** de la documentation technique ISTEX.
 * **Astuces :**
   * pour que la fonction `extract` soit opérationnelle, il faut la faire suivre obligatoirement par le signe "=" et une valeur quelconque, mais seuls les fichiers JSON sont extraits. Indiquer un \(ou plusieurs\) type de fichiers pour obtenir leur extraction.
-    * **\*Exemple :** moissonnage des métadonnées au format JSON pour les documents contenant l'expression "by draconis stars" dans le résumé\*
+    * **Exemple :** moissonnage des métadonnées au format JSON pour les documents contenant l'expression "by draconis stars" dans le résumé
 
       [https://api.istex.fr/document/?q=abstract:"by draconis stars"&extract=lhjd](https://api.istex.fr/document/?q=abstract:"by%20draconis%20stars"&extract=lhjd)
   * sans indication de format, tous les formats disponibles pour un type de fichiers sont extraits

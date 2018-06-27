@@ -6,8 +6,6 @@ Un identifiant ARK, lorsqu'il a été attribué à un document ISTEX, se retrouv
 
 Dans ce format, il se retrouve aux côtés des autres identifiants dans l'élément `<identifier type="ark">` :
 
-
-
 ```markup
 ...
 </relatedItem>
@@ -21,8 +19,6 @@ Dans ce format, il se retrouve aux côtés des autres identifiants dans l'élém
 ## Dans le format TEI
 
 Comme dans le MODS, il se retrouve aux côtés des autres identifiants dans l'élément `<idno type="ark">` :
-
-
 
 ```markup
 ...
