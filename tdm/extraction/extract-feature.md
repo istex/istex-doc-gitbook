@@ -11,14 +11,14 @@ Il s'agit d'une fonction du moteur de recherche de l'API ISTEX permettant d’ex
   * l'extraction des annexes et des enrichissements n'est actuellement pas utilisable, mais le fichier JSON extrait par défaut reprend la totalité des enrichissements disponibles d'un document numérique donné.
 * **Mode d'emploi :** cette fonction et la syntaxe requise pour son utilisation sont décrites dans la rubrique **"**[**Extraction**](../../api/search/extract-feature.md)**"** de la documentation technique ISTEX.
 * **Astuces :**
-  * pour que la fonction `extract` soit opérationnelle, il faut la faire suivre obligatoirement par le signe "=" et une valeur quelconque, mais seuls les fichiers JSON sont extraits. Indiquer un \(ou plusieurs\) type de fichiers pour obtenir leur extraction.
-    * **Exemple :** moissonnage des métadonnées au format JSON pour les documents contenant l'expression "by draconis stars" dans le résumé
+  * pour que la fonction `extract` soit opérationnelle, il faut la faire suivre obligatoirement par le signe "=" et une valeur quelconque. Dans ce cas, seul le fichier JSON sera extrait. Indiquer au moins un type de fichiers pour obtenir son extraction.
+    * _**Exemple :** moissonnage des métadonnées au format JSON pour les documents contenant l'expression "by draconis stars" dans le résumé_
 
-      [https://api.istex.fr/document/?q=abstract:"by draconis stars"&extract=lhjd](https://api.istex.fr/document/?q=abstract:"by%20draconis%20stars"&extract=lhjd)
+      [_https://api.istex.fr/document/?q=abstract:"by draconis stars"&extract=lhjd_](https://api.istex.fr/document/?q=abstract:"by%20draconis%20stars"&extract=lhjd)
   * sans indication de format, tous les formats disponibles pour un type de fichiers sont extraits
   * la syntaxe pour extraire les enrichissements ne comporte pas de "s" \(_enrichment_\).
   * indiquer une taille de corpus au moins égale au nombre de documents à extraire. Sans cette précision, 5 documents sont extraits par défaut.
-    * **\*Exemple :** moissonnage du texte intégral au format pdf des 18 documents contenant le terme Groenland dans le titre\*
+    * _**Exemple :** moissonnage du texte intégral au format pdf des 18 documents contenant le terme Groenland dans le titre_
 
       [_https://api.istex.fr/document/?q=title:groenland&size=20&extract=fulltext\[pdf\]_](https://api.istex.fr/document/?q=title:groenland&size=20&extract=fulltext[pdf])
 
