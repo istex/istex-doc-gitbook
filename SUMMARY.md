@@ -28,6 +28,7 @@
     * [Liste des codes langues dans ISTEX](tdm/annexes/codes-langues.md)
     * [Liste des types de publication et de contenu dans ISTEX](tdm/annexes/publication-type.md)
     * [Liste des catégories scientifiques dans ISTEX](tdm/annexes/scientific-categories.md)
+    * [Liste des formats et types de fichiers présents dans ISTEX](tdm/annexes/liste-des-formats.md)
 * [API ISTEX](api/README.md)
   * [Accès à l'API](api/access/README.md)
     * [S'authentifier sur l'API](api/access/auth-modes.md)
