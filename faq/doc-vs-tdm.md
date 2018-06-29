@@ -8,4 +8,4 @@ On distingue aujourd'hui deux grands usages : **orienté documentaire** et **ori
 
 1. Le premier correspond à l'usage classique d'un étudiant ou d'un chercheur qui a besoin de se documenter dans le cadre de ses travaux.
 2. Le second usage vise à utiliser tout ou partie des corpus ISTEX comme matière première pour alimenter des travaux de recherche.
-
+3. 
