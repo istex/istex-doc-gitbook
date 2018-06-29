@@ -22,7 +22,6 @@ Le principe d'utilisation est le suivant :
 
 ```javascript
 {
-
     "total": nombre de résultats,
     "scroll": délai d'activation pour la session de scroll
     "scrollId": identifiant de la session de scroll

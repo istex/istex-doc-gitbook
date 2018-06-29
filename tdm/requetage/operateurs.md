@@ -28,9 +28,9 @@ q=Greenland +"Sub-arctic"
 
 * _recherche de documents contenant le mot « Iceland » mais pas les mots « Jan » et « Mayen »_
 
-  ```text
-  q=Iceland -(Jan AND Mayen)
-  ```
+```text
+q=Iceland -(Jan AND Mayen)
+```
 
 ## Les guillemets
 

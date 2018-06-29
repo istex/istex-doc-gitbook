@@ -19,13 +19,11 @@ La recherche s'effectue sous la forme :
 ```javascript
 {
     total : nombre de résultats,
-    hits : [
-        {
+    hits : [{
             id : id du document,
             title : titre du document,
             abstract : résumé du document,
-            metadata : [
-                {
+            metadata : [{
                     type : type MIME du document,
                     uri : URI d'accès au document,
                     original : document d'origine éditeur ou généré par nos soins
@@ -34,8 +32,7 @@ La recherche s'effectue sous la forme :
                 ...
                 (suite des formats de métadonnées disponibles)
             ],
-            fulltext : [
-                {
+            fulltext : [{
                     type : type MIME du document,
                     uri : URI d'accès au document,
                     original : document d'origine éditeur ou généré par nos soins
@@ -43,8 +40,7 @@ La recherche s'effectue sous la forme :
                 ,
                 ...
                 (suite des formats de fulltext disponibles)
-            ]
-        }
+            ]}
         ,
         (suite des résultats)
         ...

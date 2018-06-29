@@ -85,7 +85,17 @@ Cette intégration nécessite un accès SSH à l’instance locale SFX.
 les établissements qui utilisent plusieurs instances SFX doivent déposer le parseur, le plugin et le fichier de configuration dans l’instance globale puis créer des liens symboliques pour chaque instance locale vers l’instance globale
 {% endhint %}
 
-`ln -s /exlibris/sfx_ver/sfx4_1/sfxglb41/lib/Parsers/TargetParser/ISTEX2/istexapi.pm` `ln –s /exlibris/sfx_ver/sfx4_1/sfxglb41/lib/Parsers/PlugIn/istexapi.pm` `ln -s /exlibris/sfx_ver/sfx4_1/sfxglb41/config/istex.config`
+```bash
+ln -s /exlibris/sfx_ver/sfx4_1/sfxglb41/lib/Parsers/TargetParser/ISTEX2/istexapi.pm
+```
+
+```bash
+ln –s /exlibris/sfx_ver/sfx4_1/sfxglb41/lib/Parsers/PlugIn/istexapi.pm
+```
+
+```bash
+ln -s /exlibris/sfx_ver/sfx4_1/sfxglb41/config/istex.config
+```
 
 ### **E- Création de la target ISTEX2**
 

@@ -15,10 +15,14 @@ Il s'agit d'un utilitaire en ligne de commande permettant de moissonner les corp
   * les métadonnées étant extraites par défaut, si on ne souhaite que les fichiers textes, utiliser l'option -M avec une chaîne vide, c’est-à-dire un blanc entre doubles quotes : -M **""**
     * _**Exemple :** moissonnage du texte intégral au format txt, sans les métadonnées, de 590 documents correspondant à la requête querya1.txt, à télécharger dans le répertoire «corpusAncien»_
 
-`istex-api-harvester -F txt -M "" -o corpusAncien -s 600 --query="'cat querya1.txt'"`
+```bash
+istex-api-harvester -F txt -M "" -o corpusAncien -s 600 --query="'cat querya1.txt'"
+```
 
 * Si le corpus est volumineux, il faut augmenter la durée de vie de la fonction Scroll qui est de 30 s par défaut. Avec un tel délai, le parcours des 100 résultats de la "page courante" peut s’avérer trop long et entraîner une erreur 404 renvoyée par l'API.
   * _**Exemple :** moissonnage du texte intégral au format pdf et des métadonnées associées de 17 257 documents contenant le terme "arctic" dans le titre ou le résumé, à télécharger dans le répertoire Polaris \(la durée de vie de la fonction Scroll a été portée à 5 mn\)_
 
-`istex-api-harvester -t 5m -F pdf -o Polaris -s 17500 -q "title:arctic OR abstract:arctic"`
+```bash
+istex-api-harvester -t 5m -F pdf -o Polaris -s 17500 -q "title:arctic OR abstract:arctic"
+```
 

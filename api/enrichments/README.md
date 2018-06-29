@@ -5,7 +5,7 @@ Toutes les URL suivantes sont accédées via la méthode **HTTP GET**.
 **La syntaxe des URL d'accès aux enrichissements est de la forme :**
 
 * URI
-  * https://api.istex.fr/document/**{id}/enrichments/{type}**
+  * https://api.istex.fr/document/{id}/enrichments/{type}
 * Paramètres
   * **{id}** : l'**identifiant** ISTEX du document auquel correspond la notice,
   * **{type}** : **type** de l'enrichissement \(ex : "multicat" pour les catégories [WOS](http://thomsonreuters.com/en/products-services/scholarly-scientific-research/scholarly-search-and-discovery/web-of-science.html) et [Science-Metrix](http://science-metrix.com/)\).

@@ -9,5 +9,7 @@ Vous pouvez également **consulter la liste des corpus chargés sur la plateform
 * Pour cela consultez l'URL suivante :[`https://api.istex.fr/corpus/`](https://api.istex.fr/corpus/)
 * Vous aurez alors la liste des corpus chargés dans la plateforme ISTEX qui s'affichera au format JSON \(exploitable par les machines\). Exemple :
 
-![](../.gitbook/assets/listecorpus.JPG)
+![](../.gitbook/assets/listecorpus.png)
+
+
 

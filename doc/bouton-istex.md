@@ -14,29 +14,29 @@ L'extension ISTEX est disponible pour les navigateurs web Firefox et Chrome ici 
 
 =&gt; La recherche sur Wikipédia d’[**« Hélium »**](https://fr.wikipedia.org/wiki/Hélium) donne la bibliographie suivante :
 
-![Firefox1](../.gitbook/assets/firefox1.PNG)
+![](../.gitbook/assets/firefox1.png)
 
 =&gt; Aller sur [**https://addons.istex.fr**](https://addons.istex.fr/)
 
-![](../.gitbook/assets/firefox2.PNG)
+![](../.gitbook/assets/firefox2.png)
 
 =&gt; Cliquer sur « Ajouter l’extension à Firefox »
 
-![](../.gitbook/assets/firefox3.PNG)
+![](../.gitbook/assets/firefox3.png)
 
 =&gt; Autoriser l’installation
 
 _Retrouver l’extension dans « Ouvrir le menu/Modules/Extensions »_
 
-![](../.gitbook/assets/firefox4.PNG)
+![](../.gitbook/assets/firefox4.png)
 
 =&gt; Un écran propose alors la possibilité d’avoir un lien vers la bibliothèque ISTEX sur Google Scholar en cliquant sur «Oui» sans avoir besoin de l’installer
 
-![](../.gitbook/assets/firefox5.PNG)
+![](../.gitbook/assets/firefox5.png)
 
 =&gt; En cliquant «Passer » pas de lien vers la bibliothèque ISTEX
 
-![](../.gitbook/assets/firefox6.PNG)
+![](../.gitbook/assets/firefox6.png)
 
 =&gt; Recharger la page de Wikipédia « Ctrl F5 »
 
@@ -46,29 +46,29 @@ _Retrouver l’extension dans « Ouvrir le menu/Modules/Extensions »_
 
 =&gt; La recherche sur Wikipédia d’[**« Hélium »**](https://fr.wikipedia.org/wiki/Hélium) donne la bibliographie suivante :
 
-![](../.gitbook/assets/chrome1.PNG)
+![](../.gitbook/assets/chrome1.png)
 
 =&gt; Aller sur [**https://addons.istex.fr**](https://addons.istex.fr/)
 
-![](../.gitbook/assets/chrome2.PNG)
+![](../.gitbook/assets/chrome2.png)
 
 =&gt; Cliquer sur « Ajouter l’extension à Chrome »
 
-![](../.gitbook/assets/chrome3.PNG)
+![](../.gitbook/assets/chrome3.png)
 
 =&gt; Autoriser l’installation
 
 _Retrouver l’extension dans « Personnaliser et contrôler Google Chrome/Plus d'outils/Extensions »_
 
-![](../.gitbook/assets/chrome4.PNG)
+![](../.gitbook/assets/chrome4.png)
 
 =&gt; Un écran propose alors la possibilité d’avoir un lien vers la bibliothèque ISTEX sur Google Scholar en cliquant sur «Oui» sans avoir besoin de l’installer
 
-![](../.gitbook/assets/chrome5%20%281%29.PNG)
+![](../.gitbook/assets/chrome5.png)
 
 =&gt; En cliquant «Passer » pas de lien vers la bibliothèque ISTEX
 
-![](../.gitbook/assets/chrome6.PNG)
+![](../.gitbook/assets/chrome6.png)
 
 =&gt; Recharger la page de Wikipédia « Ctrl F5 »
 
