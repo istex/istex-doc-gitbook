@@ -4,7 +4,7 @@
 
 Le choix du format de texte intégral est à faire en fonction de l’origine des documents, des transformations réalisées par ISTEX sur ces documents et de l’utilisation souhaitée pour le corpus
 
-o   **PDF :** Portable Document Format \(format de document portable\)
+#### o   **PDF :** Portable Document Format \(format de document portable\)
 
 Format de description de pages pouvant contenir du texte, des dessins, des images et photographies \(noir et blanc, couleur, 3D\). C’est un format ouvert, évolutif et multiplateforme, issu de l’imprimerie, qui conserve la mise en page du document original. Il offre une sécurité permettant à l’auteur d’un document d’empêcher sa modification par des utilisateurs. Il a été créé par Adobe Systems, Inc. Le logiciel Adobe® Acrobat® Reader est nécessaire pour lire et imprimer un fichier PDF.
 
