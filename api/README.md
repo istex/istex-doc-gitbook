@@ -1,8 +1,14 @@
 # API ISTEX
 
-Une API, pour _Application Programing Interface_, n'a pas vocation à une utilisation humaine directe mais est destinée à être intégrée à une IHM \(_Interface Homme Machine_\) : un site web, application, widget etc...
+_Une API, pour Application Programing Interface, n'a pas vocation à une utilisation humaine directe mais est destinée à être intégrée à une IHM \(Interface Homme Machine\) : un site web, application, widget etc..._
 
-_Pour comprendre ce qu’est l’API ISTEX : à quoi sert-elle ? Pour qui ? n'hésitez pas à consulter le tutoriel multimédias_ : [http://www.inist.fr/formations/Tuto\_API\_ISTEX\_Module\_1/story.html](http://www.inist.fr/formations/Tuto_API_ISTEX_Module_1/story.html)
+Pour comprendre ce qu’est l’API ISTEX : à quoi sert-elle ? Pour qui ? n'hésitez pas à consulter le tutoriel multimédias : [http://www.inist.fr/formations/Tuto\_API\_ISTEX\_Module\_1/story.html](http://www.inist.fr/formations/Tuto_API_ISTEX_Module_1/story.html)
+
+Pour illustrer les différents aspects de l'API ISTEX, de la recherche à l'affichage des résultats, en passant par l'utilisation des facettes, n'hésitez pas à naviguer dans [le démonstrateur! ](http://demo.istex.fr/)
+
+Le démonstrateur a  vocation pédagogique pour montrer les différents aspects de l'API ISTEX. Des infobulles sont disponibles sur l'ensemble des fonctionnalités pour vous guider
+
+
 
 _Vous recherchez comment fonctionne l'API et vous voulez personnaliser au mieux l'outil pour vos besoins?_
 
