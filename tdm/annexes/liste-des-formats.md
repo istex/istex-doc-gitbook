@@ -2,13 +2,13 @@
 
 ## Texte intégral
 
-Le choix du format de texte intégral est à faire en fonction de l’origine des documents, des transformations réalisées par ISTEX sur ces documents et de l’utilisation souhaitée pour le corpus
+
 
 #### o   **PDF :** Portable Document Format \(format de document portable\)
 
 Format de description de pages pouvant contenir du texte, des dessins, des images et photographies \(noir et blanc, couleur, 3D\). C’est un format ouvert, évolutif et multiplateforme, issu de l’imprimerie, qui conserve la mise en page du document original. Il offre une sécurité permettant à l’auteur d’un document d’empêcher sa modification par des utilisateurs. Il a été créé par Adobe Systems, Inc. Le logiciel Adobe® Acrobat® Reader est nécessaire pour lire et imprimer un fichier PDF.
 
-Fichier original fourni par l’éditeur.
+_Dans ISTEX : format du fichier original fourni par l’éditeur._
 
 #### o   **TEI :** Text Encoding Initiative \(initiative pour l’encodage du texte\)
 
@@ -16,7 +16,7 @@ Format d’encodage de textes permettant de traiter tout type de document numér
 
 La Text Encoding Initiative est une communauté académique internationale qui définit des recommandations pour la syntaxe de ce format et un métalangage pour la description des structures d’encodage de textes. Le consortium de la TEI s’organise en différentes instances : conseil d’administration, conseil technique, groupes de travail, groupes d’intérêt spécifique. Les groupes font des propositions pour les recommandations qui sont ensuite adoptées \(ou non\) par le conseil technique. Ces recommandations sont regroupées dans un guide : [TEI: P5 Guidelines](http://www.tei-c.org/Guidelines/P5/).
 
-Fichier XML produit par ISTEX selon les guidelines P5 du format TEI qui sert de format pivot. Ces fichiers XML TEI sont produits à partir des XML originaux fournis par l’éditeur et peuvent dans ce cas bénéficier d’une structuration fine du texte. Dans le cas où l’éditeur ne fournit pas de XML, les fichiers XML TEI sont générés à partir du PDF via une transformation PDF to Text et une injection du texte brut non structuré dans la balise &lt;body&gt;.
+_Dans ISTEX : fichier XML produit par ISTEX selon les guidelines P5 du format TEI qui sert de format pivot. Ces fichiers XML TEI sont produits à partir des XML originaux fournis par l’éditeur et peuvent dans ce cas bénéficier d’une structuration fine du texte. Dans le cas où l’éditeur ne fournit pas de XML, les fichiers XML TEI sont générés à partir du PDF via une transformation PDF to Text et une injection du texte brut non structuré dans la balise &lt;body&gt;._
 
 #### o   **TXT :** Text
 
@@ -26,19 +26,19 @@ Le code ASCII \(American Standard Code for Information Interchange - Code Améri
 
 Un fichier txt peut être lu ou modifié via le bloc-notes ou un éditeur de texte traditionnel.
 
-Fichier en texte brut produit par ISTEX à partir d’une transformation du PDF original à l’aide du logiciel PDF to Text.
+_Dans ISTEX :  fichier en texte brut produit par ISTEX à partir d’une transformation du PDF original à l’aide du logiciel PDF-to-Text._
 
 #### o   **OCR :** Optical Character Recognition \(reconnaissance optique de caractères\)
 
 La reconnaissance optique de caractères, ou océrisation, est une technique informatique permettant – grâce à un procédé optique - de lire et stocker des images de textes imprimés, dactylographiés ou manuscrits, et de les traduire en fichiers textes.
 
-Fichier produit par ISTEX grâce à une chaîne de réocérisation basée sur l’outil Tesseract qui fonctionne par reconnaissance optique de caractères. Cette chaîne permet d’améliorer la qualité des documents originaux dont le texte est absent \(PDF image\) ou non exploitable \(problèmes de reconnaissance de caractères\). Pour plus de détails, voir le billet de blog [OCR : production de plein texte](https://blog.istex.fr/ocr-production-de-plein-texte/). Lorsqu’il est disponible, ce fichier OCR doit être utilisé à la place du fichier TXT.
+_Dans ISTEX :  fichier produit par ISTEX grâce à une chaîne de réocérisation basée sur l’outil Tesseract qui fonctionne par reconnaissance optique de caractères. Cette chaîne permet d’améliorer la qualité des documents originaux dont le texte est absent \(PDF image\) ou non exploitable \(problèmes de reconnaissance de caractères\). Pour plus de détails, voir le billet de blog_ [_OCR : production de plein texte_](https://blog.istex.fr/ocr-production-de-plein-texte/)_. Lorsqu’il est disponible, ce fichier OCR doit être utilisé à la place du fichier TXT._
 
 #### o   **ZIP**
 
 Format permettant l’archivage et la compression de fichiers. L’archivage est l’utilisation d’un seul fichier pour stocker plusieurs fichiers. La compression des fichiers permet de réduire leur taille. Compresser les fichiers permet de gagner du temps dans le chargement des données et de la place dans le stockage de celles-ci. Le logiciel de compression analyse le fichier et compresse les parties qui se répètent. Lors de la décompression, la forme originale du fichier est restaurée. On peut le comparer à la combinaison de tar \(archivage\) et gzip \(compression\) dans le cadre d'une archive compressée .tgz.
 
-Répertoire compressé contenant, pour chaque document du corpus, les fichiers fournis par l’éditeur \(PDF, XML structuré, images, couvertures, annexes\) ainsi que le JSON produit par ISTEX.
+_Dans ISTEX :  répertoire compressé contenant, pour chaque document du corpus, les fichiers fournis par l’éditeur \(PDF, XML structuré, images, couvertures, annexes\) ainsi que le JSON produit par ISTEX._
 
 #### o   **TIFF :** Tagged Image File Format \(format de fichier d’image étiqueté\)
 
@@ -48,23 +48,23 @@ Il permet de stocker des images matricielles \(cartes de points\) de taille impo
 
 Il s'agit d'un format de conteneur \(ou encapsulation\), à la manière de avi ou zip, c'est-à-dire pouvant contenir des données de formats arbitraires. C’est un format issu du fax.
 
-Fichier original fourni par l’éditeur sous format image, uniquement pour les ressources EBBO et ECCO.
+_Dans ISTEX :  fichier original fourni par l’éditeur sous format image \(uniquement pour les ressources EBBO et ECCO\)._
 
 ## Métadonnées
 
-Les métadonnées sont les informations bibliographiques permettant de présenter un document \(nom de l’auteur, affiliation, revue, éditeur, etc.\). Deux formats sont proposés au téléchargement \(XML et MODS\). Un fichier supplémentaire en JSON est téléchargé par défaut.
+Les métadonnées sont les informations bibliographiques permettant de présenter un document \(nom de l’auteur, affiliation, revue, éditeur, etc.\). 
 
 #### o   **XML :** Extensible Markup Language \(langage de balisage extensible\)
 
 Langage de balisage ouvert qui permet de structurer de manière hiérarchisée les données d’un document. La structuration balisée des métadonnées d’un document permet la lecture de ces données par une machine \(traitement automatique\) et l’échange de ces données entre les machines. C’est un langage standardisé, simple et extensible, permettant de décrire tout type de donnée.
 
-Fichier original fourni par l’éditeur selon une DTD propre.
+_Dans ISTEX :  fichier original fourni par l’éditeur selon une DTD propre._
 
 #### o   **MODS :** Metadata Object Description Schema \(schéma de description objet de métadonnées\)
 
 Schéma XML créé pour traiter des données bibliographiques et qui s’est élargi de façon à permettre la description de tout type de document et de tout support \(numérique ou non\) : texte imprimé, document iconographique, enregistrement sonore, document d'archives, collection de documents.
 
-Fichier XML produit par ISTEX à partir d’une transformation des XML originaux, afin de les homogénéiser dans le format standard de description de métadonnées MODS \(version 3.6\).
+_Dans ISTEX :  fichier XML produit par ISTEX à partir d’une transformation des XML originaux, afin de les homogénéiser dans le format standard de description de métadonnées MODS \(version 3.6\)._
 
 #### o   **JSON :** JavaScript Object Notation \(notation des objets du langage JavaScript\)
 
@@ -76,7 +76,7 @@ Format standard permettant la représentation et l’échange de données struct
 
 
 
-_NB : les formats d'"Annexes" présents dans ISTEX qui sont déjà décrits dans les rubriques précédentes ne sont pas répétés ici_
+_NB : les formats d'Annexes présents dans ISTEX qui sont déjà décrits dans les rubriques précédentes ne sont pas répétés ici_
 
 #### o   **DOC :** Document
 
