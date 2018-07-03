@@ -11,7 +11,7 @@ Il s'agit d'une application Web permettant de télécharger très facilement, vi
   * elle propose de trier les résultats par pertinence ou de manière aléatoire
   * elle permet de sélectionner de manière intuitive les fichiers et formats que l'on souhaite télécharger
   * elle offre le partage de son corpus via le lien correspondant
-  * elle propose la sauvegarde dans un historique des 30 dernières requêtes, qui peuvent être chacune à nouveau éditer, télécharger, partager ou supprimer
+  * elle propose la sauvegarde dans un historique des 30 dernières requêtes, chacune pouvant être à nouveau éditée, téléchargée, partagée ou supprimée
   * elle permet le téléchargement des annexes et couvertures disponibles
 * **Inconvénients :**
   * les corpus ne peuvent être extraits actuellement que dans la limite de 10 000 documents
@@ -19,12 +19,12 @@ Il s'agit d'une application Web permettant de télécharger très facilement, vi
 * **Mode d'emploi :** cette application est accessible à l’adresse suivante : [https://dl.istex.fr/](https://dl.istex.fr/) 
 * **Astuces :** 
   * la recherche par ARK nécessite simplement de copier/coller une liste d'identifiants, qui sera interprétée par l'application
-  * la recherche par équation classique ne nécessite pas d'opérateur booléen en majuscule
+  * la recherche par équation classique ne nécessite pas d'opérateur booléen en majuscules
   * des exemples pédagogiques à tester sont disponibles pour aider à la construction de sa requête 
-  * si l'on souhaite extraire tous les formats d'un type de fichier particulier, il suffit de cocher ce type de fichier sans autre précision et tous les formats seront automatiquement sélectionnés.
+  * si l'on souhaite extraire tous les formats d'un type de fichier particulier, il suffit de cocher ce type de fichier sans autre précision et tous les formats seront automatiquement sélectionnés
 * **Recommandations :** 
   * l'utilisation optimale de toutes les fonctionnalités de l'application requiert l'autorisation des cookies pour ce site
-  * la récupération des données du formulaire implique de se connecter au site dl.istex avec une URL sans précision d'un attribut \(https://dl.istex.fr uniquement\)
+  * la récupération des données du formulaire implique de se connecter au site avec une URL sans précision d'un attribut \(https://dl.istex.fr uniquement\)
   * il peut être nécessaire de se reconnecter au site après l'authentification 
 
 
