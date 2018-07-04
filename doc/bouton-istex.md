@@ -12,7 +12,7 @@ L'extension ISTEX est disponible pour les navigateurs web Firefox et Chrome ici 
 
 ## Firefox
 
-=&gt; La recherche sur Wikipédia d’[**« Hélium »**](https://fr.wikipedia.org/wiki/Hélium) donne la bibliographie suivante :
+=&gt; La recherche sur Wikipédia d’**« Hélium »** donne la bibliographie suivante :
 
 ![](../.gitbook/assets/firefox1.png)
 
