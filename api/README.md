@@ -6,10 +6,6 @@ Pour comprendre ce qu’est l’API ISTEX : à quoi sert-elle ? Pour qui ? n'hé
 
 Pour illustrer les différents aspects de l'API ISTEX, de la recherche à l'affichage des résultats, en passant par l'utilisation des facettes, n'hésitez pas à naviguer dans [le démonstrateur! ](http://demo.istex.fr/)
 
-Le démonstrateur a  vocation pédagogique pour montrer les différents aspects de l'API ISTEX. Des infobulles sont disponibles sur l'ensemble des fonctionnalités pour vous guider
-
-
-
 _Vous recherchez comment fonctionne l'API et vous voulez personnaliser au mieux l'outil pour vos besoins?_
 
 _La documentation technique qui suit est faite pour vous !_
