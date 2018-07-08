@@ -1,8 +1,17 @@
+---
+description: >-
+  ISTEX centralise un grand nombre d'archives de ressources documentaires qui
+  peuvent être consultées de différentes manières pour se documenter, faire sa
+  bibliographie etc...
+---
+
 # Usage documentaire d'ISTEX
 
-[Bouton ISTEX](bouton-istex.md)
+ISTEX centralise un grand nombre d'archives de ressources documentaires qui peuvent être consultées de différentes manières pour se documenter, faire sa bibliographie etc...
 
-[Google Scholar](google-scholar.md)
+Voici les différents usages documentaires d'ISTEX qui sont actuellement proposés :
 
-[Logiciels de gestion bibliographique](bib/)
+* [Bouton ISTEX](bouton-istex.md)
+* [Google Scholar](google-scholar.md)
+* [Logiciels de gestion bibliographique](bib/)
 

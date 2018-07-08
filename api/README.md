@@ -1,3 +1,9 @@
+---
+description: >-
+  Documentation technique de l'API ISTEX où est expliqué toutes les
+  fonctionnalités de l'API à destination d'informaticiens.
+---
+
 # API ISTEX
 
 _Une API, pour Application Programing Interface, n'a pas vocation à une utilisation humaine directe mais est destinée à être intégrée à une IHM \(Interface Homme Machine\) : un site web, application, widget etc..._

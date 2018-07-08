@@ -1,3 +1,7 @@
+---
+description: Les questions fréquentes posées par la communauté ISTEX.
+---
+
 # FAQ
 
 [À quoi sert ISTEX ?](aquoisertistex.md)
