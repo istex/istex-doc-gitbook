@@ -113,4 +113,5 @@
   * [Je n'arrive pas à me connecter à l'API, l'accès m'est refusé !](faq/acces-denied.md)
   * [À quoi servent les "indicateurs de qualité" ?](faq/quality-indicators.md)
   * [Comment connaître la liste des corpus chargés dans la plateforme ISTEX ?](faq/loaded-corpus.md)
+  * [Comment contacter la communauté ISTEX ?](faq/community.md)
 

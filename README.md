@@ -1,13 +1,19 @@
+---
+description: >-
+  La documentation ISTEX couvre les usages documentaires, les usages pour la
+  fouille de texte, les fonctionnalités de l'API, ainsi que les différentes
+  façon d'intégrer ISTEX dans un ENT.
+---
+
 # Documentation ISTEX
 
-## Toute la documentation ISTEX, pour tous les usages.
+## Toute la documentation pour tous les usages d'ISTEX
 
-Pour information l'accès aux ressources ISTEX est limité aux ayants droit ISTEX, c'est-à-dire les personnels de l'Enseignement Supérieur et de la Recherche.
+Cette documentation couvre les [usages documentaires](doc/), les [usages pour la fouille de texte](tdm/), les [fonctionnalités de l'API](api/), ainsi que les différentes façon d'[intégrer ISTEX dans un ENT](integration/).
 
-Pour plus d'information n'hésitez pas à vous inscrire sur les liste de diffusion :
+Elle est tenue à jour par l'[équipe ISTEX que vous pouvez contacter si besoin](faq/community.md).
 
-* [https://listes.istex.fr/sympa/info/users](https://listes.istex.fr/sympa/info/users)    Cette liste a  pour vocation de permettre d'échanger sur les usages d'ISTEX et de recevoir des informations sur les nouveautés concernant ISTEX.
-* [https://listes.istex.fr/sympa/info/api-users](https://listes.istex.fr/sympa/info/api-users)  Cette liste a pour vocation de permettre de centraliser les discussions sur les usages de l'API ISTEX qu'ils soient orientés documentaire ou projets utilisant les documents comme matériau de recherche.
+_Pour information l'accès aux ressources ISTEX est limité aux ayants droit ISTEX, c'est-à-dire les personnels de l'Enseignement Supérieur et de la Recherche._
 
-Pour contacter directement et uniquement l'équipe ISTEX pour toutes questions et/ou demandes de support utilisez : [**contact@listes.istex.fr**](mailto:contact@listes.istex.fr)**.**
+
 
