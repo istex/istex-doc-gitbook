@@ -80,13 +80,13 @@ _Dans ISTEX, les fichiers MODS sont générés à partir d’une transformation 
 
 JSON est un format standard permettant la représentation et l’échange de données structurées, facile à lire/écrire par les humains, facile à analyser par les machines. JSON est issu du langage de programmation JavaScript. Les documents JSON étant relativement légers, ce format est souvent utilisé pour structurer et transmettre des données sur des sites web. JSON est une syntaxe permettant de sérialiser des objets, tableaux, nombres, chaînes de caractères, booléens, valeur null et de conserver des données hiérarchiques.
 
-_Dans ISTEX, les fichiers JSON regroupent les métadonnées du document, le lien vers le texte intégral dans ses différents formats, ainsi que toutes les informations à valeur ajoutée produites par ISTEX sur le document \(identifiant ARK ; indicateurs de qualité ; enrichissements par catégories WOS, Scopus, Science Metrix, Inist, par références bibliographiques structurées, par repérage des entités nommées présentes dans le texte intégral, par indexation automatique\)._
+_Dans ISTEX, les fichiers JSON regroupent les métadonnées du document, le lien vers le texte intégral dans ses différents formats, ainsi que toutes les informations à valeur ajoutée produites par ISTEX sur le document \(identifiant ARK ; indicateurs de qualité ; enrichissements par catégories WOS, Scopus, Science Metrix, Inist, enrichissement par références bibliographiques structurées, enrichissement par repérage des entités nommées présentes dans le texte intégral, enrichissement par indexation automatique\)_
 
 ## Annexes
 
 Les annexes sont des fichiers originaux parfois fournis par l’éditeur pour accompagner et compléter le texte intégral. Ils peuvent être de plusieurs types : textes, tableurs, diaporamas, images, vidéos, multimédias, etc.
 
-_NB : les formats d'Annexes présents dans ISTEX qui sont déjà décrits dans les rubriques précédentes ne sont pas répétés ici_
+_NB : les formats d'Annexes présents dans ISTEX qui sont déjà décrits dans les rubriques précédentes ne sont pas répétés ici._
 
 #### o   **DOC :** Document
 
@@ -193,7 +193,7 @@ L’extension .mov est souvent utilisée pour les fichiers vidéo QuickTime.
 
 Il s'agit de fichiers originaux parfois fournis par l’éditeur pour présenter la couverture de la revue dans laquelle est publié le document. Ils peuvent être de plusieurs types : documents textuels \(ex. : PDF\), images \(exs. : GIF, TIFF, JPEG\), pages web \(ex. : HTML\), etc.
 
-_NB : les formats de "Couvertures" présents dans ISTEX qui sont déjà décrits dans les rubriques précédentes ne sont pas répétés ici_
+_NB : les formats de "Couvertures" présents dans ISTEX qui sont déjà décrits dans les rubriques précédentes ne sont pas répétés ici._
 
 #### o   **HTML :** HyperText Markup Language \(langage de balisage d’hypertexte\)
 
