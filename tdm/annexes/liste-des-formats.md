@@ -20,6 +20,12 @@ Il s'agit d'un format de description de pages pouvant contenir du texte, des des
 
 _Les fichiers en format PDF dans ISTEX sont des fichiers originaux fournis par l’éditeur._
 
+#### o   **ZIP**
+
+Il s'agit d'un format permettant l’archivage et la compression de fichiers. L’archivage est l’utilisation d’un seul fichier pour stocker plusieurs fichiers. La compression des fichiers permet de réduire leur taille. Compresser les fichiers permet de gagner du temps dans le chargement des données et de la place dans le stockage de celles-ci. Le logiciel de compression analyse le fichier et compresse les parties qui se répètent. Lors de la décompression, la forme originale du fichier est restaurée. On peut le comparer à la combinaison de tar \(archivage\) et gzip \(compression\) dans le cadre d'une archive compressée .tgz.
+
+_Dans ISTEX, le répertoire ZIP proposé pour chaque document du corpus contient les fichiers fournis par l’éditeur \(PDF, XML structuré, images, couvertures, annexes\) ainsi que le JSON produit par ISTEX._
+
 #### o   **TEI :** Text Encoding Initiative \(initiative pour l’encodage du texte\)
 
 La TEI est un format d’encodage de textes permettant de traiter tout type de document numérique exprimé en langage de balisage XML.
@@ -36,29 +42,23 @@ Le code ASCII \(American Standard Code for Information Interchange - Code Améri
 
 Un fichier txt peut être lu ou modifié via le bloc-notes ou un éditeur de texte traditionnel.
 
-_Dans ISTEX :  fichier en texte brut produit par ISTEX à partir d’une transformation du PDF original à l’aide du logiciel PDF-to-Text._
+_Dans ISTEX, les fichiers en texte brut sont générés à partir d’une transformation du PDF original à l’aide du logiciel PDF-to-Text._
 
 #### o   **OCR :** Optical Character Recognition \(reconnaissance optique de caractères\)
 
 La reconnaissance optique de caractères, ou océrisation, est une technique informatique permettant – grâce à un procédé optique - de lire et stocker des images de textes imprimés, dactylographiés ou manuscrits, et de les traduire en fichiers textes.
 
-_Dans ISTEX :  fichier produit par ISTEX grâce à une chaîne de réocérisation basée sur l’outil Tesseract qui fonctionne par reconnaissance optique de caractères. Cette chaîne permet d’améliorer la qualité des documents originaux dont le texte est absent \(PDF image\) ou non exploitable \(problèmes de reconnaissance de caractères\). Pour plus de détails, voir le billet de blog_ [_OCR : production de plein texte_](https://blog.istex.fr/ocr-production-de-plein-texte/)_. Lorsqu’il est disponible, ce fichier OCR doit être utilisé à la place du fichier TXT._
-
-#### o   **ZIP**
-
-Format permettant l’archivage et la compression de fichiers. L’archivage est l’utilisation d’un seul fichier pour stocker plusieurs fichiers. La compression des fichiers permet de réduire leur taille. Compresser les fichiers permet de gagner du temps dans le chargement des données et de la place dans le stockage de celles-ci. Le logiciel de compression analyse le fichier et compresse les parties qui se répètent. Lors de la décompression, la forme originale du fichier est restaurée. On peut le comparer à la combinaison de tar \(archivage\) et gzip \(compression\) dans le cadre d'une archive compressée .tgz.
-
-_Dans ISTEX :  répertoire compressé contenant, pour chaque document du corpus, les fichiers fournis par l’éditeur \(PDF, XML structuré, images, couvertures, annexes\) ainsi que le JSON produit par ISTEX._
+_Dans ISTEX, les fichiers OCR sont générés grâce à une chaîne de réocérisation basée sur l’outil Tesseract. Cette chaîne permet d’améliorer la qualité des documents originaux dont le texte est absent \(PDF image\) ou non exploitable \(problèmes de reconnaissance de caractères\). Lorsqu’il est disponible, ce fichier OCR doit être utilisé à la place du fichier TXT. Pour plus de détails, voir le billet de blog_ [_OCR : production de plein texte_](https://blog.istex.fr/ocr-production-de-plein-texte/)_._ 
 
 #### o   **TIFF :** Tagged Image File Format \(format de fichier d’image étiqueté\)
 
-Format de fichier pour image numérique dans lequel des balises permettent de décrire les caractéristiques d’une image \(dimensions, nombre de couleurs utilisées, type de compression\).
+TIFF est un format de fichier pour image numérique dans lequel des balises permettent de décrire les caractéristiques d’une image \(dimensions, nombre de couleurs utilisées, type de compression\).
 
 Il permet de stocker des images matricielles \(cartes de points\) de taille importante \(plus de 4 Go compressées\), en noir et blanc, en couleurs réelles, ainsi que des images indexées, faisant usage d'une palette de couleurs.
 
 Il s'agit d'un format de conteneur \(ou encapsulation\), à la manière de avi ou zip, c'est-à-dire pouvant contenir des données de formats arbitraires. C’est un format issu du fax.
 
-_Dans ISTEX :  fichier original fourni par l’éditeur sous format image \(uniquement pour les ressources EBBO et ECCO\)._
+_Les fichiers en format TIFF dans ISTEX sont des fichiers originaux fournis uniquement par les éditeurs des ressources EBBO et ECCO._
 
 ## Métadonnées
 
