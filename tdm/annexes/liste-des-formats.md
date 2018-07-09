@@ -66,25 +66,25 @@ Les métadonnées sont les informations bibliographiques permettant de présente
 
 #### o   **XML :** Extensible Markup Language \(langage de balisage extensible\)
 
-Langage de balisage ouvert qui permet de structurer de manière hiérarchisée les données d’un document. La structuration balisée des métadonnées d’un document permet la lecture de ces données par une machine \(traitement automatique\) et l’échange de ces données entre les machines. C’est un langage standardisé, simple et extensible, permettant de décrire tout type de donnée.
+Il s'agit d'un langage de balisage ouvert qui permet de structurer de manière hiérarchisée les données d’un document. La structuration balisée des métadonnées d’un document permet la lecture de ces données par une machine \(traitement automatique\) et l’échange de ces données entre les machines. C’est un langage standardisé, simple et extensible, permettant de décrire tout type de donnée.
 
-_Dans ISTEX :  fichier original fourni par l’éditeur selon une DTD propre._
+_Dans ISTEX, les métadonnées en XML sont des fichiers originaux fournis par l’éditeur selon une DTD propre._
 
 #### o   **MODS :** Metadata Object Description Schema \(schéma de description objet de métadonnées\)
 
-Schéma XML créé pour traiter des données bibliographiques et qui s’est élargi de façon à permettre la description de tout type de document et de tout support \(numérique ou non\) : texte imprimé, document iconographique, enregistrement sonore, document d'archives, collection de documents.
+MODS est un schéma XML créé pour traiter des données bibliographiques et qui s’est élargi de façon à permettre la description de tout type de document et de tout support \(numérique ou non\) : texte imprimé, document iconographique, enregistrement sonore, document d'archives, collection de documents.
 
-_Dans ISTEX :  fichier XML produit par ISTEX à partir d’une transformation des XML originaux, afin de les homogénéiser dans le format standard de description de métadonnées MODS \(version 3.6\)._
+_Dans ISTEX, les fichiers MODS sont générés à partir d’une transformation des XML originaux, afin de les homogénéiser dans un format de description standard. Le format MODS a été utilisé dans sa version 3.6._
 
 #### o   **JSON :** JavaScript Object Notation \(notation des objets du langage JavaScript\)
 
-Format standard permettant la représentation et l’échange de données structurées, facile à lire/écrire par les humains, facile à analyser par les machines. JSON est issu du langage de programmation JavaScript. Les documents JSON étant relativement légers, ce format est souvent utilisé pour structurer et transmettre des données sur des sites web. JSON est une syntaxe permettant de sérialiser des objets, tableaux, nombres, chaînes de caractères, booléens, valeur null et de conserver des données hiérarchiques.
+JSON est un format standard permettant la représentation et l’échange de données structurées, facile à lire/écrire par les humains, facile à analyser par les machines. JSON est issu du langage de programmation JavaScript. Les documents JSON étant relativement légers, ce format est souvent utilisé pour structurer et transmettre des données sur des sites web. JSON est une syntaxe permettant de sérialiser des objets, tableaux, nombres, chaînes de caractères, booléens, valeur null et de conserver des données hiérarchiques.
+
+_Dans ISTEX, les fichiers JSON regroupent les métadonnées du document, le lien vers le texte intégral dans ses différents formats, ainsi que toutes les informations à valeur ajoutée produites par ISTEX sur le document \(identifiant ARK ; indicateurs de qualité ; enrichissements par catégories WOS, Scopus, Science Metrix, Inist, par références bibliographiques structurées, par repérage des entités nommées présentes dans le texte intégral, par indexation automatique\)._
 
 ## Annexes
 
- Fichiers originaux parfois fournis par l’éditeur pour accompagner et compléter le texte intégral. Ils peuvent être de plusieurs types : textes, tableurs, diaporamas, images, vidéos, multimédias, etc.
-
-
+Les annexes sont des fichiers originaux parfois fournis par l’éditeur pour accompagner et compléter le texte intégral. Ils peuvent être de plusieurs types : textes, tableurs, diaporamas, images, vidéos, multimédias, etc.
 
 _NB : les formats d'Annexes présents dans ISTEX qui sont déjà décrits dans les rubriques précédentes ne sont pas répétés ici_
 
@@ -191,9 +191,7 @@ L’extension .mov est souvent utilisée pour les fichiers vidéo QuickTime.
 
 ## Couvertures
 
-Fichiers originaux parfois fournis par l’éditeur pour présenter la couverture de la revue dans laquelle est publié le document. Ils peuvent être de plusieurs types : documents textuels \(ex. : PDF\), images \(exs. : GIF, TIFF, JPEG\), pages web \(ex. : HTML\), etc.
-
-
+Il s'agit de fichiers originaux parfois fournis par l’éditeur pour présenter la couverture de la revue dans laquelle est publié le document. Ils peuvent être de plusieurs types : documents textuels \(ex. : PDF\), images \(exs. : GIF, TIFF, JPEG\), pages web \(ex. : HTML\), etc.
 
 _NB : les formats de "Couvertures" présents dans ISTEX qui sont déjà décrits dans les rubriques précédentes ne sont pas répétés ici_
 
