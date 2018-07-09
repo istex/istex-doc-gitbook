@@ -16,17 +16,17 @@ Ces types de fichiers sont eux-mêmes disponibles dans différents formats qui o
 
 #### o   **PDF :** Portable Document Format \(format de document portable\)
 
-Format de description de pages pouvant contenir du texte, des dessins, des images et photographies \(noir et blanc, couleur, 3D\). C’est un format ouvert, évolutif et multiplateforme, issu de l’imprimerie, qui conserve la mise en page du document original. Il offre une sécurité permettant à l’auteur d’un document d’empêcher sa modification par des utilisateurs. Il a été créé par Adobe Systems, Inc. Le logiciel Adobe® Acrobat® Reader est nécessaire pour lire et imprimer un fichier PDF.
+Il s'agit d'un format de description de pages pouvant contenir du texte, des dessins, des images et photographies \(noir et blanc, couleur, 3D\). C’est un format ouvert, évolutif et multiplateforme, issu de l’imprimerie, qui conserve la mise en page du document original. Il offre une sécurité permettant à l’auteur d’un document d’empêcher sa modification par des utilisateurs. Il a été créé par Adobe Systems, Inc. Le logiciel Adobe® Acrobat® Reader est nécessaire pour lire et imprimer un fichier PDF.
 
-_Dans ISTEX : format du fichier original fourni par l’éditeur._
+_Les fichiers en format PDF dans ISTEX sont des fichiers originaux fournis par l’éditeur._
 
 #### o   **TEI :** Text Encoding Initiative \(initiative pour l’encodage du texte\)
 
-Format d’encodage de textes permettant de traiter tout type de document numérique exprimé en langage de balisage XML.
+La TEI est un format d’encodage de textes permettant de traiter tout type de document numérique exprimé en langage de balisage XML.
 
-La Text Encoding Initiative est une communauté académique internationale qui définit des recommandations pour la syntaxe de ce format et un métalangage pour la description des structures d’encodage de textes. Le consortium de la TEI s’organise en différentes instances : conseil d’administration, conseil technique, groupes de travail, groupes d’intérêt spécifique. Les groupes font des propositions pour les recommandations qui sont ensuite adoptées \(ou non\) par le conseil technique. Ces recommandations sont regroupées dans un guide : [TEI: P5 Guidelines](http://www.tei-c.org/Guidelines/P5/).
+La communauté académique internationale constituée autour de la Text Encoding Initiative définit des recommandations pour la syntaxe de ce format et un métalangage pour la description des structures d’encodage de textes. Le consortium de la TEI s’organise en différentes instances : conseil d’administration, conseil technique, groupes de travail, groupes d’intérêt spécifique. Les groupes font des propositions pour les recommandations qui sont ensuite adoptées \(ou non\) par le conseil technique. Ces recommandations sont regroupées dans un guide : [TEI: P5 Guidelines](http://www.tei-c.org/Guidelines/P5/).
 
-_Dans ISTEX : fichier XML produit par ISTEX selon les guidelines P5 du format TEI qui sert de format pivot. Ces fichiers XML TEI sont produits à partir des XML originaux fournis par l’éditeur et peuvent dans ce cas bénéficier d’une structuration fine du texte. Dans le cas où l’éditeur ne fournit pas de XML, les fichiers XML TEI sont générés à partir du PDF via une transformation PDF to Text et une injection du texte brut non structuré dans la balise &lt;body&gt;._
+_C'est le format qui a été retenu dans ISTEX pour harmoniser, autour d'un format pivot, les fichiers XML issus des différentes DTD des éditeurs. Les fichiers XML TEI ainsi générés reproduisent la structuration fine du texte présente au départ. Dans le cas où l’éditeur ne fournit pas de XML, les fichiers XML TEI sont générés à partir du PDF via une transformation PDF-to-Text et une injection du texte brut non structuré dans la balise &lt;body&gt;_.
 
 #### o   **TXT :** Text
 
