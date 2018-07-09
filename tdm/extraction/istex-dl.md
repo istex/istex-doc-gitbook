@@ -9,7 +9,7 @@ Il s'agit d'une application Web permettant de télécharger très facilement, vi
   * elle propose la récupération des paramètres de sa recherche en cas d'interruption accidentelle du navigateur
   * elle offre la possibilité de trier les résultats par pertinence ou de manière aléatoire, le tirage aléatoire pour constituer un échantillon représentatif de documents pouvant s'avérer intéressant lorsque l'on restreint le nombre de documents à extraire
   * elle permet de sélectionner de manière intuitive les fichiers et formats que l'on souhaite télécharger
-  * elle offre le partage du corpus téléchargé via le lien correspondant
+  * elle offre le partage du corpus téléchargé via le lien correspondant au corpus
   * elle propose la sauvegarde dans un historique des 30 dernières requêtes, chacune pouvant être à nouveau éditée, téléchargée, partagée ou supprimée
   * elle permet le téléchargement des annexes et couvertures disponibles
 * **Inconvénients :**
