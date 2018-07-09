@@ -1,5 +1,17 @@
 # Liste des formats et types de fichiers présents dans ISTEX
 
+## 
+
+ISTEX met à la disposition de ses utilisateurs différents types de fichiers pour ses documents :
+
+* le texte intégral
+* les métadonnées
+* les annexes
+* les couvertures
+* les enrichissements
+
+  Ces types de fichiers sont eux-mêmes disponibles dans différents formats qui ont chacun leur particularité à prendre en compte lors de l'extraction  en fonction de l'objectif visé.
+
 ## Texte intégral
 
 
