@@ -1,6 +1,6 @@
 # A quoi sert ISTEX ?
 
-**Quel est l'apport de ce service par rapport à BiblioInserm, BibCnrs, NCBI ou PubMed ?**
+**Quel est l'apport de ce service par rapport à BiblioInserm, BibCnrs, NCBI ou PubMed ? \(test\)**
 
 C’est tout à fait normal de se poser ce genre de questions car pour beaucoup d’utilisateurs, ISTEX c’est uniquement des archives en licences nationales avec accès sur la plateforme de l'éditeur via un portail institutionnel \(BibCnrs, BiblioInserm, lien ressources portail &lt;=&gt; PubMed....\)
 
