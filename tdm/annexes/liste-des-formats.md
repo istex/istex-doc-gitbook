@@ -8,7 +8,7 @@ ISTEX met à la disposition de ses utilisateurs différents types de fichiers po
 * les couvertures
 * les enrichissements
 
-Ces types de fichiers sont eux-mêmes disponibles dans différents formats qui ont chacun leur particularité à prendre en compte lors de l'extraction  en fonction de l'objectif visé.
+Ces types de fichiers sont eux-mêmes disponibles dans différents formats qui ont chacun leur particularité à prendre en compte lors de l'extraction en fonction de l'objectif visé.
 
 ## Texte intégral
 
@@ -211,25 +211,25 @@ Ces enrichissements sont produits par ISTEX à l’aide de plusieurs outils ou m
 
 Désigne les enrichissements par catégories scientifiques produits par l'outil Multicat. Ils sont issus d'un processus de catégorisation par appariement qui reporte sur chaque document d'une revue la catégorie scientifique attribuée à cette revue par des ressources reconnues \(Science-Metrix, Web of Science, Scopus\), en s'appuyant sur l'ISSN de la revue. 
 
-Les enrichissements produits sont en format TEI-Standoff et contiennent toutes les catégories qui ont été attribuées à la revue par ces différentes ressources. À noter que les catégories scientifiques attribués à une revue ne sont pas toujours adaptés pour catégoriser tous les articles de la même revue. 
+Les enrichissements produits sont en format TEI-Standoff et contiennent toutes les catégories qui ont été attribuées à la revue par ces différentes ressources. À noter que les catégories scientifiques attribués à une revue ne sont pas toujours adaptées pour catégoriser tous les articles de la même revue. 
 
-Plus de détails sur ces enrichissements et le processus d'enrichissement sur les sites [https://sciencemetrix-category.data.istex.fr/](https://sciencemetrix-category.data.istex.fr/), [https://wos-category.data.istex.fr/](https://wos-category.data.istex.fr/), [https://scopus-category.data.istex.fr/](https://scopus-category.data.istex.fr/), [https://enrichment-process.data.istex.fr/ark:/67375/R0H-BMCHCCJF-J](https://enrichment-process.data.istex.fr/ark:/67375/R0H-BMCHCCJF-J), [https://enrichment-process.data.istex.fr/ark:/67375/R0H-PWBRNFQ8-H](https://enrichment-process.data.istex.fr/ark:/67375/R0H-PWBRNFQ8-H), et [https://enrichment-process.data.istex.fr/ark:/67375/R0H-Q29BJZWS-N](https://enrichment-process.data.istex.fr/ark:/67375/R0H-Q29BJZWS-N).
+Plus de détails sur ces enrichissements et le processus d'enrichissement sur les sites suivants : [https://sciencemetrix-category.data.istex.fr/](https://sciencemetrix-category.data.istex.fr/), [https://wos-category.data.istex.fr/](https://wos-category.data.istex.fr/), [https://scopus-category.data.istex.fr/](https://scopus-category.data.istex.fr/), [https://enrichment-process.data.istex.fr/ark:/67375/R0H-BMCHCCJF-J](https://enrichment-process.data.istex.fr/ark:/67375/R0H-BMCHCCJF-J), [https://enrichment-process.data.istex.fr/ark:/67375/R0H-PWBRNFQ8-H](https://enrichment-process.data.istex.fr/ark:/67375/R0H-PWBRNFQ8-H), et [https://enrichment-process.data.istex.fr/ark:/67375/R0H-Q29BJZWS-N](https://enrichment-process.data.istex.fr/ark:/67375/R0H-Q29BJZWS-N).
 
 #### o   nb
 
-Désigne les enrichissements par catégories scientifiques produits par l'outil Nb, afin de compléter les résultats de Multicat en proposant un traitement ciblé sur le document. Ils sont issus d'un processus de catégorisation supervisée qui utilise une approche statistique \(Bayésien Naïf\) comprenant une phase d'apprentissage sur un corpus extrait des bases de données bibliographiques Pascal et Francis de l'INIST-CNRS puis une phase de prédiction. 
+Désigne les enrichissements par catégories scientifiques produits par l'outil Nb, afin de compléter les résultats de Multicat en proposant un traitement ciblé sur l'article. Ils sont issus d'un processus de catégorisation supervisée qui utilise une approche statistique \(Bayésien Naïf\) comprenant une phase d'apprentissage sur un corpus extrait des bases de données bibliographiques Pascal et Francis de l'INIST-CNRS, puis une phase de prédiction. 
 
 Les enrichissements produits sont en format TEI-Standoff et contiennent toutes les catégories prédites \(code de classement + verbalisation\) et leur probabilité. 
 
-Plus de détails sur ces enrichissements et le processus d'enrichissement sur les sites [https://inist-category.data.istex.fr/](https://inist-category.data.istex.fr/) et [https://enrichment-process.data.istex.fr/ark:/67375/R0H-DV0BN0B8-J](https://enrichment-process.data.istex.fr/ark:/67375/R0H-DV0BN0B8-J).
+Plus de détails sur ces enrichissements et le processus d'enrichissement sur les sites suivants :  [https://inist-category.data.istex.fr/](https://inist-category.data.istex.fr/) et [https://enrichment-process.data.istex.fr/ark:/67375/R0H-DV0BN0B8-J](https://enrichment-process.data.istex.fr/ark:/67375/R0H-DV0BN0B8-J).
 
 #### o   refBibs
 
-Désigne les enrichissements par références bibliographiques structurées produits par l'outil Grobid \(GeneRation Of BIbliographic Data\). Il s'agit d'un outil d'analyse et d'extraction d'informations bibliographiques et de contenu qui fonctionne par apprentissage automatique avec une cascade de modèles CRF \(Conditional Random Fields\) et permet de segmenter le document pour trouver le segment . 
+Désigne les enrichissements par références bibliographiques structurées produits par l'outil Grobid \(GeneRation Of BIbliographic Data\). Il s'agit d'un outil d'analyse et d'extraction d'informations bibliographiques et de contenu qui fonctionne par apprentissage automatique avec une cascade de modèles CRF \(Conditional Random Fields\) et permet de segmenter le document pour trouver le segment &lt;Refbib&gt;. 
 
 Les enrichissements produits sont en format TEI-Standoff et contiennent une version structurée de chaque référence bibliographique. 
 
-Plus de détails sur le processus d'enrichissement sur le site [https://enrichment-process.data.istex.fr/ark:/67375/R0H-2WXX0NK2-9](https://enrichment-process.data.istex.fr/ark:/67375/R0H-2WXX0NK2-9).
+Plus de détails sur le processus d'enrichissement sur le site suivant : [https://enrichment-process.data.istex.fr/ark:/67375/R0H-2WXX0NK2-9](https://enrichment-process.data.istex.fr/ark:/67375/R0H-2WXX0NK2-9).
 
 #### o   teeft
 
@@ -237,13 +237,13 @@ Désigne les enrichissements par termes d'indexation produits par l'outil Teeft.
 
 Les enrichissements produits sont en format TEI-Standoff et contiennent les termes, leur fréquence et leur spécificité. 
 
-Plus de détails sur le processus d'enrichissement sur le site [https://enrichment-process.data.istex.fr/ark:/67375/R0H-R25KK4KZ-Q](https://enrichment-process.data.istex.fr/ark:/67375/R0H-R25KK4KZ-Q).
+Plus de détails sur le processus d'enrichissement sur le site suivant : [https://enrichment-process.data.istex.fr/ark:/67375/R0H-R25KK4KZ-Q](https://enrichment-process.data.istex.fr/ark:/67375/R0H-R25KK4KZ-Q).
 
 #### o   unitex
 
 Désigne les enrichissements par entités nommées produits par l'outil Unitex. Il s'agit d'un ensemble de logiciels permettant de traiter des textes en langues naturelles en utilisant des ressources linguistiques issues de travaux initiés sur le français par Maurice Gross au Laboratoire d’Automatique Documentaire et Linguistique \(LADL\). La cascade de transducteurs CasEN pour la reconnaissance des entités nommées est implantée sous le logiciel CasSys développé par le Laboratoire d’Informatique de l’Université de Tours. 
 
-Les enrichissements produits sont en format TEI-Standoff et contiennent les entités nommées de type "personne", "lieu", "organisation", "indicateur temporel", "pointeur vers références bibliographiques", "références bibliographiques complètes dans le texte", "url" retrouvées dans le texte en anglais et en français ainsi que leur fréquence. 
+Les enrichissements produits sont en format TEI-Standoff et contiennent les entités nommées de type "personne", "lieu", "organisation", "indicateur temporel", "pointeur vers références bibliographiques", "références bibliographiques complètes dans le texte", "url" retrouvées dans le texte en anglais et en français, ainsi que leur fréquence. 
 
-Plus de détails sur ces enrichissements et le processus d'enrichissement sur les sites [https://named-entity.data.istex.fr/](https://named-entity.data.istex.fr/) et [https://enrichment-process.data.istex.fr/ark:/67375/R0H-KGDTPS40-S](https://enrichment-process.data.istex.fr/ark:/67375/R0H-KGDTPS40-S).
+Plus de détails sur ces enrichissements et le processus d'enrichissement sur les sites suivants :  [https://named-entity.data.istex.fr/](https://named-entity.data.istex.fr/) et [https://enrichment-process.data.istex.fr/ark:/67375/R0H-KGDTPS40-S](https://enrichment-process.data.istex.fr/ark:/67375/R0H-KGDTPS40-S).
 
