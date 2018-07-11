@@ -8,7 +8,7 @@ _Champ concerné_ : **corpusName:{valeur}**
 
 | Syntaxe |  |
 | --- | --- |
-| URI | https://api.istex.fr/document/?q=**corpusName:{valeur}** |
+| URI | `https://api.istex.fr/document/?q=`**`corpusName:{valeur}`** |
 | Paramètres | - **corpusName** : le champ concerné, - **{valeur}** : la valeur recherchée. |
 | Code de retour | - 200 si OK,  - 500 en cas de problème \(dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)\) |
 
