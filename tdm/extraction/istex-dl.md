@@ -4,28 +4,31 @@ Il s'agit d'une application Web permettant de télécharger très facilement, vi
 
 * **Avantages :**
   * très simple d'emploi, l'application met à disposition de nombreuses aides à toutes les étapes
-  * elle gère l’authentification par la fédération d’identité lors du premier téléchargement
-  * elle offre la possibilité de constituer un corpus de manière classique mais aussi à partir d'une liste d'identifiants pérennes de type ARK
-  * elle propose la récupération des paramètres de sa recherche en cas d'interruption accidentelle du navigateur
-  * elle offre la possibilité de trier les résultats par pertinence ou de manière aléatoire, le tirage aléatoire pour constituer un échantillon représentatif de documents pouvant s'avérer intéressant lorsque l'on restreint le nombre de documents à extraire
+  * elle gère l’authentification par la fédération d’identité lors du téléchargement du premier corpus
+  * elle offre la possibilité de constituer un corpus, soit en utilisant une équation classique de type booléenne, soit à partir d'une liste d'identifiants pérennes de type ARK
+  * elle propose de trier les résultats par pertinence ou de manière aléatoire, le tirage aléatoire pour constituer un échantillon représentatif de documents pouvant s'avérer intéressant lorsque l'on restreint le nombre de documents à extraire
   * elle permet de sélectionner de manière intuitive les fichiers et formats que l'on souhaite télécharger
+  * elle permet le téléchargement des annexes et couvertures disponibles pour la liste des documents extraits, ainsi que des enrichissements présents dans ISTEX sans distinction de type
   * elle offre le partage du corpus téléchargé via le lien correspondant
-  * elle propose la sauvegarde dans un historique des 30 dernières requêtes, chacune pouvant être à nouveau éditée, téléchargée, partagée ou supprimée
-  * elle permet le téléchargement des annexes et couvertures disponibles
+  * elle permet de récupérer sa requête et les choix de paramétrage effectués en cas de fermeture accidentelle de l'onglet actif ou du navigateur
+  * elle propose la sauvegarde dans un historique des 30 requêtes les plus récentes, chacune d'elle pouvant être à nouveau éditée, téléchargée, partagée ou supprimée
 * **Inconvénients :**
+  * il est nécessaire de se reconnecter au site après l'authentification
+  * la longueur des équations que l'on peut formuler dans la fenêtre de requête est limitée. La limite dépend du navigateur employé
   * les corpus ne peuvent être extraits actuellement que dans la limite de 10 000 documents
-  * l'extraction des enrichissements sera bientôt opérationnelle
-* **Mode d'emploi :** cette application est accessible à l’adresse suivante : [https://dl.istex.fr/](https://dl.istex.fr/) 
-* **Astuces :** 
-  * la recherche par ARK nécessite simplement de copier/coller une liste d'identifiants, qui sera interprétée par l'application
-  * la recherche par équation classique ne nécessite pas d'opérateur booléen en majuscules
-  * une indication colorée alerte sur le nombre de caractères restants dans la fenêtre de requêtage \(_NB : la limitation de la longueur des requêtes dépend du navigateur employé_\)
-  * des exemples pédagogiques à tester sont disponibles pour aider à la construction de sa requête 
-  * si l'on souhaite extraire tous les formats d'un type de fichier particulier, il suffit de cocher ce type de fichier sans autre précision et tous les formats seront automatiquement sélectionnés
-* **Recommandations :** 
-  * l'utilisation optimale de toutes les fonctionnalités de l'application requiert l'autorisation des cookies pour ce site
+  * l'extraction des différents types d'enrichissement n'est pas encore opérationnelle
+* **Mode d'emploi :** l'application est accessible à l’adresse suivante : [https://dl.istex.fr/](https://dl.istex.fr/)
+* **Prérequis :**
+  * l'utilisation optimale de toutes les fonctionnalités de l'application requiert l'autorisation par votre navigateur des cookies et des données pour ce site jusqu'à leur expiration
   * la récupération des données du formulaire implique de se connecter au site avec une URL sans précision d'un attribut \(https://dl.istex.fr uniquement\)
-  * il peut être nécessaire de se reconnecter au site après l'authentification 
+* **Astuces :** 
+  * la recherche par ARK nécessite simplement de copier/coller une liste d'identifiants qui sera interprétée par l'application
+  * la recherche par équation classique ne nécessite pas d'opérateur booléen en majuscule
+  * une indication colorée alerte sur le nombre de caractères restants dans la fenêtre de requêtage 
+  * des exemples pédagogiques sont disponibles pour se familiariser avec la syntaxe à employer lors de la construction de sa requête 
+  * si l'on souhaite extraire l'ensemble des formats existants pour un type de fichier particulier, il suffit de cocher ce dernier et tous les formats qui en dépendent seront automatiquement sélectionnés
+
+
 
 
 
