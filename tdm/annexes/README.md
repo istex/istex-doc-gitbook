@@ -6,5 +6,5 @@
 
 [Liste des catégories scientifiques dans ISTEX](scientific-categories.md)
 
-[Liste des formats et types de fichiers présents dans ISTEX ](https://istex-doc.gitbook.io/documentation-istex/tdm/annexes/liste-des-formats.html)
+[Liste des formats et types de fichiers présents dans ISTEX ](liste-des-formats.md)
 
