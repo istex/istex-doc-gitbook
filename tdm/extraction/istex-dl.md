@@ -14,7 +14,7 @@ Il s'agit d'une application Web permettant de télécharger très facilement, vi
   * elle permet le téléchargement des annexes et couvertures disponibles
 * **Inconvénients :**
   * les corpus ne peuvent être extraits actuellement que dans la limite de 10 000 documents
-  * l'extraction des enrichissements n'est pas encore opérationnelle
+  * l'extraction des enrichissements sera bientôt opérationnelle
 * **Mode d'emploi :** cette application est accessible à l’adresse suivante : [https://dl.istex.fr/](https://dl.istex.fr/) 
 * **Astuces :** 
   * la recherche par ARK nécessite simplement de copier/coller une liste d'identifiants, qui sera interprétée par l'application
