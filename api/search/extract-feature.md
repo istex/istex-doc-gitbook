@@ -12,7 +12,7 @@ Pour le moment, et pour des raisons purement techniques, le nombre de documents 
 **La syntaxe est la suivante :**
 
 * URI
-  * [https://api.istex.fr/document/?**q={valeur}**&**extract**](https://api.istex.fr/document/?q={valeur}&extract)
+  * [`https://api.istex.fr/document/?`**`q={valeur}`**`&`**`extract`**](https://api.istex.fr/document/?q={valeur}&extract)
 * Paramètres 
   * **q** : la requête
   * **extract:${typefichier}\[${formats}\]** : la sélection des type et formats de fichiers à extraire
