@@ -5,7 +5,7 @@ Les paramètres de pagination se basent sur les deux options `from` et `size` qu
 **La syntaxe pour la "position" est la suivante :**
 
 * URI
-  * https://api.istex.fr/document/?q={query}**&from={position}**
+  * `https://api.istex.fr/document/?q={query}&from={position}`
 * Explications    
   * Cette option permet d'indiquer le numéro de départ du premier résultat renvoyé.
   * Si l'option est manquante, l'affichage commencera au premier résultat.

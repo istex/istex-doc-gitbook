@@ -3,7 +3,7 @@
 **La syntaxe est la suivante :**
 
 * URI    
-  * https://api.istex.fr/document/?q={query}**&sortBy={liste des champs}**
+  * `https://api.istex.fr/document/?q={query}&sortBy={liste des champs}`
 * Explications    
   * Cette option permet de sélectionner un ou des tris basés sur les champs disponibles. 
   * Si l'option est manquante, aucun tri n'est effectué.
