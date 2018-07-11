@@ -6,7 +6,7 @@ description: >-
 
 # API ISTEX
 
-_Une API, pour Application Programing Interface, n'a pas vocation à une utilisation humaine directe mais est destinée à être intégrée à une IHM \(Interface Homme Machine\) : un site web, application, widget etc..._
+_Une API, pour "_[_**A**pplication **P**rograming **I**nterface_](https://fr.wikipedia.org/wiki/Interface_de_programmation)_", n'a pas vocation à une utilisation humaine directe mais est destinée à être intégrée à une IHM \(Interface Homme Machine\) : un site web, application, widget etc..._
 
 Pour comprendre ce qu’est l’API ISTEX : à quoi sert-elle ? Pour qui ? n'hésitez pas à consulter le tutoriel multimédias : [http://www.inist.fr/formations/Tuto\_API\_ISTEX\_Module\_1/story.html](http://www.inist.fr/formations/Tuto_API_ISTEX_Module_1/story.html)
 
