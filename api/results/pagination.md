@@ -21,7 +21,7 @@ Les paramètres de pagination se basent sur les deux options `from` et `size` qu
 **La syntaxe pour le "nombre" est la suivante :**
 
 * URI
-  * https://api.istex.fr/document/?q={query}**&size={nombre}**
+  * `https://api.istex.fr/document/?q={query}&size={nombre}`
 * Explications
   * Cette option permet d'indiquer le nombre de résultats renvoyés par page.
   * Si l'option est manquante, chaque page affichera 10 résultats.
