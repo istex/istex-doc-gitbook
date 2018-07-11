@@ -3,7 +3,7 @@
 **La syntaxe est la suivante :**
 
 * URI
-  * https://api.istex.fr/document/?q={query}&facet={liste des champs}
+  * `https://api.istex.fr/document/?q={query}&facet={liste des champs}`
 * Explications
   * Cette option permet de sélectionner une ou des facettes basées sur les champs disponibles.
   * La liste des champs est séparée par des **, \(virgules\)**.
