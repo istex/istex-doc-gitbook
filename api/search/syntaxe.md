@@ -10,7 +10,7 @@ La recherche s'effectue sous la forme :
 
 | Syntaxe |  |
 | --- | --- |
-| URI | [https://api.istex.fr/document/?q={query}](https://api.istex.fr/document/?q={query}) |
+| URI | https://api.istex.fr/document/?q={query} |
 | Paramètres | - q= : la lettre clé permettant d'indiquer que ce qui suit est la requête,  - {query} : la chaîne de recherche. Celle-ci correspond à une requête du type "Google" ou "Bing".  Plus de précisions sur [cette page de la documentation de Lucene](https://lucene.apache.org/core/4_3_0/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#package_description). |
 | Code de retour | - 200 si OK,  - 500 en cas de problème \(dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)\) |
 
