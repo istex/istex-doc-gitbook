@@ -65,7 +65,7 @@ Les termes cherchés sont reliés par des opérateurs booléens, l'opérateur `O
 | --- | --- |
 | Recherche des documents contenant le terme "api" **ou** "study" dans un de leurs champs indexés | [https://api.istex.fr/document/?**q=api OR study**](https://api.istex.fr/document/?q=api%20OR%20study)   [https://api.istex.fr/document/?**q=api study**](https://api.istex.fr/document/?q=api%20study) |
 | Recherche des documents contenant le terme "test" **et** "study" dans un de leurs champs indexés | [https://api.istex.fr/document/?**q=test AND study**](https://api.istex.fr/document/?q=test%20AND%20study) |
-| Recherche des documents contenant le terme "test" **mais pas** "study" dans un de leurs champs indexés | [https://api.istex.fr/document/?**q=test NOT study** ](https://api.istex.fr/document/?q=api%20NOT%20study); ****[https://api.istex.fr/document/?**q=api -study**](https://api.istex.fr/document/?q=api%20-study) |
+| Recherche des documents contenant le terme "test" **mais pas** "study" dans un de leurs champs indexés | [https://api.istex.fr/document/?**q=test NOT study** ](https://api.istex.fr/document/?q=api%20NOT%20study) ****[https://api.istex.fr/document/?**q=api -study**](https://api.istex.fr/document/?q=api%20-study) |
 
 L'utilisation de jokers `*` et `?` est possible, permettant de remplacer un certain nombre de caractères.
 
