@@ -19,3 +19,5 @@ _Note technique_ : ce mode d'authentification est une mise en oeuvre de la [mét
 **Cependant ce type de connexion est amené à disparaître prochainement et n'est plus prioritaire**. Pour privilégier ce mode d’authentification, tant qu'il est encore disponible, rajouter auth=ldap dans votre URL. [https://api.istex.fr/document/F11C03882643184B3D12B60F771ADCB6FD23533A/fulltext/pdf?**auth=ldap**](https://api.istex.fr/document/F11C03882643184B3D12B60F771ADCB6FD23533A/fulltext/pdf?auth=ldap)
 {% endhint %}
 
+
+
