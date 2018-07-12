@@ -24,7 +24,9 @@ _Les fichiers en format PDF dans ISTEX sont des fichiers originaux fournis par l
 
 Il s'agit d'un format permettant l’archivage et la compression de fichiers. L’archivage est l’utilisation d’un seul fichier pour stocker plusieurs fichiers. La compression des fichiers permet de réduire leur taille. Compresser les fichiers permet de gagner du temps dans le chargement des données et de la place dans le stockage de celles-ci. Le logiciel de compression analyse le fichier et compresse les parties qui se répètent. Lors de la décompression, la forme originale du fichier est restaurée. On peut le comparer à la combinaison de tar \(archivage\) et gzip \(compression\) dans le cadre d'une archive compressée .tgz.
 
-_Dans ISTEX, le répertoire ZIP proposé pour chaque document du corpus contient les fichiers fournis par l’éditeur \(PDF,_ [_XML structuré_](../verification/extract-xml-from-zip.md)_, images, couvertures, annexes\) ainsi que le JSON produit par ISTEX._
+_Dans ISTEX, le répertoire ZIP proposé pour chaque document du corpus contient les fichiers fournis par l’éditeur \(texte intégral en format PDF, en XML structuré, et éventuellement des couvertures et des annexes\), ainsi que le fichier_ [_JSON_ ](liste-des-formats.md#o-json-javascript-object-notation-notation-des-objets-du-langage-javascript)_produit par ISTEX._
+
+_NB : La rubrique_ [_Extraire les documents XML des fichiers ZIP_](../verification/extract-xml-from-zip.md) _propose une procédure permettant de récupérer le fichier en format XML structuré fourni par l'éditeur afin de pouvoir l'exploiter avec des outils TAL ou TDM._
 
 #### o   **TEI :** Text Encoding Initiative \(initiative pour l’encodage du texte\)
 
@@ -32,7 +34,7 @@ La TEI est un format d’encodage de textes permettant de traiter tout type de d
 
 La communauté académique internationale constituée autour de la Text Encoding Initiative définit des recommandations pour la syntaxe de ce format et un métalangage pour la description des structures d’encodage de textes. Le consortium de la TEI s’organise en différentes instances : conseil d’administration, conseil technique, groupes de travail, groupes d’intérêt spécifique. Les groupes font des propositions pour les recommandations qui sont ensuite adoptées \(ou non\) par le conseil technique. Ces recommandations sont regroupées dans un guide : [TEI: P5 Guidelines](http://www.tei-c.org/Guidelines/P5/).
 
-_C'est le format qui a été retenu dans ISTEX pour harmoniser, autour d'un format pivot, les fichiers XML issus des différentes DTD des éditeurs. Les fichiers XML TEI ainsi générés reproduisent la structuration fine du texte présente au départ. Dans le cas où l’éditeur ne fournit pas de XML, les fichiers XML TEI sont générés à partir du PDF via une transformation PDF-to-Text et une injection du texte brut non structuré dans la balise &lt;body&gt;_.
+_C'est le format qui a été retenu dans ISTEX pour harmoniser, autour d'un format pivot, les fichiers XML issus des différentes_ [_DTD_ ](https://fr.wikipedia.org/wiki/Document_type_definition)_des éditeurs. Les fichiers XML TEI ainsi générés reproduisent la structuration fine du texte présente au départ. Dans le cas où l’éditeur ne fournit pas de XML, les fichiers XML TEI sont générés à partir du PDF via une transformation PDF-to-text et une injection du texte brut non structuré dans la balise &lt;body&gt;_.
 
 #### o   **TXT :** Text
 
@@ -42,19 +44,21 @@ Le code ASCII \(American Standard Code for Information Interchange - Code Améri
 
 Un fichier txt peut être lu ou modifié via le bloc-notes ou un éditeur de texte traditionnel.
 
-_Dans ISTEX, les fichiers en texte brut sont générés à partir d’une transformation du PDF original à l’aide du logiciel PDF-to-Text._
+_Dans ISTEX, les fichiers en texte brut sont générés à partir d’une transformation du PDF original à l’aide du logiciel PDF-to-text._
 
 #### o   **OCR :** Optical Character Recognition \(reconnaissance optique de caractères\)
 
-La reconnaissance optique de caractères, ou océrisation, est une technique informatique permettant – grâce à un procédé optique - de lire et stocker des images de textes imprimés, dactylographiés ou manuscrits, et de les traduire en fichiers textes.
+La reconnaissance optique de caractères, ou océrisation, est une technique informatique permettant – grâce à un procédé optique – de lire et stocker des images de textes imprimés, dactylographiés ou manuscrits, et de les traduire en fichiers textes.
 
 _Dans ISTEX, les fichiers OCR sont générés grâce à une chaîne de réocérisation basée sur l’outil Tesseract. Cette chaîne permet d’améliorer la qualité des documents originaux dont le texte est absent \(PDF image\) ou non exploitable \(problèmes de reconnaissance de caractères\). Lorsqu’il est disponible, ce fichier OCR doit être utilisé à la place du fichier TXT. Pour plus de détails, voir le billet de blog_ [_OCR : production de plein texte_](https://blog.istex.fr/ocr-production-de-plein-texte/)_._ 
+
+_NB : La rubrique_ [_Remplacer les documents TXT par les documents OCR_](../verification/get-ocr.md) _propose une procédure permettant d'exploiter le fichier OCR pour faire de la fouille de textes._
 
 #### o   **TIFF :** Tagged Image File Format \(format de fichier d’image étiqueté\)
 
 TIFF est un format de fichier pour image numérique dans lequel des balises permettent de décrire les caractéristiques d’une image \(dimensions, nombre de couleurs utilisées, type de compression\).
 
-Il permet de stocker des images matricielles \(cartes de points\) de taille importante \(plus de 4 Go compressées\), en noir et blanc, en couleurs réelles, ainsi que des images indexées, faisant usage d'une palette de couleurs.
+Il permet de stocker des images matricielles \(cartes de points\) de taille importante \(plus de 4 Go compressés\), en noir et blanc, en couleurs réelles, ainsi que des images indexées, faisant usage d'une palette de couleurs.
 
 Il s'agit d'un format de conteneur \(ou encapsulation\), à la manière de avi ou zip, c'est-à-dire pouvant contenir des données de formats arbitraires. C’est un format issu du fax.
 
@@ -72,7 +76,7 @@ _Dans ISTEX, les métadonnées en XML sont des fichiers originaux fournis par l�
 
 #### o   **MODS :** Metadata Object Description Schema \(schéma de description objet de métadonnées\)
 
-MODS est un schéma XML créé pour traiter des données bibliographiques et qui s’est élargi de façon à permettre la description de tout type de document et de tout support \(numérique ou non\) : texte imprimé, document iconographique, enregistrement sonore, document d'archives, collection de documents.
+MODS est un schéma XML créé pour traiter des données bibliographiques et qui s’est élargi de façon à permettre la description de tout type de document et de tout support \(numérique ou non\) : texte imprimé, document iconographique, enregistrement sonore, document d'archive, collection de documents.
 
 _Dans ISTEX, les fichiers MODS sont générés à partir d’une transformation des XML originaux, afin de les homogénéiser dans un format de description standard. Le format MODS a été utilisé dans sa version 3.6._
 
@@ -203,9 +207,11 @@ Il est souvent utilisé avec le langage de programmation JavaScript et des feuil
 
 ## Enrichissements
 
-Les enrichissements sont des informations complémentaires de plusieurs types \(catégories scientifiques, références bibliographiques structurées, entités nommées, termes d'indexation\) obtenues à partir du texte intégral et ajoutées au document pour permettre leur réutilisation dans d’autres projets ou initiatives, notamment en fouille de textes. Ils permettent également de cibler un domaine scientifique dans une requête pour constituer un corpus.
+Les enrichissements sont des informations complémentaires de plusieurs types \(catégories scientifiques, références bibliographiques structurées, entités nommées, termes d'indexation\) obtenues à partir du texte intégral et ajoutées au document pour permettre leur réutilisation dans d’autres projets ou initiatives, notamment en fouille de textes. Ils permettent également de cibler plus finement une requête pour constituer un corpus.
 
 Ces enrichissements sont produits par ISTEX à l’aide de plusieurs outils ou méthodes issus de la recherche en traitement automatique des langues et de la recherche en sciences des données et des connaissances, et qui ont été adaptés par ISTEX pour traiter un grand volume de données. Chaque type d'enrichissement est nommé à partir de l'outil ayant permis de le générer.
+
+La présence de ces différents types d'enrichissements dans ISTEX varie en fonction de la langue des documents et des résultats produits par les outils. 
 
 #### o   multicat
 
@@ -235,7 +241,7 @@ Plus de détails sur ces enrichissements et le processus d'enrichissement dans l
 
 #### o   refBibs
 
-Désigne les enrichissements par références bibliographiques structurées produits par l'outil Grobid \(GeneRation Of BIbliographic Data\). Il s'agit d'un outil d'analyse et d'extraction d'informations bibliographiques et de contenu qui fonctionne par apprentissage automatique avec une cascade de modèles CRF \(Conditional Random Fields\) et permet de segmenter le document pour trouver le segment &lt;Refbib&gt;. 
+Désigne les enrichissements par références bibliographiques structurées produits par l'outil Grobid \(GeneRation Of BIbliographic Data\). Il s'agit d'un outil d'analyse et d'extraction d'informations bibliographiques et de contenu qui fonctionne par apprentissage automatique avec une cascade de modèles CRF \(Conditional Random Fields\) et qui permet de segmenter le document pour trouver le segment &lt;Refbib&gt;. 
 
 Les enrichissements produits sont en format TEI-Standoff et contiennent une version structurée de chaque référence bibliographique. 
 
