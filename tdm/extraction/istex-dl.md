@@ -14,7 +14,10 @@ Il s'agit d'une application Web permettant de télécharger très facilement, vi
   * elle propose la sauvegarde dans un historique des 30 requêtes les plus récentes, chacune d'elle pouvant être à nouveau éditée, téléchargée, partagée ou supprimée
 * **Inconvénients :**
   * il est nécessaire de se reconnecter au site après l'authentification
-  * la longueur des équations que l'on peut formuler dans la fenêtre de requête est limitée \(la limite dépend du navigateur employé et est précisée dans l'aide "i" proposée en regard de l'indication sur le nombre de caractères de la requête![](../../.gitbook/assets/capture_doc_dl.PNG)\)
+  * la longueur des équations que l'on peut formuler dans la fenêtre de requête est limitée ; la limite dépend du navigateur employé et est précisée dans l'aide "i" proposée en regard de l'indication sur le nombre de caractères :
+
+    ![](../../.gitbook/assets/capture_doc_dl.PNG)
+
   * les corpus ne peuvent être extraits actuellement que dans la limite de 10 000 documents
   * l'extraction des différents types d'enrichissement n'est pas encore opérationnelle
 * **Mode d'emploi :** l'application est accessible à l’adresse suivante : [https://dl.istex.fr/](https://dl.istex.fr/)
@@ -23,9 +26,12 @@ Il s'agit d'une application Web permettant de télécharger très facilement, vi
   * la récupération des données du formulaire implique de se connecter au site avec une URL sans précision d'un attribut \(https://dl.istex.fr uniquement\)
 * **Astuces :** 
   * la recherche par ARK nécessite simplement de copier/coller une liste d'identifiants qui sera interprétée par l'application
-  * la recherche par équation classique ne nécessite pas d'opérateur booléen en majuscule
+  * dans la recherche par équation classique, l'opérateur booléen "OR" peut être remplacé simplement par un blanc
   * une indication colorée alerte sur le nombre de caractères restants dans la fenêtre de requêtage 
-  * des exemples pédagogiques sont disponibles pour se familiariser avec la syntaxe à employer lors de la construction de sa requête 
+  * les exemples pédagogiques proposés sont cliquables et modifiables, une fois présents dans la  
+
+    fenêtre de requêtage pour se familiariser avec la syntaxe à employer lors de la construction de sa requête 
+
   * si l'on souhaite extraire l'ensemble des formats existants pour un type de fichier particulier, il suffit de cocher ce dernier et tous les formats qui en dépendent seront automatiquement sélectionnés
 
 
