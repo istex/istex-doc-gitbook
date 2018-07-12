@@ -12,19 +12,19 @@ Pour le moment, et pour des raisons purement techniques, le nombre de documents 
 **La syntaxe est la suivante :**
 
 * URI
-  * [`https://api.istex.fr/document/?`**`q={valeur}`**`&`**`extract`**](https://api.istex.fr/document/?q={valeur}&extract)
+  * `https://api.istex.fr/document/?q=`**`{valeur}&extract={typefichier}[{formats}]`**
 * Paramètres 
   * **q** : la requête
-  * **extract:${typefichier}\[${formats}\]** : la sélection des type et formats de fichiers à extraire
-  * **spread:{true/**_**false**_**}** : active la répartition des fichiers téléchargés dans une arborescence à 4 niveaux \(utile pour un nombre important de documents\). Option désactivée par défaut \(spread=false\)
+  * **extract : {typefichier}\[{formats}\]** : la sélection des type et formats de fichiers à extraire
+  * **spread : {true\|**_**false**_**}** : active la répartition des fichiers téléchargés dans une arborescence à 4 niveaux \(utile pour un nombre important de documents\). Option désactivée par défaut \(spread=false\)
 * Code de retour
   * 200 si OK
   * 500 en cas de problème \(dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)\)
 
-**Plus de détails sur la syntaxe** **extract:${typefichier}\[${formats}\]** :
+**Plus de détails sur la syntaxe** **extract : {typefichier}\[{formats}\]** :
 
-* **${typefichier}** est une liste parmi les valeurs `metadata`, `fulltext`, `enrichments`, `cover`,`annexes`, séparée par le caractère `;`.
-* **${formats}** correspond à la liste des formats de fichiers \(au sens "mimetype"\). Il peut être renseigné pour chaque type \(metadata, fulltext...\). Pour cela, la liste des formats est mentionnée entre crochets `[`...`]` et séparée par des virgules.
+* **{typefichier}** est une liste parmi les valeurs `metadata`, `fulltext`, `enrichments`, `cover`,`annexes`, séparée par le caractère `;`.
+* **{formats}** correspond à la liste des formats de fichiers \(au sens "mimetype"\). Il peut être renseigné pour chaque type \(metadata, fulltext...\). Pour cela, la liste des formats est mentionnée entre crochets `[`...`]` et séparée par des virgules.
 * si **extract** est utilisé seul, l'ensemble des fichiers disponibles est extrait. 
 
 | Exemples |  |
