@@ -1,6 +1,6 @@
 # Détecter les PDF image
 
-Cette procédure est utile si l'on souhaite exploiter les PDF pour faire de la fouille de texte. Dans ce cas, il est nécessaire de vérifier que le PDF de départ ne soit pas du PDF image car celui-ci risque de bloquer le traitement de l'outil utilisé.
+Cette procédure est utile si l'on souhaite exploiter les PDF pour faire de la fouille de textes. Dans ce cas, il est nécessaire de vérifier que le PDF de départ ne soit pas du PDF image car celui-ci risque de bloquer le traitement de l'outil utilisé.
 
 Pour cela, il faut d'abord calculer le nombre de mots par page contenus dans un document et ensuite vérifier s'il s'agit d'une image ou d'un texte. En-deçà d’un certain seuil \(seuil qui est variable: voir étape 4\), le document sera considéré comme un PDF image.
 

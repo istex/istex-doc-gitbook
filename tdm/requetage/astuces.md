@@ -4,7 +4,7 @@
 
 De manière générale, la recherche est **insensible à la casse**, c’est-à-dire que le moteur ne tient pas compte des majuscules ou des minuscules.
 
-Ainsi, la recherche sur "xxx" ramènera autant de résultats que celle sur "Xxx".
+Ainsi, la recherche sur "brain" ramènera autant de résultats que celle sur "Brain".
 
 ## **Mots composés**
 
@@ -16,7 +16,7 @@ Ainsi, la recherche sur "disease-free plant" ramènera autant de résultats que 
 
 Le moteur de recherche est par contre sensible aux accents et autres caractères diacritiques et nécessite une indication de toutes les formes accentuées possibles si l’on veut prendre en compte des résultats de plusieurs langues.
 
-**\*Exemple** : recherche de documents avec « logopédie », « logopède », « logopedics », « Logopädie »\*
+_**Exemple** : recherche de documents avec « logopédie », « logopède », « logopedics », « Logopädie »_
 
 2 solutions :
 

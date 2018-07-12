@@ -1,8 +1,8 @@
 # Moissonneur de l'API ISTEX
 
-Il s'agit d'un utilitaire en ligne de commande permettant de moissonner les corpus requêtés par l'API de la plateforme ISTEX. istex-api-harvester est écrit en NodeJS.
+Le programme **istex-api-harvester** est un utilitaire en ligne de commande permettant de moissonner les corpus requêtés par l'API de la plateforme ISTEX. Il est écrit en NodeJS.
 
-* **Avantage** : il peut être utilisé en dehors de l’Inist car gère l’authentification par la fédération d’identité.
+* **Avantage** :  il gère l'authentification au serveur en dehors du réseau interne de l'INIST-CNRS.
 * **Inconvénient** : son utilisation nécessite de disposer de Git et de NodeJs, ainsi que d'installer le moissonneur via un terminal de commande.
 * **Mode d'emploi :** ce programme est disponible sur [**Github**](https://github.com/istex/istex-api-harvester).
 * **Installations :**

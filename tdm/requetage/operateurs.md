@@ -121,7 +121,7 @@ En effet, dans le second cas, le champ n’est pas factorisé. Seul le 1er mot `
 
 Dans les parenthésages plus complexes, il est possible d’inclure un NOT dans un NOT afin d’autoriser la présence d’un mot lorsque l’on exclut la présence d’un autre mot :
 
-* **\*Exemple :** Recherche des documents contenant les mots commençant par pyrophyt- ou sciaphyt- ou sclerophyt- ou xerophyt- ou "aquatic plant" dans le résumé\*
+* _**Exemple :** Recherche des documents contenant les mots commençant par pyrophyt- ou sciaphyt- ou sclerophyt- ou xerophyt- ou "aquatic plant" dans le résumé_
 
 ```text
 q=abstract:(pyrophyt* sciaphyt* sclerophyt* xerophyt* "aquatic plant")
@@ -129,7 +129,7 @@ q=abstract:(pyrophyt* sciaphyt* sclerophyt* xerophyt* "aquatic plant")
 
 ​ ⇒ Résultat : 1 010
 
-* **\*Exemple:** Parmi les documents contenant les mots commençant par pyrophyt- ou sciaphyt- ou sclerophyt- ou xerophyt- ou "aquatic plant" dans le résumé, on exclut ceux qui contiennent le mot fungi\*
+* _**Exemple:** Parmi les documents contenant les mots commençant par pyrophyt- ou sciaphyt- ou sclerophyt- ou xerophyt- ou "aquatic plant" dans le résumé, on exclut ceux qui contiennent le mot fungi_
 
 ```text
 q=abstract:((pyrophyt* sciaphyt* sclerophyt* xerophyt* "aquatic plant") NOT fungi)
@@ -137,7 +137,7 @@ q=abstract:((pyrophyt* sciaphyt* sclerophyt* xerophyt* "aquatic plant") NOT fung
 
 ​ ⇒ Résultat : 1 000
 
-* **\*Exemple :** Parmi les documents contenant les mots commençant par pyrophyt- ou sciaphyt- ou sclerophyt- ou xerophyt- ou "aquatic plant" et ne contenant pas le mot fungi dans le résumé, on accepte les documents contenant le mot fungi s’ils contiennent aussi les mots commençant par mycorrhiz- ou ectomycorrhiz- ou endomycorrhiz-\*
+* _**Exemple :** Parmi les documents contenant les mots commençant par pyrophyt- ou sciaphyt- ou sclerophyt- ou xerophyt- ou "aquatic plant" et ne contenant pas le mot fungi dans le résumé, on accepte les documents contenant le mot fungi s’ils contiennent aussi les mots commençant par mycorrhiz- ou ectomycorrhiz- ou endomycorrhiz-_
 
 ```text
 q=abstract:(pyrophyt* sciaphyt* sclerophyt* xerophyt* "aquatic plant" NOT (fungi NOT (mycorrhiz* ectomycorrhiz* endomycorrhiz*)))
