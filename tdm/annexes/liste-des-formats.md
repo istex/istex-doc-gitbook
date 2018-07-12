@@ -8,7 +8,7 @@ ISTEX met à la disposition de ses utilisateurs différents types de fichiers po
 * les couvertures
 * les enrichissements
 
-Ces types de fichiers sont eux-mêmes disponibles dans différents formats qui ont chacun leur particularité à prendre en compte lors de l'extraction en fonction de l'objectif visé.
+Ces types de fichiers sont eux-mêmes disponibles dans différents formats qui ont chacun leur particularité à prendre en compte lors de l'extraction des documents, en fonction de l'objectif visé.
 
 ## Texte intégral
 
@@ -205,15 +205,22 @@ Il est souvent utilisé avec le langage de programmation JavaScript et des feuil
 
 Les enrichissements sont des informations complémentaires de plusieurs types \(catégories scientifiques, références bibliographiques structurées, entités nommées, termes d'indexation\) obtenues à partir du texte intégral et ajoutées au document pour permettre leur réutilisation dans d’autres projets ou initiatives, notamment en fouille de textes. 
 
-Ces enrichissements sont produits par ISTEX à l’aide de plusieurs outils ou méthodes issus de la recherche en traitement automatique de langues et de la recherche en sciences des données et des connaissances, et qui ont été adaptés par ISTEX pour traiter un grand volume de données. Chaque type d'enrichissement est nommé à partir de l'outil ayant permis de le générer.
+Ces enrichissements sont produits par ISTEX à l’aide de plusieurs outils ou méthodes issus de la recherche en traitement automatique des langues et de la recherche en sciences des données et des connaissances, et qui ont été adaptés par ISTEX pour traiter un grand volume de données. Chaque type d'enrichissement est nommé à partir de l'outil ayant permis de le générer.
 
 #### o   multicat
 
 Désigne les enrichissements par catégories scientifiques produits par l'outil Multicat. Ils sont issus d'un processus de catégorisation par appariement qui reporte sur chaque document d'une revue la catégorie scientifique attribuée à cette revue par des ressources reconnues \(Science-Metrix, Web of Science, Scopus\), en s'appuyant sur l'ISSN de la revue. 
 
-Les enrichissements produits sont en format TEI-Standoff et contiennent toutes les catégories qui ont été attribuées à la revue par ces différentes ressources. À noter que les catégories scientifiques attribués à une revue ne sont pas toujours adaptées pour catégoriser tous les articles de la même revue. 
+Les enrichissements produits sont en format TEI-Standoff et contiennent toutes les catégories qui ont été attribuées à la revue par ces différentes ressources. À noter que les catégories scientifiques attribuées à une revue ne sont pas toujours adaptées pour catégoriser tous les articles de la même revue. 
 
-Plus de détails sur ces enrichissements et le processus d'enrichissement sur les sites suivants : [https://sciencemetrix-category.data.istex.fr/](https://sciencemetrix-category.data.istex.fr/), [https://wos-category.data.istex.fr/](https://wos-category.data.istex.fr/), [https://scopus-category.data.istex.fr/](https://scopus-category.data.istex.fr/), [https://enrichment-process.data.istex.fr/ark:/67375/R0H-BMCHCCJF-J](https://enrichment-process.data.istex.fr/ark:/67375/R0H-BMCHCCJF-J), [https://enrichment-process.data.istex.fr/ark:/67375/R0H-PWBRNFQ8-H](https://enrichment-process.data.istex.fr/ark:/67375/R0H-PWBRNFQ8-H), et [https://enrichment-process.data.istex.fr/ark:/67375/R0H-Q29BJZWS-N](https://enrichment-process.data.istex.fr/ark:/67375/R0H-Q29BJZWS-N).
+Plus de détails sur ces enrichissements et le processus d'enrichissement dans les rubriques suivantes du site [data.istex.fr](https://data.istex.fr/) :
+
+* [catégories Science-Metrix](https://sciencemetrix-category.data.istex.fr/)
+* [catégories WoS](https://wos-category.data.istex.fr/)
+* [catégories Scopus](https://scopus-category.data.istex.fr/)
+* [processus Multicat/Sciences-Metrix](https://enrichment-process.data.istex.fr/ark:/67375/R0H-Q29BJZWS-N)
+* [processus Multicat/Wos](https://enrichment-process.data.istex.fr/ark:/67375/R0H-PWBRNFQ8-H)
+* [processus Multicat/Scopus](https://enrichment-process.data.istex.fr/ark:/67375/R0H-BMCHCCJF-J)
 
 #### o   nb
 
