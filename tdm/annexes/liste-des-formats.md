@@ -203,7 +203,7 @@ Il est souvent utilisé avec le langage de programmation JavaScript et des feuil
 
 ## Enrichissements
 
-Les enrichissements sont des informations complémentaires de plusieurs types \(catégories scientifiques, références bibliographiques structurées, entités nommées, termes d'indexation\) obtenues à partir du texte intégral et ajoutées au document pour permettre leur réutilisation dans d’autres projets ou initiatives, notamment en fouille de textes. 
+Les enrichissements sont des informations complémentaires de plusieurs types \(catégories scientifiques, références bibliographiques structurées, entités nommées, termes d'indexation\) obtenues à partir du texte intégral et ajoutées au document pour permettre leur réutilisation dans d’autres projets ou initiatives, notamment en fouille de textes. Ils permettent également de cibler le domaine scientifique dans une requête pour constituer son corpus.
 
 Ces enrichissements sont produits par ISTEX à l’aide de plusieurs outils ou méthodes issus de la recherche en traitement automatique des langues et de la recherche en sciences des données et des connaissances, et qui ont été adaptés par ISTEX pour traiter un grand volume de données. Chaque type d'enrichissement est nommé à partir de l'outil ayant permis de le générer.
 
@@ -228,7 +228,10 @@ Désigne les enrichissements par catégories scientifiques produits par l'outil 
 
 Les enrichissements produits sont en format TEI-Standoff et contiennent toutes les catégories prédites \(code de classement + verbalisation\) et leur probabilité. 
 
-Plus de détails sur ces enrichissements et le processus d'enrichissement sur les sites suivants :  [https://inist-category.data.istex.fr/](https://inist-category.data.istex.fr/) et [https://enrichment-process.data.istex.fr/ark:/67375/R0H-DV0BN0B8-J](https://enrichment-process.data.istex.fr/ark:/67375/R0H-DV0BN0B8-J).
+Plus de détails sur ces enrichissements et le processus d'enrichissement dans les rubriques suivantes du site [data.istex.fr](https://data.istex.fr/) : 
+
+* [catégories Inist](https://inist-category.data.istex.fr/)
+* [pro](https://enrichment-process.data.istex.fr/ark:/67375/R0H-DV0BN0B8-J)[cessus nb](https://enrichment-process.data.istex.fr/ark:/67375/R0H-DV0BN0B8-J)
 
 #### o   refBibs
 
@@ -236,7 +239,9 @@ Désigne les enrichissements par références bibliographiques structurées prod
 
 Les enrichissements produits sont en format TEI-Standoff et contiennent une version structurée de chaque référence bibliographique. 
 
-Plus de détails sur le processus d'enrichissement sur le site suivant : [https://enrichment-process.data.istex.fr/ark:/67375/R0H-2WXX0NK2-9](https://enrichment-process.data.istex.fr/ark:/67375/R0H-2WXX0NK2-9).
+Plus de détails sur le processus d'enrichissement dans la rubrique suivante du site [data.istex.fr](https://data.istex.fr/) : 
+
+* [processus Grobid](https://enrichment-process.data.istex.fr/ark:/67375/R0H-2WXX0NK2-9)
 
 #### o   teeft
 
@@ -244,7 +249,9 @@ Désigne les enrichissements par termes d'indexation produits par l'outil Teeft.
 
 Les enrichissements produits sont en format TEI-Standoff et contiennent les termes, leur fréquence et leur spécificité. 
 
-Plus de détails sur le processus d'enrichissement sur le site suivant : [https://enrichment-process.data.istex.fr/ark:/67375/R0H-R25KK4KZ-Q](https://enrichment-process.data.istex.fr/ark:/67375/R0H-R25KK4KZ-Q).
+Plus de détails sur le processus d'enrichissement dans la rubrique suivante du site [data.istex.fr](https://data.istex.fr/) : 
+
+* [processus Teeft](https://enrichment-process.data.istex.fr/ark:/67375/R0H-R25KK4KZ-Q)
 
 #### o   unitex
 
@@ -252,5 +259,8 @@ Désigne les enrichissements par entités nommées produits par l'outil Unitex. 
 
 Les enrichissements produits sont en format TEI-Standoff et contiennent les entités nommées de type "personne", "lieu", "organisation", "indicateur temporel", "pointeur vers références bibliographiques", "références bibliographiques complètes dans le texte", "url" retrouvées dans le texte en anglais et en français, ainsi que leur fréquence. 
 
-Plus de détails sur ces enrichissements et le processus d'enrichissement sur les sites suivants :  [https://named-entity.data.istex.fr/](https://named-entity.data.istex.fr/) et [https://enrichment-process.data.istex.fr/ark:/67375/R0H-KGDTPS40-S](https://enrichment-process.data.istex.fr/ark:/67375/R0H-KGDTPS40-S).
+Plus de détails sur ces enrichissements et le processus d'enrichissement dans les rubriques suivantes du site [data.istex.fr](https://data.istex.fr/) :  
+
+* [entités nommées](https://named-entity.data.istex.fr/%20)
+* [processus Unitex-CasSys](https://enrichment-process.data.istex.fr/ark:/67375/R0H-KGDTPS40-S)
 
