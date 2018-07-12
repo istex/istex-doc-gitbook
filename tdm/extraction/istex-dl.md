@@ -5,13 +5,21 @@ Il s'agit d'une application Web permettant de télécharger très facilement, vi
 * **Avantages :**
   * très simple d'emploi, l'application met à disposition de nombreuses aides à toutes les étapes
   * elle gère l’authentification par la fédération d’identité lors du téléchargement d'un premier corpus
-  * elle permet de constituer un corpus, soit en utilisant une équation classique de type booléenne, soit à partir d'une simple liste d'identifiants pérennes de type ARK
+  * elle permet de constituer un corpus, soit en utilisant une équation classique de type booléenne, soit à partir d'une simple liste d'identifiants pérennes de type ARK  
+
+    ![](../../.gitbook/assets/capture_doc2.PNG)
+
   * elle offre la possibilité de trier les résultats par pertinence ou de manière aléatoire, le tirage aléatoire pour constituer un échantillon représentatif de documents pouvant s'avérer intéressant lorsque l'on restreint le nombre de documents à extraire
-  * elle permet de sélectionner de manière intuitive les fichiers et formats que l'on souhaite télécharger
+  * elle permet de sélectionner de manière intuitive les fichiers et formats que l'on souhaite télécharger  
+
+    ![](../../.gitbook/assets/capture_doc5.PNG)
+
   * elle propose le téléchargement des annexes et couvertures disponibles pour la liste des documents extraits, ainsi que des enrichissements présents dans ISTEX sans distinction de type
-  * elle offre le partage du corpus téléchargé via le lien correspondant
+  * elle offre le partage du corpus téléchargé via le lien correspondant ![](../../.gitbook/assets/capture_doc6.PNG) 
   * elle permet de récupérer sa requête et les choix de paramétrage effectués en cas de fermeture accidentelle de l'onglet actif ou du navigateur
-  * elle propose la sauvegarde dans un historique des 30 requêtes les plus récentes, chacune d'elle pouvant être à nouveau éditée, téléchargée, partagée ou supprimée
+  * elle propose la sauvegarde dans un historique des 30 requêtes les plus récentes, chacune d'elle pouvant être à nouveau éditée, téléchargée, partagée ou supprimée  
+
+    ![](../../.gitbook/assets/capture_doc4.PNG)
 * **Inconvénients :**
   * il est nécessaire de se reconnecter au site après l'authentification
   * la longueur des équations que l'on peut formuler dans la fenêtre de requête est limitée ; la limite dépend du navigateur employé et est précisée dans l'aide "i" proposée en regard de l'indication sur le nombre de caractères :
