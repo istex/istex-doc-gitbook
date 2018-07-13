@@ -80,7 +80,7 @@ MODS est un schéma XML créé pour traiter des données bibliographiques et qui
 
 _Dans ISTEX, les fichiers MODS sont générés à partir d’une transformation des XML originaux, afin de les homogénéiser dans un format de description standard. Le format MODS a été utilisé dans sa version 3.6._
 
-#### o JSON \(JavaScript Object Notation notation des objets du langage JavaScript\)
+#### o JSON \(JavaScript Object Notation - notation des objets du langage JavaScript\)
 
 JSON est un format standard permettant la représentation et l’échange de données structurées, facile à lire/écrire par les humains, facile à analyser par les machines. JSON est issu du langage de programmation JavaScript. Les documents JSON étant relativement légers, ce format est souvent utilisé pour structurer et transmettre des données sur des sites web. JSON est une syntaxe permettant de sérialiser des objets, tableaux, nombres, chaînes de caractères, booléens, valeur null et de conserver des données hiérarchiques.
 
