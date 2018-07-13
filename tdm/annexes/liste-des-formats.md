@@ -24,7 +24,7 @@ _Les fichiers en format PDF dans ISTEX sont des fichiers originaux fournis par l
 
 Il s'agit d'un format permettant l’archivage et la compression de fichiers. L’archivage est l’utilisation d’un seul fichier pour stocker plusieurs fichiers. La compression des fichiers permet de réduire leur taille. Compresser les fichiers permet de gagner du temps dans le chargement des données et de la place dans le stockage de celles-ci. Le logiciel de compression analyse le fichier et compresse les parties qui se répètent. Lors de la décompression, la forme originale du fichier est restaurée. On peut le comparer à la combinaison de tar \(archivage\) et gzip \(compression\) dans le cadre d'une archive compressée .tgz.
 
-_Dans ISTEX, le répertoire ZIP proposé pour chaque document du corpus contient les fichiers fournis par l’éditeur \(texte intégral en format PDF, en XML structuré, et éventuellement des couvertures et des annexes\), ainsi que le fichier_ [_JSON_ ](liste-des-formats.md#o-json-javascript-object-notation-notation-des-objets-du-langage-javascript)_produit par ISTEX._
+_Dans ISTEX, le répertoire ZIP proposé pour chaque document du corpus contient les fichiers fournis par l’éditeur \(texte intégral en format PDF, en XML structuré, et éventuellement des couvertures et des annexes\), ainsi que le fichier_ [_JSON_ ](liste-des-formats.md#json-javascript-object-notation-notation-des-objets-du-langage-javascript)_produit par ISTEX._
 
 _NB : La rubrique_ [_Extraire les documents XML des fichiers ZIP_](../verification/extract-xml-from-zip.md) _propose une procédure permettant de récupérer le fichier en format XML structuré fourni par l'éditeur afin de pouvoir l'exploiter avec des outils TAL ou TDM._
 
@@ -80,7 +80,7 @@ MODS est un schéma XML créé pour traiter des données bibliographiques et qui
 
 _Dans ISTEX, les fichiers MODS sont générés à partir d’une transformation des XML originaux, afin de les homogénéiser dans un format de description standard. Le format MODS a été utilisé dans sa version 3.6._
 
-#### o   **JSON :** JavaScript Object Notation \(notation des objets du langage JavaScript\)
+#### **JSON :** JavaScript Object Notation \(notation des objets du langage JavaScript\)
 
 JSON est un format standard permettant la représentation et l’échange de données structurées, facile à lire/écrire par les humains, facile à analyser par les machines. JSON est issu du langage de programmation JavaScript. Les documents JSON étant relativement légers, ce format est souvent utilisé pour structurer et transmettre des données sur des sites web. JSON est une syntaxe permettant de sérialiser des objets, tableaux, nombres, chaînes de caractères, booléens, valeur null et de conserver des données hiérarchiques.
 
