@@ -23,10 +23,7 @@ Il s'agit d'une application Web permettant de télécharger très facilement, vi
 * **Astuces :** 
   * la recherche par ARK nécessite simplement de copier/coller une liste d'identifiants en colonne qui sera interprétée par l'application \(voir dernier exemple\)
   * dans la recherche par équation classique, l'opérateur booléen "OR" peut être remplacé simplement par un blanc
-  * les exemples d'équations sont cliquables et modifiables, une fois copiés dans la  
-
-    fenêtre de requêtage, pour se familiariser avec la syntaxe à employer lors de la construction de sa requête 
-
+  * les exemples d'équations sont cliquables et modifiables, une fois copiés dans la fenêtre de requêtage, pour se familiariser avec la syntaxe à employer lors de la construction de sa requête 
   * une indication colorée alerte sur le nombre de caractères restants dans la fenêtre de requêtage
   * si l'on souhaite extraire l'ensemble des formats existants pour un type de fichier particulier, il suffit de cocher ce dernier et tous les formats qui en dépendent seront automatiquement sélectionnés
 
