@@ -13,13 +13,13 @@ Il s'agit d'une application Web permettant de télécharger très facilement, vi
   * elle propose la sauvegarde dans un historique des 30 requêtes les plus récentes, chacune d'elle pouvant être à nouveau éditée, téléchargée, partagée ou supprimée  
 * **Inconvénients :**
   * il est nécessaire de se reconnecter au site après l'authentification
-  * la limite autorisée de longueur des équations dépend du navigateur employé \(indiquée dans l'aide correspondante\)
+  * la limite autorisée pour des équations très longues dépend du navigateur employé \(indication fournie dans l'aide correspondante\)
   * les corpus ne peuvent être extraits actuellement que dans la limite de 10 000 documents
   * l'extraction d'un type particulier d'enrichissement n'est pas encore opérationnelle
 * **Mode d'emploi :** l'application est accessible à l’adresse suivante : [https://dl.istex.fr/](https://dl.istex.fr/)
 * **Prérequis :**
   * l'utilisation optimale de toutes les fonctionnalités de l'application requiert l'autorisation par votre navigateur des cookies et des données pour ce site jusqu'à leur expiration 
-  * la récupération des données du formulaire implique de se connecter au site avec une URL sans précision d'un attribut \(`https://dl.istex.fr` uniquement\)
+  * la récupération des données du formulaire implique de se connecter au site avec une URL sans précision d'un attribut \("https://dl.istex.fr" uniquement\)
 * **Astuces :** 
   * la recherche par ARK nécessite simplement de copier/coller une liste d'identifiants en colonne qui sera interprétée par l'application \(voir dernier exemple\)
   * dans la recherche par équation classique, l'opérateur booléen "OR" peut être remplacé simplement par un blanc
