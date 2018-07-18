@@ -1,6 +1,10 @@
 # Sélection des champs renvoyés
 
-Apprendre les options disponibles dans l'API : [http://www.inist.fr/formations/Tuto\_API\_ISTEX\_Module\_4/story.html](http://www.inist.fr/formations/Tuto_API_ISTEX_Module_4/story.html)
+Pour apprendre les options disponibles dans l'API : 
+
+ __[_N_'_hésitez pas à consulter le tutoriel multimédias_ ](https://istex-tutorial.data.istex.fr/ark:/67375/Q05-STTNXF50-V)
+
+
 
 **La syntaxe est la suivante :**
 

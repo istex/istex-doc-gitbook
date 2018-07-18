@@ -2,9 +2,9 @@
 
 Toutes les URL suivantes sont accédées via la méthode **HTTP GET**.
 
-_Pour apprendre à interroger l’API n'hésitez pas à consulter les tutoriels multimédias :_
+\_\_[_Pour apprendre à interroger l’API  \(Part1\)_ ](https://istex-tutorial.data.istex.fr/ark:/67375/Q05-GXQNQL2L-L) _et_  [_\(Part2\)_](https://istex-tutorial.data.istex.fr/ark:/67375/Q05-KFHR984N-W) _n'hésitez pas à consulter les tutoriels multimédias :_
 
-[http://www.inist.fr/formations/Tuto\_API\_ISTEX\_Module\_2/story.html](http://www.inist.fr/formations/Tuto_API_ISTEX_Module_2/story.html) [http://www.inist.fr/formations/Tuto\_API\_ISTEX\_Module\_3/story.html](http://www.inist.fr/formations/Tuto_API_ISTEX_Module_3/story.html)
+\_\_
 
 La recherche s'effectue sous la forme :
 
