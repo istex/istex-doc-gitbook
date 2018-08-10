@@ -11,7 +11,7 @@ Le principe d'utilisation est le suivant :
 * Pour accéder à la suite des résultats, vous devez relancer la requête initiale accompagnée du paramètre `scrollId`, ce qui permet à l'API savoir à quel parcours et jeu de résultats se référer.
 
 | Syntaxe |  |
-| --- | --- |
+| :--- | :--- |
 | URI | `https://api.istex.fr/document/?q={query}&scroll={durée}&scrollId={identifiant}` |
 | Explications | Cette option permet d'activer le mode `scroll`.  Dans ce mode, une sorte de "session" de parcours est initiée et maintenue active pendant temps limité,  à l'issue duquel les résultats ne peuvent plus être parcourus. |
 | Paramètres | **&scroll** : l'option permettant de définir la durée pendant laquelle la liste des résultats reste "active".  Ce délai est formé d'un nombre entier suivi des caractères `d`, `h`, `m`, `s` ou `ms`.  La valeur par défaut est `30s`.  Ce délai est remis à zéro à chaque _déplacement_ dans les résultats de la _session_ courante. |

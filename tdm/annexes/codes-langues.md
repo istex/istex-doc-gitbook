@@ -7,7 +7,7 @@ Cette liste de valeurs permet d'interroger le champ `language`.
 > Des informations complémentaires sur chaque langue présente dans Istex, exposées selon les normes du web sémantique, sont accessibles sur le site [data.istex.fr](https://data.istex.fr) à la page dédiée aux [langues](https://publication-language.data.istex.fr).
 
 | Code | Nom en Français |
-| --- | --- |
+| :--- | :--- |
 | aar | afar |
 | abk | abkhaze |
 | ace | aceh |

@@ -5,7 +5,7 @@ Toutes les URL suivantes sont accédées via la méthode **HTTP GET**.
 Pour **récupérer la liste des champs et formats** \(métadonnées, fulltext, annexes, covers, enrichments\) disponibles **pour un document**, il est possible d'effectuer une requête sous la forme :
 
 | Syntaxe |  |
-| --- | --- |
+| :--- | :--- |
 | URI | `https://api.istex.fr/document/{id}` |
 | Paramètres | - **{id}** : l'identifiant ISTEX du document auquel correspond la notice. |
 | Code de retour | - 200 si OK,  - 404 si la notice n'est pas trouvée |

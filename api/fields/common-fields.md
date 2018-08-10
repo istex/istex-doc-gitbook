@@ -3,7 +3,7 @@
 La liste suivante concerne les champs disponibles à la fois **au niveau de l'article** et **au niveau de la revue ou livre** \(voir le \[chapitre sur la [granularité](doc-object-granularity.md)\). Pour changer entre ces deux niveaux de granularité, il suffit d'ajouter le champ `host` pour accéder aux **données niveau revue**, et de ne rien ajouter pour les **données niveau article** :
 
 | Champs | Type | Détails |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | author | \[{}\] | **Tableau d'objets**, chaque objet correspondant à un **auteur** |
 | author.affiliations | \[string\] | **Tableau** des **affiliations de l'auteur**, liées à l'article ou la revue |
 | author.name | string | **Nom de l'auteur**, lié à l'article ou la revue |

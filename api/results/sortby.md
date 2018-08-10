@@ -25,7 +25,7 @@
   * 500 en cas de problème \(dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)\)
 
 | Exemples |  |
-| --- | --- |
+| :--- | :--- |
 | Affichage de l'ensemble des documents triés selon le champ **host.copyrightDate** | [https://api.istex.fr/document/?q=\***&sortBy=host.copyrightDate**&output=host.copyrightDate](https://api.istex.fr/document/?q=*&sortBy=host.copyrightDate&output=host.copyrightDate) |
 | Affichage de l'ensemble des documents triés selon le champ **host.copyrightDate, en ordre descendant** | [https://api.istex.fr/document/?q=\***&sortBy=host.copyrightDate\[desc\]**&output=host.copyrightDate](https://api.istex.fr/document/?q=*&sortBy=host.copyrightDate[desc]&output=host.copyrightDate) |
 | Affichage de l'ensemble des documents triés selon le champ **host.copyrightDate, puis le champ genre** | [https://api.istex.fr/document/?q=\*&**sortBy=host.copyrightDate,genre.raw**&output=host.copyrightDate,genre](https://api.istex.fr/document/?q=*&sortBy=host.copyrightDate,genre.raw&output=host.copyrightDate,genre) |

@@ -79,7 +79,7 @@ La facette affiche ces intervalles en indiquant **la borne inférieure** comme r
 * **docCount** : nombre de résultats trouvé dans l'intervalle.\*
 
 | Exemples |  |
-| --- | --- |
+| :--- | :--- |
 | Affichage de l'ensemble des documents avec une facette sur **l'ensemble des scores de qualité** | [https://api.istex.fr/document/?q=\***&facet=qualityIndicators.score**](https://api.istex.fr/document/?q=*&facet=qualityIndicators.score) ; [https://api.istex.fr/document/?q=\***&facet=score**](https://api.istex.fr/document/?q=*&facet=score) |
 | Affichage de l'ensemble des documents avec une facette sur **les scores de qualité compris entre 5 et 7** | [https://api.istex.fr/document/?q=\***&facet=qualityIndicators.score\[5-7\]**](https://api.istex.fr/document/?q=*&facet=qualityIndicators.score[5-7]) **;** [https://api.istex.fr/document/?q=\***&facet=score\[5-7\]**](https://api.istex.fr/document/?q=*&facet=score[5-7]) |
 | Affichage de l'ensemble des documents avec une facette sur **les scores de qualité compris entre 5 et 7 par intervalle de 1** | [https://api.istex.fr/document/?q=\***&facet=qualityIndicators.score\[5-7:1\]**](https://api.istex.fr/document/?q=*&facet=qualityIndicators.score[5-7:1]) **;** [https://api.istex.fr/document/?q=\***&facet=score\[5-7:1\]**](https://api.istex.fr/document/?q=*&facet=score[5-7:1]) |

@@ -13,7 +13,7 @@ Pour plus d'information sur la signification de ces valeurs, vous pouvez consult
 Chaque type de publication contient différents types de contenus. La liste ci-dessous présente les différentes valeurs permettant d'interroger le champ `genre` :
 
 | journal | book | book-series | database | reference-works |
-| --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- |
 | research-article | chapter | research-article | other | collected-courses |
 | article | research-article | chapter |  | book |
 | book-reviews | article | conference |  |  |

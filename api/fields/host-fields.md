@@ -3,7 +3,7 @@
 Certains champs sont également présents uniquement **au niveau de la revue**, c'est-à-dire précédés de `host` \(voir le \[chapitre sur la [granularité](doc-object-granularity.md)\) :
 
 | Champs | Type | Détails |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | host.bookId | string | ------------- |
 | host.conference | \[{}\] | **Tableau d'objets**, chaque objet correspondant à une **conférence** |
 | host.conference.name | string | **Nom de la conférence** |

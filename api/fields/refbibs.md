@@ -5,7 +5,7 @@ Les références bibliographiques sont rassemblées sous le champ **refBibs**.
 Ces dernières sont soit **fournies par l'éditeur**, soit **extraites** à l'aide de l’outil d'analyse [GROBID](https://github.com/kermitt2/grobid) à partir du PDF. On y retrouvera :
 
 | Champs | Type | Détails |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | refBibs | \[{}\] | **Tableau d'objets**, chaque objet correspondant à une **référence bibliographique** |
 | refBibs.author | \[{}\] | **Tableau d'objets**, chaque objet correspondant à un **auteur référencé** |
 | rebBibs.author.name | string | **Nom** d'un auteur référencé |

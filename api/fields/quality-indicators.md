@@ -5,7 +5,7 @@ Les indicateurs de qualité sont rassemblés sous le champ **qualityIndicators**
 Ces derniers contiennent des **informations supplémentaires** sur le contenu du fulltext et des métadonnées, calculé en amont de la chaîne. En effet, on y retrouvera :
 
 | Champs | Type | Détails |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | qualityIndicators | {} | **Objet** contenant l'ensemble des **informations supplémentaires** |
 | qualityIndicators.abstractCharCount | integer | Nombre de **caractères** dans le résumé |
 | qualityIndicators.abstractWordCount | integer | Nombre de **mots** dans le résumé \(basé sur le nombre d'espace\) |

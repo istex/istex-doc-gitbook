@@ -201,7 +201,7 @@ Il est souvent utilisé avec le langage de programmation JavaScript et des feuil
 
 ## Enrichissements
 
-Les enrichissements sont des informations complémentaires de plusieurs types \(catégories scientifiques, références bibliographiques structurées, entités nommées, termes d'indexation\) obtenues à partir du texte intégral et ajoutées au document pour permettre leur réutilisation dans d’autres projets ou initiatives, notamment en fouille de textes. Ils permettent également de cibler plus finement une requête pour constituer un corpus.
+Les enrichissements sont des informations complémentaires de plusieurs types obtenues à partir du texte intégral et ajoutées au document pour permettre leur réutilisation dans d’autres projets ou initiatives, notamment en fouille de textes. Ils permettent également de cibler plus finement une requête pour constituer un corpus. Ces informations complémentaires sont des catégories scientifiques, des références bibliographiques structurées, des entités nommées et des termes d'indexation.
 
 Ces enrichissements sont produits par ISTEX à l’aide de plusieurs outils ou méthodes issus de la recherche en traitement automatique des langues et de la recherche en sciences des données et des connaissances, et qui ont été adaptés par ISTEX pour traiter un grand volume de données. Chaque type d'enrichissement est nommé à partir de l'outil ayant permis de le générer.
 

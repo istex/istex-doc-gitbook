@@ -36,7 +36,7 @@ Les paramètres de pagination se basent sur les deux options `from` et `size` qu
   * 500 en cas de problème \(dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)\)
 
 | Exemples |  |
-| --- | --- |
+| :--- | :--- |
 | Récupération des **7 premiers résultats** pour le terme "controllability" | [https://api.istex.fr/document/?q=controllability**&size=7**](https://api.istex.fr/document/?q=controllability&size=7) [https://api.istex.fr/document/?q=controllability**&from=0&size=7**](https://api.istex.fr/document/?q=controllability&from=0&size=7) |
 | Récupération des **résultats 3 à 7** pour le terme "controllability" | [https://api.istex.fr/document/?q=controllability**&from=3&size=4**](https://api.istex.fr/document/?q=controllability&from=3&size=4) |
 

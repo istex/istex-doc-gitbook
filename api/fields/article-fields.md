@@ -3,7 +3,7 @@
 D'autres champs sont également présents uniquement **au niveau de l'article** :
 
 | Champs | Type | Détails |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | abstract | string | **Résumé** du document |
 | articleId | string | ------------- |
 | categories | {} | **Objet** contenant les informations liées aux **catégories** |

@@ -30,7 +30,7 @@ Pour apprendre les options disponibles dans l'API :
   * 500 en cas de problème \(dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)\) 
 
 | Exemples |  |
-| --- | --- |
+| :--- | :--- |
 | Récupération des champs **title et fulltext** sur l'ensemble des résultats | [https://api.istex.fr/document/?q=\***&output=title,fulltext**](https://api.istex.fr/document/?q=*&output=title,fulltext) |
 | Récupération de **tous les champs disponibles** sur l'ensemble des résultats | [https://api.istex.fr/document/?q=\***&output=\***](https://api.istex.fr/document/?q=*&output=*) |
 

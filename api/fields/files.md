@@ -3,7 +3,7 @@
 A ces listes de champs s'ajoutent la suivante, permettant de consulter les fichiers liés au document en question. Ces champs ne sont pas interrogeables, et l'accès à ces fichiers sera détaillé dans les sections suivantes :
 
 | Champs | Type | Détails |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | annexes.extension | string | **Extension** du fichier d'annexe \(ex : "jpeg"\) |
 | annexes.mimetype | string | **Mimetype** du fichier du fulltext \(ex : "image/jpeg"\) |
 | annexes.original | boolean | Indique si le fichier d'annexe **vient de l'éditeur** |

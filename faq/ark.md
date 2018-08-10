@@ -15,7 +15,7 @@ _« Theatre in the Arab World: A Difficult Birth »_ l'URL se construit ainsi
 * Le sid qui caractérise la voie d’accès
 
 | 1er exemple | [EDS/EBSCO Istex view](https://doc.istex.fr/users/discovery/) |
-| --- | --- |
+| :--- | :--- |
 | 2ème exemple | [L’extension](https://addons.istex.fr/) |
 
 **=&gt; Dorénavant toutes les notices ont également un identifiant pérenne ARK \(Archival Resource Key\)**

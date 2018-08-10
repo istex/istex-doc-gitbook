@@ -28,7 +28,7 @@ Pour le moment, et pour des raisons purement techniques, le nombre de documents 
 * si **extract** est utilisé seul, l'ensemble des fichiers disponibles est extrait. 
 
 | Exemples |  |
-| --- | --- |
+| :--- | :--- |
 | Extraction de toutes les documents relatifs au terme "brain" | [https://api.istex.fr/document/?q=brain&**extract**&output=\*](https://api.istex.fr/document/?q=brain&extract) |
 | Extraction de tous les fichiers de méta-données et de plein-texte correspondant au terme "brain" | [https://api.istex.fr/document/?q=brain&**extract=metadata;fulltext**](https://api.istex.fr/document/?q=brain&extract=metadata;fulltext) |
 | Extraction des méta-données en Mods uniquement, du plein-texte en PDF et TEI, et toutes les annexes pour le terme "brain" | [https://api.istex.fr/document/?q=brain&**extract=metadata\[mods\];fulltext\[pdf,tei\];annexes**](https://api.istex.fr/document/?q=brain&extract=metadata[mods];fulltext[pdf,tei];annexes) |
