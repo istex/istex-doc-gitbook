@@ -220,7 +220,7 @@ Plus de détails sur ces enrichissements et le processus d'enrichissement dans l
 * [catégories Scopus](https://scopus-category.data.istex.fr/)
 * [processus Multicat/Science-Metrix](https://enrichment-process.data.istex.fr/ark:/67375/R0H-Q29BJZWS-N)
 * [processus Multicat/WoS](https://enrichment-process.data.istex.fr/ark:/67375/R0H-PWBRNFQ8-H)
-* [processus ](https://enrichment-process.data.istex.fr/ark:/67375/R0H-BMCHCCJF-J)[Multicat/](https://enrichment-process.data.istex.fr/ark:/67375/R0H-PWBRNFQ8-H)[Scopus](https://enrichment-process.data.istex.fr/ark:/67375/R0H-BMCHCCJF-J)
+* [processus Multicat/Scopus](https://enrichment-process.data.istex.fr/ark:/67375/R0H-BMCHCCJF-J)
 
 #### o nb
 
