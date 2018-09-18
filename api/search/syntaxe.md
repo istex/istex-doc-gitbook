@@ -61,13 +61,41 @@ De base, les termes sont recherchés dans tous les champs indexés \(titre, aute
 
 Les termes cherchés sont reliés par des opérateurs booléens, l'opérateur `OR` étant celui par défaut. Les opérateurs supportés sont `OR`, `AND`, `NOT`, ainsi que les opérateurs d'inclusion/exclusion `+` et `-`.
 
-| Exemples |  |
-| :--- | :--- |
-| Recherche des documents contenant le terme "api" **ou** "study" dans un de leurs champs indexés | [https://api.istex.fr/document/?**q=api OR study**](https://api.istex.fr/document/?q=api%20OR%20study)   [https://api.istex.fr/document/?**q=api study**](https://api.istex.fr/document/?q=api%20study) |
-| Recherche des documents contenant le terme "test" **et** "study" dans un de leurs champs indexés | [https://api.istex.fr/document/?**q=test AND study**](https://api.istex.fr/document/?q=test%20AND%20study) |
-| Recherche des documents contenant le terme "test" **mais pas** "study" dans un de leurs champs indexés | [https://api.istex.fr/document/?**q=test NOT study** ](https://api.istex.fr/document/?q=api%20NOT%20study) ****[https://api.istex.fr/document/?**q=api -study**](https://api.istex.fr/document/?q=api%20-study) |
-
-L'utilisation de jokers `*` et `?` est possible, permettant de remplacer un certain nombre de caractères.
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Exemples</th>
+      <th style="text-align:left"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Recherche des documents contenant le terme "api" <b>ou</b> "study" dans
+        un de leurs champs indexés</td>
+      <td style="text-align:left"><a href="https://api.istex.fr/document/?q=api OR study">https://api.istex.fr/document/?<b>q=api OR study</b></a> 
+        <a
+        href="https://api.istex.fr/document/?q=api study">https://api.istex.fr/document/?<b>q=api study</b>
+          </a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Recherche des documents contenant le terme "test" <b>et</b> "study" dans
+        un de leurs champs indexés</td>
+      <td style="text-align:left"><a href="https://api.istex.fr/document/?q=test AND study">https://api.istex.fr/document/?<b>q=test AND study</b></a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Recherche des documents contenant le terme "test" <b>mais pas</b> "study"
+        dans un de leurs champs indexés</td>
+      <td style="text-align:left">
+        <p><a href="https://api.istex.fr/document/?q=api NOT study">https://api.istex.fr/document/?<b>q=test NOT study</b> </a>
+        </p>
+        <p><b> </b><a href="https://api.istex.fr/document/?q=api -study">https://api.istex.fr/document/?<b>q=api -study</b></a>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>L'utilisation de jokers `*` et `?` est possible, permettant de remplacer un certain nombre de caractères.
 
 | Exemples |  |
 | :--- | :--- |
