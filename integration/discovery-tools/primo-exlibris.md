@@ -50,6 +50,8 @@ Le parseur SFX v2 , développé par Julien Sicot  \( [https://github.com/jsicot/
 
 *  Cliquer sur **“Accès au texte intégral”** sur la plateforme ISTEX
 
+Un grand merci à Julien Sicot \(Université de Rennes 2\) pour le parser ISTEXv2 et à Laurent Aucher \(Université PSL/ACEF\) pour ses interventions répétée auprès d'ExLibris 
+
 ### G- Des intégrations similaires sont réalisées dans différents établissements en France :
 
 * [INRA](https://doc.istex.fr/users/integration/exemples/#inra)
