@@ -3,9 +3,6 @@
 ![](../../.gitbook/assets/rio1.PNG)
 
 * [Intégration du bouton ISTEX](../bouton/) \(1\) dans l’interface de recherche « Flora » renommé [Joint ILL-ESRF Library catalogue ](https://epn-library.esrf.fr/flora/). [voir l'exemple](https://epn-library.esrf.fr/flora/jsp/portal/index.jsp?record=doc:PUB_ESRF:32023&action=opac_direct_view&success=/jsp/portal/index.jsp&profile=anonymous)
-
-![](../../.gitbook/assets/rio2.PNG)
-
 * [Intégration des widgets ISTEX ](../widgets.md)\(2\) [voir l’exemple](http://www.epn-campus.eu/index.php?id=834) 
 * Un grand merci à Sophie Rio pour ces 2 intégrations ! 
 * Ci dessous le code source HTML/Javascript de l’intégration dans Flora 
