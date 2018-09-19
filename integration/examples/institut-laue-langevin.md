@@ -2,7 +2,7 @@
 
 ![](../../.gitbook/assets/rio1.PNG)
 
-* [Intégration du bouton ISTEX](../bouton/) \(1\) dans l’interface de recherche « Flora » renommé [Joint ILL-ESRF Library catalogue ](https://epn-library.esrf.fr/flora/)
+* [Intégration du bouton ISTEX](../bouton/) \(1\) dans l’interface de recherche « Flora » renommé [Joint ILL-ESRF Library catalogue ](https://epn-library.esrf.fr/flora/). [voir l'exemple](https://epn-library.esrf.fr/flora/jsp/portal/index.jsp?record=doc:PUB_ESRF:32023&action=opac_direct_view&success=/jsp/portal/index.jsp&profile=anonymous)
 
 ![](../../.gitbook/assets/rio2.PNG)
 
