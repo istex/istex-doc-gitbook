@@ -8,9 +8,9 @@
 
 * [Intégration des widgets ISTEX ](../widgets.md)\(2\) [voir l’exemple](http://www.epn-campus.eu/index.php?id=834) 
 * Un grand merci à Sophie Rio pour ces 2 intégrations ! 
-* Ci dessous le code source de l’intégration dans Flora =&gt; Comment procéder au niveau de la page HTML en utilisant la librairie Javascript jQuery dans le cas de Flora
+* Ci dessous le code source HTML/Javascript de l’intégration dans Flora 
 
-```text
+```markup
 <span id="istex-button-hook">
   <script type="text/javascript">
     var xhr = new XMLHttpRequest();
