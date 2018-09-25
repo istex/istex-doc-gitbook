@@ -55,6 +55,8 @@ Ne pas oublier de cocher l'affichage du lien "Pour mes fonds documentaires assoc
 
 Pour personnifier l'affichage du lien, rajouter l’icône ISTEX dont l'URL est :
 
+`https://content-delivery.istex.fr/assets/img/istex-minilink.png`
+
 ![](../../.gitbook/assets/iconeistex.png)
 
 ### **C- OpenURL sur le champ PMID**
@@ -141,6 +143,23 @@ Seuls les bouquets suivants sont déjà disponibles sur la plateforme ISTEX.
 * Springer Nature eBooks \(ISTEX - Licences Nationales\)
 * SpringerLINK \(ISTEX - Licences Nationales\)
 * Wiley Online Library \(ISTEX - Licences Nationales\)
+
+### F- Laisser EBSCO gérer le customlink ISTEX
+
+* Depuis août 2018 EBSCO a créé en "dur" un Customlink Full Text "managed" pour du contenu consortial \(donc Custom selon leurs critères\).
+* Ce lien sera automatiquement associé au lien éditeur du bouquet dès que la ressource est disponible dans la plateforme ISTEX. Pour ceux qui avaient déjà paramétré un customlink ISTEX vous pouvez supprimer le premier lien =&gt; "Géré  par votre bibliothèque" et garder "Gérer EBSCO" si vous souhaiter ne plus gérer la sélection  des bouquets ISTEX .
+
+Exemple pour **BMJ Journals \(ISTEX-Licences Nationales\)**
+
+![](../../.gitbook/assets/lienistex1.JPG)
+
+* Dans le paramétrage du lien vous autorisez bien EBSCO à gérer les associations avec ce lien
+
+![](../../.gitbook/assets/lienistex2.JPG)
+
+* A vous de rajouter comme ci-dessus l'url de l'image ISTEX
+
+`https://content-delivery.istex.fr/assets/img/istex-minilink.png`
 
 ## 2- EDS/Customlinks
 
