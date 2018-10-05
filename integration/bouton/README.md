@@ -45,7 +45,7 @@ Si possible, merci également d'indiquer `sid=lissa` à la fin de l'appel à l'O
 
 * [Archive ouverte HAL](../examples/ccsd.md)
 * [CHU Rouen](../examples/chu-rouen-normandie.md)
-* [Institut Laue Langevin ](../examples/institut-laue-langevin.md)
+* [Institut Laue Langevin  et Synchrotron Européen](../examples/institut-laue-langevin.md)
 * [Université Aix Marseille](../examples/amu.md) =&gt; [Code source disponible sur GitHub](https://github.com/SCD-Aix-Marseille-Universite/SMASH/blob/master/resolver.js#L726-L746)
 * [Université de Jean Monnet St Etienne](../examples/ujm.md)
 * [Université de Paris Saclay](../examples/univ-paris-saclay.md) =&gt;[Code source disponible sur GitHub](https://github.com/istex/istex-button-primo)

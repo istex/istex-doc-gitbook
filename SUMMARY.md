@@ -99,7 +99,7 @@
     * [CNRS CCSD](integration/examples/ccsd.md)
     * [CHU Rouen Normandie](integration/examples/chu-rouen-normandie.md)
     * [INRA](integration/examples/inra.md)
-    * [Institut Laue Langevin](integration/examples/institut-laue-langevin.md)
+    * [Institut Laue Langevin et Synchrotron Européen](integration/examples/institut-laue-langevin.md)
     * [Université Aix Marseille](integration/examples/amu.md)
     * [Université Jean Monnet St Etienne](integration/examples/ujm.md)
     * [Université Paris Saclay](integration/examples/univ-paris-saclay.md)
