@@ -9,7 +9,7 @@
   * Cette option permet de sélectionner le type de score renvoyé lors de l'affichage des résultats. 
   * Si l'option est manquante, le score sera basé sur **l'algorithme BM25** d'elasticsearch, selon la requête demandée.
   * Il est possible de demander un score relevé par la qualité avec le mot-clé **qualityOverRelevance**.
-  * Le calcul du score de qualité est expliqué ci-dessous.
+  * Le calcul du score de qualité est [expliqué ici ](quality-indicators.md).
   * Il est possible de demander un score aléatoire avec le mot-clé **random**. 
   * **Deux requêtes successives** avec un score aléatoire renverront des résultats dans un **ordre différent**.
   * Une requête avec score aléatoire génère en plus un **code unique**, permettant de **retrouver cet ordre plus tard.**
