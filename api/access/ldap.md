@@ -1,12 +1,12 @@
 # Accès nomade \(LDAP\)
 
-## Accès nomade \(LDAP\) {#acces-nomade-ldap}
+## Accès nomade \(LDAP\) <a id="acces-nomade-ldap"></a>
 
-### Principe {#principe}
+### Principe <a id="principe"></a>
 
 Ce mode d’accès créé avant la mise en place de l'authentication par la fédération d’identités permettait d'accéder à l'API en dehors de votre établissement \(télétravail, autorisation de votre établissement en attente de validation...\) grâce à _un login + mot de passe_ gérés par l'annuaire LDAP de l'INIST-CNRS.
 
-### Mode d'utilisation {#mode-dutilisation}
+### Mode d'utilisation <a id="mode-dutilisation"></a>
 
 * Si vous vous connectez **via un navigateur**, ce dernier affichera une fenêtre d'authentification où il sera nécessaire de renseigner votre adresse mail comme identifiant et votre mot de passe.
 * Si vous souhaitez vous connecter **en ligne de commande**, il vous sera nécessaire de rentrer les paramètres suivants :

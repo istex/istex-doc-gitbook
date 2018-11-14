@@ -7,25 +7,28 @@ Il s'agit d'une application Web permettant de télécharger très facilement, vi
   * elle gère l’authentification par la fédération d’identité lors du téléchargement d'un premier corpus
   * elle permet de constituer un corpus à partir d'une équation classique de type booléenne ou d'une simple liste d'identifiants pérennes de type ARK  
   * elle autorise des équations de très grande taille de plus de 60 000 caractères
-  * elle propose des exemples de requêtes pédagogiques 
-  * elle offre le partage du corpus téléchargé via le lien correspondant  
-  * elle permet de récupérer sa requête et les choix de paramétrage effectués en cas de fermeture accidentelle de l'onglet actif ou du navigateur
-  * elle propose la sauvegarde dans un historique des 30 requêtes les plus récentes, chacune d'elle pouvant être à nouveau éditée, téléchargée, partagée ou supprimée  
+  * elle propose des exemples de requêtes pédagogiques
+  * elle met à disposition une option de tirage aléatoire pour constituer, si l’on restreint le nombre de documents à extraire, un échantillon représentatif de la diversité des résultats obtenus, à la différence du classement par ordre de pertinence \(voir la rubrique [Choix du type de scoring](../../api/results/scoring.md)\)
+  * elle permet de récupérer sa requête et les choix de paramétrage effectués en cas de fermeture accidentelle de l'onglet actif ou de votre navigateur 
+  * elle offre le partage de votre corpus par la copie de l’URL correspondant à l’extraction que vous vous apprêtez à réaliser \(le bouton est activé lorsque le formulaire est complété\) 
+  * elle propose la sauvegarde dans un historique des 30 requêtes les plus récentes, chacune d'elle pouvant être à nouveau éditée – et donc modifiée –, téléchargée, partagée ou supprimée  
 * **Inconvénients :**
-  * il est nécessaire de se reconnecter au site après l'authentification
-  * la limite autorisée pour des équations très longues dépend du navigateur employé \(indication fournie dans l'aide correspondante\)
+  * la limite autorisée pour des équations très longues dépend du navigateur employé \(indication notifiée dans l'aide fournie\)
   * les corpus ne peuvent être extraits actuellement que dans la limite de 10 000 documents
+  * l’extraction du format JSON du fichier de métadonnées s’effectue par défaut
   * l'extraction d'un type particulier d'enrichissement n'est pas encore opérationnelle
+  * la demande d'authentification lors du premier téléchargement peut nécessiter de se reconnecter à l'interface
 * **Mode d'emploi :** l'application est accessible à l’adresse suivante : [https://dl.istex.fr/](https://dl.istex.fr/)
 * **Prérequis :**
   * l'utilisation optimale de toutes les fonctionnalités de l'application requiert l'autorisation par votre navigateur des cookies et des données pour ce site jusqu'à leur expiration 
   * la récupération des données du formulaire implique de se connecter au site avec une URL sans précision d'un attribut \(`https://dl.istex.fr` uniquement\)
 * **Astuces :** 
   * la recherche par ARK nécessite simplement de copier/coller une liste d'identifiants en colonne qui sera interprétée par l'application \(voir dernier exemple\)
-  * dans la recherche par équation classique, l'opérateur booléen "OR" peut être remplacé simplement par un blanc
-  * les exemples d'équations sont cliquables et modifiables, une fois copiés dans la fenêtre de requêtage, pour se familiariser avec la syntaxe à employer lors de la construction de sa requête 
-  * une indication colorée alerte sur le nombre de caractères restants dans la fenêtre de requêtage
-  * si l'on souhaite extraire l'ensemble des formats existants pour un type de fichier particulier, il suffit de cocher ce dernier et tous les formats qui en dépendent seront automatiquement sélectionnés
+  * dans la recherche par équation classique, l'opérateur booléen "OR" peut être remplacé par un blanc
+  * les exemples d'équations sont cliquables et modifiables, une fois copiés dans la fenêtre de requêtage, permettant de se familiariser avec la syntaxe à employer lors de la construction de sa requête
+  * une indication colorée, associée au comptage du nombre de caractères encore disponibles ou en trop, calculé en temps réel en fonction de la longueur de l’équation dans la fenêtre de requêtage, permet d’ajuster plus aisément la taille de sa requête
+  * en cochant ou décochant un type de fichier particulier, tous les formats associés sont automatiquement sélectionnés ou désélectionnés
+  * lorsque le téléchargement est effectif, le partage du corpus extrait est toujours possible via le bouton « Historique »
 
 
 

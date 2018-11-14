@@ -74,7 +74,7 @@ Il s'agit d'un langage de balisage ouvert qui permet de structurer de manière h
 
 _Dans ISTEX, les métadonnées en XML sont des fichiers originaux fournis par l’éditeur selon une DTD propre._
 
-#### **o MODS \(**Metadata Object Description Schema _\*Schéma de description objet de métadonnées_\) {#o-mods-metadata-object-description-schema-schema-de-description-objet-de-metadonnees}
+#### **o MODS \(**Metadata Object Description Schema _\*Schéma de description objet de métadonnées_\) <a id="o-mods-metadata-object-description-schema-schema-de-description-objet-de-metadonnees"></a>
 
 MODS est un schéma XML créé pour traiter des données bibliographiques et qui s’est élargi de façon à permettre la description de tout type de document et de tout support \(numérique ou non\) : texte imprimé, document iconographique, enregistrement sonore, document d'archive, collection de documents.
 
