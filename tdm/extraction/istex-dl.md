@@ -21,12 +21,12 @@ Il s'agit d'une application Web permettant de télécharger très facilement, vi
 * **Mode d'emploi :** l'application est accessible à l’adresse suivante : [https://dl.istex.fr/](https://dl.istex.fr/)
 * **Prérequis :**
   * l'utilisation optimale de toutes les fonctionnalités de l'application requiert l'autorisation par votre navigateur des cookies et des données pour ce site jusqu'à leur expiration 
-  * la récupération des données du formulaire implique de se connecter au site avec une URL sans précision d'un attribut \(`https://dl.istex.fr` uniquement\)
+  * la récupération des données du formulaire implique de se connecter au site avec une URL sans précision de paramètres d'URL \(`https://dl.istex.fr` uniquement\)
 * **Astuces :** 
   * la recherche par ARK nécessite simplement de copier/coller une liste d'identifiants en colonne qui sera interprétée par l'application \(voir dernier item du bouton "Exemples"\)
   * dans la recherche par équation classique, l'opérateur booléen "OR" est optionnel et peut être remplacé par un blanc
   * les exemples d'équations sont cliquables et modifiables, une fois copiés dans la fenêtre de requêtage, permettant de se familiariser avec la syntaxe à employer lors de la construction de sa requête
-  * une indication colorée, associée au nombre de caractères calculé en temps réel en fonction de la longueur de l’équation dans la fenêtre de requêtage, permet d’ajuster plus aisément la taille de sa requête : la couleur orange signale qu'il reste 1 000 caractères encore disponibles ; le rouge avertit que la taille maximale a été dépassée
+  * une indication colorée, associée au nombre de caractères calculé en temps réel en fonction de la longueur de l’équation dans la fenêtre de requêtage, permet d’ajuster plus aisément la taille de sa requête : la couleur orange signale qu'il reste 1 000 caractères encore disponibles ; le rouge avertit du dépassement de la taille maximale
   * en cochant ou décochant un type de fichier particulier, tous les formats associés sont automatiquement sélectionnés ou désélectionnés
   * lorsque le téléchargement est effectif, le partage du corpus extrait est toujours possible via le bouton "Historique"   
 
