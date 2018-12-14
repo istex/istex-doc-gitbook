@@ -23,5 +23,3 @@ Il s'agit d'une fonction du moteur de recherche de l'API ISTEX permettant d’ex
   * sans précision du paramètre _size_, 5 documents seront extraits par défaut. Pour extraire tous les documents répondant à une requête donnée, indiquer une taille de corpus au moins égale au nombre maximal de documents à extraire
     * _**Exemple :** moissonnage du texte intégral, au format PDF, des 20 documents comportant le terme « Groenland » dans leurs titres :_ [_https://api.istex.fr/document/?q=title:groenland&size=25&extract=fulltext\[pdf\]_](https://api.istex.fr/document/?q=title:groenland&size=25&extract=fulltext[pdf])\_\_
 
-
-
