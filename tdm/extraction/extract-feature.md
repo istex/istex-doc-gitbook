@@ -1,24 +1,33 @@
 # Fonction "Extract"
 
-Il s'agit d'une fonction du moteur de recherche de l'API ISTEX permettant d’extraire un corpus correspondant à des critères de recherche. Celle-ci s’utilise directement dans l’URL de requêtage sur l’API.
+Il s'agit d'une fonction du moteur de recherche de l'API ISTEX permettant d’extraire sous forme d’une archive zip le corpus correspondant à des critères de recherche. Elle s’utilise directement dans l’URL de requêtage sur l’API en la paramétrant selon ses besoins
 
 * **Avantages :**
-  * simple à utiliser, elle ne nécessite aucune installation
-  * elle peut être utilisée en dehors de l’Inist car gère l’authentification par la fédération d’identité
-  * elle offre également le téléchargement des annexes et couvertures disponibles. 
+  * simple à utiliser, cette fonction ne nécessite aucune installation
+  * elle peut être utilisée en dehors du réseau interne de l'Inist-CNRS, la gestion de l’authentification s’opérant via la [fédération d’identité ou par adresse IP](../../api/access/auth-modes.md) 
+  * elle permet l'extraction des enrichissements lorsqu'ils existent 
+  * elle offre le téléchargement des annexes et couvertures disponibles
+  *  les documents extraits peuvent être répartis ou non dans une arborescence selon le choix retenu
+  * il est possible de réduire la taille du corpus à télécharger \(paramètre _size_\)
+  * si la taille du corpus extrait est réduite, on peut choisir un autre mode de tri que celui par pertinence effectué par le moteur de recherche, c’est-à-dire un tri des documents en fonction de certain champs \([paramètre _sortBy_](../../api/results/sortby.md)\), ou selon un tri aléatoire \([paramètre _rankBy=random_](../../api/results/scoring.md)\) avec la possibilité de retrouver cet ordre aléatoire \(paramètre _randomSeed_\)
 * **Inconvénients :** 
   * les corpus ne peuvent être extraits actuellement que dans la limite de 10 000 documents
-  * l'extraction des annexes et des enrichissements n'est actuellement pas utilisable, mais le fichier JSON extrait par défaut reprend la totalité des enrichissements disponibles d'un document numérique donné.
-* **Mode d'emploi :** cette fonction et la syntaxe requise pour son utilisation sont décrites dans la rubrique **"**[**Extraction**](../../api/search/extract-feature.md)**"** de la documentation technique ISTEX.
+  * le fichier JSON de métadonnées est extrait par défaut
+  * l’extraction d’un type particulier d’enrichissement n’est pas encore possible
+* **Mode d'emploi :** cette fonction, ainsi que la syntaxe requise pour son utilisation et les différents paramètres disponibles, sont décrits dans la rubrique **"**[**Extraction**](../../api/search/extract-feature.md)**"** de la documentation technique ISTEX
 * **Astuces :**
-  * pour que la fonction `extract` soit opérationnelle, il faut la faire suivre obligatoirement par le signe "=" et une valeur quelconque. Dans ce cas, seul le fichier JSON sera extrait. Indiquer au moins un type de fichiers pour obtenir son extraction.
-    * _**Exemple :** moissonnage des métadonnées au format JSON pour les documents contenant l'expression "by draconis stars" dans le résumé_
+  * la fonction `extract` utilisée seule génère l’extraction de l’ensemble des fichiers disponibles pour les documents ISTEX du corpus. 
 
-      [_https://api.istex.fr/document/?q=abstract:"by draconis stars"&extract=lhjd_](https://api.istex.fr/document/?q=abstract:"by%20draconis%20stars"&extract=lhjd)
-  * sans indication de format, tous les formats disponibles pour un type de fichiers sont extraits
-  * la syntaxe pour extraire les enrichissements ne comporte pas de "s" \(_enrichment_\).
-  * indiquer une taille de corpus au moins égale au nombre de documents à extraire. Sans cette précision, 5 documents sont extraits par défaut.
-    * _**Exemple :** moissonnage du texte intégral au format pdf des 18 documents contenant le terme Groenland dans le titre_
+    * _**Exemple :**_ _moissonnage de tous les fichiers disponibles pour un document identifié par un ARK donné_
 
-      [_https://api.istex.fr/document/?q=title:groenland&size=20&extract=fulltext\[pdf\]_](https://api.istex.fr/document/?q=title:groenland&size=20&extract=fulltext[pdf])
+            __[_https://api.istex.fr/document/?q=ark:"ark:/67375/HXZ-7R7P2T8X-6"&extract_](https://api.istex.fr/document/?q=ark:"ark:/67375/HXZ-7R7P2T8X-6"&extract) 
+
+    * NB : la fonction extract, suivie par le signe "=" et une valeur quelconque, génère uniquement l’extraction du fichier de métadonnées au format JSON
+
+  * sans indication de format, tous les formats proposés pour le type de fichier indiqué seront extraits
+  * sans précision du paramètre _size_, 5 documents seront extraits par défaut. Pour extraire tous les documents répondant à une requête donnée, indiquer une taille de corpus au moins égale au nombre maximal de documents à extraire
+
+    * _**Exemple :** moissonnage du texte intégral, au format PDF, des 20 documents comportant le terme « Groenland » dans leurs titres_
+
+            __[_https://api.istex.fr/document/?q=title:groenland&size=25&extract=fulltext\[pdf\]_](https://api.istex.fr/document/?q=title:groenland&size=25&extract=fulltext[pdf])\_\_
 
