@@ -52,7 +52,9 @@ L'option `-v` permet de conserver toutes le métadonnées envoyées par l'API. E
   harvestCorpus.pl -c oiseaux.corpus -m all -d Data/Metadata
   ```
 
-       _NB : Les fichiers au format MODS ou XML dans le répertoire `Data/Metadata` auront le même préfixe que les fichiers PDF et TEI correspondants dans le répertoire `Data/Fichiers`._
+       
+
+Les fichiers au format MODS ou XML dans le répertoire `Data/Metadata` auront le même préfixe que les fichiers PDF et TEI correspondants dans le répertoire `Data/Fichiers.`
 
 
 
