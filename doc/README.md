@@ -14,4 +14,7 @@ Voici les diff√©rents usages documentaires d'ISTEX qui sont actuellement propos√
 * [Bouton ISTEX](bouton-istex.md)
 * [Google Scholar](google-scholar.md)
 * [Logiciels de gestion bibliographique](bib/)
+* [Revue de sommaire](revue-de-sommaire.md)
+
+
 
