@@ -2,7 +2,7 @@
 
 ![](../.gitbook/assets/introduction%20%282%29.JPG)
 
-La  ****[Revue de sommaire](https://revue-sommaire.data.istex.fr%20%20) a pour but de :
+La [Revue de sommaire](https://revue-sommaire.data.istex.fr%20%20) a pour but de :
 
 * proposer des pages dédiées pour chaque revue ISTEX en présentant un accès par année - volume - numéro -titre du document, jusqu'à l'accès au plein texte disponible sur la plateforme ISTEX
 * proposer aux établissements une vision revue de sommaire pour les titres présents dans la plateforme ISTEX intégrable dans leur portail documentaire
@@ -44,10 +44,10 @@ Des revues incontournables sont mises en avant pour introduire la plateforme.
 
 ### ![](../.gitbook/assets/ressource.JPG) Ressources
 
- Cette page affiche le nombre total de ressources chargées
+ Cette page affiche le nombre total des ressources chargées
 
-1.  __il est possible de faire une recherche par titre ou par mot du titre
-2.  de filtrer les résultats
+1. il est possible de faire une recherche par titre ou par mot du titre
+2. de filtrer les résultats
 3. de trier en cliquant en haut des colonne
 4. de changer le nombre d'affichage des ressources
 5. d'exporter les titres des ressources selon divers format
@@ -61,7 +61,7 @@ Pour utiliser le SPARQL EndPoint ISTEX et/ou  comparer vos ressources avec les r
 ![](../.gitbook/assets/ecransparql.JPG)
 
 {% hint style="info" %}
-Pour afficher cet écran, n'hésitez pas à re cliquer si besoin.
+Pour afficher cet écran, n'hésitez pas à re-cliquer si besoin.
 {% endhint %}
 
 ###  ![](../.gitbook/assets/ontologie.JPG) Ontologie 
@@ -75,7 +75,7 @@ Sont disponibles sur cette page toutes les informations de l'ontologie du projet
 La recherche peut se faire sur la page _Recherche_ ou _Ressources_.
 
 * par défaut l'opérateur booléen est un            =&gt;  `pediatric journal = 5763`
-* par défaut un caractère wildcare est présent =&gt;  `pediatric journal = 5763`
+* par défaut un caractère wildcare est présent =&gt;  `pediatrics journal = 5763`
 * pour avoir un AND entre 2 termes mettre des "  " =&gt; `"pediatrics" "journal" = 8`
 * dans ce cas pas de caractère wildcare =&gt;`"pediatric" "journal" = 25` 
 * la recherche par filtre remplace la recherche avancée 
@@ -87,14 +87,14 @@ En sélectionnant le titre de la ressource souhaitée une page s'ouvre :
 ![](../.gitbook/assets/revuesommaire.JPG)
 
 1. titre de la ressource
-2. information sur le corpus : lien vers le référentiel des corpus chargés dans ISTEX   [https://loaded-corpus.data.istex.fr](https://loaded-corpus.data.istex.fr) et nom du corpus , lors de la négociation nationale
-3. éditeur scientifique : le nom peut être différent que celui du corpus
+2. information sur le corpus, lien vers le référentiel des corpus chargés dans ISTEX   [https://loaded-corpus.data.istex.fr](https://loaded-corpus.data.istex.fr) et nom du corpus , lors de la négociation nationale
+3. éditeur scientifique, le nom peut être différent que celui du corpus
 4. issn/eissn           isbn/eisbn
-5. couverture : de la ressource jusqu'au document \(article, chapitre\) requête à l'API ISTEX
-6. alignement Wikidata : à l'aide d'une requête SPARQL, les informations sont partagées
+5. couverture de la ressource jusqu'au document \(article, chapitre\) requête à l'API ISTEX
+6. alignement avec Wikidata, à l'aide d'une requête SPARQL
 7.  ark de la revue \(en [savoir plus](https://blog.istex.fr/des-ark-dans-istex/)\)
-8. ajouter un champ permet à tous des suggestions
-9. partager/exporter : nombreux formats disponibles : N-Quads, CSV, Turtle, JSON...
+8. ajouter un champ permet à tous de faire des suggestions
+9. partager/exporter, de nombreux formats disponibles : N-Quads, CSV, Turtle, JSON...
 
  
 
@@ -103,7 +103,7 @@ La liste des titres dans _Revue de sommaire ISTEX_ correspond à la liste contra
 
 La couverture affichée pour une ressource correspond aux documents présents sur la plateforme ISTEX
 
-Il peut y avoir une différence entre les deux  
+=&gt;  Il peut y avoir une différence entre les deux  
 {% endhint %}
 
 ###  Intégrer le sommaire dans un site web
@@ -116,11 +116,5 @@ Il peut y avoir une différence entre les deux
 
 ![](../.gitbook/assets/html-page.JPG)
 
-\`\`
-
-\*\*\*\*
-
-\*\*\*\*
-
-\*\*\*\*
+Il ne reste plus qu'à appliquer votre propre css
 
