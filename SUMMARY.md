@@ -2,6 +2,7 @@
 
 * [Documentation ISTEX](README.md)
 * [Usage documentaire d'ISTEX](doc/README.md)
+  * [Revue de sommaire](doc/revue-de-sommaire.md)
   * [Bouton ISTEX](doc/bouton-istex.md)
   * [Google Scholar](doc/google-scholar.md)
   * [Logiciels de gestion bibliographique](doc/bib/README.md)

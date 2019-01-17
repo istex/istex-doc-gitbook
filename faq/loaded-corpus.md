@@ -2,7 +2,7 @@
 
 Vous pouvez consulter le référentiel [https://loaded-corpus.data.istex.fr/](https://loaded-corpus.data.istex.fr/) qui vous proposera la liste ainsi que des liens web sémantique vers par exemple les éditeurs à qui ISTEX a acheté ces corpus. Exemple :
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
 Vous pouvez également **consulter la liste des corpus chargés sur la plateforme ISTEX directement en consultant son** [**API**](../api/) **:** 
 
