@@ -2,12 +2,12 @@
 
 * [Documentation ISTEX](README.md)
 * [Usage documentaire d'ISTEX](doc/README.md)
-  * [Revue de sommaire](doc/revue-de-sommaire.md)
   * [Bouton ISTEX](doc/bouton-istex.md)
   * [Google Scholar](doc/google-scholar.md)
   * [Logiciels de gestion bibliographique](doc/bib/README.md)
     * [EndNote](doc/bib/endnote.md)
     * [Zotero](doc/bib/zotero.md)
+  * [Revue de sommaire](doc/revue-de-sommaire.md)
 * [Usage TDM d'ISTEX](tdm/README.md)
   * [Construction d'une requête](tdm/requetage/README.md)
     * [Le contenu de la requête](tdm/requetage/syntaxe.md)
