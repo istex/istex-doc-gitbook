@@ -2,13 +2,13 @@
 
 ![](../.gitbook/assets/introduction%20%282%29.JPG)
 
-La [Revue de sommaire](https://revue-sommaire.data.istex.fr%20%20) a pour but de :
+La _Revue de sommaire_ a pour but de :
 
 * proposer des pages dédiées pour chaque revue ISTEX en présentant un accès par année - volume - numéro -titre du document, jusqu'à l'accès au plein texte disponible sur la plateforme ISTEX
 * proposer aux établissements une vision revue de sommaire pour les titres présents dans la plateforme ISTEX intégrable dans leur portail documentaire
 * présenter un réel état de collection des ressources présentes sur la plateforme ISTEX
 
-L'instance _revue de sommaire ISTEX_  propose un nouveau jeu de données présent dans le site  [https://data.istex.fr](https://data.istex.fr). [ ](http://data.istex.fr)Le site data.istex.fr expose des données [ISTEX](http://www.istex.fr/), selon les normes du web sémantique, dans un Triple Store via son [SPARQL Endpoint](http://data.istex.fr/triplestore/sparql).
+L'instance [_Revue de sommaire ISTEX_ ](https://revue-sommaire.data.istex.fr) est disponible sur le site  [https://data.istex.fr](https://data.istex.fr). [ ](http://data.istex.fr)Le site data.istex.fr expose des données [ISTEX](http://www.istex.fr/), selon les normes du web sémantique, dans un Triple Store via son [SPARQL Endpoint](http://data.istex.fr/triplestore/sparql).
 
 ## Interface
 
@@ -116,5 +116,5 @@ La couverture affichée pour une ressource correspond aux documents présents su
 
 ![](../.gitbook/assets/html-page.JPG)
 
-Il ne reste plus qu'à appliquer votre propre css
+Il ne reste plus qu'à appliquer votre propre css.
 
