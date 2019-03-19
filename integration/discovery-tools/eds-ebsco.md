@@ -116,12 +116,13 @@ Une fois le lien créé il faut l’assigner à tous les bouquets Licences Natio
 Seuls les bouquets suivants sont déjà disponibles sur la plateforme ISTEX.
 {% endhint %}
 
-22 négociations mais 23 bouquets à sélectionner car la négociation "Numérique Premium" comporte 2 bouquets "Révolution française-Premier Empire" et "Littérature française et francophone".
+24 négociations mais 25 bouquets à sélectionner car la négociation "Numérique Premium" comporte 2 bouquets "Révolution française-Premier Empire" et "Littérature française et francophone".
 
-#### 23 bouquets à associer
+#### 25 bouquets à associer
 
 * BMJ Journals \(ISTEX - Licences Nationales\)
 * Brepols Journals \(ISTEX - Licences Nationales\)
+* Brepols - ebooks \(ISTEX - Licences Nationales\)
 * BRILL \(ISTEX - Licences Nationales\)
 * Brill Recueils des cours de l’Académie de La Haye \(ISTEX -Licences Nationales\)
 * Cambridge University Press \(ISTEX - Licences Nationales\)
@@ -133,6 +134,7 @@ Seuls les bouquets suivants sont déjà disponibles sur la plateforme ISTEX.
 * Emerald\(ISTEX - Licences Nationales\)
 * Geologicalsociety of London Publishing – ebooks \(ISTEX - Licences Nationales\)
 * Institute of Physics \(ISTEX - Licences Nationales\)
+*  Lavoisier \(ISTEX - Licences Nationales\)
 * Littérature française et francophone \(ISTEX - LicencesNationales\)
 * Nature Publishing Group \(ISTEX - Licences Nationales\)
 * OxfordUniversity Press \(ISTEX - Licences Nationales\)

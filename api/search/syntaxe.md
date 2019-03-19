@@ -70,8 +70,8 @@ Les termes cherchés sont reliés par des opérateurs booléens, l'opérateur `O
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">Recherche des documents contenant le terme "api" <b>ou</b> "study" dans
-        un de leurs champs indexés</td>
+      <td style="text-align:left">Recherche des documents contenant le terme &quot;api&quot; <b>ou</b> &quot;study&quot;
+        dans un de leurs champs index&#xE9;s</td>
       <td style="text-align:left"><a href="https://api.istex.fr/document/?q=api OR study">https://api.istex.fr/document/?<b>q=api OR study</b></a> 
         <a
         href="https://api.istex.fr/document/?q=api study">https://api.istex.fr/document/?<b>q=api study</b>
@@ -79,14 +79,14 @@ Les termes cherchés sont reliés par des opérateurs booléens, l'opérateur `O
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Recherche des documents contenant le terme "test" <b>et</b> "study" dans
-        un de leurs champs indexés</td>
+      <td style="text-align:left">Recherche des documents contenant le terme &quot;test&quot; <b>et</b> &quot;study&quot;
+        dans un de leurs champs index&#xE9;s</td>
       <td style="text-align:left"><a href="https://api.istex.fr/document/?q=test AND study">https://api.istex.fr/document/?<b>q=test AND study</b></a>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Recherche des documents contenant le terme "test" <b>mais pas</b> "study"
-        dans un de leurs champs indexés</td>
+      <td style="text-align:left">Recherche des documents contenant le terme &quot;test&quot; <b>mais pas</b> &quot;study&quot;
+        dans un de leurs champs index&#xE9;s</td>
       <td style="text-align:left">
         <p><a href="https://api.istex.fr/document/?q=api NOT study">https://api.istex.fr/document/?<b>q=test NOT study</b> </a>
         </p>
