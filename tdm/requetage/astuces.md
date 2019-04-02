@@ -172,9 +172,7 @@ Une recherche sur un **intervalle de mots** équivaut à une recherche sur des m
 
 * _**Exemple :**_ `[seal TO seas]` ramène tous les mots de 4 lettres compris entre **seal** et **seas** mais aussi **sealant**, **seamen**, **seaport**, **search**, etc.
 
-Utilisation de valeurs limites
-
-Dans le **démonstrateur Istex** en mode « recherche avancée » :
+NB : dans le **démonstrateur** ISTEX en mode « **recherche avancée** » :
 
 * « supérieur » est équivalent à « supérieur **ou égal** »
 * « inférieur » est équivalent à « inférieur **ou égal** »
