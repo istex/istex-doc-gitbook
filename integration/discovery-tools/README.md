@@ -19,7 +19,7 @@ Pour en savoir plus sur le [**résolveur OpenURL ISTEX**](https://api.istex.fr/d
 
 ===========================================================================
 
-Si vous utilisez **un reverse proxy tel qu'EZproxy** pour donner accès à la documentation electrionique, vous pouvez le configurer avec la [**Stanza ISTEX**](https://github.com/ezproxy-config/french/blob/master/Istex.txt) ce qui permettra d'autoriser l'accès au ressources ISTEX [depuis votre proxy une fois que son adresse IP sera déclarée à ISTEX.](https://acces.licencesnationales.fr/)
+Si vous utilisez **un reverse proxy tel qu'EZproxy** pour donner accès à la documentation électronique, vous pouvez le configurer avec la [**Stanza ISTEX**](https://github.com/ezproxy-config/french/blob/master/Istex.txt) ce qui permettra d'autoriser l'accès au ressources ISTEX [depuis votre proxy une fois que son adresse IP sera déclarée à ISTEX.](https://acces.licencesnationales.fr/)
 
 ===========================================================================
 
