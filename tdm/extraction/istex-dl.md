@@ -1,4 +1,4 @@
-# Application ISTEX-dl \(ISTEX download\)
+# Application ISTEX-DL \(ISTEX download\)
 
 Il s'agit d'une application Web permettant de télécharger très facilement, via une interface conviviale, un corpus de documents ISTEX sous forme d'une archive zip à partir d’une requête.
 
@@ -8,13 +8,13 @@ Il s'agit d'une application Web permettant de télécharger très facilement, vi
   * elle permet de constituer un corpus à partir d'une équation classique de type booléenne ou d'une simple liste d'identifiants pérennes de type ARK  
   * elle autorise des équations de très grande taille \(plus de 60 000 caractères\)
   * elle propose des exemples de requêtes pédagogiques
-  * elle met à disposition une option de tirage aléatoire pour constituer, sous forme d'un sous-corpus, un échantillon représentatif de la diversité des résultats obtenus, à la différence du classement par ordre de pertinence \(voir la rubrique [**Choix du type de scoring**](../../api/results/scoring.md)\)
+  * elle met à disposition une option de tirage aléatoire pour constituer, sous forme d'un sous-corpus, un échantillon représentatif de la diversité des résultats obtenus, à la différence du classement par défaut qui s'effectue selon un ordre de pertinence calculé par l'algorithme BM25 du moteur de recherche de l'API sur les documents répondant à la requête effectuée \(voir la rubrique [**Choix du type de scoring**](../../api/results/scoring.md)\)
   * elle permet de récupérer sa requête et les choix de paramétrage effectués en cas de fermeture accidentelle de l'onglet actif ou de votre navigateur 
   * elle offre le partage de votre corpus par la copie de l’URL correspondant à l’extraction que vous vous apprêtez à réaliser \(le bouton est activé lorsque le formulaire est complété\) 
   * elle propose la sauvegarde dans un historique des 30 requêtes les plus récentes, chacune d'elle pouvant être à nouveau éditée, téléchargée, partagée ou supprimée  
 * **Inconvénients :**
   * la limite autorisée pour des équations très longues dépend du navigateur employé \(indication notifiée dans l'aide fournie\)
-  * les corpus ne peuvent être extraits actuellement que dans la limite de 10 000 documents
+  * les corpus ne peuvent être extraits actuellement que dans la limite de 6 000 documents
   * l’extraction du format JSON du fichier de métadonnées s’effectue par défaut
   * l'extraction d'un type particulier d'enrichissement n'est pas encore opérationnelle
   * la demande d'authentification lors du premier téléchargement peut nécessiter de se reconnecter à l'interface

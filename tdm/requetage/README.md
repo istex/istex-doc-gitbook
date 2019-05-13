@@ -24,5 +24,5 @@ Une requête sur l'API ISTEX est constituée des éléments suivants :
 >
 > [https://api.istex.fr/document/?q=\(host.title:"Biofutur"+OR+host.issn:"0294-3506"\)+AND+host.publicationDate:1995+AND+author.name:"DODET"&output=title,author,host&size=100](https://api.istex.fr/document/?q=%28host.title:"Biofutur"+OR+host.issn:"0294-3506"%29+AND+host.publicationDate:1995+AND+author.name:"DODET"&output=title,author,host&size=100)
 
-NB : Tous les exemples de requêtes donnés ici sont conçus pour être utilisés directement dans l'API en précisant l'URL `https://api.istex.fr/document/?`. Si l'on souhaite les utiliser dans le démonstrateur ou dans l'interface de téléchargement ISTEX-DL, il ne faut garder que la partie {requête}, c'est-à-dire, supprimer `q=` et tout ce qui se trouve après `&` , caractère "&" inclus.
+NB : Tous les exemples de requêtes donnés ici sont conçus pour être utilisés directement dans l'API en précisant l'URL `https://api.istex.fr/document/?`. Si l'on souhaite les utiliser dans le démonstrateur ou dans l'interface de téléchargement ISTEX-DL, il ne faut garder que la partie {requête}, c'est-à-dire, supprimer `q=` et tout ce qui se trouve après `&`, caractère "&" inclus.
 

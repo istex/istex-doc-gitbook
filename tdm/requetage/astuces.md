@@ -92,10 +92,15 @@ Il est également possible d’employer la barre verticale « **\|** » pour ind
   * _Fung**i** OR fung**us** OR fung**uses**_ : `q=/fung(i|us|uses)/` 
   * _Es**k**im**o** OR Es**qu**im**au** OR Es**k**im**os** OR Es**qu**im**aux**_ : `q=/es(k|qu)im(o|au)[sx]?/`
 
-On peut également se servir d’une expression régulière dans une expression multi-termes
+On peut se servir d’une expression régulière dans une expression multi-termes
 
 * _**Exemple :**_  
   * _"Franz Josef Land" OR "Franz Joseph Land"_ : `q=(franz AND /jose[fp]h?/ AND land)`
+
+Il est enfin conseillé de vérifier les résultats, des formes d'écriture peu usuelles ou inattendues pouvant être ramenées
+
+* _**Exemple :**_
+  * _L'équation `q=/es(k|qu)im(o|au)[sx]?/` fournit des documents comportant par exemple "Esquimo", "Esquimos", "Eskimau", etc._
 
 NB : L’utilisation des expressions régulières pour interroger les champs `.raw` ne donne aucun résultat.
 

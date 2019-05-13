@@ -15,7 +15,7 @@
     * [Les principaux opérateurs à manipuler](tdm/requetage/operateurs.md)
     * [Quelques astuces pour peaufiner sa requête](tdm/requetage/astuces.md)
   * [Extraction d'un corpus](tdm/extraction/README.md)
-    * [Application ISTEX-dl \(ISTEX download\)](tdm/extraction/istex-dl.md)
+    * [Application ISTEX-DL \(ISTEX download\)](tdm/extraction/istex-dl.md)
     * [Fonction "Extract"](tdm/extraction/extract-feature.md)
     * [Moissonneur de l'API ISTEX](tdm/extraction/istex-api-harvester.md)
     * [Programme "harvestCorpus.pl"](tdm/extraction/harvest-corpus.pl.md)
