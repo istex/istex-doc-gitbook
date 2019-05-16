@@ -10,10 +10,16 @@ Le programme **istex-api-harvester** est un utilitaire en ligne de commande perm
 * **Inconvénient** : son utilisation nécessite de disposer de Git et de NodeJs, ainsi que d'installer le moissonneur via un terminal de commande.
 * **Mode d'emploi :** ce programme est disponible sur [**GitHub**](https://github.com/istex/istex-api-harvester).
 * **Installations :** suivre les étapes suivantes :
+
   * installation de Git \(Windows, MacOS ou Linux\) : [https://git-scm.com/downloads](https://git-scm.com/downloads) ou plus spécifiquement pour Windows : [https://gitforwindows.org/](https://gitforwindows.org/) et Linux Ubuntu : [https://guide.ubuntu-fr.org/server/git.html](https://guide.ubuntu-fr.org/server/git.html)
   * Installation de NodeJS \(Windows, MacOS ou Linux\) : [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
-  * lancement du terminal Git Bash : `Démarrer /Toutes les Applications / Git Bash`
+  * Cloner la distribution avec la commande :
+
+    `git clone` [`https://github.com/istex/istex-api-harvester.git`](https://github.com/istex/istex-api-harvester.git)\`\`
+
+  * lancement du terminal Git Bash depuis le dossier ainsi créé : `Démarrer /Toutes les Applications / Git Bash`
   * installation du moissonneur : `npm install -g istex-api-harvester`
+
 * **Astuces :**
   * les options de cet utilitaire sont listées sur le dépôt GitHub 
   * indiquer le nombre de documents à extraire. Sans précision, aucun document n'est moissonné
