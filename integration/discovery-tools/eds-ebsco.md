@@ -116,9 +116,9 @@ Une fois le lien créé il faut l’assigner à tous les bouquets Licences Natio
 Seuls les bouquets suivants sont déjà disponibles sur la plateforme ISTEX.
 {% endhint %}
 
-24 négociations mais 25 bouquets à sélectionner car la négociation "Numérique Premium" comporte 2 bouquets "Révolution française-Premier Empire" et "Littérature française et francophone".
+25 négociations mais 26 bouquets à sélectionner car la négociation "Numérique Premium" comporte 2 bouquets "Révolution française-Premier Empire" et "Littérature française et francophone".
 
-#### 25 bouquets à associer
+#### 26 bouquets à associer
 
 * BMJ Journals \(ISTEX - Licences Nationales\)
 * Brepols Journals \(ISTEX - Licences Nationales\)
@@ -127,6 +127,7 @@ Seuls les bouquets suivants sont déjà disponibles sur la plateforme ISTEX.
 * Brill Recueils des cours de l’Académie de La Haye \(ISTEX -Licences Nationales\)
 * Cambridge University Press \(ISTEX - Licences Nationales\)
 * De Gruyter \(ISTEX - Licences Nationales\)
+* Duke : sélectionner "Duke mathematical Journal" dans le bouquet "projet Euclid"
 * EarlyEnglish Books Online \(EEBO\)
 * EDP Sciences \(ISTEX - Licences Nationales\)
 * EighteenthCentury Collections Online
@@ -134,7 +135,7 @@ Seuls les bouquets suivants sont déjà disponibles sur la plateforme ISTEX.
 * Emerald\(ISTEX - Licences Nationales\)
 * Geologicalsociety of London Publishing – ebooks \(ISTEX - Licences Nationales\)
 * Institute of Physics \(ISTEX - Licences Nationales\)
-*  Lavoisier \(ISTEX - Licences Nationales\)
+* Lavoisier \(ISTEX - Licences Nationales\)
 * Littérature française et francophone \(ISTEX - LicencesNationales\)
 * Nature Publishing Group \(ISTEX - Licences Nationales\)
 * OxfordUniversity Press \(ISTEX - Licences Nationales\)
@@ -145,6 +146,8 @@ Seuls les bouquets suivants sont déjà disponibles sur la plateforme ISTEX.
 * Springer Nature eBooks \(ISTEX - Licences Nationales\)
 * SpringerLINK \(ISTEX - Licences Nationales\)
 * Wiley Online Library \(ISTEX - Licences Nationales\)
+
+
 
 ### F- Laisser EBSCO gérer le customlink ISTEX
 
