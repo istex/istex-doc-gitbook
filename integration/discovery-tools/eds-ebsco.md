@@ -127,7 +127,7 @@ Seuls les bouquets suivants sont déjà disponibles sur la plateforme ISTEX.
 * Brill Recueils des cours de l’Académie de La Haye \(ISTEX -Licences Nationales\)
 * Cambridge University Press \(ISTEX - Licences Nationales\)
 * De Gruyter \(ISTEX - Licences Nationales\)
-* Duke : sélectionner "Duke mathematical Journal" dans le bouquet "projet Euclid"
+* Duke : sélectionner "Duke mathematical Journal" dans le bouquet "projet Euclid" puis choisir comme date =&gt; 1935-2012
 * EarlyEnglish Books Online \(EEBO\)
 * EDP Sciences \(ISTEX - Licences Nationales\)
 * EighteenthCentury Collections Online
