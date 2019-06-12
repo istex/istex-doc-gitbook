@@ -134,9 +134,11 @@ Encadrer les termes de l’expression par des guillemets \(pas d’usage de pare
 L'**ordre des termes** dans la requête impacte les résultats obtenus !
 
 * _**Exemples :**_ comparer les résultats avec les requêtes suivantes 
+
   * `q=title:("Bering seas"~2 AND Soviet)` :  « …onto the Soviet continental shelf in the northern **Bering and Chukchi seas**… »
-  * `q="Seas Bering"~2 AND Soviet`  : « …in Soviet Arctic **seas and the Bering** Sea… »
-  * _**Les résultats sont inversés par rapport à Bering Seas !**_
+  * `q=title:("Seas Bering"~2 AND Soviet)`  : « …in Soviet Arctic **seas and the Bering** Sea… »
+
+         _****_Les résultats sont _**inversés**_ par rapport à Bering Seas !
 
 ## **Pondération \(^\)**
 
