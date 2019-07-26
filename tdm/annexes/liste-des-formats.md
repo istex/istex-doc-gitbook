@@ -36,6 +36,10 @@ La communauté académique internationale constituée autour de la Text Encoding
 
 _C'est le format qui a été retenu dans ISTEX pour harmoniser, autour d'un format pivot, les fichiers XML issus des différentes_ [_DTD_ ](https://fr.wikipedia.org/wiki/Document_type_definition)_des éditeurs. Les fichiers XML TEI ainsi générés reproduisent la structuration fine du texte présente au départ. Dans le cas où l’éditeur ne fournit pas de XML, les fichiers XML TEI sont générés à partir du PDF via une transformation PDF-to-text et une injection du texte brut non structuré dans la balise &lt;body&gt;_.
 
+{% hint style="info" %}
+ **Pour connaitre le shéma TEI \(Text Encoding Initiative\) utilisé pour le projet ISTEX \(liste de notions textuelles admises par le plus grand nombre \) voir** [**https://tei.istex.fr/**](https://tei.istex.fr/)
+{% endhint %}
+
 #### **o TXT \(**Text\)
 
 Un fichier txt est un fichier contenant du texte au format ASCII.

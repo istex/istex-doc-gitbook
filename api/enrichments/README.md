@@ -46,8 +46,13 @@ Toutes les URL suivantes sont accédées via la méthode **HTTP GET**.
   Il est possible de récupérer **plusieurs types** d'enrichissement en **une seule fois** en séparant les types voulus par des **`,`\(virgules\)**.  
   Dans ce cas, l'API renverra une archive au format **ZIP**.  
   
-   Pour **consolider** les enrichissements avec le **TEI** présent dans le fulltext, il suffit d'activer l'option **?consolidate** dans la requête.  
-  La consolidation peut se **combiner** avec la récupération de plusieurs types d'enrichissement.
+   Pour **consolider** les enrichissements avec le **TEI** présent dans le fulltext, il suffit d'activer l'option **?consolidate** dans la requête.
+
+{% hint style="info" %}
+ **Pour connaitre le shéma TEI \(Text Encoding Initiative\) utilisé pour le projet ISTEX \(liste de notions textuelles admises par le plus grand nombre \) voir** [**https://tei.istex.fr/**](https://tei.istex.fr/)
+{% endhint %}
+
+La consolidation peut se **combiner** avec la récupération de plusieurs types d'enrichissement.
 
 * Types existants
 

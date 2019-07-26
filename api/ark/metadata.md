@@ -38,7 +38,9 @@ Comme dans le MODS, il se retrouve aux côtés des autres identifiants dans l'é
 ...
 ```
 
-> **Pour connaitre le shéma TEI \(Text Encoding Initiative\) utilisé pour le projet ISTEX \(liste de notions textuelles admises par le plus grand nombre \) voir** [**https://tei.istex.fr/**](https://tei.istex.fr/)
+{% hint style="info" %}
+ **Pour connaitre le shéma TEI \(Text Encoding Initiative\) utilisé pour le projet ISTEX \(liste de notions textuelles admises par le plus grand nombre \) voir** [**https://tei.istex.fr/**](https://tei.istex.fr/)
+{% endhint %}
 
 ## Dans le format JSON
 
