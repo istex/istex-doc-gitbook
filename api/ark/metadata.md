@@ -38,6 +38,8 @@ Comme dans le MODS, il se retrouve aux côtés des autres identifiants dans l'é
 ...
 ```
 
+> **Pour connaitre le shéma TEI \(Text Encoding Initiative\) utilisé pour le projet ISTEX \(liste de notions textuelles admises par le plus grand nombre \) voir** [**https://tei.istex.fr/**](https://tei.istex.fr/)
+
 ## Dans le format JSON
 
 Dans ce format, il se retrouve à la racine de la structure représentant le document \(article ou chapitre\) dans le champ `arkIstex` :
