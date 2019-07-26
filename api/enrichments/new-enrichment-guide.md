@@ -29,7 +29,7 @@ document
 Les TEI doivent **impérativement** contenir l'identifiant ISTEX sous la forme **istex-{id}** pour permettre le recoupement avec les données actuelles.
 
 {% hint style="info" %}
- **Pour connaitre le shéma TEI \(Text Encoding Initiative\) utilisé pour le projet ISTEX \(liste de notions textuelles admises par le plus grand nombre \) voir** [**https://tei.istex.fr/**](https://tei.istex.fr/)
+ **Pour connaitre le shéma TEI \(Text Encoding Initiative\) utilisé pour le projet ISTEX \(liste de notions textuelles admises par le plus grand nombre\) voir** [**https://tei.istex.fr/**](https://tei.istex.fr/)
 {% endhint %}
 
 > Exemple :

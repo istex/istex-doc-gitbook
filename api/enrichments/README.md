@@ -49,7 +49,7 @@ Toutes les URL suivantes sont accédées via la méthode **HTTP GET**.
    Pour **consolider** les enrichissements avec le **TEI** présent dans le fulltext, il suffit d'activer l'option **?consolidate** dans la requête.
 
 {% hint style="info" %}
- **Pour connaitre le shéma TEI \(Text Encoding Initiative\) utilisé pour le projet ISTEX \(liste de notions textuelles admises par le plus grand nombre \) voir** [**https://tei.istex.fr/**](https://tei.istex.fr/)
+ **Pour connaitre le shéma TEI \(Text Encoding Initiative\) utilisé pour le projet ISTEX \(liste de notions textuelles admises par le plus grand nombre\) voir** [**https://tei.istex.fr/**](https://tei.istex.fr/)
 {% endhint %}
 
 La consolidation peut se **combiner** avec la récupération de plusieurs types d'enrichissement.
