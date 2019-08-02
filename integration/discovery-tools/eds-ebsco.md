@@ -116,10 +116,11 @@ Une fois le lien créé il faut l’assigner à tous les bouquets Licences Natio
 Seuls les bouquets suivants sont déjà disponibles sur la plateforme ISTEX.
 {% endhint %}
 
-25 négociations mais 26 bouquets à sélectionner car la négociation "Numérique Premium" comporte 2 bouquets "Révolution française-Premier Empire" et "Littérature française et francophone".
+26 négociations mais 27 bouquets à sélectionner car la négociation "Numérique Premium" comporte 2 bouquets "Révolution française-Premier Empire" et "Littérature française et francophone".
 
-#### 26 bouquets à associer
+#### 27 bouquets à associer
 
+* American Chemical Society \(ISTEX - Licences Nationales\)
 * BMJ Journals \(ISTEX - Licences Nationales\)
 * Brepols Journals \(ISTEX - Licences Nationales\)
 * Brepols - ebooks \(ISTEX - Licences Nationales\)
