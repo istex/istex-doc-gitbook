@@ -14,7 +14,7 @@ Ce mode d’accès créé avant la mise en place de authentification par la féd
 _Note technique_ : ce mode d'authentification est une mise en oeuvre de la [méthode "Basic" de l'authentification HTTP](https://fr.wikipedia.org/wiki/Authentification_HTTP#M.C3.A9thode_.C2.AB_Basic_.C2.BB). Son utilisation est possible depuis n'importe quel langage de programmation ou bibliothèque qui implémente le protocole HTTP.
 
 {% hint style="danger" %}
-Cependant ce mode de connexion a définitivement cessé en juillet 2019 
+Cependant ce mode d'authentification n'est plus disponible depuis juillet 2019 
 {% endhint %}
 
 
