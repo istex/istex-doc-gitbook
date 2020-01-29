@@ -5,19 +5,18 @@ Il s'agit d'une application Web permettant de télécharger très facilement, vi
 * **Avantages :**
   * très simple d'emploi, l'application propose un formulaire d'usage intuitif et met à disposition de nombreuses aides à toutes les étapes
   * elle gère l’authentification par la fédération d’identité lors du téléchargement d'un premier corpus
+  * elle offre le téléchargement de gros corpus \(jusqu’à 100 000 documents\) 
   * elle permet de constituer un corpus à partir d'une équation classique de type booléenne ou d'une simple liste d'identifiants pérennes de type ARK  
   * elle autorise des équations de très grande taille \(plus de 60 000 caractères\)
   * elle propose des exemples de requêtes pédagogiques
   * elle met à disposition une option de tirage aléatoire pour constituer, sous forme d'un sous-corpus, un échantillon représentatif de la diversité des résultats obtenus, à la différence du classement par défaut qui s'effectue selon un ordre de pertinence calculé par l'algorithme BM25 du moteur de recherche de l'API sur les documents répondant à la requête effectuée \(voir la rubrique [**Choix du type de scoring**](../../api/results/scoring.md)\)
   * elle permet de récupérer sa requête et les choix de paramétrage effectués en cas de fermeture accidentelle de l'onglet actif ou de votre navigateur 
   * elle offre le partage de votre corpus par la copie de l’URL correspondant à l’extraction que vous vous apprêtez à réaliser \(le bouton est activé lorsque le formulaire est complété\) 
-  * elle propose la sauvegarde dans un historique des 30 requêtes les plus récentes, chacune d'elle pouvant être à nouveau éditée, téléchargée, partagée ou supprimée  
+  * elle simplifie le choix des formats TXT et OCR, en sélectionnant pour chaque document le format du texte de qualité la meilleure
+  * elle propose la sauvegarde dans un historique des 30 requêtes les plus récentes, chacune d'elle pouvant être à nouveau éditée, téléchargée, partagée ou supprimée
+  * elle fournit un fichier répertoriant, le cas échéant, les documents qui n’ont pu être extraits  
 * **Inconvénients :**
   * la limite autorisée pour des équations très longues dépend du navigateur employé \(indication notifiée dans l'aide fournie\)
-  * les corpus ne peuvent être extraits actuellement que dans la limite de 6 000 documents
-  * l’extraction du format JSON du fichier de métadonnées s’effectue par défaut
-  * l'extraction d'un type particulier d'enrichissement n'est pas encore opérationnelle
-  * la demande d'authentification lors du premier téléchargement peut nécessiter de se reconnecter à l'interface
 * **Mode d'emploi :** l'application est accessible à l’adresse suivante : [https://dl.istex.fr/](https://dl.istex.fr/)
 * **Prérequis :**
   * l'utilisation optimale de toutes les fonctionnalités de l'application requiert l'autorisation par votre navigateur des cookies et des données pour ce site jusqu'à leur expiration 
