@@ -4,8 +4,7 @@ Le programme **istex-api-harvester** est un utilitaire en ligne de commande perm
 
 * **Avantages** :  
   * il gère l'authentification au serveur en dehors du réseau interne de l'Inist-CNRS
-  * il permet d'extraire un corpus de plus de 6 000 documents
-  * il autorise l'extraction différenciée des enrichissements
+  * il permet d'extraire de gros corpus, sans limitation de taille
   * il est possible de paramétrer la taille du corpus à télécharger \(paramètre _size_\)
   * plusieurs modes de tri sont proposés en supplément du tri par pertinence effectué par défaut :  un tri des documents en fonction de certain champs \([paramètre _sortBy_](../../api/results/sortby.md)\), ou bien un tri aléatoire \([paramètre _rankBy=random_](../../api/results/scoring.md)\) avec la possibilité de retrouver cet ordre aléatoire  grâce au chiffre unique [_randomSeed_](../../api/results/scoring.md)
 * **Inconvénient** : son utilisation nécessite de disposer de Git et de NodeJs, ainsi que d'installer le moissonneur via un terminal de commande.

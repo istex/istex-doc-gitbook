@@ -10,10 +10,8 @@ Il s'agit d'une fonction du moteur de recherche de l'API ISTEX permettant d’ex
   *  les documents extraits peuvent être répartis ou non dans une arborescence selon le choix retenu
   * il est possible de réduire la taille du corpus à télécharger \(paramètre _size_\)
   * si la taille du corpus extrait est réduite, on peut choisir un autre mode de tri que celui par pertinence effectué par le moteur de recherche, c’est-à-dire un tri des documents en fonction de certain champs \(paramètre [_sortBy_](../../api/results/sortby.md)\), ou selon un tri aléatoire \(paramètre [_rankBy=random_](../../api/results/scoring.md)\) avec la possibilité de retrouver cet ordre aléatoire \(paramètre [_randomSeed_](../../api/results/scoring.md)\) ou bien encore selon un tri utilisant un score relevé par la qualité \(paramètre [_rankBy=qualityOverRelevance_](../../api/results/scoring.md)\)
-* **Inconvénients :** 
-  * les corpus ne peuvent être extraits actuellement que dans la limite de 6 000 documents
-  * le fichier JSON de métadonnées est extrait par défaut
-  * l’extraction d’un type particulier d’enrichissement n’est pas encore possible
+* **Inconvénient :** 
+  * les corpus ne peuvent être extraits actuellement que dans la limite de 100 000 documents
 * **Mode d'emploi :** cette fonction, ainsi que la syntaxe requise pour son utilisation et les différents paramètres disponibles, sont décrits dans la rubrique **"**[**Extraction**](../../api/search/extract-feature.md)**"** de la documentation technique ISTEX
 * **Astuces :**
   * la fonction `extract` utilisée seule génère l’extraction de l’ensemble des fichiers disponibles pour les documents ISTEX du corpus. 

@@ -22,7 +22,6 @@
   * [Vérification et mise en forme des résultats](tdm/verification/README.md)
     * [Détecter les problèmes d'authentification](tdm/verification/auth-problems.md)
     * [Détecter les PDF image](tdm/verification/detect-image-pdf.md)
-    * [Remplacer les documents TXT par les documents OCR](tdm/verification/get-ocr.md)
     * [Détecter les ligatures dans le TXT](tdm/verification/ligatures.md)
     * [Extraire les documents XML des fichiers ZIP](tdm/verification/extract-xml-from-zip.md)
   * [Annexes](tdm/annexes/README.md)

@@ -54,9 +54,9 @@ _Dans ISTEX, les fichiers en texte brut sont générés à partir d’une transf
 
 La reconnaissance optique de caractères, ou océrisation, est une technique informatique permettant – grâce à un procédé optique – de lire et stocker des images de textes imprimés, dactylographiés ou manuscrits, et de les traduire en fichiers textes.
 
-_Dans ISTEX, les fichiers OCR sont générés grâce à une chaîne de réocérisation basée sur l’outil Tesseract. Cette chaîne permet d’améliorer la qualité des documents originaux dont le texte est absent \(PDF image\) ou non exploitable \(problèmes de reconnaissance de caractères\). Lorsqu’il est disponible, ce fichier OCR doit être utilisé à la place du fichier TXT. Pour plus de détails, voir le billet de blog_ [_OCR : production de plein texte_](https://blog.istex.fr/ocr-production-de-plein-texte/)_._ 
+_Dans ISTEX, les fichiers OCR sont générés grâce à une chaîne de réocérisation basée sur l’outil Tesseract. Cette chaîne permet d’améliorer la qualité des documents originaux dont le texte est absent \(PDF image\) ou non exploitable \(problèmes de reconnaissance de caractères\). Lorsqu’il est disponible, ce fichier OCR sera automatiquement choisi à la place du fichier TXT d’origine. Pour plus de détails, voir le billet de blog_ [_OCR : production de plein texte_](https://blog.istex.fr/ocr-production-de-plein-texte/)_._ 
 
-_NB : La rubrique_ [_Remplacer les documents TXT par les documents OCR_](../verification/get-ocr.md) _propose une procédure permettant d'exploiter le fichier OCR pour faire de la fouille de textes._
+_NB : La rubrique_ [_Remplacer les documents TXT par les documents OCR_]() _propose une procédure permettant d'exploiter le fichier OCR pour faire de la fouille de textes._
 
 #### **o TIFF \(**Tagged Image File Format _\*Format de fichier d’image étiqueté_\)
 
@@ -88,7 +88,7 @@ _Dans ISTEX, les fichiers MODS sont générés à partir d’une transformation 
 
 JSON est un format standard permettant la représentation et l’échange de données structurées, facile à lire/écrire par les humains, facile à analyser par les machines. JSON est issu du langage de programmation JavaScript. Les documents JSON étant relativement légers, ce format est souvent utilisé pour structurer et transmettre des données sur des sites web. JSON est une syntaxe permettant de stocker des données de différents types : objets, tableaux, nombres, chaînes de caractères, booléens, valeurs "null", et de conserver des données hiérarchiques.
 
-_Dans ISTEX, les fichiers JSON regroupent les métadonnées du document, le lien vers le texte intégral dans ses différents formats, ainsi que toutes les informations à valeur ajoutée produites par ISTEX sur le document \(identifiant ARK ; indicateurs de qualité ; enrichissements par catégories scientifiques, par références bibliographiques structurées, par entités nommées, par termes d'indexation\)._
+_Dans ISTEX, les fichiers JSON regroupent les métadonnées du document, le lien vers le texte intégral dans ses différents formats \(et le cas échéant les liens vers les annexes et couvertures\), ainsi que toutes les informations à valeur ajoutée produites par ISTEX sur le document \(identifiant ARK ; indicateurs de qualité ; enrichissements par catégories scientifiques, par références bibliographiques structurées, par entités nommées, par termes d'indexation\)._    
 
 ## Annexes
 
