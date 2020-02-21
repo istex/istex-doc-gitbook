@@ -8,7 +8,7 @@ La _Revue de sommaire_ a pour but de :
 * proposer aux établissements une vision revue de sommaire pour les titres présents dans la plateforme ISTEX intégrable dans leur portail documentaire
 * présenter un réel état de collection des ressources présentes sur la plateforme ISTEX
 
-L'instance [_Revue de sommaire ISTEX_ ](https://revue-sommaire.data.istex.fr) est disponible sur le site  [https://data.istex.fr](https://data.istex.fr). [ ](http://data.istex.fr)Le site data.istex.fr expose des données [ISTEX](http://www.istex.fr/), selon les normes du web sémantique, dans un Triple Store via son [SPARQL Endpoint](http://data.istex.fr/triplestore/sparql).
+L'instance [_Revue de sommaire ISTEX_](https://revue-sommaire.istex.fr/) __ est disponible sur le site  [https://data.istex.fr](https://data.istex.fr). [ ](http://data.istex.fr)Le site data.istex.fr expose des données [ISTEX](http://www.istex.fr/), selon les normes du web sémantique, dans un Triple Store via son [SPARQL Endpoint](http://data.istex.fr/triplestore/sparql).
 
 ## Interface
 
@@ -16,15 +16,17 @@ L'instance [_Revue de sommaire ISTEX_ ](https://revue-sommaire.data.istex.fr) es
 
 1- Une répartition graphique des ressources par corpus
 
-![](../.gitbook/assets/navigation-corpus%20%281%29.JPG)
+![](../.gitbook/assets/graphcorpus.PNG)
 
-
-
-
+En cliquant sur la flèche verte, ou sur voir les détails, vous pouvez naviguer dans les résultats, rechercher, filtrer.
 
 {% hint style="info" %}
 Pour rendre le graphique plus lisible, les très gros corpus, ECCO et EEBO, sont masqués, mais vous les retrouvez au moment de la navigation.
 {% endhint %}
+
+Par exemple, pour rechercher des ressources avec le mot _"physical"_
+
+![](../.gitbook/assets/corpusphysical.PNG)
 
 
 
