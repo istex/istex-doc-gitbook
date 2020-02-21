@@ -1,6 +1,6 @@
 # Revue de sommaire
 
-![](../.gitbook/assets/introduction%20%282%29.JPG)
+![](../.gitbook/assets/revuesommaire-accueil.PNG)
 
 La _Revue de sommaire_ a pour but de :
 
@@ -18,43 +18,34 @@ L'instance [_Revue de sommaire ISTEX_ ](https://revue-sommaire.data.istex.fr) es
 
 ![](../.gitbook/assets/navigation-corpus%20%281%29.JPG)
 
-En cliquant sur la flèche verte vous pouvez naviguer dans les résultats, rechercher, filtrer.
+
+
+
 
 {% hint style="info" %}
 Pour rendre le graphique plus lisible, les très gros corpus, ECCO et EEBO, sont masqués, mais vous les retrouvez au moment de la navigation.
 {% endhint %}
 
-Par exemple, pour une recherche des ressources avec le mot _"physical"_
 
-![](../.gitbook/assets/tropical%20%281%29.JPG)
 
 2-  Des exemples de revues présentes dans ISTEX
 
 Des revues incontournables sont mises en avant pour introduire la plateforme. 
 
-![](../.gitbook/assets/revues-incontournables.JPG)
+![](../.gitbook/assets/exemples-de-revues.PNG)
 
 ###   ![](../.gitbook/assets/recherche.JPG) Recherche
 
 * il suffit d'écrire un mot ou un titre dans l'écran de recherche
 
-![](../.gitbook/assets/recherchefiltre.JPG)
+![](../.gitbook/assets/recherchers.PNG)
 
 * pour affiner et aider à la recherche, une recherche filtrée est proposée par _A-Z_, _corpus_ \(ressources négociées\), _éditeur scientifique_ \(le nom peut être différent de celui du corpus\), _début de collection_ \(données ABES\), _fin de collection_ \(données ABES\), _type_ \(monographie, série\).
+* Le résultat de votre recherche peut-être exporter dans différents formats
 
-### ![](../.gitbook/assets/ressource.JPG) Ressources
+ 
 
- Cette page affiche le nombre total des ressources chargées
-
-1. il est possible de faire une recherche par titre ou par mot du titre
-2. de filtrer les résultats
-3. de trier en cliquant en haut des colonne
-4. de changer le nombre d'affichage des ressources
-5. d'exporter les titres des ressources selon divers format
-
-![](../.gitbook/assets/ressourcefiltre%20%282%29.JPG)
-
-###  ![](../.gitbook/assets/sparql.JPG) SPARQL
+ ![](../.gitbook/assets/sparql.JPG) SPARQL
 
 Pour utiliser le SPARQL EndPoint ISTEX et/ou  comparer vos ressources avec les ressources présentes dans ISTEX.
 
