@@ -131,11 +131,11 @@ Une distance de 3, par exemple, ramène tous les résultats correspondants aux t
 
 Encadrer les termes de l’expression par des guillemets \(pas d’usage de parenthèses\). Les signes de ponctuation, les tirets, etc. sont considérés comme des espaces et ne sont pas comptabilisés.
 
-L'**ordre des termes** dans la requête impacte les résultats obtenus !
+L'**ordre des termes** n'impacte pas les résultats obtenus !
 
-* _**Exemples :**_ comparer les résultats avec les requêtes suivantes 
-  * `q=title:("Bering seas"~2 AND Soviet)` :  « …onto the Soviet continental shelf in the northern **Bering and Chukchi seas**… »
-  * `q=title:("Seas Bering"~2 AND Soviet)`  : « …in Soviet Arctic **seas and the Bering** Sea… » : les résultats sont _**inversés**_ par rapport à Bering Seas !
+* _**Exemple :**_ 
+* _"Past Climate"~3 et "Climate Past"~3_ ramènent les mêmes documents.
+
 
 ## **Pondération \(^\)**
 
