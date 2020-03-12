@@ -14,6 +14,3 @@ Cette documentation couvre les [usages documentaires](doc/), les [usages pour la
 Elle est tenue à jour par [l'équipe ISTEX que vous pouvez contacter si besoin](faq/community.md).
 
 _Pour information l'accès aux ressources ISTEX est limité aux ayants droit ISTEX, c'est-à-dire les personnels de l'Enseignement Supérieur et de la Recherche._ 
-
-
-
