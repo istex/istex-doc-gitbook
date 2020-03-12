@@ -86,8 +86,6 @@ Quelques types de requêtes :
   q=copyrightDate:[* TO *] NOT publicationDate:[* TO *]
 ```
 
-### _\*\*\*\*_
-
 ### _**Enrichissements**_
 
 Les enrichissements, produits par les différents outils de TDM développés ou adaptés pour ISTEX, sont interrogeables. 
