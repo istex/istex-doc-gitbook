@@ -86,3 +86,51 @@ Quelques types de requêtes :
   q=copyrightDate:[* TO *] NOT publicationDate:[* TO *]
 ```
 
+### _\*\*\*\*_
+
+### _**Enrichissements**_
+
+Les enrichissements, produits par les différents outils de TDM développés ou adaptés pour ISTEX, sont interrogeables. 
+
+#### _**Catégories scientifiques**_ 
+
+Les catégories Scopus, Science-Metrix, WoS ou Inist donnent accès au contenu scientifique. 
+
+Pour avoir plus de détails sur ces catégories et connaître en temps réel celles qui sont présentes dans ISTEX, vous pouvez consulter en [**annexe**](../annexes/scientific-categories.md) la liste des catégories scientifiques dans ISTEX.
+
+Quelques types de requêtes :
+
+* _recherche des documents appartenant à la catégorie scopus "Anthropology"_
+
+`q=categories.scopus:anthropology`
+
+* _recherche des titres de revues de la catégorie Science-Metrix "Information & library sciences"_
+
+`q=categories.scienceMetrix:"library"&facet=host.title&size=0`
+
+#### _**Entités nommées**_ 
+
+Plusieurs types d'entités nommées ont été détectés dans les documents ISTEX. Leur description, ainsi que des exemples, sont fournis sur la page dédiée du site [data.istex](https://named-entity.data.istex.fr/).
+
+Quelques exemples de requêtes :
+
+* _recherche des documents dans lesquels le toponyme "Mont Blanc" a été repéré_
+
+`q=namedEntities.unitex.geogName:"mont blanc"`
+
+* _recherche des publications pour lesquels le nom "Staline" a été reconnu_
+
+`q=namedEntities.unitex.persName:staline`
+
+#### _Indexation **Teeft**_
+
+Les termes représentatifs du texte intégral des documents de langue anglaise ont été extraits grâce à l'outil Rd-teeft. Le détail de cet outil est donné sur la page du site [data.istex](https://enrichment-process.data.istex.fr/ark:/67375/R0H-R25KK4KZ-Q) qui lui est consacrée.
+
+Ces termes offrent un moyen supplémentaire de cerner un sujet.
+
+Exemple de requête :
+
+* _recherche des documents contenant les unitermes ou mots-composés avec music, musicology, musical, etc._
+
+`q=keywords.teeft:"music*"`
+
