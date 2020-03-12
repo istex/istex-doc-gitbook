@@ -27,7 +27,7 @@ Les paramètres de pagination se basent sur les deux options `from` et `size` qu
   * Si l'option est manquante, chaque page affichera 10 résultats.
   * Le nombre est un entier ne pouvant pas dépasser 5000.
 
-    Dans le cas contraire, ce nombre sera descendu automatique à 5000. 
+    Dans le cas contraire, ce nombre sera descendu automatique à 5000.
 * Paramètres
   * **&from** : l'option permettant de définir le numéro de départ,
   * **{position}** : le numéro de départ en question.
@@ -51,6 +51,4 @@ Une fois cette requête effectuée, il est possible de **naviguer dans les résu
 * Il est **impossible de parcourir les résultats au-delà de la 10 000ème réponse**. En d'autres termes, la somme des paramètres `from` et `size` ne doit jamais dépasser 10 000. Si vous avez besoin de dépasser ce seuil, vous devez utiliser la pagination de type _scroll_ présentée ci-dessous.
 * Le paramètre `lastPageURI` est par conséquent déprécié et ne doit plus être utilisé
 {% endhint %}
-
-
 

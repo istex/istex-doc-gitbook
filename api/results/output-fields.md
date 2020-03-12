@@ -1,10 +1,8 @@
 # Sélection des champs renvoyés
 
-Pour apprendre les options disponibles dans l'API : 
+Pour apprendre les options disponibles dans l'API :
 
- __[_N_'_hésitez pas à consulter le tutoriel multimédias_ ](https://istex-tutorial.data.istex.fr/ark:/67375/Q05-STTNXF50-V)
-
-
+_\_\[\_N_'_hésitez pas à consulter le tutoriel multimédias_ \]\([https://istex-tutorial.data.istex.fr/ark:/67375/Q05-STTNXF50-V](https://istex-tutorial.data.istex.fr/ark:/67375/Q05-STTNXF50-V)\)
 
 **La syntaxe est la suivante :**
 
@@ -33,6 +31,4 @@ Pour apprendre les options disponibles dans l'API :
 | :--- | :--- |
 | Récupération des champs **title et fulltext** sur l'ensemble des résultats | [https://api.istex.fr/document/?q=\***&output=title,fulltext**](https://api.istex.fr/document/?q=*&output=title,fulltext) |
 | Récupération de **tous les champs disponibles** sur l'ensemble des résultats | [https://api.istex.fr/document/?q=\***&output=\***](https://api.istex.fr/document/?q=*&output=*) |
-
-
 

@@ -9,5 +9,3 @@ La liste des différentes valeurs et leurs significations peuvent être consult�
 * [Scopus](https://scopus-category.data.istex.fr/)
 * [INIST](https://inist-category.data.istex.fr/)
 
-
-

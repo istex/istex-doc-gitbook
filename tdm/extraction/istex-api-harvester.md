@@ -12,7 +12,7 @@ Le programme **istex-api-harvester** est un utilitaire en ligne de commande perm
 * **Installations :** suivre les étapes suivantes :
   * installation de Git \(Windows, MacOS ou Linux\) : [https://git-scm.com/downloads](https://git-scm.com/downloads) ou plus spécifiquement pour Windows : [https://gitforwindows.org/](https://gitforwindows.org/) et Linux Ubuntu : [https://guide.ubuntu-fr.org/server/git.html](https://guide.ubuntu-fr.org/server/git.html)
   * Installation de NodeJS \(Windows, MacOS ou Linux\) : [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
-  * Cloner la distribution 
+  * Cloner la distribution
 
     `git clone` [`https://github.com/istex/istex-api-harvester.git`](https://github.com/istex/istex-api-harvester.git)
 

@@ -7,7 +7,7 @@ Il s'agit d'une fonction du moteur de recherche de l'API ISTEX permettant d’ex
   * elle peut être utilisée en dehors du réseau interne de l'Inist-CNRS, la gestion de l’authentification s’opérant via la [fédération d’identité ou par adresse IP](../../api/access/auth-modes.md) 
   * elle permet l'extraction des enrichissements lorsqu'ils existent 
   * elle offre le téléchargement des annexes et couvertures disponibles
-  *  les documents extraits peuvent être répartis ou non dans une arborescence selon le choix retenu
+  * les documents extraits peuvent être répartis ou non dans une arborescence selon le choix retenu
   * il est possible de réduire la taille du corpus à télécharger \(paramètre _size_\)
   * si la taille du corpus extrait est réduite, on peut choisir un autre mode de tri que celui par pertinence effectué par le moteur de recherche, c’est-à-dire un tri des documents en fonction de certain champs \(paramètre [_sortBy_](../../api/results/sortby.md)\), ou selon un tri aléatoire \(paramètre [_rankBy=random_](../../api/results/scoring.md)\) avec la possibilité de retrouver cet ordre aléatoire \(paramètre [_randomSeed_](../../api/results/scoring.md)\) ou bien encore selon un tri utilisant un score relevé par la qualité \(paramètre [_rankBy=qualityOverRelevance_](../../api/results/scoring.md)\)
 * **Inconvénient :** 

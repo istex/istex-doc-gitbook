@@ -27,5 +27,3 @@
 | Résultats ayant le mot **"agile"** avec un **affichage relevé par qualité** | [https://api.istex.fr/document/?q=agile**&rankBy=qualityOverRelevance**](https://api.istex.fr/document/?q=agile&rankBy=qualityOverRelevance) |
 | Résultats ayant le mot **"agile"** avec un **affichage aléatoire** | [https://api.istex.fr/document/?q=agile**&rankBy=random**](https://api.istex.fr/document/?q=agile&rankBy=random) |
 
-
-

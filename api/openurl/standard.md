@@ -12,12 +12,12 @@ Voici la liste des descripteurs d'identification disponibles \(rft\_id\), qui pe
 
 Exemples :
 
- [https://api.istex.fr/document/openurl?rft\_id=info:doi/10.1136/acupmed-2012-010183](https://api.istex.fr/document/openurl?rft_id=info:doi/10.1136/acupmed-2012-010183)
+[https://api.istex.fr/document/openurl?rft\_id=info:doi/10.1136/acupmed-2012-010183](https://api.istex.fr/document/openurl?rft_id=info:doi/10.1136/acupmed-2012-010183)
 
 [ https://api.istex.fr/document/openurl?rft\_id=info:pii/S0143-0807\(98\)90774-7](https://api.istex.fr/document/openurl?rft_id=info:pii/S0143-0807%2898%2990774-7)
 
 {% hint style="danger" %}
- **Il doit s'agir du DOI d'une ressource** _**unique**_ **\(article ou chapitre\). Le DOI d'un livre ou d'une revue ne fonctionneront pas. Si vous ne possédez que le DOI du livre ou de la revue, utilisez les descripteurs de méta-données jdoi et bdoi comme décrits ci-dessous.**
+**Il doit s'agir du DOI d'une ressource** _**unique**_ **\(article ou chapitre\). Le DOI d'un livre ou d'une revue ne fonctionneront pas. Si vous ne possédez que le DOI du livre ou de la revue, utilisez les descripteurs de méta-données jdoi et bdoi comme décrits ci-dessous.**
 {% endhint %}
 
 Et les descripteurs de meta-données :

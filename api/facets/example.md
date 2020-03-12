@@ -6,8 +6,8 @@ Reprenons le schéma ci-dessus. Nous souhaitons connaître **tous les documents 
 
 Ici, la recherche ne nous a retourné que **5 résultats**, représentés par les points bleus \(il s'agit évidemment d'un exemple\). Nous souhaitons maintenant, en plus, connaître **quels sont les corpus concernés, et combien de documents sont affectés à ces corpus**. Il existe alors plusieurs solutions :
 
-*  Nous pouvons, par exemple, effectuer plusieurs requêtes en ajoutant à la recherche précédente les noms des corpus, par exemple [?q=einstein AND corpusName:elsevier](http://api.istex.fr/document/?q=einstein%20AND%20corpusName:elsevier), puis [?q=einstein AND corpusName:wiley](http://api.istex.fr/document/?q=einstein%20AND%20corpusName:wiley), etc. Non seulement faire cet ensemble de requête est fastidieux, mais le risque d'oublier un corpus est important.
-*  Nous pouvons également utiliser l'option [&output=corpusName](http://api.istex.fr/document/?q=einstein&output=corpusName) pour afficher le champ concerné, et compter manuellement le nombre de fois où chaque nom de corpus apparait. Dans notre exemple, avec 5 résultats, cela peut sembler simple, mais la majorité des requêtes propose un nombre de résultats bien plus important.
+* Nous pouvons, par exemple, effectuer plusieurs requêtes en ajoutant à la recherche précédente les noms des corpus, par exemple [?q=einstein AND corpusName:elsevier](http://api.istex.fr/document/?q=einstein%20AND%20corpusName:elsevier), puis [?q=einstein AND corpusName:wiley](http://api.istex.fr/document/?q=einstein%20AND%20corpusName:wiley), etc. Non seulement faire cet ensemble de requête est fastidieux, mais le risque d'oublier un corpus est important.
+* Nous pouvons également utiliser l'option [&output=corpusName](http://api.istex.fr/document/?q=einstein&output=corpusName) pour afficher le champ concerné, et compter manuellement le nombre de fois où chaque nom de corpus apparait. Dans notre exemple, avec 5 résultats, cela peut sembler simple, mais la majorité des requêtes propose un nombre de résultats bien plus important.
 
 La meilleure solution consiste alors à utiliser une facette [&facet=corpusName](http://api.istex.fr/document/?q=einstein&facet=corpusName) . Cette dernière va, en plus du résultat de la requête, ajouter **un objet "agrégations"** à la fin du JSON généré. Cet objet montre le découpage des 5 résultats trouvés par leur nom de corpus :
 
@@ -19,5 +19,5 @@ Les facettes sont donc très utiles pour filtrer sur une collection de données.
 
 ![](../../.gitbook/assets/facetdemo.png)
 
- Ainsi, l'utilisateur pourra **choisir quels critères ajouter à sa recherche plus facilement**.
+Ainsi, l'utilisateur pourra **choisir quels critères ajouter à sa recherche plus facilement**.
 

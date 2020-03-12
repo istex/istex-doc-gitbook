@@ -29,7 +29,3 @@ Il s'agit d'une application Web permettant de télécharger très facilement, vi
   * en cochant ou décochant un type de fichier particulier, tous les formats associés sont automatiquement sélectionnés ou désélectionnés
   * lorsque le téléchargement est effectif, le partage du corpus extrait est toujours possible via le bouton "Historique"   
 
-
-
-
-

@@ -18,5 +18,3 @@ Exemple :
 
 [https://api.istex.fr/document/openurl?rft.au=Richard James Clark&rft.issn=0964-5284&rft.volume=30&rft.issue=4&rft.spage=298&noredirect](https://api.istex.fr/document/openurl?rft.au=Richard%20James%20Clark&rft.issn=0964-5284&rft.volume=30&rft.issue=4&rft.spage=298&noredirect)
 
-
-

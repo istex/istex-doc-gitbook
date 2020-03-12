@@ -36,7 +36,7 @@ Le format des fichiers d’identifiants, comme `oiseaux.corpus`, ou de notices b
 
 L'option `-v` permet de conserver toutes le métadonnées envoyées par l'API. Elles sont placées dans le fichier `logRequete.txt` dans le répertoire `Data/Fichiers`.
 
-* **Astuces :** 
+* **Astuces :**
 
   * la liste complète des options, avec leur description, est à consulter sur [GitHub](https://github.com/istex/harvest-corpus#options).
   * authentification : le téléchargement de fichiers en texte intégral suppose une authentification, soit implicite par adresse IP, soit explicite par identification à la fédération d'identité de Renater. Dans ce deuxième cas, il faut [obtenir un jeton d'identification](https://doc.istex.fr/api/access/fede.html#1%C3%A8re-%C3%A9tape--g%C3%A9n%C3%A9ration-du-token) et l’ajouter à la ligne de commande avec l’option `-j`.
@@ -52,13 +52,5 @@ L'option `-v` permet de conserver toutes le métadonnées envoyées par l'API. E
   harvestCorpus.pl -c oiseaux.corpus -m all -d Data/Metadata
   ```
 
-       
-
 Les fichiers au format MODS ou XML dans le répertoire `Data/Metadata` auront le même préfixe que les fichiers PDF et TEI correspondants dans le répertoire `Data/Fichiers.`
-
-
-
- 
-
-
 

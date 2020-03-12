@@ -50,5 +50,5 @@ La requête [https://api.istex.fr/document/?q=corpusName.raw:brill-journals&face
   }
 ```
 
-Ce champ a été créé pour les facettes, mais peut être utilisé par l'utilisateur. On lui préférera cependant la version classique \(segmentée\), qui permet une recherche plus avancée. Pour obtenir le même résultat précédent, il suffit alors de délimiter le mot avec des guillemets :  [https://api.istex.fr/document/?q=corpusName:"brill-journals"&facet=corpusName](https://api.istex.fr/document/?q=corpusName:"brill-journals"&facet=corpusName)
+Ce champ a été créé pour les facettes, mais peut être utilisé par l'utilisateur. On lui préférera cependant la version classique \(segmentée\), qui permet une recherche plus avancée. Pour obtenir le même résultat précédent, il suffit alors de délimiter le mot avec des guillemets : \[[https://api.istex.fr/document/?q=corpusName:"brill-journals"&facet=corpusName\]\(https://api.istex.fr/document/?q=corpusName:"brill-journals"&facet=corpusName](https://api.istex.fr/document/?q=corpusName:"brill-journals"&facet=corpusName]%28https://api.istex.fr/document/?q=corpusName:"brill-journals"&facet=corpusName)\)
 

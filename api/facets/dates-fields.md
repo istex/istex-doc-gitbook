@@ -12,26 +12,26 @@
 
 {% hint style="danger" %}
 certains champs ne peuvent être interrogés, leur résultat étant jugé non pertinent  
- et trop conséquent pour être affiché : doi, title, abstract
+et trop conséquent pour être affiché : doi, title, abstract
 {% endhint %}
 
 * Format de réponse pour une facette x\[y-z\]
-  *   ```javascript
+  * ```javascript
     {
-      "aggregations": {
-        "publicationDate": {
-          "buckets": [
-            {
-              "key": "1836-1972",
-              "from": -4228675200000,
-              "fromAsString": "1836",
-              "to": 63072000000,
-              "toAsString": "1972",
-              "docCount": 581
-            }
-          ]
-        }
+    "aggregations": {
+      "publicationDate": {
+        "buckets": [
+          {
+            "key": "1836-1972",
+            "from": -4228675200000,
+            "fromAsString": "1836",
+            "to": 63072000000,
+            "toAsString": "1972",
+            "docCount": 581
+          }
+        ]
       }
+    }
     }
     ```
 * Explications
@@ -43,27 +43,27 @@ certains champs ne peuvent être interrogés, leur résultat étant jugé non pe
   * **toAsString** : correspond à z \(string\),
   * **docCount** : nombre de résultats trouvé dans cet intervalle.
 * Format de réponse pour une facette **x\[y-z:i\]**
-  *   ```javascript
+  * ```javascript
     {
-      "aggregations": {
-        "copyrightDate": {
-          "buckets": [
-            {
-              "keyAsString": "1832",
-              "key": -4354905600000,
-              "docCount": 50,
-              "rangeAsString": "[1832-1833["
-            },
-            {
-              "keyAsString": "1833",
-              "key": -4323283200000,
-              "docCount": 62,
-              "rangeAsString": "[1833-1834["
-            },
-            ...
-          }
+    "aggregations": {
+      "copyrightDate": {
+        "buckets": [
+          {
+            "keyAsString": "1832",
+            "key": -4354905600000,
+            "docCount": 50,
+            "rangeAsString": "[1832-1833["
+          },
+          {
+            "keyAsString": "1833",
+            "key": -4323283200000,
+            "docCount": 62,
+            "rangeAsString": "[1833-1834["
+          },
+          ...
         }
       }
+    }
     }
     ```
 * Explications
@@ -73,14 +73,17 @@ l'intervalle se doit d'être un **entier \(integer\)**, il n'est actuellement pa
 Il n'est pas possible également de continuer avec une facette imbriquée : les facettes suivantes seront supprimées.
 {% endhint %}
 
- Les résultats sont découpés selon l'intervalle choisi.  
-Prenons un exemple : un intervalle de 2 entre 2000 et 2004 créera 3 résultats :  
-- le nombre de documents entre **2000** et 2002 non inclu,  
-- le nombre de documents entre **2002** et 2004 non inclu,  
-- le nombre de documents en **2004**.  
-Mathématiquement, on aura : \[2000-2004:2\] = \[**2000**-2002\[ + \[**2002**-2004\[ + \[**2004**-2004\]  
-La facette affiche ces intervalles en indiquant **la borne inférieure** comme référence \(key et keyAsString\).  
-  
+Les résultats sont découpés selon l'intervalle choisi.  
+Prenons un exemple : un intervalle de 2 entre 2000 et 2004 créera 3 résultats :
+
+* le nombre de documents entre **2000** et 2002 non inclu,  
+* le nombre de documents entre **2002** et 2004 non inclu,  
+* le nombre de documents en **2004**.  
+
+  Mathématiquement, on aura : \[2000-2004:2\] = \[**2000**-2002\[ + \[**2002**-2004\[ + \[**2004**-2004\]  
+
+  La facette affiche ces intervalles en indiquant **la borne inférieure** comme référence \(key et keyAsString\).  
+
 La facette affiche les dates **de la plus ancienne à la plus récente**.
 
 * **buckets** : tableau contenant l'état de collection,

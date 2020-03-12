@@ -30,32 +30,29 @@ Toutes les URL suivantes sont accédées via la méthode **HTTP GET**.
   }
   ```
 
-
-
-  * Si le document interrogé ne possède **aucun enrichissement**, l'API renverra un message **JSON**, comme :
+* Si le document interrogé ne possède **aucun enrichissement**, l'API renverra un message **JSON**, comme :
 
   ```javascript
   {
-    id: "0134F1716893F9118DCE7278BE3333CC40D50461",
-    _error: "Il n'existe actuellement aucun résultat pour ce type de data"
+  id: "0134F1716893F9118DCE7278BE3333CC40D50461",
+  _error: "Il n'existe actuellement aucun résultat pour ce type de data"
   }
   ```
 
-  Pour plus de **détails sur les champs** envoyés en réponse, consultez le chapitre [correspondant](../fields/files.md).  
-  
+  Pour plus de **détails sur les champs** envoyés en réponse, consultez le chapitre [correspondant](../fields/files.md).
+
   Il est possible de récupérer **plusieurs types** d'enrichissement en **une seule fois** en séparant les types voulus par des **`,`\(virgules\)**.  
-  Dans ce cas, l'API renverra une archive au format **ZIP**.  
-  
-   Pour **consolider** les enrichissements avec le **TEI** présent dans le fulltext, il suffit d'activer l'option **?consolidate** dans la requête.
+  Dans ce cas, l'API renverra une archive au format **ZIP**.
+
+  Pour **consolider** les enrichissements avec le **TEI** présent dans le fulltext, il suffit d'activer l'option **?consolidate** dans la requête.
 
 {% hint style="info" %}
- **Pour connaitre le shéma TEI \(Text Encoding Initiative\) utilisé pour le projet ISTEX \(liste de notions textuelles admises par le plus grand nombre\) voir** [**https://tei.istex.fr/**](https://tei.istex.fr/)
+**Pour connaitre le shéma TEI \(Text Encoding Initiative\) utilisé pour le projet ISTEX \(liste de notions textuelles admises par le plus grand nombre\) voir** [**https://tei.istex.fr/**](https://tei.istex.fr/)
 {% endhint %}
 
 La consolidation peut se **combiner** avec la récupération de plusieurs types d'enrichissement.
 
 * Types existants
-
   * **abesAuthors** : auteurs extraits du [Hub de métadonnées de l'ABES](http://www.abes.fr/Projets-en-cours/Hub-de-metadonnees),
   * **abesSubjects** : sujets extraits du [Hub de métadonnées de l'ABES](http://www.abes.fr/Projets-en-cours/Hub-de-metadonnees),
   * **multicat** : catégories [Web Of Science](http://thomsonreuters.com/en/products-services/scholarly-scientific-research/scholarly-search-and-discovery/web-of-science.html) et [Science-Metrix](http://science-metrix.com/) du document,
@@ -63,8 +60,7 @@ La consolidation peut se **combiner** avec la récupération de plusieurs types 
   * **refBibs** : références bibliographiques extraites de [GROBID](https://github.com/kermitt2/grobid),
   * **teeft** : _Term Extraction for English FullText_, extraction sur le fulltext anglais par [étiquetage morpho-syntaxique](https://fr.wikipedia.org/wiki/%C3%89tiquetage_morpho-syntaxique) ,
   * **unitex** : entités nommées détectées par [Unitex-CasSys](http://tln.li.univ-tours.fr/Tln_Istex.html).
-
-* Exemples : 
+* Exemples :
   * [https://api.istex.fr/document/**0134F1716893F9118DCE7278BE3333CC40D50461/enrichments**](https://api.istex.fr/document/0134F1716893F9118DCE7278BE3333CC40D50461/enrichments)
   * [https://api.istex.fr/document/**087661D669BF44CA05AA6CE08ADD6399F6A439C4/enrichments**](https://api.istex.fr/document/087661D669BF44CA05AA6CE08ADD6399F6A439C4/enrichments)
   * [https://api.istex.fr/document/**087661D669BF44CA05AA6CE08ADD6399F6A439C4/enrichments/multicat**](https://api.istex.fr/document/087661D669BF44CA05AA6CE08ADD6399F6A439C4/enrichments/multicat)

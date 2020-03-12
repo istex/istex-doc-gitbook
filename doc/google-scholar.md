@@ -38,11 +38,9 @@ Google Scholar indique que l'activation \(et la mise à jour\) prend une à deux
 
 ## Diffusion d'ISTEX à partir d'un article cité dans "Profils" d'auteur
 
- 
-
 * Recherche l’auteur « Albert Einstein »
 
-![](../.gitbook/assets/gs-profil1%20%281%29.png)
+![](../.gitbook/assets/gs-profil1-1.png)
 
 * Puis sélectionner le menu à gauche , pour quitter le mode de recherche « Articles » et choisir le mode de recherche « Profils »
 
@@ -56,10 +54,7 @@ Google Scholar indique que l'activation \(et la mise à jour\) prend une à deux
 
 ![](../.gitbook/assets/gs-profil4.png)
 
-  
-
-
-*  Sélectionner l’article de votre choix
+* Sélectionner l’article de votre choix
 
   Par exemple : « Physics and reality » de 1936 cité 674 fois dont 21 fois en 2018 Le lien \[PDF\] ISTEX qui s’affiche permet d’accéder au PDF présent sur la plateforme ISTEX
 
@@ -71,10 +66,7 @@ Google Scholar indique que l'activation \(et la mise à jour\) prend une à deux
 Les liens OpenURL sont activés à partir des fichiers Kbart fournis à Google Scholar. Il peut y avoir une différence de couverture entre les fichiers Kbart et ce qui est réellement présent dans la plateforme ISTEX dans ce cas un message de non disponibilité s’affiche.
 {% endhint %}
 
-  
-
-
-**Autre possibilité de paramétrage du lien vers la bibliothèque ISTEX** 
+**Autre possibilité de paramétrage du lien vers la bibliothèque ISTEX**
 
 L'option de sélectionner le lien vers la bibliothèque ISTEX est proposée automatiquement au moment de l'installation du bouton ISTEX voir [**Bouton ISTEX**](bouton-istex.md)
 

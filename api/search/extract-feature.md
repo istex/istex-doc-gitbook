@@ -7,7 +7,7 @@ Vous pouvez demander à l'API d'extraire tout ou partie des données disponibles
 
 Le nombre de documents qu'il est possible d'extraire en une requête est **limité à 100 000 maximum**. L'API renvoie un code d'erreur 413 en cas de dépassement. **Par défaut, seuls 5 documents sont archivés** si rien n'est précisé.
 
-### Note importante : 
+### Note importante :
 
 À partir de la version 5.7.0 de l'API, et suite à la réécriture complète de la fonctionnalité d'extraction, **le paramètre** `spread` **est déprécié**. Celui-ci n'est donc plus utilisable jusqu'à ce qu'il soit ré-implémenté.
 

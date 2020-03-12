@@ -2,7 +2,7 @@
 
 L'[extension pour navigateur ISTEX](../../doc/bouton-istex.md) permet de venir afficher des boutons ISTEX
 
-![](../../.gitbook/assets/istex-button%20%281%29.png)
+![](../../.gitbook/assets/istex-button-1.png)
 
 au sein de vos pages web lorsque des références bibliographiques y sont trouvées et qu'elles correspondent à des ressources présentes dans la plateforme ISTEX. Pour que cette technique fonctionne cela nécessite d'[installer dans son navigateur web l'extension ISTEX](../../doc/bouton-istex.md).
 
@@ -46,7 +46,7 @@ Ces deux dernière manières de procéder avec COinS couplé à une balise span 
 
 Toutes ces techniques sont des bonnes manières de procéder surtout lorsque vous avez des listes d'articles à présenter. C'est souvent le cas lorsqu'un portail documentaire ou une base de données bibliographique affiche une liste de résultats suite à une recherche.
 
-Donc si vous voulez que des 
+Donc si vous voulez que des
 
 ![](../../.gitbook/assets/istex-button.png)
 

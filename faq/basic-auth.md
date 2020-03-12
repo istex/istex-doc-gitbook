@@ -6,5 +6,3 @@ Cela correspond au mode d'authentification nomade de l'API, basé sur l'annuaire
 Attention : Ce mode d'authentification n'est plus disponible depuis juillet 2019.
 {% endhint %}
 
-
-

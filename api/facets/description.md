@@ -4,5 +4,5 @@ Une facette est un moyen de **filtrer sur une collection de données**. Elle agi
 
 ![](../../.gitbook/assets/schemafacets.png)
 
-\_\_[_Pour apprendre à utiliser les facettes de l'API_ ](https://istex-tutorial.data.istex.fr/ark:/67375/Q05-WK6G6P8P-M) _n'hésitez pas à consulter le tutoriel multimédias_ 
+\_\_[_Pour apprendre à utiliser les facettes de l'API_ ](https://istex-tutorial.data.istex.fr/ark:/67375/Q05-WK6G6P8P-M) _n'hésitez pas à consulter le tutoriel multimédias_
 

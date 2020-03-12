@@ -51,5 +51,3 @@ Si possible, merci également d'indiquer `sid=lissa` à la fin de l'appel à l'O
 * [Université de Paris Saclay](../examples/univ-paris-saclay.md) =&gt;[Code source disponible sur GitHub](https://github.com/istex/istex-button-primo)
 * Vous très bientôt ? [dites-le à l'équipe ISTEX](mailto:contact@listes.istex.fr), savoir que la plateforme ISTEX est utilisée par la communauté et comment est très important.
 
-
-

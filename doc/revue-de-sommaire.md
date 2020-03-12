@@ -8,11 +8,11 @@ La _Revue de sommaire_ a pour but de :
 * proposer aux établissements une vision revue de sommaire pour les titres présents dans la plateforme ISTEX intégrable dans leur portail documentaire
 * présenter un réel état de collection des ressources présentes sur la plateforme ISTEX
 
-L'instance [_Revue de sommaire ISTEX_](https://revue-sommaire.istex.fr/) __ est disponible sur le site  [https://data.istex.fr](https://data.istex.fr). [ ](http://data.istex.fr)Le site data.istex.fr expose des données [ISTEX](http://www.istex.fr/), selon les normes du web sémantique, dans un Triple Store via son [SPARQL Endpoint](http://data.istex.fr/triplestore/sparql).
+L'instance [_Revue de sommaire ISTEX_](https://revue-sommaire.istex.fr/) \_\_ est disponible sur le site [https://data.istex.fr](https://data.istex.fr). [ ](http://data.istex.fr)Le site data.istex.fr expose des données [ISTEX](http://www.istex.fr/), selon les normes du web sémantique, dans un Triple Store via son [SPARQL Endpoint](http://data.istex.fr/triplestore/sparql).
 
 ## Interface
 
-###  ![](../.gitbook/assets/acceuil.JPG) Accueil  
+### ![](../.gitbook/assets/acceuil.JPG) Accueil
 
 1- Une répartition graphique des ressources par corpus
 
@@ -28,15 +28,13 @@ Par exemple, pour rechercher des ressources avec le mot _"physical"_
 
 ![](../.gitbook/assets/corpusphysical.PNG)
 
+2- Des exemples de revues présentes dans ISTEX
 
-
-2-  Des exemples de revues présentes dans ISTEX
-
-Des revues incontournables sont mises en avant pour introduire la plateforme. 
+Des revues incontournables sont mises en avant pour introduire la plateforme.
 
 ![](../.gitbook/assets/exemples-de-revues.PNG)
 
-###   ![](../.gitbook/assets/recherche.JPG) Recherche
+### ![](../.gitbook/assets/recherche.JPG) Recherche
 
 * il suffit d'écrire un mot ou un titre dans l'écran de recherche
 
@@ -45,11 +43,9 @@ Des revues incontournables sont mises en avant pour introduire la plateforme.
 * pour affiner et aider à la recherche, une recherche filtrée est proposée par _A-Z_, _corpus_ \(ressources négociées\), _éditeur scientifique_ \(le nom peut être différent de celui du corpus\), _début de collection_ \(données ABES\), _fin de collection_ \(données ABES\), _type_ \(monographie, série\).
 * Le résultat de votre recherche peut-être exporter dans différents formats
 
- 
+![](../.gitbook/assets/sparql.JPG) SPARQL
 
- ![](../.gitbook/assets/sparql.JPG) SPARQL
-
-Pour utiliser le SPARQL EndPoint ISTEX et/ou  comparer vos ressources avec les ressources présentes dans ISTEX.
+Pour utiliser le SPARQL EndPoint ISTEX et/ou comparer vos ressources avec les ressources présentes dans ISTEX.
 
 ![](../.gitbook/assets/ecransparql.JPG)
 
@@ -57,9 +53,9 @@ Pour utiliser le SPARQL EndPoint ISTEX et/ou  comparer vos ressources avec les r
 Pour afficher cet écran, n'hésitez pas à re-cliquer si besoin.
 {% endhint %}
 
-###  ![](../.gitbook/assets/ontologie.JPG) Ontologie 
+### ![](../.gitbook/assets/ontologie.JPG) Ontologie
 
-Sont disponibles sur cette page toutes les informations de l'ontologie du projet ISTEX qui définit 13 Classes, 11 Object Properties et 13 Data Properties.  Accès libre sur[ GITHUB](https://github.com/istex/ontology/blob/master/istexXML.owl) .
+Sont disponibles sur cette page toutes les informations de l'ontologie du projet ISTEX qui définit 13 Classes, 11 Object Properties et 13 Data Properties. Accès libre sur[ GITHUB](https://github.com/istex/ontology/blob/master/istexXML.owl) .
 
 ## **Résultats**
 
@@ -85,21 +81,19 @@ En sélectionnant le titre de la ressource souhaitée une page s'ouvre :
 4. issn/eissn           isbn/eisbn
 5. couverture de la ressource jusqu'au document \(article, chapitre\) requête à l'API ISTEX
 6. alignement avec Wikidata, à l'aide d'une requête SPARQL
-7.  ark de la revue \(en [savoir plus](https://blog.istex.fr/des-ark-dans-istex/)\)
+7. ark de la revue \(en [savoir plus](https://blog.istex.fr/des-ark-dans-istex/)\)
 8. ajouter un champ permet à tous de faire des suggestions
 9. partager/exporter, de nombreux formats disponibles : N-Quads, CSV, Turtle, JSON...
-
- 
 
 {% hint style="info" %}
 La liste des titres dans _Revue de sommaire ISTEX_ correspond à la liste contractuelle des [licences nationales](https://www.licencesnationales.fr/liste-ressources/) pour les corpus chargés sur la plateforme ISTEX
 
 La couverture affichée pour une ressource correspond aux documents présents sur la plateforme ISTEX
 
-=&gt;  Il peut y avoir une différence entre les deux  
+=&gt; Il peut y avoir une différence entre les deux
 {% endhint %}
 
-###  Intégrer le sommaire dans un site web
+### Intégrer le sommaire dans un site web
 
 * copier le code de la ressource disponible dans le champ couverture
 

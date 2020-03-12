@@ -8,7 +8,7 @@ D'autres champs sont également présents uniquement **au niveau de l'article** 
 | articleId | string | ------------- |
 | categories | {} | **Objet** contenant les informations liées aux **catégories** |
 | categories.inist | \[string\] | **Tableau** contenant toutes les **catégories déterminées par** [**méthode bayésienne**](https://fr.wikipedia.org/wiki/Classification_na%C3%AFve_bay%C3%A9sienne) du document |
-| categories.scienceMetrix | \[string\] | **Tableau** contenant toutes les **catégories** [**Science-Metrix**](http://science-metrix.com/) ****du document |
+| categories.scienceMetrix | \[string\] | **Tableau** contenant toutes les **catégories** [**Science-Metrix**](http://science-metrix.com/) _\*\*_du document |
 | categories.wos | \[string\] | **Tableau** contenant toutes les **catégories** [**Web Of Science**](https://clarivate.com/products/web-of-science/) du document |
 | chapterId | string | ------------- |
 | corpusName | string | **Nom du corpus** auquel appartient le document \(ex : "elsevier"\) |

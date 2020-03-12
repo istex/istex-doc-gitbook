@@ -16,5 +16,3 @@ Voici les diff√©rents usages documentaires d'ISTEX qui sont actuellement propos√
 * [Logiciels de gestion bibliographique](bib/)
 * [Revue de sommaire](revue-de-sommaire.md)
 
-
-
