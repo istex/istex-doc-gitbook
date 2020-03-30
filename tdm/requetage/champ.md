@@ -166,7 +166,7 @@ Quelques exemples de requêtes :
 
 NB : les organisations de type "fournisseur" ne sont pas encore accessibles sur l'API ISTEX, mais elles le seront prochainement. 
 
-\*\*\*\*
+‌‌
 
 **Entité de type "URL"** : elles permettent de retrouver les publications signalant l’identifiant d’une page ou d’un site web.
 
@@ -176,7 +176,7 @@ Exemple de requête :
 
 ‌`q=namedEntities.unitex.ref_url:http://www.itcproject.org`
 
-\*\*\*\*
+‌‌
 
 **Entité de type "citation bibliographique"** : il s’agit des mentions du texte pointant vers les références bibliographiques situées en fin de document.
 
@@ -190,7 +190,7 @@ Quelques exemples de requêtes :
 
 ‌`q=namedEntities.unitex.ref_bibl:"Bednorz and Müller, 1986"`
 
-\*\*\*\*
+‌‌
 
 **Entité de type "référence bibliographique"** : il s’agit des références apparaissant en totalité dans le corps du texte qui ne renvoient pas vers les références bibliographiques de fin de texte ou de bas de page. Ce cas de figure se rencontre parfois dans certaines publications. La balise à utiliser est `bibl`.
 
