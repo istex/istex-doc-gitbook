@@ -118,7 +118,7 @@ Seuls les bouquets suivants sont déjà disponibles sur la plateforme ISTEX.
 
 26 négociations mais 27 bouquets à sélectionner car la négociation "Numérique Premium" comporte 2 bouquets "Révolution française-Premier Empire" et "Littérature française et francophone".
 
-#### 28 bouquets à associer
+#### 29 bouquets à associer
 
 * American Chemical Society \(ISTEX - Licences Nationales\)
 * BMJ Journals \(ISTEX - Licences Nationales\)
@@ -148,6 +148,7 @@ Seuls les bouquets suivants sont déjà disponibles sur la plateforme ISTEX.
 * SpringerLINK \(ISTEX - Licences Nationales\)
 * Wiley Online Library \(ISTEX - Licences Nationales\)
 * Taylor & Francis eBooks \(Politics and International Relations\) \(ISTEX - Licences Nationales\)
+* The Royal Society Online Journals \(ISTEX - Licences Nationales\)
 
 ### F- Laisser EBSCO gérer le customlink ISTEX
 
