@@ -21,13 +21,13 @@ Le programme **istex-api-harvester** est un utilitaire en ligne de commande perm
 
 * suivre les étapes suivantes :
   * installation de Git \(Windows, MacOS ou Linux\) : [https://git-scm.com/downloads](https://git-scm.com/downloads) ou plus spécifiquement pour Windows : [https://gitforwindows.org/](https://gitforwindows.org/) et Linux Ubuntu : [https://guide.ubuntu-fr.org/server/git.html](https://guide.ubuntu-fr.org/server/git.html)
-  * Installation de NodeJS \(Windows, MacOS ou Linux\) : [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
-  * Cloner la distribution
+  * installation de NodeJS \(Windows, MacOS ou Linux\) : [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+  * cloner la distribution
 
     `git clone` [`https://github.com/istex/istex-api-harvester.git`](https://github.com/istex/istex-api-harvester.git)
 
   * lancement du terminal Git Bash depuis le dossier ainsi créé : `Démarrer /Toutes les Applications / Git Bash`
-    * installation du moissonneur : `npm install -g istex-api-harvester`
+  * installation du moissonneur : `npm install -g istex-api-harvester`
 
 ## **Astuces :**
 
@@ -39,7 +39,7 @@ Le programme **istex-api-harvester** est un utilitaire en ligne de commande perm
 
   `istex-api-harvester -F txt -M "" -o corpusAncien -s 600 --query="'cat querya1.txt'"`
 
-* Si le corpus est volumineux, il faut augmenter la durée de vie de la [fonction `Scroll`](../../api/results/scroll.md). Celle-ci est de 30 s par défaut. Avec un tel délai, le parcours des 100 résultats de la "page courante" peut s’avérer trop long et entraîner une erreur 404 renvoyée par l'API.
+* si le corpus est volumineux, il faut augmenter la durée de vie de la [fonction `Scroll`](../../api/results/scroll.md). Celle-ci est de 30 s par défaut. Avec un tel délai, le parcours des 100 résultats de la "page courante" peut s’avérer trop long et entraîner une erreur 404 renvoyée par l'API.
 
   * _**Exemple :** moissonnage du texte intégral au format PDF et des métadonnées associées de 17 257 documents contenant le terme "arctic" dans le titre ou le résumé, à télécharger dans le répertoire Polaris \(la durée de vie de la fonction `Scroll` a été portée à 5 mn\)_
 
