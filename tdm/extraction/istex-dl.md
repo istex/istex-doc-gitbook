@@ -64,7 +64,7 @@ l'application est accessible à l’adresse suivante : [https://dl.istex.fr/](ht
 #### Requête
 
 * dans la recherche par équation booléenne, l'opérateur "OR" peut être remplacé par un blanc \(voir la rubrique [Les principaux opérateurs à manipuler](../requetage/operateurs.md)\)
-* au-delà de 2000 caractères, un identifiant unique \("q\_id"\) est attribué à chaque équation booléenne, ce qui assure sa réutilisation au moyen de la fonctionnalité “Historique”, le détail de chaque équation étant conservé
+* au-delà de 2000 caractères, un identifiant unique \(nommé "q\_id"\) est attribué à chaque requête, qu'il s'agisse d'une équation booléenne ou d'une liste d'identifiants de type ARK, ce qui assure sa réutilisation au moyen de la fonctionnalité “Historique”, le détail de chaque requête étant conservé
 * l’interrogation par liste d’identifiants ARK ou par sélection de fichier du type .corpus lance une étape de calcul du nombre de documents, destinée à vérifier que tous les identifiants fournis correspondent bien à des publications présentes dans le réservoir ISTEX
 * dans le cas de la sélection d’un classement aléatoire, l’échantillon de documents affiché ne sera pas nécessairement celui qui sera présent dans l’archive extraite \(en raison du principe même du tirage aléatoire, différent à chaque fois\)
 * par défaut, l’échantillon de résultats correspond aux 6 premiers documents répondant à la requête et classés selon le critère “pertinence & qualité” ; mais il s’accordera au choix d’un autre mode de classement
