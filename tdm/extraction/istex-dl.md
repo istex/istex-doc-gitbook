@@ -38,7 +38,7 @@ l'application est accessible à l’adresse suivante : [https://dl.istex.fr/](ht
 
 #### Usage
 
-* l’usage personnalisé donne accès à tous les types de fichiers et de formats disponibles dans ISTEX ; cependant, selon les publications à télécharger, il se peut quelle que soit la sélection que certains formats ou types de fichiers \(en particulier, les annexes, couvertures ou enrichissements\) ne soient pas présents dans l’archive extraite, s’ils n’ont pas été fournis par l’éditeur ou ajoutés lors du passage dans la chaîne de traitement propre à ISTEX
+* l’usage personnalisé donne accès à tous les types de fichiers et de formats disponibles dans ISTEX ; cependant, selon les publications à télécharger, il se peut, en dépit de la sélection faite, que certains formats ou types de fichiers \(en particulier, les annexes, couvertures ou enrichissements\) ne soient pas présents dans l’archive extraite, s’ils n’ont pas été fournis par l’éditeur ou ajoutés lors du passage dans la chaîne de traitement propre à ISTEX
 * en fonction de la plateforme ou de l’outil particulier envisagés pour l’exploitation de son corpus, une sélection automatique des types de fichiers et de formats à extraire sera opérée par l’application ; changer d’option reste possible à tout moment
 
 #### Téléchargement
@@ -63,8 +63,8 @@ l'application est accessible à l’adresse suivante : [https://dl.istex.fr/](ht
 
 #### Requête
 
-* dans la recherche par équation booléenne, l'opérateur "OR" peut être remplacé par un blanc \(voir la rubrique [Les principaux opérateurs à manipuler](../requetage/operateurs.md)\)
-* au-delà de 2000 caractères, un identifiant unique \(nommé "q\_id"\) est attribué à chaque requête, qu'il s'agisse d'une équation booléenne ou d'une liste d'identifiants de type ARK, ce qui assure sa réutilisation au moyen de la fonctionnalité “Historique”, le détail de chaque requête étant conservé
+* dans la recherche par équation booléenne, l'opérateur "OR", qui s'applique par défaut, peut être remplacé par un blanc \(voir la rubrique [Les principaux opérateurs à manipuler](../requetage/operateurs.md)\)
+* au-delà d'une certaine limite \(de 2000 caractères dans le cas d'une équation booléenne ou de 80 identifiants ARK\), un identifiant unique, nommé "q\_id", est attribué à chaque requête ; le détail de chaque q\_id étant conservé   par l'API ISTEX, la réutilisation de ces requêtes longues est assurée au travers de la fonctionnalité “Historique”, au même titre que pour les requêtes plus courtes
 * l’interrogation par liste d’identifiants ARK ou par sélection de fichier du type .corpus lance une étape de calcul du nombre de documents, destinée à vérifier que tous les identifiants fournis correspondent bien à des publications présentes dans le réservoir ISTEX
 * dans le cas de la sélection d’un classement aléatoire, l’échantillon de documents affiché ne sera pas nécessairement celui qui sera présent dans l’archive extraite \(en raison du principe même du tirage aléatoire, différent à chaque fois\)
 * par défaut, l’échantillon de résultats correspond aux 6 premiers documents répondant à la requête et classés selon le critère “pertinence & qualité” ; mais il s’accordera au choix d’un autre mode de classement
@@ -79,6 +79,7 @@ l'application est accessible à l’adresse suivante : [https://dl.istex.fr/](ht
 #### Téléchargement
 
 * l’archive téléchargée comprend, en complément des publications demandées et du fichier .corpus, un fichier “manifest” reprenant les caractéristiques de l’interrogation, ainsi que, si nécessaire, un fichier “log” répertoriant les documents qui n’ont pu être extraits
+* l'usage LODEX nécessite un téléchargement au format zip
 
 #### Menu
 
