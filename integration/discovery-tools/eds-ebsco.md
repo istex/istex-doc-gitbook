@@ -116,9 +116,9 @@ Une fois le lien créé il faut l’assigner à tous les bouquets Licences Natio
 Seuls les bouquets suivants sont déjà disponibles sur la plateforme ISTEX.
 {% endhint %}
 
-29 négociations mais 30 bouquets à sélectionner car la négociation "Numérique Premium" comporte 2 bouquets "Révolution française-Premier Empire" et "Littérature française et francophone".
+30 négociations mais 32 bouquets à sélectionner car la négociation "Numérique Premium" comporte 2 bouquets "Révolution française-Premier Empire" et "Littérature française et francophone" et la négociation "Droz" comporte le 2 bouquets "Portail Calvin"  et le "Portail Humanisme et Renaissance"
 
-#### 30 bouquets à associer
+#### 32 bouquets à associer
 
 * American Chemical Society \(ISTEX - Licences Nationales\)
 * BMJ Journals \(ISTEX - Licences Nationales\)
@@ -150,6 +150,8 @@ Seuls les bouquets suivants sont déjà disponibles sur la plateforme ISTEX.
 * Wiley Online Library \(ISTEX - Licences Nationales\)
 * Taylor & Francis eBooks \(Politics and International Relations\) \(ISTEX - Licences Nationales\)
 * The Royal Society Online Journals \(ISTEX - Licences Nationales\)
+* Droz Portail Calvin \(ISTEX-Licences Nationales\)
+* Droz Portail Humanisme et Renaissance \(ISTEX-Licences Nationales\)
 
 ### F- Laisser EBSCO gérer le customlink ISTEX
 
