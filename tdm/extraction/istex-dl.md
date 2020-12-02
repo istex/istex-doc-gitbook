@@ -43,7 +43,7 @@ l'application est accessible à l’adresse suivante : [https://dl.istex.fr/](ht
 
 #### Téléchargement
 
-* 2 formats d’archive sont à disposition : zip, format le plus répandu, ou bien tar.gz, couramment utilisé dans les environnements Unix/Linux
+* 2 formats d’archive sont à disposition : zip, format le plus répandu, ou bien tar.gz \(format « tar », lui-même compressé au format « gzip »\), couramment utilisé dans les environnements Unix/Linux
 * la taille du corpus que l’on s’apprête à télécharger est fournie lorsqu’elle dépasse 1 Go ; elle est estimée en fonction du nombre de documents à extraire et de la sélection opérée parmi les types de fichiers et de formats associés
 * une indication colorée est associée à l’estimation de la taille : la couleur orange signale une taille comprise entre 1 et 5 Go, tandis que le rouge avertit du dépassement de 5 Go
 * le niveau de compression est à choisir et à adapter à la taille estimée du corpus \(lorsque cette indication est donnée\), à la bande passante de l’utilisateur, ainsi qu’à l’espace de stockage disponible sur le disque dur
