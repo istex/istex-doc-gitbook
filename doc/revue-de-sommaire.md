@@ -2,6 +2,8 @@
 
 ![](../.gitbook/assets/revue-de-sommaire-.jpg)
 
+
+
 La _Revue de sommaire_ a pour but de :
 
 * proposer des pages **dédiées pour chaque revue ISTEX** en présentant un accès par année - volume - numéro -titre du document, jusqu'à l'accès au plein texte disponible sur la plateforme ISTEX
@@ -13,14 +15,15 @@ La _Revue de sommaire_ a pour but de :
   * Un fichier KBart-ISTEX global est disponible en page d'accueil 
   * Un fichier KBart-ISTEX par corpus, année... est à exporter au niveau de la page recherche
 
+
+
 ![](../.gitbook/assets/kbart-revue-de-sommaire.jpg)
 
   
 
-{% hint style="info" %}
-Les titres présents, dans la "Revue de Sommaire"_,_ proviennent du fichier de **KBart-ABES de référence.**
-
-La création d'un export **KBart-ISTEX** permet de mettre à disposition des utilisateurs des tableaux KBart qui reflètent **la couverture réelle d'ISTEX**.
+{% hint style="danger" %}
+* Les titres présents, dans la "Revue de Sommaire"_,_ proviennent du fichier de **KBart-ABES de référence**
+* La création d'un export **KBart-ISTEX** permet de mettre à disposition des utilisateurs des tableaux KBart qui reflètent **la couverture réelle d'ISTEX**
 {% endhint %}
 
 L'instance [_Revue de sommaire ISTEX_](https://revue-sommaire.istex.fr/) \_\_ est disponible sur le site [https://data.istex.fr](https://data.istex.fr). [ ](http://data.istex.fr)Le site data.istex.fr expose des données [ISTEX](http://www.istex.fr/), selon les normes du web sémantique, dans un Triple Store via son [SPARQL Endpoint](http://data.istex.fr/triplestore/sparql).
