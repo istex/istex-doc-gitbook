@@ -95,15 +95,18 @@ En sélectionnant le titre de la ressource souhaitée une page s'ouvre :
 
 ![](../.gitbook/assets/pagers.jpg)
 
-1. titre de la ressource
-2. couverture de la ressource jusqu'au document \(article, chapitre\) requête à l'API ISTEX
-3. accès à un panel des 10 revues les plus pertinentes citant les articles de la revue recherchée 
-4. information sur le corpus, lien vers le référentiel des corpus chargés dans ISTEX   [https://loaded-corpus.data.istex.fr](https://loaded-corpus.data.istex.fr) et nom du corpus , lors de la négociation nationale
-5. éditeur scientifique, le nom peut être différent que celui du corpus
-6. issn/eissn           isbn/eisbn
-7. alignement avec Wikidata, à l'aide d'une requête SPARQL
-8. ark de la revue \(en [savoir plus](https://blog.istex.fr/des-ark-dans-istex/)\)
-9. exporter, de nombreux formats disponibles :  CSV, TSV, KBART, JSON...
+* titre de la ressource \(1\)
+* couverture de la ressource jusqu'au document \(article, chapitre\) requête à l'API ISTEX \(2\)
+* accès à un panel des 10 revues les plus pertinentes citant les articles de la revue recherchée, possibilité de les téléchargées dans [ISTEX-DL](https://dl.istex.fr/) \(3\)
+
+![](../.gitbook/assets/rsdl.jpg)
+
+* information sur le corpus, lien vers le référentiel des corpus chargés dans ISTEX   [https://loaded-corpus.data.istex.fr](https://loaded-corpus.data.istex.fr) et nom du corpus, lors de la négociation nationale \(4\)
+* éditeur scientifique, le nom peut être différent que celui du corpus \(5\)
+* issn/eissn  ou  isbn/eisbn \(6\)
+* alignement avec Wikidata, à l'aide d'une requête SPARQL \(7\)
+* ark de la revue \(8\) \(en [savoir plus](https://blog.istex.fr/des-ark-dans-istex/)\) 
+* exporter, de nombreux formats disponibles :  CSV, TSV, KBART, JSON... \(9\)
 
 
 
