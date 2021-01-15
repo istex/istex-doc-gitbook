@@ -87,7 +87,9 @@ Les termes cherchés sont reliés par des opérateurs booléens, l'opérateur `O
     </tr>
   </thead>
   <tbody></tbody>
-</table>| Exemples |  |
+</table>
+
+| Exemples |  |
 | :--- | :--- |
 | Recherche des documents contenant un terme commençant par "te", **ayant 0, 1 ou plusieurs caractères supplémentaires** et finissant par un "t" dans un de leurs champs indexés \(ex: "test", "tegument"\) | [https://api.istex.fr/document/?**q=te\*t**](https://api.istex.fr/document/?q=te*t) |
 | Recherche des documents contenant un terme commençant par "te", **ayant 1 caractère supplémentaire** et finissant par un "t" dans un de leurs champs indexés \(ex: "tet", "test"\) | [https://api.istex.fr/document/?**q=te?t**](https://api.istex.fr/document/?q=te?t) |

@@ -1,12 +1,14 @@
 # Revue de sommaire
 
-![](../.gitbook/assets/revuesommaire-accueil.PNG)
+![](../.gitbook/assets/revue-de-sommaire-.jpg)
 
 La _Revue de sommaire_ a pour but de :
 
 * proposer des pages dédiées pour chaque revue ISTEX en présentant un accès par année - volume - numéro -titre du document, jusqu'à l'accès au plein texte disponible sur la plateforme ISTEX
 * proposer aux établissements une vision revue de sommaire pour les titres présents dans la plateforme ISTEX intégrable dans leur portail documentaire
+* afficher la liste contractuelle des titres des licences nationales pour les corpus chargés sur la plateforme ISTEX
 * présenter un réel état de collection des ressources présentes sur la plateforme ISTEX
+*  proposer un export au format KBART revue-sommaire, des ressources et de l’état de collection disponible dans la plateforme ISTEX
 
 L'instance [_Revue de sommaire ISTEX_](https://revue-sommaire.istex.fr/) \_\_ est disponible sur le site [https://data.istex.fr](https://data.istex.fr). [ ](http://data.istex.fr)Le site data.istex.fr expose des données [ISTEX](http://www.istex.fr/), selon les normes du web sémantique, dans un Triple Store via son [SPARQL Endpoint](http://data.istex.fr/triplestore/sparql).
 
