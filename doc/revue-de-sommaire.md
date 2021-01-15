@@ -8,7 +8,19 @@ La _Revue de sommaire_ a pour but de :
 * proposer aux établissements une vision revue de sommaire pour les titres présents dans la plateforme ISTEX intégrable dans leur portail documentaire
 * afficher la liste contractuelle des titres des licences nationales pour les corpus chargés sur la plateforme ISTEX
 * présenter un réel état de collection des ressources présentes sur la plateforme ISTEX
-*  proposer un export au format KBART revue-sommaire, des ressources et de l’état de collection disponible dans la plateforme ISTEX
+*  proposer un export au format KBart-ISTEX, des ressources et de l’état de collection disponible dans la plateforme ISTEX
+  * Un fichier KBart-ISTEX global est disponible en page d'accueil 
+  * Un fichier KBart-ISTEX par corpus, année... est à exporter au niveau de la page recherche
+
+![](../.gitbook/assets/kbart-revue-de-sommaire.jpg)
+
+  
+
+{% hint style="info" %}
+Les titres présents, dans la "Revue de Sommaire"_,_ proviennent du fichier de **KBart-ABES de référence.**
+
+La création d'un export **KBart-ISTEX** permet de mettre à disposition des utilisateurs des tableaux KBart qui reflètent **la couverture réelle d'ISTEX**.
+{% endhint %}
 
 L'instance [_Revue de sommaire ISTEX_](https://revue-sommaire.istex.fr/) \_\_ est disponible sur le site [https://data.istex.fr](https://data.istex.fr). [ ](http://data.istex.fr)Le site data.istex.fr expose des données [ISTEX](http://www.istex.fr/), selon les normes du web sémantique, dans un Triple Store via son [SPARQL Endpoint](http://data.istex.fr/triplestore/sparql).
 
