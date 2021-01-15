@@ -59,9 +59,7 @@ Des revues incontournables sont mises en avant pour introduire la plateforme.
 ![](../.gitbook/assets/kbartrs.jpg)
 
 * pour affiner et aider à la recherche, une recherche filtrée \(2\) est proposée par _A-Z_, _corpus_ \(ressources négociées\), _éditeur scientifique_ \(le nom peut être différent de celui du corpus\), _début de collection_ \(données ABES\), _fin de collection_ \(données ABES\), _type_ \(monographie, série\).
-* Le résultat de votre recherche peut-être exporter dans différents formats \(3\):
-
-  * CSV, TSV, KBart-ISTEX....
+* Le résultat de votre recherche peut-être exporter dans différents formats \(3\): CSV, TSV, KBart-ISTEX....
 
 
 
