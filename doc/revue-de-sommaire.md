@@ -4,11 +4,12 @@
 
 La _Revue de sommaire_ a pour but de :
 
-* proposer des pages dédiées pour chaque revue ISTEX en présentant un accès par année - volume - numéro -titre du document, jusqu'à l'accès au plein texte disponible sur la plateforme ISTEX
-* proposer aux établissements une vision revue de sommaire pour les titres présents dans la plateforme ISTEX intégrable dans leur portail documentaire
-* afficher la liste contractuelle des titres des licences nationales pour les corpus chargés sur la plateforme ISTEX
-* présenter un réel état de collection des ressources présentes sur la plateforme ISTEX
-*  proposer un export au format KBart-ISTEX, des ressources et de l’état de collection disponible dans la plateforme ISTEX
+* proposer des pages **dédiées pour chaque revue ISTEX** en présentant un accès par année - volume - numéro -titre du document, jusqu'à l'accès au plein texte disponible sur la plateforme ISTEX
+* proposer aux établissements **une vision "revue de sommaire"** pour les titres présents dans la plateforme ISTEX intégrable dans leur portail documentaire
+* proposer une liste de titres dont les **articles citent l’ouvrage/la revue** recherchés
+* afficher **la liste contractuelle des titres** des licences nationales pour les corpus chargés sur la plateforme ISTEX
+* présenter **un réel état de collection** des ressources présentes sur la plateforme ISTEX
+*  proposer un **export au format KBart-ISTEX**, des ressources et de l’état de collection disponible dans la plateforme ISTEX
   * Un fichier KBart-ISTEX global est disponible en page d'accueil 
   * Un fichier KBart-ISTEX par corpus, année... est à exporter au niveau de la page recherche
 
