@@ -59,7 +59,7 @@ Des revues incontournables sont mises en avant pour introduire la plateforme.
 ![](../.gitbook/assets/kbartrs.jpg)
 
 * pour affiner et aider à la recherche, une recherche filtrée \(2\) est proposée par _A-Z_, _corpus_ \(ressources négociées\), _éditeur scientifique_ \(le nom peut être différent de celui du corpus\), _début de collection_ \(données ABES\), _fin de collection_ \(données ABES\), _type_ \(monographie, série\).
-* Le résultat de votre recherche peut-être exporter dans différents formats \(3\): CSV, TSV, KBart-ISTEX....
+* Le résultat de votre recherche peut-être exporter dans différents formats \(3\) : CSV, TSV, KBart-ISTEX....
 
 
 
@@ -67,7 +67,7 @@ Des revues incontournables sont mises en avant pour introduire la plateforme.
 
 Pour utiliser le SPARQL EndPoint ISTEX et/ou comparer vos ressources avec les ressources présentes dans ISTEX.
 
-![](../.gitbook/assets/ecransparql.JPG)
+![](../.gitbook/assets/sparql.jpg)
 
 {% hint style="info" %}
 Pour afficher cet écran, n'hésitez pas à re-cliquer si besoin.
@@ -75,7 +75,7 @@ Pour afficher cet écran, n'hésitez pas à re-cliquer si besoin.
 
 ### ![](../.gitbook/assets/ontologie.JPG) Ontologie
 
-Sont disponibles sur cette page toutes les informations de l'ontologie du projet ISTEX qui définit 13 Classes, 11 Object Properties et 13 Data Properties. Accès libre sur[ GITHUB](https://github.com/istex/ontology/blob/master/istexXML.owl) .
+Sont disponibles sur cette page toutes les informations de l'ontologie du projet ISTEX qui définit 14 Classes, 11 Object Properties et 13 Data Properties. Accès libre sur[ GITHUB](https://github.com/istex/ontology/blob/master/istexXML.owl) .
 
 ## **Résultats**
 
@@ -93,17 +93,19 @@ La recherche peut se faire sur la page _Recherche_ ou _Ressources_.
 
 En sélectionnant le titre de la ressource souhaitée une page s'ouvre :
 
-![](../.gitbook/assets/revuesommaire.JPG)
+![](../.gitbook/assets/pagers.jpg)
 
 1. titre de la ressource
-2. information sur le corpus, lien vers le référentiel des corpus chargés dans ISTEX   [https://loaded-corpus.data.istex.fr](https://loaded-corpus.data.istex.fr) et nom du corpus , lors de la négociation nationale
-3. éditeur scientifique, le nom peut être différent que celui du corpus
-4. issn/eissn           isbn/eisbn
-5. couverture de la ressource jusqu'au document \(article, chapitre\) requête à l'API ISTEX
-6. alignement avec Wikidata, à l'aide d'une requête SPARQL
-7. ark de la revue \(en [savoir plus](https://blog.istex.fr/des-ark-dans-istex/)\)
-8. ajouter un champ permet à tous de faire des suggestions
-9. partager/exporter, de nombreux formats disponibles : N-Quads, CSV, Turtle, JSON...
+2. couverture de la ressource jusqu'au document \(article, chapitre\) requête à l'API ISTEX
+3. accès à un panel des 10 revues les plus pertinentes citant les articles de la revue recherchée 
+4. information sur le corpus, lien vers le référentiel des corpus chargés dans ISTEX   [https://loaded-corpus.data.istex.fr](https://loaded-corpus.data.istex.fr) et nom du corpus , lors de la négociation nationale
+5. éditeur scientifique, le nom peut être différent que celui du corpus
+6. issn/eissn           isbn/eisbn
+7. alignement avec Wikidata, à l'aide d'une requête SPARQL
+8. ark de la revue \(en [savoir plus](https://blog.istex.fr/des-ark-dans-istex/)\)
+9. exporter, de nombreux formats disponibles :  CSV, TSV, KBART, JSON...
+
+
 
 {% hint style="info" %}
 La liste des titres dans _Revue de sommaire ISTEX_ correspond à la liste contractuelle des [licences nationales](https://www.licencesnationales.fr/liste-ressources/) pour les corpus chargés sur la plateforme ISTEX
