@@ -63,6 +63,8 @@ Des revues incontournables sont mises en avant pour introduire la plateforme.
 
   * CSV, TSV, KBart-ISTEX....
 
+
+
 ![](../.gitbook/assets/sparql.JPG) SPARQL
 
 Pour utiliser le SPARQL EndPoint ISTEX et/ou comparer vos ressources avec les ressources présentes dans ISTEX.
