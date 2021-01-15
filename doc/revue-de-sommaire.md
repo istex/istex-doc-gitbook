@@ -97,7 +97,7 @@ En sélectionnant le titre de la ressource souhaitée une page s'ouvre :
 
 * titre de la ressource \(1\)
 * couverture de la ressource jusqu'au document \(article, chapitre\) requête à l'API ISTEX \(2\)
-* accès à un panel des 10 revues les plus pertinentes citant les articles de la revue recherchée, possibilité de téléchargées leurs citations dans [ISTEX-DL](https://dl.istex.fr/) \(3\)
+* accès à un panel des 10 revues les plus pertinentes citant les articles de la revue recherchée, possibilité de télécharger leurs citations dans [ISTEX-DL](https://dl.istex.fr/) \(3\)
 
 ![](../.gitbook/assets/rsdl.jpg)
 
