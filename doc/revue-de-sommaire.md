@@ -7,13 +7,13 @@
 La _Revue de sommaire_ a pour but de :
 
 * proposer des pages **dédiées pour chaque revue ISTEX** en présentant un accès par année - volume - numéro -titre du document, jusqu'à l'accès au plein texte disponible sur la plateforme ISTEX
-* proposer aux établissements **une vision "revue de sommaire"** pour les titres présents dans la plateforme ISTEX intégrable dans leur portail documentaire
+* proposer aux établissements **une vision "revue de sommaire"**, pour les titres présents dans la plateforme ISTEX, intégrable dans leur portail documentaire
 * proposer une liste de titres dont les **articles citent l’ouvrage/la revue** recherchés
 * afficher **la liste contractuelle des titres** des licences nationales pour les corpus chargés sur la plateforme ISTEX
 * présenter **un réel état de collection** des ressources présentes sur la plateforme ISTEX
-*  proposer un **export au format KBart-ISTEX**, des ressources et de l’état de collection disponible dans la plateforme ISTEX
-  * Un fichier KBart-ISTEX global est disponible en page d'accueil 
-  * Un fichier KBart-ISTEX par corpus, année... est à exporter au niveau de la page recherche
+*  proposer un **export au format KBART-ISTEX**, des ressources et de l’état de collection disponible dans la plateforme ISTEX
+  * Un fichier KBART-ISTEX global est disponible en page d'accueil 
+  * Un fichier KBART-ISTEX par corpus, année... est à exporter au niveau de la page recherche
 
 
 
@@ -22,8 +22,8 @@ La _Revue de sommaire_ a pour but de :
   
 
 {% hint style="danger" %}
-* Les titres présents, dans la "Revue de Sommaire"_,_ proviennent du fichier de **KBart-ABES de référence**
-* La création d'un export **KBart-ISTEX** permet de mettre à disposition des utilisateurs des tableaux KBart qui reflètent **la couverture réelle d'ISTEX**
+* Les titres présents, dans la "Revue de Sommaire"_,_ proviennent du fichier de **KBART-ABES de référence**
+* La création d'un export **KBART-ISTEX** permet de mettre à disposition des utilisateurs des tableaux KBART qui reflètent **la couverture réelle d'ISTEX**
 {% endhint %}
 
 L'instance [_Revue de sommaire ISTEX_](https://revue-sommaire.istex.fr/) \_\_ est disponible sur le site [https://data.istex.fr](https://data.istex.fr). [ ](http://data.istex.fr)Le site data.istex.fr expose des données [ISTEX](http://www.istex.fr/), selon les normes du web sémantique, dans un Triple Store via son [SPARQL Endpoint](http://data.istex.fr/triplestore/sparql).
@@ -59,7 +59,7 @@ Des revues incontournables sont mises en avant pour introduire la plateforme.
 ![](../.gitbook/assets/kbartrs.jpg)
 
 * pour affiner et aider à la recherche, une recherche filtrée \(2\) est proposée par _A-Z_, _corpus_ \(ressources négociées\), _éditeur scientifique_ \(le nom peut être différent de celui du corpus\), _début de collection_ \(données ABES\), _fin de collection_ \(données ABES\), _type_ \(monographie, série\).
-* Le résultat de votre recherche peut-être exporter dans différents formats \(3\) : CSV, TSV, KBart-ISTEX....
+* Le résultat de votre recherche peut-être exporter dans différents formats \(3\) : CSV, TSV, KBART-ISTEX....
 
 
 
