@@ -8,7 +8,7 @@ Les 3 Discovery Tool ou Outil de Découverte les plus utilisés actuellement son
 
 * **EDS** et son résolveur FTF \(EBSCO Discovery Service\)
 * **Primo** et son résolveur SFX \(ExLibris/Proquest\)
-* **Summon** et son résolveur de liens 360 links \(Serial Solution/ Proquest\) _**En attente contact Ex-Libris USA**_
+* **Summon** et son résolveur de liens 360 links \(Serial Solution/ Proquest\) 
 
 Ces réservoirs de métadonnées destinés aux bibliothèques permettent de faire une recherche à la "Google" et d’accéder :
 
