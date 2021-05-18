@@ -1,6 +1,6 @@
 # SUMMON
 
-## ISTEX disponible dans l'Index central de découverte  \(CDI\)
+## ISTEX disponible dans l'Index central de découverte \(CDI\)
 
 ISTEX est accessible depuis le 9 mai 2021 dans l'index central Summon 
 
