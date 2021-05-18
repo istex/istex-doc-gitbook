@@ -7,8 +7,8 @@ Une fonctionnalité intéressante de l’API ISTEX est son résolveur de liens c
 Les 3 Discovery Tool ou Outil de Découverte les plus utilisés actuellement sont :
 
 * **EDS** et son résolveur FTF \(EBSCO Discovery Service\)
-* **Primo** et son résolveur SFX \(ExLibris/Proquest\)
-* **Summon** et son résolveur de liens 360 links \(Serial Solution/ Proquest\) 
+* **Primo** et son résolveur SFX / **Alma**  \(ExLibris/Proquest\)
+* **Summon** et son résolveur de liens 360 KB \(ExLibris/Proquest\) 
 
 Ces réservoirs de métadonnées destinés aux bibliothèques permettent de faire une recherche à la "Google" et d’accéder :
 
