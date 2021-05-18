@@ -4,11 +4,11 @@ Cette documentation est à destination des gestionnaires de documentation \(ex :
 
 Une fonctionnalité intéressante de l’API ISTEX est son résolveur de liens compatible avec la norme OpenURL. Cette fonctionnalité permet de savoir, à partir de métadonnées simples \(titre, auteurs…\) ou d’identifiants standards \(DOI, PMID…\) si un document est présent dans la base de documents ISTEX. Si le document est trouvé, un rebond vers le texte plein est possible.
 
-Les 3 Discovery Tool ou Outil de Découverte les plus utilisés actuellement sont :
+Les 3 Discovery Tool ou Outils de Découverte les plus utilisés actuellement sont :
 
-* **EDS** et son résolveur FTF \(EBSCO Discovery Service\)
-* **Primo** et son résolveur SFX / **Alma**  \(ExLibris/Proquest\)
-* **Summon** et son résolveur de liens 360 KB \(ExLibris/Proquest\) 
+* **EDS et son résolveur FTF \(EBSCO Discovery Service\)**
+* **Primo et son résolveur SFX / Alma  \(ExLibris/ProQuest\)**
+* **Summon et son résolveur de liens 360 KB \(ExLibris/ProQuest\)** 
 
 Ces réservoirs de métadonnées destinés aux bibliothèques permettent de faire une recherche à la "Google" et d’accéder :
 
