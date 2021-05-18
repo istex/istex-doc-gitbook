@@ -88,7 +88,7 @@
 * [Intégrer ISTEX dans un ENT](integration/README.md)
   * [Intégration dans les outils de découverte](integration/discovery-tools/README.md)
     * [EDS - EBSCO](integration/discovery-tools/eds-ebsco.md)
-    * [PRIMO - ExLibris](integration/discovery-tools/primo-exlibris.md)
+    * [PRIMO / Alma - ExLibris](integration/discovery-tools/primo-exlibris.md)
     * [SUMMON](integration/discovery-tools/summon.md)
   * [Intégration avec les widgets](integration/widgets.md)
   * [Intégration dans Drupal](integration/drupal.md)
