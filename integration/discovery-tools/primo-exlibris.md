@@ -8,49 +8,49 @@ _=**&gt;** **Voir ci-dessous** `2-Paramétrage du résolveur SFXv2 vers la plate
 
 _Un grand merci à Julien Sicot \(Université de Rennes 2\) pour le parser ISTEXv2 et à Laurent Aucher \(Université PSL/ACEF\) pour ses interventions répétée auprès d'ExLibris_
 
-## 2-\(_Obsolète_\) Paramétrage du résolveur SFXv2 vers la plateforme ISTEX 
+## 2-Paramétrage du résolveur SFXv2 vers la plateforme ISTEX 
 
-_L’interrogation de la plateforme ISTEX est basée sur le résolveur de liens SFX._
+L’interrogation de la plateforme ISTEX est basée sur le résolveur de liens SFX.
 
-_Le parseur SFX v2 , développé par Julien Sicot \(_ [_https://github.com/jsicot/sfxbur2_](https://github.com/jsicot/sfxbur2) _\) a été intégré à la base de connaissance SFX dans la mise à jour d'août 2018 \(20183400\)_
+Le parseur SFX v2 , développé par Julien Sicot \( [https://github.com/jsicot/sfxbur2](https://github.com/jsicot/sfxbur2) \) a été intégré à la base de connaissance SFX dans la mise à jour d'août 2018 \(20183400\)
 
-_**A-** Rechercher la target ISTEX dans la base de connaissance_
+**A-** **Rechercher la target ISTEX dans la base de connaissance**
 
 ![](../../.gitbook/assets/exlibris1.png)
 
-_**B-** Activer la target ISTEX en cliquant sur la marque de coche à droite de l'écran_
+**B- Activer la target ISTEX en cliquant sur la marque de coche à droite de l'écran**
 
 ![](../../.gitbook/assets/exlibris2.png)
 
-_**C-** Cliquer sur le bouton S pour sélectionner un service_
+**C- Cliquer sur le bouton S pour sélectionner un service**
 
 ![](../../.gitbook/assets/exlibris3.png)
 
-_**D-** Activer le service ISTEX en cliquant sur la marque de coche à droite de l'écran_
+**D- Activer le service ISTEX en cliquant sur la marque de coche à droite de l'écran**
 
 ![](../../.gitbook/assets/exlibris4.png)
 
-_E-La target est activée_
+**E-La target est activée**
 
-_**F-** Résultat_
+**F- Résultat**
 
-* _Rechercher l’article "**Disenchantment and the Environmental Crisis**" dans l’outil de découverte_
+* Rechercher l’article "**Disenchantment and the Environmental Crisis**" dans l’outil de découverte
 
 ![](../../.gitbook/assets/exlibris5.png)
 
-* _Cliquer sur l’onglet **“Ressource en ligne”** \(résolveur de liens SFX\)_
+* Cliquer sur l’onglet **“Ressource en ligne”** \(résolveur de liens SFX\)
 
 ![](../../.gitbook/assets/exlibris6-1.png)
 
-* _Le texte intégral disponible chez l’éditeur est affiché dans la partie gauche alors que les services supplémentaires sont accessibles avec le bouton **“Plus”** situé à droite_
+* Le texte intégral disponible chez l’éditeur est affiché dans la partie gauche alors que les services supplémentaires sont accessibles avec le bouton **“Plus”** situé à droite
 
 ![](../../.gitbook/assets/exlibris7.png)
 
-* _Cliquer sur **“Accès au texte intégral”** sur la plateforme ISTEX_
+* Cliquer sur **“Accès au texte intégral”** sur la plateforme ISTEX
 
-_Un grand merci à Julien Sicot \(Université de Rennes 2\) pour le parser ISTEXv2 et à Laurent Aucher \(Université PSL/ACEF\) pour ses interventions répétée auprès d'ExLibris_
+Un grand merci à Julien Sicot \(Université de Rennes 2\) pour le parser ISTEXv2 et à Laurent Aucher \(Université PSL/ACEF\) pour ses interventions répétée auprès d'ExLibris
 
-G- Des intégrations similaires sont réalisées dans différents établissements en France :
+**G- Des intégrations similaires sont réalisées dans différents établissements en France** :
 
 * [INRA](https://doc.istex.fr/users/integration/exemples/#inra)
 * [Université Rennes2](https://doc.istex.fr/users/integration/exemples/#universite-rennes2) =&gt; [Code source disponible sur GitHub](https://github.com/jsicot/sfxbur2)
