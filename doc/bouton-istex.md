@@ -1,13 +1,13 @@
 ---
 description: >-
-  Le bouton ISTEX est une extension de navigateur web qui donne un accès rapide
-  aux documents ISTEX dont les références sont repérées dans les pages web que
-  vous visitez.
+  L'extension ISTEX est une extension de navigateur web qui donne un accès
+  rapide aux documents ISTEX dont les références sont repérées dans les pages
+  web que vous visitez.
 ---
 
-# Bouton ISTEX
+# L'extension ISTEX
 
-Le "bouton ISTEX" est une extension à installer dans un navigateur, Chrome ou Firefox. Une fois installé dans votre navigateur, il analysera l'ensemble des pages visitées à la recherche d'identifiants documentaires \(DOI, PII, PMID, COinS...\) et ajoutera des boutons cliquables « ISTEX » d’accès au plein-texte PDF lorsque le document est disponible dans la plateforme ISTEX.
+"L 'extension ISTEX", communément appelé "Bouton" est une extension à installer dans un navigateur, Chrome ou Firefox. Une fois installé dans votre navigateur, il analysera l'ensemble des pages visitées à la recherche d'identifiants documentaires \(DOI, PII, PMID, COinS...\) et ajoutera des boutons cliquables « ISTEX » d’accès au plein-texte PDF lorsque le document est disponible dans la plateforme ISTEX.
 
 Installez le en vous rendant sur [**https://addons.istex.fr**](https://addons.istex.fr/)
 
