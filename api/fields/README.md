@@ -1,4 +1,4 @@
-# Accès aux données indéxées
+# Accès aux données indexées
 
 [Accès à un document via son id](idistex.md)
 

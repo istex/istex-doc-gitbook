@@ -60,6 +60,7 @@ La consolidation peut se **combiner** avec la récupération de plusieurs types 
   * **refBibs** : références bibliographiques extraites de [GROBID](https://github.com/kermitt2/grobid),
   * **teeft** : _Term Extraction for English FullText_, extraction sur le fulltext anglais par [étiquetage morpho-syntaxique](https://fr.wikipedia.org/wiki/%C3%89tiquetage_morpho-syntaxique) ,
   * **unitex** : entités nommées détectées par [Unitex-CasSys](http://tln.li.univ-tours.fr/Tln_Istex.html).
+  * **grobidFulltext** : texte intégral structuré alternatif en TEI provenant de [GROBID](https://github.com/kermitt2/grobid).
 * Exemples :
   * [https://api.istex.fr/document/**0134F1716893F9118DCE7278BE3333CC40D50461/enrichments**](https://api.istex.fr/document/0134F1716893F9118DCE7278BE3333CC40D50461/enrichments)
   * [https://api.istex.fr/document/**087661D669BF44CA05AA6CE08ADD6399F6A439C4/enrichments**](https://api.istex.fr/document/087661D669BF44CA05AA6CE08ADD6399F6A439C4/enrichments)

@@ -17,6 +17,7 @@ Ces derniers contiennent des **informations supplémentaires** sur le contenu du
 | qualityIndicators.pdfWordCount | integer | Nombre de **mots** dans le PDF \(basé sur le nombre d'espace\) |
 | qualityIndicators.refBibsNative | boolean | Indique si les **références bibliographiques** sont fournis par l'éditeur |
 | qualityIndicators.score | double | **Score** de qualité, calculé selon les critères précédents \(voir [ici](https://github.com/istex/istex-web-doc/tree/bc2b57f3e7c3dddba8986e80f7f526e8b0ea0dc6/results/README.md#calcul-du-score-de-qualite) pour plus de détails\) |
+| qualityIndicators.tdmReady | boolean | Indique si le document a bénéficié d'un **traitement spécifique pour un usage en fouille de textes**. Si ce champ vaut **true**, alors le document est structuré et possède les champs [table](article-fields.md), [figure](article-fields.md) et [hasFormula](article-fields.md) |
 
 Ces informations sont **extraites des métadonnées** des fichiers, ou directement **calculées par nos outils**. Si un champ n'est pas renseigné pour un objet documentaire, cela signifie que cette information n'est pas disponible pour le moment.
 

@@ -57,7 +57,7 @@
     * [Champs de type string et boolean](api/facets/strings-and-booleans-fields.md)
     * [Champs de type integer et double](api/facets/integers-and-doubles-fields.md)
     * [Champs de type date](api/facets/dates-fields.md)
-  * [Accès aux données indéxées](api/fields/README.md)
+  * [Accès aux données indexées](api/fields/README.md)
     * [Accès à un document via son id](api/fields/idistex.md)
     * [Niveau d'arborescence](api/fields/nested.md)
     * [Explication sur la granularité](api/fields/doc-object-granularity.md)
