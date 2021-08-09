@@ -2,7 +2,7 @@
 
 * [Documentation ISTEX](README.md)
 * [Usage documentaire d'ISTEX](doc/README.md)
-  * [L'extension ISTEX](doc/bouton-istex.md)
+  * [Extension ISTEX](doc/bouton-istex.md)
   * [Google Scholar](doc/google-scholar.md)
   * [Logiciels de gestion bibliographique](doc/bib/README.md)
     * [EndNote](doc/bib/endnote.md)
