@@ -63,13 +63,15 @@ _Retrouver l’extension dans « Ouvrir le menu/Modules/Extensions »_
 
 ![](../.gitbook/assets/chrome1.png)
 
-=&gt; Aller sur [**https://addons.istex.fr**](https://addons.istex.fr/)
+=&gt; Aller sur [**htt**](https://addons.istex.fr/)[**ps://addons.istex.fr**](https://addons.istex.fr/)
 
-![](../.gitbook/assets/chrome2.png)
+![](../.gitbook/assets/addonchrome.jpg)
+
+![](../.gitbook/assets/addonchrome1.jpg)
 
 =&gt; Cliquer sur « Ajouter l’extension à Chrome »
 
-![](../.gitbook/assets/chrome3.png)
+![](../.gitbook/assets/addonchrome3.jpg)
 
 =&gt; Autoriser l’installation
 
