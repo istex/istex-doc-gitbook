@@ -31,11 +31,13 @@ Vous trouverez ci-dessous comment l'installer étape par étape pour les différ
 
 =&gt; Aller sur [**https://addons.istex.fr**](https://addons.istex.fr/)
 
-![](../.gitbook/assets/firefox2.png)
-
 =&gt; Cliquer sur « Ajouter l’extension à Firefox »
 
-![](../.gitbook/assets/firefox3.png)
+![](../.gitbook/assets/addonfirefox.jpg)
+
+![](../.gitbook/assets/addonfirefox2.jpg)
+
+![](../.gitbook/assets/addonfirefox3.jpg)
 
 =&gt; Autoriser l’installation
 
