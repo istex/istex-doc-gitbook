@@ -26,11 +26,9 @@ L’extension **Click & Read** parcourt la page internet que vous visitez à la 
 
 ## **Chrome**
 
-=&gt;  Cliquer sur [https://clickandread.inist.fr](https://clickandread.inist.fr)
+=&gt; Cliquer sur [https://clickandread.inist.fr](https://clickandread.inist.fr)
 
-=&gt;  
-
-Cliquer sur le bouton « _Ajouter l’extension à Chrome_ »
+=&gt; Cliquer sur le bouton « _Ajouter l’extension à Chrome_ »
 
 ![](../.gitbook/assets/cr1chrome.jpg)
 
