@@ -20,7 +20,7 @@ _L’accès aux ressources est limité selon la source consultée aux ayants dro
 **Panist** \(communauté des établissements membres des contrats d’abonnement\)
 {% endhint %}
 
-L’extension **Click & Read** parcourt la page internet que vous visitez à la recherche uniquement d’identifiants documentaires \(DOI, PMID, PII\) et ajoute le bouton C&R  __![](../.gitbook/assets/logo_cr.png)si la ressource est disponible. Il suffit alors de cliquer sur le bouton pour accéder au document. 
+L’extension **Click & Read** parcourt la page internet que vous visitez à la recherche uniquement d’identifiants documentaires \(DOI, PMID, PII\) et ajoute le bouton C&R  __![](../.gitbook/assets/logo_cr.png) __si la ressource est disponible. Il suffit alors de cliquer sur le bouton pour accéder au document. 
 
 **Installer l'extension Click & read :**
 
