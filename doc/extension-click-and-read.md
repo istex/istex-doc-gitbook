@@ -1,4 +1,4 @@
-# Extension Click& Read
+# Extension Click & Read
 
 L’extension Click & Read CNRS, tout comme l’extension ISTEX, est une **extension de navigateur web développée pour Firefox, Chrome et Safari \(à partir de l'OS 14\)**
 
