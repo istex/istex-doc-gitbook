@@ -114,5 +114,9 @@ A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C&
 * et ajoute le bouton C&R si la ressource est disponible 
 * il suffit alors de cliquer sur le bouton pour accéder au document.
 
+=&gt; Exemple : la recherche sur Wikipédia d’« [Hélium ](https://fr.wikipedia.org/wiki/Hélium)» donne la bibliographie suivante
+
+![](../.gitbook/assets/wikicandr%20%281%29.jpg)
+
 
 
