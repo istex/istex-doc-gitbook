@@ -70,7 +70,7 @@ A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C&
 
 ![](../.gitbook/assets/wikicandr.jpg)
 
-[En savoir plus ](https://clickandread.inist.fr/page_info)
+[En savoir plus](https://clickandread.inist.fr/page_info) 
 
 ## Firefox
 
@@ -118,5 +118,5 @@ A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C&
 
 ![](../.gitbook/assets/wikicandr%20%281%29.jpg)
 
-
+[​En savoir plus](https://clickandread.inist.fr/page_info)
 
