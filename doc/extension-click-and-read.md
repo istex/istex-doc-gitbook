@@ -84,11 +84,11 @@ A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C&
 
 ![](../.gitbook/assets/cr2firefox.jpg)
 
-=&gt; Accepter les permissions en cliquant sur « Ajouter »
+=&gt; Accepter les permissions en cliquant sur « _Ajouter_ »
 
 ![ ](../.gitbook/assets/cr3firefox.jpg)
 
-=&gt; Une pop-up s'ouvre en haut à droite, cliquer sur  « OK » et l'extension s'installe
+=&gt; Une pop-up s'ouvre en haut à droite, cliquer sur  « _OK_ » et l'extension s'installe
 
 ![](../.gitbook/assets/cr4firefox.jpg)
 
