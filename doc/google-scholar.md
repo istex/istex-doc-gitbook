@@ -68,5 +68,5 @@ Les liens OpenURL sont activés à partir des fichiers Kbart fournis à Google S
 
 **Autre possibilité de paramétrage du lien vers la bibliothèque ISTEX**
 
-L'option de sélectionner le lien vers la bibliothèque ISTEX est proposée automatiquement au moment de l'installation de l'extension « **ISTEX** » voir [**Bouton ISTEX**](bouton-istex.md) ****et est disponible dès l'activation de l’extension « **Click and Read** » voir [**Extension Click & Read**](extension-click-and-read.md).
+L'option de sélectionner le lien vers la bibliothèque ISTEX est proposée automatiquement au moment de l'installation de l'extension  **ISTEX**  voir [**Bouton ISTEX**](bouton-istex.md) ****et est disponible dès l'activation de l’extension **Click and Read**  voir [**Extension Click & Read**](extension-click-and-read.md).
 
