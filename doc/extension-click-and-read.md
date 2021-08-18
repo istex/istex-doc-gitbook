@@ -48,7 +48,7 @@ _=&gt;_  Un message vous avertit que votre extension est installée
 
 ![](../.gitbook/assets/boules.png)
 
-1. Choisir votre établissement d’appartenance 
+1. Choisir votre établissement d’appartenance, si votre établissement ne figure pas dans la liste, sélectionnez « _Autre_ »
 2. Préciser si vous êtes utilisateur de BibCnrs , si oui sélectionnez votre / vos domaine\(s\) 
 3. Activer, si vous le souhaitez, les bibliothèques ISTEX et BibCnrs dans Google Scholar
 4. Enregistrer
@@ -96,7 +96,7 @@ A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C&
 
 ![](../.gitbook/assets/boules%20%281%29.png)
 
-1. Choisir votre établissement d’appartenance 
+1. Choisir votre établissement d’appartenance, si votre établissement ne figure pas dans la liste, sélectionnez « _Autre_ »
 2. Préciser si vous êtes utilisateur de BibCnrs , si oui sélectionnez votre / vos domaine\(s\) 
 3. Activer, si vous le souhaitez, les bibliothèques ISTEX et BibCnrs dans Google Scholar
 4. Enregistrer
