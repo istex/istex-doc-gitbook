@@ -49,15 +49,15 @@ _=&gt;_  Un message vous avertit que votre extension est installée
 ![](../.gitbook/assets/boules.png)
 
 1. Choisir votre établissement d’appartenance 
-2. Précisez si vous êtes utilisateur de BibCnrs , si oui sélectionnez votre / vos domaine\(s\) 
-3. Activez si vous le souhaitez les bibliothèques ISTEX et BibCnrs dans Google Scholar
+2. Préciser si vous êtes utilisateur de BibCnrs , si oui sélectionnez votre / vos domaine\(s\) 
+3. Activer, si vous le souhaitez, les bibliothèques ISTEX et BibCnrs dans Google Scholar
 4. Enregistrer
 
 {% hint style="info" %}
 A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C&R dans votre barre Chrome des extensions.
 {% endhint %}
 
-=&gt; Lorsque vous naviguez sur Internet :
+=&gt; En navigant sur Internet :
 
 * quel que soit le site \(Google, Google Scholar, sites éditeurs, Wikipédia...\) 
 * quelle que soit la requête \(titre article, auteurs, DOI...\) 
@@ -97,15 +97,15 @@ A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C&
 ![](../.gitbook/assets/boules%20%281%29.png)
 
 1. Choisir votre établissement d’appartenance 
-2. Précisez si vous êtes utilisateur de BibCnrs , si oui sélectionnez votre / vos domaine\(s\) 
-3. Activez si vous le souhaitez les bibliothèques ISTEX et BibCnrs dans Google Scholar
+2. Préciser si vous êtes utilisateur de BibCnrs , si oui sélectionnez votre / vos domaine\(s\) 
+3. Activer, si vous le souhaitez, les bibliothèques ISTEX et BibCnrs dans Google Scholar
 4. Enregistrer
 
 {% hint style="info" %}
 A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C&R dans votre barre Firefox des extensions. Lorsque vous naviguez sur Internet :
 {% endhint %}
 
-=&gt; Lorsque vous naviguez sur Internet :
+=&gt; En navigant sur Internet :
 
 * quel que soit le site \(Google, Google Scholar, sites éditeurs, Wikipédia...\) 
 * quelle que soit la requête \(titre article, auteurs, DOI...\) 
