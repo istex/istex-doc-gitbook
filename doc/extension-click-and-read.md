@@ -64,7 +64,7 @@ A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C&
 * l'extension Click & Read parcourt la page Internet que vous visitez à la recherche uniquement d'identifiants documentaires DOI, PMID, PII \(identifiant Elsevier\) 
 * puis recherche le document qui correspond à l'identifiant trouvé dans les fonds : Unpaywall, Istex, Panist et BibCnrs 
 * et ajoute le bouton C&R si la ressource est disponible
-* Il suffit alors de cliquer sur le bouton pour accéder au document.
+* il suffit alors de cliquer sur le bouton pour accéder au document.
 
 =&gt;  Exemple : la recherche sur Wikipédia d’« [Hélium](https://fr.wikipedia.org/wiki/Hélium) » donne la bibliographie suivante
 
@@ -83,6 +83,36 @@ A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C&
 =&gt; Cliquer sur « _Ajouter à Firefox_ »
 
 ![](../.gitbook/assets/cr2firefox.jpg)
+
+=&gt; Accepter les permissions en cliquant sur « Ajouter »
+
+![ ](../.gitbook/assets/cr3firefox.jpg)
+
+=&gt; Une pop-up s'ouvre en haut à droite, cliquer sur  « OK » et l'extension s'installe
+
+![](../.gitbook/assets/cr4firefox.jpg)
+
+=&gt; Paramétrer l’extension Click & Read pour ouvrir vos droits
+
+![](../.gitbook/assets/boules%20%281%29.png)
+
+1. Choisir votre établissement d’appartenance 
+2. Précisez si vous êtes utilisateur de BibCnrs , si oui sélectionnez votre / vos domaine\(s\) 
+3. Activez si vous le souhaitez les bibliothèques ISTEX et BibCnrs dans Google Scholar
+4. Enregistrer
+
+{% hint style="info" %}
+A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C&R dans votre barre Firefox des extensions. Lorsque vous naviguez sur Internet :
+{% endhint %}
+
+=&gt; Lorsque vous naviguez sur Internet :
+
+* quel que soit le site \(Google, Google Scholar, sites éditeurs, Wikipédia...\) 
+* quelle que soit la requête \(titre article, auteurs, DOI...\) 
+* l'extension Click & Read parcourt la page Internet que vous visitez à la recherche uniquement d'identifiants documentaires DOI, PMID, PII \(identifiant Elsevier\)
+* puis recherche le document qui correspond à l'identifiant trouvé dans les fonds : Unpaywall, Istex, Panist et BibCnrs 
+* et ajoute le bouton C&R si la ressource est disponible 
+* il suffit alors de cliquer sur le bouton pour accéder au document.
 
 
 
