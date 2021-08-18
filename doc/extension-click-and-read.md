@@ -102,7 +102,7 @@ A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C&
 4. Enregistrer
 
 {% hint style="info" %}
-A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C&R dans votre barre Firefox des extensions. Lorsque vous naviguez sur Internet :
+A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C&R dans votre barre Firefox des extensions. 
 {% endhint %}
 
 =&gt; En navigant sur Internet :
