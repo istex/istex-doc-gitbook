@@ -49,7 +49,7 @@ _=&gt;_  Un message vous avertit que votre extension est installée
 ![](../.gitbook/assets/boules.png)
 
 1. Choisir votre établissement d’appartenance, si votre établissement ne figure pas dans la liste, sélectionner « _Autre_ »
-2. Préciser si vous êtes utilisateur de BibCnrs , si oui sélectionner votre / vos domaine\(s\) 
+2. Préciser si vous êtes utilisateur de BibCnrs, si oui sélectionner votre / vos domaine\(s\) 
 3. Activer, si vous le souhaitez, les bibliothèques ISTEX et BibCnrs dans Google Scholar
 4. Enregistrer
 
@@ -97,7 +97,7 @@ A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C&
 ![](../.gitbook/assets/boules%20%281%29.png)
 
 1. Choisir votre établissement d’appartenance, si votre établissement ne figure pas dans la liste, sélectionner « _Autre_ »
-2. Préciser si vous êtes utilisateur de BibCnrs , si oui sélectionner votre / vos domaine\(s\) 
+2. Préciser si vous êtes utilisateur de BibCnrs, si oui sélectionner votre / vos domaine\(s\) 
 3. Activer, si vous le souhaitez, les bibliothèques ISTEX et BibCnrs dans Google Scholar
 4. Enregistrer
 
@@ -126,9 +126,53 @@ A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C&
 
 =&gt; Cliquer sur le bouton « _Ajouter l’extension à Safari_ »
 
-![](../.gitbook/assets/safari1cr.jpg)
+![](../.gitbook/assets/safari1cr%20%281%29.jpg)
+
+=&gt; Cliquer sur « _Ouvrir_ » puis sur « _Quit and Open Safari Extensions Preferences_ »
 
 
+
+![](../.gitbook/assets/safari2cr.jpg)
+
+=&gt; Cocher la case « _Click and Read_ » et cliquer sur « _Préférences_ »
+
+![](../.gitbook/assets/safari3cr.jpg)
+
+
+
+=&gt; Paramétrer l’extension Click & Read pour ouvrir vos droits
+
+![](../.gitbook/assets/boules%20%282%29.png)
+
+1. Choisir votre établissement d’appartenance, si votre établissement ne figure pas dans la liste, sélectionner « _Autre_ » 
+2. Préciser si vous êtes utilisateur de BibCnrs, si oui sélectionner votre / vos domaine\(s\) 
+3. Activer, si vous le souhaitez, les bibliothèques ISTEX et BibCnrs dans Google Scholar 
+4. Enregistrer
+
+{% hint style="info" %}
+A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C&R dans votre barre Firefox des extensions.
+{% endhint %}
+
+=&gt; Cliquer sur l’icône C&R dans la barre des extensions et sélectionner  «_Toujours autorisé sur chaque site web_ »
+
+![](../.gitbook/assets/safari4cr.jpg)
+
+=&gt; Cliquer à nouveau sur « _Toujours autorisé sur chaque site web_ »
+
+![](../.gitbook/assets/safari5crjpg.jpg)
+
+=&gt; En navigant sur Internet :
+
+* quel que soit le site \(Google, Google Scholar, sites éditeurs, Wikipédia...\) 
+* quelle que soit la requête \(titre article, auteurs, DOI...\) 
+* l'extension Click & Read parcourt la page Internet que vous visitez à la recherche uniquement d'identifiants documentaires DOI, PMID, PII \(identifiant Elsevier\) 
+* puis recherche le document qui correspond à l'identifiant trouvé dans les fonds : Unpaywall, Istex, Panist et BibCnrs 
+* et ajoute le bouton C&R si la ressource est disponible 
+* il suffit alors de cliquer sur le bouton pour accéder au document.
+
+=&gt; Exemple : la recherche sur Wikipédia d’« [Hélium](https://fr.wikipedia.org/wiki/Hélium) » donne la bibliographie suivante
+
+![](../.gitbook/assets/wikicandr%20%282%29.jpg)
 
 
 
