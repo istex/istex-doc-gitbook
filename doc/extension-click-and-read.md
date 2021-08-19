@@ -22,7 +22,7 @@ _L’accès aux ressources est limité selon la source consultée aux ayants dro
 
 L’extension **Click & Read** parcourt la page internet que vous visitez à la recherche uniquement d’identifiants documentaires \(DOI, PMID, PII\) et ajoute le bouton C&R si la ressource est disponible. Il suffit alors de cliquer sur le bouton pour accéder au document. 
 
-**Installer l'extension Click & read :**
+**Installer l'extension Click & Read sur :**
 
 ## **Chrome**
 
@@ -119,4 +119,18 @@ A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C&
 ![](../.gitbook/assets/wikicandr%20%281%29.jpg)
 
 [​En savoir plus](https://clickandread.inist.fr/page_info)
+
+## Safari
+
+=&gt; Cliquer sur [https://clickandread.inist.fr](https://clickandread.inist.fr)
+
+=&gt; Cliquer sur le bouton « _Ajouter l’extension à Safari_ »
+
+![](../.gitbook/assets/safari1cr.jpg)
+
+
+
+
+
+
 
