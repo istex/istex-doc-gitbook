@@ -174,7 +174,7 @@ A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C&
 
 ![](../.gitbook/assets/wikicandr%20%282%29.jpg)
 
-
+​[En savoir plus](https://clickandread.inist.fr/page_info)
 
 
 
