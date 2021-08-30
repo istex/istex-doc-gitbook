@@ -126,19 +126,15 @@ A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C&
 
 =&gt; Cliquer sur le bouton « _Ajouter l’extension à Safari_ »
 
-![](../.gitbook/assets/safari1cr%20%281%29.jpg)
+![](../.gitbook/assets/safari1.png)
 
 =&gt; Cliquer sur « _Ouvrir_ » puis sur « _Quit and Open Safari Extensions Preferences_ »
 
-
-
-![](../.gitbook/assets/safari2cr.jpg)
+![](../.gitbook/assets/safari2.png)
 
 =&gt; Cocher la case « _Click and Read_ » et cliquer sur « _Préférences_ »
 
-![](../.gitbook/assets/safari3cr.jpg)
-
-
+![](../.gitbook/assets/safari3.png)
 
 =&gt; Paramétrer l’extension Click & Read pour ouvrir vos droits
 
@@ -155,11 +151,11 @@ A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C&
 
 =&gt; Cliquer sur l’icône C&R dans la barre des extensions et sélectionner  «_Toujours autorisé sur chaque site web_ »
 
-![](../.gitbook/assets/safari4cr.jpg)
+![](../.gitbook/assets/safari5.png)
 
 =&gt; Cliquer à nouveau sur « _Toujours autorisé sur chaque site web_ »
 
-![](../.gitbook/assets/safari5crjpg.jpg)
+![](../.gitbook/assets/safari6.png)
 
 =&gt; En navigant sur Internet :
 
