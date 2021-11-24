@@ -21,7 +21,7 @@ L'accès direct au document sur la plateforme ISTEX est possible de 2 façons en
 
 ## 1- FTF/Résolveur de lien
 
-Le Holdings Management \(HLM\) dans EBSCOADMIN permet à l’administrateur du compte de gérer les collections ou abonnements et leur associer un résolveur de liens permettant l’accès au plein texte sur le site de l’éditeur.
+Le Holdings Management (HLM) dans EBSCOADMIN permet à l’administrateur du compte de gérer les collections ou abonnements et leur associer un résolveur de liens permettant l’accès au plein texte sur le site de l’éditeur.
 
 ### **A- Liens éditeurs pour Bouquets ou Titres de ressources**
 
@@ -63,23 +63,23 @@ Pour personnifier l'affichage du lien, rajouter l’icône ISTEX dont l'URL est 
 
 L'Open URL ne se fait pas que sur le champ DOI mais également sur le champ PMID et les résultats sont d'autant plus performants que 4 000 000 de PMID ont été ingérés dans la plateforme ISTEX. Il faut donc au préalable en plus de rajouter le PMID dans le paramétrage au moment de la création du lien "ISTEX Plateforme", modifier l'équation dans le résolveur de lien.
 
-=&gt; EDS/Linking/Custom Links puis Modify
+\=> EDS/Linking/Custom Links puis Modify
 
 ![](../../.gitbook/assets/pmid1.png)
 
-=&gt; Choisir SetUp MaintainCustomLink
+\=> Choisir SetUp MaintainCustomLink
 
 ![](../../.gitbook/assets/pmid2-1.png)
 
-=&gt; Sélectionner le résolver de lien FullTextFinder
+\=> Sélectionner le résolver de lien FullTextFinder
 
 ![](../../.gitbook/assets/pmid3.png)
 
-=&gt; Dans Query String, vérifier
+\=> Dans Query String, vérifier
 
 ![](../../.gitbook/assets/pmid4-1.png)
 
-=&gt; et complèter l'équation.
+\=> et complèter l'équation.
 
 ![](../../.gitbook/assets/pmid5.png)
 
@@ -87,16 +87,16 @@ L'Open URL ne se fait pas que sur le champ DOI mais également sur le champ PMID
 
 Il peut y avoir une différence de contenu entre la liste des revues négociées avec les éditeurs, disponible au format Kbart sur le site des licences nationales, et les documents, réellement livrés en xml, disponibles sur la plateforme ISTEX.
 
-=&gt; Un message code 404 peu **user friendly** s’affiche :
+\=> Un message code 404 peu **user friendly** s’affiche :
 
 ![](../../.gitbook/assets/istexview1.png)
 
-=&gt; **Une couche IHM** \(pour interface Homme-Machine\) a été développée et rajoutée au-dessus de l'API ISTEX et en particulier de son OpenURL pour permettre l’affichage d’un message plus explicite pour l’utilisateur.  
-Il suffit pour le voir de remplacer `https://api.istex.fr/document/openurl` \(Pour ceux qui ont paramétré le lien avant ISTEX View\) par `https://view.istex.fr/document/openurl` dans le champ **« URL\* de base »** de la fenêtre de paramétrage du lien ISTEX plateforme.
+\=> **Une couche IHM** (pour interface Homme-Machine) a été développée et rajoutée au-dessus de l'API ISTEX et en particulier de son OpenURL pour permettre l’affichage d’un message plus explicite pour l’utilisateur.\
+Il suffit pour le voir de remplacer `https://api.istex.fr/document/openurl` (Pour ceux qui ont paramétré le lien avant ISTEX View) par `https://view.istex.fr/document/openurl` dans le champ **« URL\* de base »** de la fenêtre de paramétrage du lien ISTEX plateforme.
 
 ![](../../.gitbook/assets/istexview2.png)
 
-=&gt;Le message devient :
+\=>Le message devient :
 
 ![](../../.gitbook/assets/istexview3.png)
 
@@ -120,45 +120,46 @@ Seuls les bouquets suivants sont déjà disponibles sur la plateforme ISTEX.
 
 #### 32 bouquets à associer
 
-* American Chemical Society \(ISTEX - Licences Nationales\)
-* BMJ Journals \(ISTEX - Licences Nationales\)
-* Brepols Journals \(ISTEX - Licences Nationales\)
-* Brepols - ebooks \(ISTEX - Licences Nationales\)
-* BRILL \(ISTEX - Licences Nationales\)
-* Brill Recueils des cours de l’Académie de La Haye \(ISTEX -Licences Nationales\)
-* Cambridge University Press \(ISTEX - Licences Nationales\)
-* De Gruyter \(ISTEX - Licences Nationales\)
-* Duke : sélectionner "Duke mathematical Journal" dans le bouquet "projet Euclid" puis choisir comme date =&gt; 1935-2012
-* EarlyEnglish Books Online \(EEBO\)
-* EDP Sciences \(ISTEX - Licences Nationales\)
+* American Chemical Society (ISTEX - Licences Nationales)
+* BMJ Journals (ISTEX - Licences Nationales)
+* Brepols Journals (ISTEX - Licences Nationales)
+* Brepols - ebooks (ISTEX - Licences Nationales)
+* BRILL (ISTEX - Licences Nationales)
+* Brill Recueils des cours de l’Académie de La Haye (ISTEX -Licences Nationales)
+* Cambridge University Press (ISTEX - Licences Nationales)
+* De Gruyter (ISTEX - Licences Nationales)
+* Duke : sélectionner "Duke mathematical Journal" dans le bouquet "projet Euclid" puis choisir comme date => 1935-2012
+* EarlyEnglish Books Online (EEBO)
+* EDP Sciences (ISTEX - Licences Nationales)
 * EighteenthCentury Collections Online
-* Elsevier \(ISTEX - Licences Nationales\)
-* Emerald\(ISTEX - Licences Nationales\)
-* Geologicalsociety of London Publishing – ebooks \(ISTEX - Licences Nationales\)
-* Institute of Physics \(ISTEX - Licences Nationales\)
-* Lavoisier \(ISTEX - Licences Nationales\)
-* Littérature française et francophone \(ISTEX - LicencesNationales\)
-* Nature Publishing Group \(ISTEX - Licences Nationales\)
-* OpenEdition Books \(ISTEX - Licences Nationales\)
-* OxfordUniversity Press \(ISTEX - Licences Nationales\)
-* Révolution française – Premier Empire \(ISTEX - LicencesNationales\)
-* RoyalSociety of Chemistry \(ISTEX - Licences Nationales\)
-* RoyalSociety of Chemistry eBooks \(ISTEX - Licences Nationales\)
-* SAGE \(ISTEX - Licences Nationales\)
-* Springer Nature eBooks \(ISTEX - Licences Nationales\)
-* SpringerLINK \(ISTEX - Licences Nationales\)
-* Wiley Online Library \(ISTEX - Licences Nationales\)
-* Taylor & Francis eBooks \(Politics and International Relations\) \(ISTEX - Licences Nationales\)
-* The Royal Society Online Journals \(ISTEX - Licences Nationales\)
-* Droz Portail Calvin \(ISTEX-Licences Nationales\)
-* Droz Portail Humanisme et Renaissance \(ISTEX-Licences Nationales\)
+* Elsevier (ISTEX - Licences Nationales)
+* Emerald(ISTEX - Licences Nationales)
+* Geologicalsociety of London Publishing – ebooks (ISTEX - Licences Nationales)
+* Institute of Physics (ISTEX - Licences Nationales)
+* Lavoisier (ISTEX - Licences Nationales)
+* Littérature française et francophone (ISTEX - Licences Nationales)
+* Karger – eBooks en médecine (ISTEX – Licences Nationales)
+* Nature Publishing Group (ISTEX - Licences Nationales)
+* OpenEdition Books (ISTEX - Licences Nationales)
+* OxfordUniversity Press (ISTEX - Licences Nationales)
+* Révolution française – Premier Empire (ISTEX - LicencesNationales)
+* RoyalSociety of Chemistry (ISTEX - Licences Nationales)
+* RoyalSociety of Chemistry eBooks (ISTEX - Licences Nationales)
+* SAGE (ISTEX - Licences Nationales)
+* Springer Nature eBooks (ISTEX - Licences Nationales)
+* SpringerLINK (ISTEX - Licences Nationales)
+* Wiley Online Library (ISTEX - Licences Nationales)
+* Taylor & Francis eBooks (Politics and International Relations) (ISTEX - Licences Nationales)
+* The Royal Society Online Journals (ISTEX - Licences Nationales)
+* Droz Portail Calvin (ISTEX-Licences Nationales)
+* Droz Portail Humanisme et Renaissance (ISTEX-Licences Nationales)
 
 ### F- Laisser EBSCO gérer le customlink ISTEX
 
-* Depuis août 2018 EBSCO a créé en "dur" un Customlink Full Text "managed" pour du contenu consortial \(donc Custom selon leurs critères\).
-* Ce lien sera automatiquement associé au lien éditeur du bouquet dès que la ressource est disponible dans la plateforme ISTEX. Pour ceux qui avaient déjà paramétré un customlink ISTEX vous pouvez supprimer le premier lien =&gt; "Géré  par votre bibliothèque" et garder "Gérer EBSCO" si vous souhaiter ne plus gérer la sélection  des bouquets ISTEX .
+* Depuis août 2018 EBSCO a créé en "dur" un Customlink Full Text "managed" pour du contenu consortial (donc Custom selon leurs critères).
+* Ce lien sera automatiquement associé au lien éditeur du bouquet dès que la ressource est disponible dans la plateforme ISTEX. Pour ceux qui avaient déjà paramétré un customlink ISTEX vous pouvez supprimer le premier lien => "Géré  par votre bibliothèque" et garder "Gérer EBSCO" si vous souhaiter ne plus gérer la sélection  des bouquets ISTEX .
 
-Exemple pour **BMJ Journals \(ISTEX-Licences Nationales\)**
+Exemple pour **BMJ Journals (ISTEX-Licences Nationales)**
 
 ![](../../.gitbook/assets/lienistex1.JPG)
 
@@ -172,9 +173,9 @@ Exemple pour **BMJ Journals \(ISTEX-Licences Nationales\)**
 
 ## 2- EDS/Customlinks
 
-Contrairement au cas précédent ou un lien plateforme est créé par l'utilisateur, cette fois c'est EBSCO qui gère le CustomLink l'utilisateur choisit d'associer des System collections \(champ Local collection for filter\) au Customlink ISTEX Plateforme créé par EBSCO.
+Contrairement au cas précédent ou un lien plateforme est créé par l'utilisateur, cette fois c'est EBSCO qui gère le CustomLink l'utilisateur choisit d'associer des System collections (champ Local collection for filter) au Customlink ISTEX Plateforme créé par EBSCO.
 
-L’activation par l’administrateur du compte se passe dans le sous onglet Linking du ou des Group\(s\) et profil\(s\) concernés. Elle sera à répéter pour chaque profil et ou Group. Exemple le plus fréquent, Group Main, profil \(eds\), onglet Linking, puis Customlinks / lien Modify.
+L’activation par l’administrateur du compte se passe dans le sous onglet Linking du ou des Group(s) et profil(s) concernés. Elle sera à répéter pour chaque profil et ou Group. Exemple le plus fréquent, Group Main, profil (eds), onglet Linking, puis Customlinks / lien Modify.
 
 ![](../../.gitbook/assets/custom1.png)
 
@@ -186,13 +187,13 @@ L’activation par l’administrateur du compte se passe dans le sous onglet Lin
 
 ![](../../.gitbook/assets/custom2.png)
 
-1. Appuyer sur la touche ctrl du clavier et en même temps cliquer sur la source déjà sélectionnée \(si elle se désélectionne, la cocher de nouveau sans lâcher la touche ctrl\)
+1. Appuyer sur la touche ctrl du clavier et en même temps cliquer sur la source déjà sélectionnée (si elle se désélectionne, la cocher de nouveau sans lâcher la touche ctrl)
 2. Toujours en appuyant sur la touche ctrl, appuyer sur la touche F du clavier pour ouvrir le champ de recherche dans la page et tapez ISTEX pour aller à toutes les occurrences du mot.
 
 ![](../../.gitbook/assets/custom3.png)
 
 1. Utiliser les flèches du champ de recherche pour naviguer d’occurrence en occurrence.
-2. Sans lâcher la touche ctrl, sélectionner la/les nouvelle\(s\) source\(s\) choisie\(s\) puis valider.
+2. Sans lâcher la touche ctrl, sélectionner la/les nouvelle(s) source(s) choisie(s) puis valider.
 
 ![](../../.gitbook/assets/custom4.png)
 
@@ -227,4 +228,3 @@ Chercher ISTEX plateforme et cliquer sur Go
 Voir la rubrique : Local Collections for Filter
 
 ![](../../.gitbook/assets/customcomplet.png)
-
