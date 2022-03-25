@@ -118,7 +118,7 @@ Seuls les bouquets suivants sont déjà disponibles sur la plateforme ISTEX.
 
 30 négociations mais 32 bouquets à sélectionner car la négociation "Numérique Premium" comporte 2 bouquets "Révolution française-Premier Empire" et "Littérature française et francophone" et la négociation "Droz" comporte le 2 bouquets "Portail Calvin"  et le "Portail Humanisme et Renaissance"
 
-#### 32 bouquets à associer
+#### 34 bouquets à associer
 
 * American Chemical Society (ISTEX - Licences Nationales)
 * BMJ Journals (ISTEX - Licences Nationales)
@@ -126,6 +126,7 @@ Seuls les bouquets suivants sont déjà disponibles sur la plateforme ISTEX.
 * Brepols - ebooks (ISTEX - Licences Nationales)
 * BRILL (ISTEX - Licences Nationales)
 * Brill Recueils des cours de l’Académie de La Haye (ISTEX -Licences Nationales)
+* Brill Religions in the Graeco-Roman World Online (ISTEX - Licences Nationales)
 * Cambridge University Press (ISTEX - Licences Nationales)
 * De Gruyter (ISTEX - Licences Nationales)
 * Duke : sélectionner "Duke mathematical Journal" dans le bouquet "projet Euclid" puis choisir comme date => 1935-2012
