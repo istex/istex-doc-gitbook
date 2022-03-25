@@ -116,7 +116,7 @@ Une fois le lien créé il faut l’assigner à tous les bouquets Licences Natio
 Seuls les bouquets suivants sont déjà disponibles sur la plateforme ISTEX.
 {% endhint %}
 
-30 négociations mais 32 bouquets à sélectionner car la négociation "Numérique Premium" comporte 2 bouquets "Révolution française-Premier Empire" et "Littérature française et francophone" et la négociation "Droz" comporte le 2 bouquets "Portail Calvin"  et le "Portail Humanisme et Renaissance"
+32 négociations mais 34 bouquets à sélectionner car la négociation "Numérique Premium" comporte 2 bouquets "Révolution française-Premier Empire" et "Littérature française et francophone" et la négociation "Droz" comporte le 2 bouquets "Portail Calvin"  et le "Portail Humanisme et Renaissance"
 
 #### 34 bouquets à associer
 
