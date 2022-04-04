@@ -12,81 +12,87 @@ Ces types de fichiers sont eux-mêmes disponibles dans différents formats qui o
 
 ## Texte intégral
 
-### **o PDF \(**Portable Document Format _\*Format de document portable_\)
+### **o PDF (**Portable Document Format _\*Format de document portable_)
 
-Il s'agit d'un format de description de pages pouvant contenir du texte, des dessins, des images et photographies \(noir et blanc, couleur, 3D\). C’est un format ouvert, évolutif et multiplateforme, issu de l’imprimerie, qui conserve la mise en page du document original. Il offre une sécurité permettant à l’auteur d’un document d’empêcher sa modification par des utilisateurs. Il a été créé par Adobe Systems, Inc. Le logiciel Adobe® Acrobat® Reader est nécessaire pour lire et imprimer un fichier PDF.
+Il s'agit d'un format de description de pages pouvant contenir du texte, des dessins, des images et photographies (noir et blanc, couleur, 3D). C’est un format ouvert, évolutif et multiplateforme, issu de l’imprimerie, qui conserve la mise en page du document original. Il offre une sécurité permettant à l’auteur d’un document d’empêcher sa modification par des utilisateurs. Il a été créé par Adobe Systems, Inc. Le logiciel Adobe® Acrobat® Reader est nécessaire pour lire et imprimer un fichier PDF.
 
 _Les fichiers en format PDF dans ISTEX sont des fichiers originaux fournis par l’éditeur._
 
 ### **o ZIP**
 
-Il s'agit d'un format permettant l’archivage et la compression de fichiers. L’archivage est l’utilisation d’un seul fichier pour stocker plusieurs fichiers. La compression des fichiers permet de réduire leur taille. Compresser les fichiers permet de gagner du temps dans le chargement des données et de la place dans le stockage de celles-ci. Le logiciel de compression analyse le fichier et compresse les parties qui se répètent. Lors de la décompression, la forme originale du fichier est restaurée. On peut le comparer à la combinaison de tar \(archivage\) et gzip \(compression\) dans le cadre d'une archive compressée .tgz.
+Il s'agit d'un format permettant l’archivage et la compression de fichiers. L’archivage est l’utilisation d’un seul fichier pour stocker plusieurs fichiers. La compression des fichiers permet de réduire leur taille. Compresser les fichiers permet de gagner du temps dans le chargement des données et de la place dans le stockage de celles-ci. Le logiciel de compression analyse le fichier et compresse les parties qui se répètent. Lors de la décompression, la forme originale du fichier est restaurée. On peut le comparer à la combinaison de tar (archivage) et gzip (compression) dans le cadre d'une archive compressée .tgz.
 
-_Dans ISTEX, le répertoire ZIP proposé pour chaque document du corpus contient les fichiers fournis par l’éditeur \(texte intégral en format PDF, en XML structuré, et éventuellement des couvertures et des annexes\), ainsi que le fichier_ [_JSON_](liste-des-formats.md#o-json-javascript-object-notation-notation-des-objets-du-langage-javascript) _produit par ISTEX._
+_Dans ISTEX, le répertoire ZIP proposé pour chaque document du corpus contient les fichiers fournis par l’éditeur (texte intégral en format PDF, en XML structuré, et éventuellement des couvertures et des annexes), ainsi que le fichier_ [_JSON_](liste-des-formats.md#o-json-javascript-object-notation-notation-des-objets-du-langage-javascript) _produit par ISTEX._
 
 _NB : La rubrique_ [_Extraire les documents XML des fichiers ZIP_](../verification/extract-xml-from-zip/) _propose une procédure permettant de récupérer le fichier en format XML structuré fourni par l'éditeur afin de pouvoir l'exploiter avec des outils TAL ou TDM._
 
-### **o TEI \(**Text Encoding Initiative _\*Initiative pour l’encodage du texte_\)
+### **o TEI (**Text Encoding Initiative _\*Initiative pour l’encodage du texte_)
 
 La TEI est un format d’encodage de textes permettant de traiter tout type de document numérique exprimé en langage de balisage XML.
 
-La communauté académique internationale constituée autour de la Text Encoding Initiative définit des recommandations pour la syntaxe de ce format et un métalangage pour la description des structures d’encodage de textes. Le consortium de la TEI s’organise en différentes instances : conseil d’administration, conseil technique, groupes de travail, groupes d’intérêt spécifique. Les groupes font des propositions pour les recommandations qui sont ensuite adoptées \(ou non\) par le conseil technique. Ces recommandations sont regroupées dans un guide : [TEI: P5 Guidelines](http://www.tei-c.org/Guidelines/P5/).
+La communauté académique internationale constituée autour de la Text Encoding Initiative définit des recommandations pour la syntaxe de ce format et un métalangage pour la description des structures d’encodage de textes. Le consortium de la TEI s’organise en différentes instances : conseil d’administration, conseil technique, groupes de travail, groupes d’intérêt spécifique. Les groupes font des propositions pour les recommandations qui sont ensuite adoptées (ou non) par le conseil technique. Ces recommandations sont regroupées dans un guide : [TEI: P5 Guidelines](http://www.tei-c.org/Guidelines/P5/).
 
-_C'est le format qui a été retenu dans ISTEX pour harmoniser, autour d'un format pivot, les fichiers XML issus des différentes_ [_DTD_ ](https://fr.wikipedia.org/wiki/Document_type_definition)_des éditeurs. Les fichiers XML TEI ainsi générés reproduisent la structuration fine du texte présente au départ. Dans le cas où l’éditeur ne fournit pas de XML, les fichiers XML TEI sont générés à partir du PDF via une transformation PDF-to-text et une injection du texte brut non structuré dans la balise &lt;body&gt;_.
+_C'est le format qui a été retenu dans ISTEX pour harmoniser, autour d'un format pivot, les fichiers XML issus des différentes_ [_DTD_ ](https://fr.wikipedia.org/wiki/Document\_type\_definition)_des éditeurs. Les fichiers XML TEI ainsi générés reproduisent la structuration fine du texte présente au départ. Dans le cas où l’éditeur ne fournit pas de XML, les fichiers XML TEI sont générés à partir du PDF via une transformation PDF-to-text et une injection du texte brut non structuré dans la balise \<body>_.
 
 {% hint style="info" %}
-**Pour connaitre le shéma TEI \(Text Encoding Initiative\) utilisé pour le projet ISTEX \(liste de notions textuelles admises par le plus grand nombre\) voir** [**https://tei.istex.fr/**](https://tei.istex.fr/)
+**Pour connaitre le shéma TEI (Text Encoding Initiative) utilisé pour le projet ISTEX (liste de notions textuelles admises par le plus grand nombre) voir** [**https://tei.istex.fr/**](https://tei.istex.fr)
 {% endhint %}
 
-### **o TXT \(**Text\)
+### **o TXT (**Text)
 
 Un fichier txt est un fichier contenant du texte au format ASCII.
 
-Le code ASCII \(American Standard Code for Information Interchange - Code Américain Standard pour l'Echange d'Informations\) est le code numérique représentant les 128 caractères possibles du clavier.
+Le code ASCII (American Standard Code for Information Interchange - Code Américain Standard pour l'Echange d'Informations) est le code numérique représentant les 128 caractères possibles du clavier.
 
 Un fichier txt peut être lu ou modifié via le bloc-notes ou un éditeur de texte traditionnel.
 
 _Dans ISTEX, les fichiers en texte brut sont générés à partir d’une transformation du PDF original à l’aide du logiciel PDF-to-text._
 
-### **o OCR \(**Optical Character Recognition _\*Reconnaissance optique de caractères_\)
+### o CLEANED (Nettoyé)
+
+Un fichier texte contenant le texte intégral sans mise en forme, sans image, sans tableau et sans formule. Uniquement le contenu textuel des paragraphes a été conservé.
+
+### **o OCR (**Optical Character Recognition _\*Reconnaissance optique de caractères_)
 
 La reconnaissance optique de caractères, ou océrisation, est une technique informatique permettant – grâce à un procédé optique – de lire et stocker des images de textes imprimés, dactylographiés ou manuscrits, et de les traduire en fichiers textes.
 
-_Dans ISTEX, les fichiers OCR sont générés grâce à une chaîne de réocérisation basée sur l’outil Tesseract. Cette chaîne permet d’améliorer la qualité des documents originaux dont le texte est absent \(PDF image\) ou non exploitable \(problèmes de reconnaissance de caractères\). Lorsqu’il est disponible, ce fichier OCR sera automatiquement choisi à la place du fichier TXT d’origine. Pour plus de détails, voir le billet de blog_ [_OCR : production de plein texte_](https://blog.istex.fr/ocr-production-de-plein-texte/)_._
+_Dans ISTEX, les fichiers OCR sont générés grâce à une chaîne de réocérisation basée sur l’outil Tesseract. Cette chaîne permet d’améliorer la qualité des documents originaux dont le texte est absent (PDF image) ou non exploitable (problèmes de reconnaissance de caractères). Lorsqu’il est disponible, ce fichier OCR sera automatiquement choisi à la place du fichier TXT d’origine. Pour plus de détails, voir le billet de blog_ [_OCR : production de plein texte_](https://blog.istex.fr/ocr-production-de-plein-texte/)_._
 
 _NB : La rubrique_ [_Remplacer les documents TXT par les documents OCR_](liste-des-formats.md) _propose une procédure permettant d'exploiter le fichier OCR pour faire de la fouille de textes._
 
-### **o TIFF \(**Tagged Image File Format _\*Format de fichier d’image étiqueté_\)
+### **o TIFF (**Tagged Image File Format _\*Format de fichier d’image étiqueté_)
 
-TIFF est un format de fichier pour image numérique dans lequel des balises permettent de décrire les caractéristiques d’une image \(dimensions, nombre de couleurs utilisées, type de compression\).
+TIFF est un format de fichier pour image numérique dans lequel des balises permettent de décrire les caractéristiques d’une image (dimensions, nombre de couleurs utilisées, type de compression).
 
-Il permet de stocker des images matricielles \(cartes de points\) de taille importante \(plus de 4 Go quand elles sont compressées\), en noir et blanc, en couleurs réelles, ainsi que des images indexées, faisant usage d'une palette de couleurs.
+Il permet de stocker des images matricielles (cartes de points) de taille importante (plus de 4 Go quand elles sont compressées), en noir et blanc, en couleurs réelles, ainsi que des images indexées, faisant usage d'une palette de couleurs.
 
-Il s'agit d'un format de conteneur \(ou encapsulation\), à la manière de avi ou zip, c'est-à-dire pouvant contenir des données de formats arbitraires. C’est un format issu du fax.
+Il s'agit d'un format de conteneur (ou encapsulation), à la manière de avi ou zip, c'est-à-dire pouvant contenir des données de formats arbitraires. C’est un format issu du fax.
 
 _Les fichiers en format TIFF dans ISTEX sont des fichiers originaux fournis uniquement par les éditeurs des ressources EBBO et ECCO._
 
 ## Métadonnées
 
-Les métadonnées sont les informations bibliographiques permettant de présenter un document \(nom de l’auteur, affiliation, revue, éditeur, etc.\).
+Les métadonnées sont les informations bibliographiques permettant de présenter un document (nom de l’auteur, affiliation, revue, éditeur, etc.).
 
-### **o XML \(**Extensible Markup Language _\*Langage de balisage extensible_\)
+### **o XML (**Extensible Markup Language _\*Langage de balisage extensible_)
 
-Il s'agit d'un langage de balisage ouvert qui permet de structurer de manière hiérarchisée les données d’un document. La structuration balisée des métadonnées d’un document permet la lecture de ces données par une machine \(traitement automatique\) et l’échange de ces données entre les machines. C’est un langage standardisé, simple et extensible, permettant de décrire tout type de donnée.
+Il s'agit d'un langage de balisage ouvert qui permet de structurer de manière hiérarchisée les données d’un document. La structuration balisée des métadonnées d’un document permet la lecture de ces données par une machine (traitement automatique) et l’échange de ces données entre les machines. C’est un langage standardisé, simple et extensible, permettant de décrire tout type de donnée.
 
 _Dans ISTEX, les métadonnées en XML sont des fichiers originaux fournis par l’éditeur selon une DTD propre._
 
-### **o MODS \(**Metadata Object Description Schema _\*Schéma de description objet de métadonnées_\) <a id="o-mods-metadata-object-description-schema-schema-de-description-objet-de-metadonnees"></a>
+### **o MODS (**Metadata Object Description Schema _\*Schéma de description objet de métadonnées_) <a href="#o-mods-metadata-object-description-schema-schema-de-description-objet-de-metadonnees" id="o-mods-metadata-object-description-schema-schema-de-description-objet-de-metadonnees"></a>
 
-MODS est un schéma XML créé pour traiter des données bibliographiques et qui s’est élargi de façon à permettre la description de tout type de document et de tout support \(numérique ou non\) : texte imprimé, document iconographique, enregistrement sonore, document d'archive, collection de documents.
+MODS est un schéma XML créé pour traiter des données bibliographiques et qui s’est élargi de façon à permettre la description de tout type de document et de tout support (numérique ou non) : texte imprimé, document iconographique, enregistrement sonore, document d'archive, collection de documents.
 
 _Dans ISTEX, les fichiers MODS sont générés à partir d’une transformation des XML originaux, afin de les homogénéiser dans un format de description standard. Le format MODS a été utilisé dans sa version 3.6._
 
-### o JSON \(JavaScript Object Notation _\*Notation des objets du langage JavaScript_\)
+### o JSON (JavaScript Object Notation _\*Notation des objets du langage JavaScript_)
 
 JSON est un format standard permettant la représentation et l’échange de données structurées, facile à lire/écrire par les humains, facile à analyser par les machines. JSON est issu du langage de programmation JavaScript. Les documents JSON étant relativement légers, ce format est souvent utilisé pour structurer et transmettre des données sur des sites web. JSON est une syntaxe permettant de stocker des données de différents types : objets, tableaux, nombres, chaînes de caractères, booléens, valeurs "null", et de conserver des données hiérarchiques.
 
-_Dans ISTEX, les fichiers JSON regroupent les métadonnées du document, le lien vers le texte intégral dans ses différents formats \(et le cas échéant les liens vers les annexes et couvertures\), ainsi que toutes les informations à valeur ajoutée produites par ISTEX sur le document \(identifiant ARK ; indicateurs de qualité ; enrichissements par catégories scientifiques, par références bibliographiques structurées, par entités nommées, par termes d'indexation\)._
+_Dans ISTEX, les fichiers JSON regroupent les métadonnées du document, le lien vers le texte intégral dans ses différents formats (et le cas échéant les liens vers les annexes et couvertures), ainsi que toutes les informations à valeur ajoutée produites par ISTEX sur le document (identifiant ARK ; indicateurs de qualité ; enrichissements par catégories scientifiques, par références bibliographiques structurées, par entités nommées, par termes d'indexation)._
+
+
 
 ## Annexes
 
@@ -94,51 +100,51 @@ Les annexes sont des fichiers originaux parfois fournis par l’éditeur pour ac
 
 _NB : les formats d'Annexes présents dans ISTEX qui sont déjà décrits dans les rubriques précédentes ne sont pas répétés ici._
 
-### **o DOC \(**Document\)
+### **o DOC (**Document)
 
 DOC ou doc est une extension de nom de fichier, utilisée pour la documentation en format texte propriétaire, sur une large variété de systèmes d'exploitation.
 
 Ce n’est pas une norme industrielle, ce qui pose des problèmes d’interopérabilité.
 
-### **o RTF \(**Rich Text Format _\*Format de texte enrichi_\)
+### **o RTF (**Rich Text Format _\*Format de texte enrichi_)
 
-Format descriptif, non compressé, de fichier de traitement de texte, créé par Microsoft. Il est reconnu par la plupart des logiciels de traitement de texte comme OpenOffice.org Writer, LibreOffice Writer ou Word et peut être lu sur tous les systèmes d’exploitation \(Windows, Mac, Linux, Unix, etc.\). Il a été créé pour être un format pivot entre logiciels et plates-formes hétérogènes.
+Format descriptif, non compressé, de fichier de traitement de texte, créé par Microsoft. Il est reconnu par la plupart des logiciels de traitement de texte comme OpenOffice.org Writer, LibreOffice Writer ou Word et peut être lu sur tous les systèmes d’exploitation (Windows, Mac, Linux, Unix, etc.). Il a été créé pour être un format pivot entre logiciels et plates-formes hétérogènes.
 
 Son codage textuel des données, non compressé, le rend théoriquement lisible par l’œil humain.
 
-### **o XLS \(**eXceL Spreadsheet _\*Feuille de calcul Excel_\)
+### **o XLS (**eXceL Spreadsheet _\*Feuille de calcul Excel_)
 
-Le logiciel Excel est un logiciel tableur \(permet de créer des tableaux\) et grapheur \(permet de générer des graphiques à partir de ces tableaux\). Il intègre des fonctions de calcul numérique, de représentation graphique, d'analyse de données et de programmation.
+Le logiciel Excel est un logiciel tableur (permet de créer des tableaux) et grapheur (permet de générer des graphiques à partir de ces tableaux). Il intègre des fonctions de calcul numérique, de représentation graphique, d'analyse de données et de programmation.
 
-Excel utilise des fichiers portant l'extension xls ou xlsx. Chaque fichier correspond à un classeur contenant des feuilles de calculs. Chaque feuille correspond à un tableau de lignes et de colonnes pouvant contenir des valeurs \(numériques ou non\) ainsi que des formules permettant les calculs.
+Excel utilise des fichiers portant l'extension xls ou xlsx. Chaque fichier correspond à un classeur contenant des feuilles de calculs. Chaque feuille correspond à un tableau de lignes et de colonnes pouvant contenir des valeurs (numériques ou non) ainsi que des formules permettant les calculs.
 
-### o **XLSX \(**eXceL Spreadsheet Xml _\*Feuille de calcul Excel respectant la norme XML_\)
+### o **XLSX (**eXceL Spreadsheet Xml _\*Feuille de calcul Excel respectant la norme XML_)
 
 .xlsx est une extension de nom de fichier pour tableur au format Office Open XML utilisé par Microsoft Office à partir de la version 2007.
 
-Le nouveau format xlsx permet de bénéficier des nouveaux outils \(comme les tables ou mises en forme conditionnelles avancées\).
+Le nouveau format xlsx permet de bénéficier des nouveaux outils (comme les tables ou mises en forme conditionnelles avancées).
 
-### o **PPT \(**PowerPoinT\)
+### o **PPT (**PowerPoinT)
 
 PowerPoint est un logiciel de présentation de diaporama édité par Microsoft et faisant partie de la suite Microsoft Office. Il fonctionne sous Windows et Mac OS. Un fichier PPT est un diaporama.
 
-### **o GIF \(**Graphics Interchange Format _\*Format d'échange d'images_\)
+### **o GIF (**Graphics Interchange Format _\*Format d'échange d'images_)
 
 Format d’image numérique, à mi-chemin entre une image fixe et une courte vidéo, couramment utilisé sur le web.
 
-Il a été créé par CompuServe pour réaliser des images de poids assez faible \(légèreté obtenue par une limitation du nombre des couleurs à 256\). Il utilise l’algorithme non destructeur LZW \(Lampel Ziv Welch : noms de ses auteurs\) pour la compression d'images, breveté par l’entreprise Unisys à laquelle une redevance devait être versée par les éditeurs de logiciels manipulant des images GIF. C’est une des raisons pour lesquelles le format PNG \(aussi limité à 256 couleurs\), libre de droits, a été préféré. Le fait que le GIF soit tombé dans le domaine public ne devrait pas changer cette préférence, car le PNG qui permet un codage des couleurs sur 32 bits \(contre 8 pour le GIF\) et plusieurs niveaux de transparence, est désormais techniquement supérieur au GIF.
+Il a été créé par CompuServe pour réaliser des images de poids assez faible (légèreté obtenue par une limitation du nombre des couleurs à 256). Il utilise l’algorithme non destructeur LZW (Lampel Ziv Welch : noms de ses auteurs) pour la compression d'images, breveté par l’entreprise Unisys à laquelle une redevance devait être versée par les éditeurs de logiciels manipulant des images GIF. C’est une des raisons pour lesquelles le format PNG (aussi limité à 256 couleurs), libre de droits, a été préféré. Le fait que le GIF soit tombé dans le domaine public ne devrait pas changer cette préférence, car le PNG qui permet un codage des couleurs sur 32 bits (contre 8 pour le GIF) et plusieurs niveaux de transparence, est désormais techniquement supérieur au GIF.
 
-### **o JPEG \(**Joint Photographic Experts Group _\*Groupe mixte d'experts en photographie_\)
+### **o JPEG (**Joint Photographic Experts Group _\*Groupe mixte d'experts en photographie_)
 
 Norme qui définit le format d'encodage et l'algorithme de décodage pour une représentation numérique compressée d'une image fixe.
 
-Le Joint Photographic Experts Group travaille en partenariat avec l'Union Internationale des Télécommunications \(d'où le « joint » pour mixte\).
+Le Joint Photographic Experts Group travaille en partenariat avec l'Union Internationale des Télécommunications (d'où le « joint » pour mixte).
 
 Les images JPEG ont l'extension ".jpg", ".jpeg", ".jpe" ou ".jfif".
 
-Le format JPEG permet de compresser des images bitmap très détaillées, en utilisant un algorithme de compression destructif \(taux de compression élevé, mais dégradation de la qualité d'image\).
+Le format JPEG permet de compresser des images bitmap très détaillées, en utilisant un algorithme de compression destructif (taux de compression élevé, mais dégradation de la qualité d'image).
 
-### o **MPEG \(**Moving Pictures Experts Group _\*Groupe d’experts internationaux de l’industrie de l’image_\)
+### o **MPEG (**Moving Pictures Experts Group _\*Groupe d’experts internationaux de l’industrie de l’image_)
 
 Le MPEG est un groupe d’experts ayant développé des standards internationaux pour la compression, le traitement et le codage d’images animées et de données audio. Ces standards internationaux sont le MPEG-1, le MPEG-2, le MPEG-4, le MPEG-7, le MPEG-21.
 
@@ -154,54 +160,54 @@ Pour ce faire, les formats MPEG-1 et MPEG-2 utilisent la prédiction compensée 
 * MPEG-7 : fournit une représentation standard des données audio et vidéo pour décrire et chercher du contenu multimédia.
 * MPEG-21 : offre un cadre de travail pour l’interopérabilité et l’utilisation de tous les contenus multimédia.
 
-### **o AVI \(**Audio Video Interleave _\*Imbrication audio vidéo_\)
+### **o AVI (**Audio Video Interleave _\*Imbrication audio vidéo_)
 
 L'AVI est un format d'empaquetage conçu pour stocker des données audio et vidéo.
 
 C’est un conteneur transportant des fichiers vidéo et audio, eux-mêmes écrits dans d'autres formats. Un fichier .avi peut ainsi abriter des fichiers vidéo MPeg ou DivX, ou encore des musiques codées en MP3.
 
-### **o WMV \(W**indows Media Video\)
+### **o WMV (W**indows Media Video)
 
-Windows Media Video \(WMV\) est le nom d'une famille de codecs vidéo propriétaires développés par Microsoft.
+Windows Media Video (WMV) est le nom d'une famille de codecs vidéo propriétaires développés par Microsoft.
 
 Un fichier WMV est une vidéo au format propriétaire Windows Media Video. Un fichier au format WMV possède à la fois des données audio et vidéo, compressées pour pouvoir être diffusées en streaming, à la manière du MPEG-2 ou du MEPG-4.
 
 Distinguer les notions de **codec**, **standard** et **format conteneur** :
 
 * Le **standard** décrit un procédé, pouvant définir un **format conteneur** ou un format de compression.
-* Le **codec** est l'implémentation matérielle ou logicielle qui met en œuvre un standard.
+*   Le **codec** est l'implémentation matérielle ou logicielle qui met en œuvre un standard.
 
-  ```text
-    Exemple : MPEG-4 AVC/H.264 est un standard vidéo, et x264 est un codec capable de produire un     flux vidéo dans le format de compression décrit par le standard.
-  ```
+    ```
+      Exemple : MPEG-4 AVC/H.264 est un standard vidéo, et x264 est un codec capable de produire un     flux vidéo dans le format de compression décrit par le standard.
+    ```
 
 Le **format conteneur** peut embarquer des flux audio et/ou vidéo, des données techniques descriptives des flux en présence pour permettre leur décodage, mais aussi, en fonction du conteneur, toute sorte de métadonnées comme des sous-titres, du chapitrage, du timecode etc. Les formats conteneurs ne sont pas compatibles avec tous les formats de compression.
 
-Exemple : un conteneur MPEG-2 ne peut contenir que des flux vidéo MPEG-2, des flux audio MPEG \(layers 1, 2 ou 3\) ou des flux audio AAC.
+Exemple : un conteneur MPEG-2 ne peut contenir que des flux vidéo MPEG-2, des flux audio MPEG (layers 1, 2 ou 3) ou des flux audio AAC.
 
 Les **codecs propriétaires** sont développés par des entreprises, et font souvent l'objet de brevets dans les pays où c'est possible.
 
 Les **codecs libres** ou ouverts comme Vorbis sont inventés et développés par des acteurs du logiciel libre pour permettre aux utilisateurs de garder le contrôle des médias qu'ils produisent eux-mêmes.
 
-_NB : le mot-valise « codec » vient de « codeur décodeur » \(en anglais : coder-decoder\)._
+_NB : le mot-valise « codec » vient de « codeur décodeur » (en anglais : coder-decoder)._
 
-### **o QT \(**Quick Time\)
+### **o QT (**Quick Time)
 
-Format multimédia développé par Apple ; il est multiplateforme \(pris en charge sur les systèmes Macintosh et Windows\) ; il peut contenir une piste audio et vidéo compressée.
+Format multimédia développé par Apple ; il est multiplateforme (pris en charge sur les systèmes Macintosh et Windows) ; il peut contenir une piste audio et vidéo compressée.
 
 L’extension .mov est souvent utilisée pour les fichiers vidéo QuickTime.
 
 ## Couvertures
 
-Il s'agit de fichiers originaux parfois fournis par l’éditeur pour présenter la couverture de la revue dans laquelle est publié le document. Ils peuvent être de plusieurs types : documents textuels \(ex. : PDF\), images \(exs. : GIF, TIFF, JPEG\), pages web \(ex. : HTML\), etc.
+Il s'agit de fichiers originaux parfois fournis par l’éditeur pour présenter la couverture de la revue dans laquelle est publié le document. Ils peuvent être de plusieurs types : documents textuels (ex. : PDF), images (exs. : GIF, TIFF, JPEG), pages web (ex. : HTML), etc.
 
 _NB : les formats de "Couvertures" présents dans ISTEX qui sont déjà décrits dans les rubriques précédentes ne sont pas répétés ici._
 
-### **o HTML \(**HyperText Markup Language _\*Langage de balisage d’hypertexte_\)
+### **o HTML (**HyperText Markup Language _\*Langage de balisage d’hypertexte_)
 
 Langage de balisage conçu pour représenter les pages web, pour écrire de l’hypertexte. Il permet de structurer sémantiquement et de mettre en forme le contenu des pages web, d’inclure des ressources multimédias dont des images, des formulaires de saisie, et des programmes informatiques.
 
-Il est souvent utilisé avec le langage de programmation JavaScript et des feuilles de style en cascade \(CSS\).
+Il est souvent utilisé avec le langage de programmation JavaScript et des feuilles de style en cascade (CSS).
 
 ## Enrichissements
 
@@ -213,39 +219,43 @@ La présence de ces différents types d'enrichissements dans ISTEX varie en fonc
 
 ### o multicat
 
-Désigne les enrichissements par catégories scientifiques produits par l'outil Multicat. Ils sont issus d'un processus de catégorisation par appariement qui reporte sur chaque document d'une revue la catégorie scientifique attribuée à cette revue par des ressources reconnues \(Science-Metrix, Web of Science, Scopus\), en s'appuyant sur l'ISSN de la revue.
+Désigne les enrichissements par catégories scientifiques produits par l'outil Multicat. Ils sont issus d'un processus de catégorisation par appariement qui reporte sur chaque document d'une revue la catégorie scientifique attribuée à cette revue par des ressources reconnues (Science-Metrix, Web of Science, Scopus), en s'appuyant sur l'ISSN de la revue.
 
 Les enrichissements produits sont en format TEI-Standoff et contiennent toutes les catégories qui ont été attribuées à la revue par ces différentes ressources. À noter que les catégories scientifiques attribuées à une revue ne sont pas toujours adaptées pour catégoriser tous les articles de la même revue.
 
-Plus de détails sur ces enrichissements et le processus d'enrichissement dans les rubriques suivantes du site [data.istex.fr](https://data.istex.fr/) :
+Plus de détails sur ces enrichissements et le processus d'enrichissement dans les rubriques suivantes du site [data.istex.fr](https://data.istex.fr) :
 
-* [catégories Science-Metrix](https://sciencemetrix-category.data.istex.fr/)
-* [catégories WoS](https://wos-category.data.istex.fr/)
-* [catégories Scopus](https://scopus-category.data.istex.fr/)
+* [catégories Science-Metrix](https://sciencemetrix-category.data.istex.fr)
+* [catégories WoS](https://wos-category.data.istex.fr)
+* [catégories Scopus](https://scopus-category.data.istex.fr)
 * [processus Multicat/Science-Metrix](https://enrichment-process.data.istex.fr/ark:/67375/R0H-Q29BJZWS-N)
 * [processus Multicat/WoS](https://enrichment-process.data.istex.fr/ark:/67375/R0H-PWBRNFQ8-H)
 * [processus Multicat/Scopus](https://enrichment-process.data.istex.fr/ark:/67375/R0H-BMCHCCJF-J)
 
 ### o nb
 
-Désigne les enrichissements par catégories scientifiques produits par l'outil Nb, afin de compléter les résultats de Multicat en proposant un traitement ciblé sur l'article. Ils sont issus d'un processus de catégorisation supervisée qui utilise une approche statistique \(Bayésien Naïf\) comprenant une phase d'apprentissage sur un corpus extrait des bases de données bibliographiques Pascal et Francis de l'INIST-CNRS, puis une phase de prédiction.
+Désigne les enrichissements par catégories scientifiques produits par l'outil Nb, afin de compléter les résultats de Multicat en proposant un traitement ciblé sur l'article. Ils sont issus d'un processus de catégorisation supervisée qui utilise une approche statistique (Bayésien Naïf) comprenant une phase d'apprentissage sur un corpus extrait des bases de données bibliographiques Pascal et Francis de l'INIST-CNRS, puis une phase de prédiction.
 
-Les enrichissements produits sont en format TEI-Standoff et contiennent toutes les catégories prédites \(code de classement + verbalisation\) et leur probabilité.
+Les enrichissements produits sont en format TEI-Standoff et contiennent toutes les catégories prédites (code de classement + verbalisation) et leur probabilité.
 
-Plus de détails sur ces enrichissements et le processus d'enrichissement dans les rubriques suivantes du site [data.istex.fr](https://data.istex.fr/) :
+Plus de détails sur ces enrichissements et le processus d'enrichissement dans les rubriques suivantes du site [data.istex.fr](https://data.istex.fr) :
 
-* [catégories INIST](https://inist-category.data.istex.fr/)
+* [catégories INIST](https://inist-category.data.istex.fr)
 * [processus Bayésien naïf](https://enrichment-process.data.istex.fr/ark:/67375/R0H-DV0BN0B8-J)
 
 ### o refBibs
 
-Désigne les enrichissements par références bibliographiques structurées produits par l'outil Grobid \(GeneRation Of BIbliographic Data\). Il s'agit d'un outil d'analyse et d'extraction d'informations bibliographiques et de contenu qui fonctionne par apprentissage automatique avec une cascade de modèles CRF \(Conditional Random Fields\) et qui permet de segmenter le document pour trouver le segment &lt;Refbib&gt;.
+Désigne les enrichissements par références bibliographiques structurées produits par l'outil Grobid (GeneRation Of BIbliographic Data). Il s'agit d'un outil d'analyse et d'extraction d'informations bibliographiques et de contenu qui fonctionne par apprentissage automatique avec une cascade de modèles CRF (Conditional Random Fields) et qui permet de segmenter le document pour trouver le segment \<Refbib>.
 
 Les enrichissements produits sont en format TEI-Standoff et contiennent une version structurée de chaque référence bibliographique.
 
-Plus de détails sur le processus d'enrichissement dans la rubrique suivante du site [data.istex.fr](https://data.istex.fr/) :
+Plus de détails sur le processus d'enrichissement dans la rubrique suivante du site [data.istex.fr](https://data.istex.fr) :
 
 * [processus Grobid](https://enrichment-process.data.istex.fr/ark:/67375/R0H-2WXX0NK2-9)
+
+### o grobidFulltext
+
+Intégralité du document structuré au format TEI à l'aide de l'outil [Grobid](https://grobid.readthedocs.io/en/latest/Introduction/)
 
 ### o teeft
 
@@ -253,18 +263,17 @@ Désigne les enrichissements par termes d'indexation produits par l'outil Teeft.
 
 Les enrichissements produits sont en format TEI-Standoff et contiennent les termes, leur fréquence et leur spécificité.
 
-Plus de détails sur le processus d'enrichissement dans la rubrique suivante du site [data.istex.fr](https://data.istex.fr/) :
+Plus de détails sur le processus d'enrichissement dans la rubrique suivante du site [data.istex.fr](https://data.istex.fr) :
 
 * [processus Teeft](https://enrichment-process.data.istex.fr/ark:/67375/R0H-R25KK4KZ-Q)
 
 ### o unitex
 
-Désigne les enrichissements par entités nommées produits par l'outil Unitex. Il s'agit d'un ensemble de logiciels permettant de traiter des textes en langues naturelles en utilisant des ressources linguistiques issues de travaux initiés sur le français par Maurice Gross au Laboratoire d’Automatique Documentaire et Linguistique \(LADL\). La cascade de transducteurs CasEN pour la reconnaissance des entités nommées est implantée sous le logiciel CasSys développé par le Laboratoire d’Informatique de l’Université de Tours.
+Désigne les enrichissements par entités nommées produits par l'outil Unitex. Il s'agit d'un ensemble de logiciels permettant de traiter des textes en langues naturelles en utilisant des ressources linguistiques issues de travaux initiés sur le français par Maurice Gross au Laboratoire d’Automatique Documentaire et Linguistique (LADL). La cascade de transducteurs CasEN pour la reconnaissance des entités nommées est implantée sous le logiciel CasSys développé par le Laboratoire d’Informatique de l’Université de Tours.
 
 Les enrichissements produits sont en format TEI-Standoff et contiennent les entités nommées de type "personne", "lieu", "organisation", "indicateur temporel", "pointeur vers références bibliographiques", "références bibliographiques complètes dans le texte", "url" retrouvées dans le texte en anglais et en français, ainsi que leur fréquence.
 
-Plus de détails sur ces enrichissements et le processus d'enrichissement dans les rubriques suivantes du site [data.istex.fr](https://data.istex.fr/) :
+Plus de détails sur ces enrichissements et le processus d'enrichissement dans les rubriques suivantes du site [data.istex.fr](https://data.istex.fr) :
 
-* [entités nommées](https://named-entity.data.istex.fr/)
+* [entités nommées](https://named-entity.data.istex.fr)
 * [processus Unitex-CasSys](https://enrichment-process.data.istex.fr/ark:/67375/R0H-KGDTPS40-S)
-
