@@ -17,7 +17,7 @@ La _Revue de sommaire_ a pour but de :
 
 &#x20;&#x20;
 
-![](<../.gitbook/assets/KbartRS (1).JPG>)
+![](../.gitbook/assets/Kbart2RS.png)
 
 {% hint style="danger" %}
 * Les titres présents, dans la "Revue de Sommaire"_,_ proviennent du fichier de **KBART-ABES de référence**
