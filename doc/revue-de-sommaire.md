@@ -15,9 +15,9 @@ La _Revue de sommaire_ a pour but de :
   * Un fichier KBART-ISTEX global, avec mise à jour automatique, est disponible en page d'accueil&#x20;
   * Un fichier KBART-ISTEX par corpus, année... est à exporter au niveau de la page recherche
 
-![](../.gitbook/assets/KbartRS.png)
-
 &#x20;&#x20;
+
+![](<../.gitbook/assets/KbartRS (1).JPG>)
 
 {% hint style="danger" %}
 * Les titres présents, dans la "Revue de Sommaire"_,_ proviennent du fichier de **KBART-ABES de référence**
