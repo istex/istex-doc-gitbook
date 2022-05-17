@@ -8,11 +8,11 @@ Toutes les URL suivantes sont accédées via la méthode **HTTP GET**.
 
 La recherche s'effectue sous la forme :
 
-| Syntaxe        |                                                                                                                                                                                                                                                                                                                                                                                       |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| URI            | `https://api.istex.fr/document/?q={query}`                                                                                                                                                                                                                                                                                                                                            |
-| Paramètres     | - q= : la lettre clé permettant d'indiquer que ce qui suit est la requête,  - {query} : la chaîne de recherche. Celle-ci correspond à une requête du type "Google" ou "Bing".  Plus de précisions sur [cette page de la documentation de Lucene](https://lucene.apache.org/core/4\_3\_0/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#package\_description). |
-| Code de retour | - 200 si OK,  - 500 en cas de problème (dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr))                                                                                                                                                                                                                                                             |
+| Syntaxe        |                                                                                                                                                                                                                                                                                                                                                                                |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| URI            | `https://api.istex.fr/document/?q={query}`                                                                                                                                                                                                                                                                                                                                     |
+| Paramètres     | - q= : la lettre clé permettant d'indiquer que ce qui suit est la requête,  - {query} : la chaîne de recherche. Celle-ci correspond à une requête du type "Google" ou "Bing".  Plus de précisions sur [cette page de la documentation d'Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax). |
+| Code de retour | - 200 si OK,  - 500 en cas de problème (dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr))                                                                                                                                                                                                                                                      |
 
 * _Formatage des résultats renvoyés_ :
 
@@ -48,7 +48,7 @@ La recherche s'effectue sous la forme :
 }
 ```
 
-Les requêtes prises en charge sont celles suivant la [syntaxe de la bibliothèque de recherche Lucene](https://lucene.apache.org/core/4\_3\_0/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#package\_description).
+Les requêtes prises en charge sont celles suivant la [syntaxe de la bibliothèque de recherche Lucene](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax).
 
 De manière générale, une requête est une suite de termes recherchés.
 
@@ -122,4 +122,4 @@ Il est également possible de chercher sur un **intervalle**, avec l'utilisation
 | Recherche des documents contenant une **date de publication entre 1900 et 1905**    | [https://api.istex.fr/document/?**q=publicationDate:\[1900 TO 1905\]**](https://api.istex.fr/document/?q=publicationDate:\[1900%20TO%201905]) [https://api.istex.fr/document/?**q=publicationDate:{1899 TO 1906}**](https://api.istex.fr/document/?q=publicationDate:%7B1889%20TO%201906%7D) [https://api.istex.fr/document/?**q=publicationDate:{1889 TO 1906}**](https://api.istex.fr/document/?q=publicationDate:%7B1889%20TO%201906%7D) |
 | Recherche des documents contenant un **terme entre "half" et "ham" dans son titre** | [https://api.istex.fr/document/?**q=title:\[half TO ham\]**](https://api.istex.fr/document/?q=title:\[half%20TO%20ham])                                                                                                                                                                                                                                                                                                                     |
 
-Pour plus de détails sur cette syntaxe, nous vous invitons à consulter [la documentation officielle](https://lucene.apache.org/core/4\_3\_0/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#package\_description).
+Pour plus de détails sur cette syntaxe, nous vous invitons à consulter [la documentation officielle](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax).
