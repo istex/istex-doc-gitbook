@@ -116,7 +116,7 @@ Une fois le lien créé il faut l’assigner à tous les bouquets Licences Natio
 Seuls les bouquets suivants sont déjà disponibles sur la plateforme ISTEX.
 {% endhint %}
 
-32 négociations mais 34 bouquets à sélectionner car la négociation "Numérique Premium" comporte 2 bouquets "Révolution française-Premier Empire" et "Littérature française et francophone" et la négociation "Droz" comporte le 2 bouquets "Portail Calvin"  et le "Portail Humanisme et Renaissance"
+33 négociations mais 35 bouquets à sélectionner car la négociation "Numérique Premium" comporte 2 bouquets "Révolution française-Premier Empire" et "Littérature française et francophone" et la négociation "Droz" comporte le 2 bouquets "Portail Calvin"  et le "Portail Humanisme et Renaissance"
 
 #### 34 bouquets à associer
 
@@ -128,6 +128,7 @@ Seuls les bouquets suivants sont déjà disponibles sur la plateforme ISTEX.
 * Brill Recueils des cours de l’Académie de La Haye (ISTEX -Licences Nationales)
 * Brill Religions in the Graeco-Roman World Online (ISTEX - Licences Nationales)
 * Cambridge University Press (ISTEX - Licences Nationales)
+* Cambridge University Press – e-books en science politique (ISTEX - Licences Nationales)
 * De Gruyter (ISTEX - Licences Nationales)
 * Duke : sélectionner "Duke mathematical Journal" dans le bouquet "projet Euclid" puis choisir comme date => 1935-2012
 * EarlyEnglish Books Online (EEBO)
