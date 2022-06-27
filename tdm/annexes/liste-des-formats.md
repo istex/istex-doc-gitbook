@@ -35,14 +35,12 @@ La communauté académique internationale constituée autour de la Text Encoding
 _C'est le format qui a été retenu dans ISTEX pour harmoniser, autour d'un format pivot, les fichiers XML issus des différentes_ [_DTD_ ](https://fr.wikipedia.org/wiki/Document\_type\_definition)_des éditeurs. Les fichiers XML TEI ainsi générés reproduisent la structuration fine du texte présente au départ. Dans le cas où l’éditeur ne fournit pas de XML, les fichiers XML TEI sont générés à partir du PDF via une transformation PDF-to-text et une injection du texte brut non structuré dans la balise \<body>_.
 
 {% hint style="info" %}
-**Pour connaitre le shéma TEI (Text Encoding Initiative) utilisé pour le projet ISTEX (liste de notions textuelles admises par le plus grand nombre) voir** [**https://tei.istex.fr/**](https://tei.istex.fr)
+**Pour connaitre le shéma TEI (Text Encoding Initiative) utilisé pour le projet ISTEX (liste de notions textuelles admises par le plus grand nombre) voir** [**https://tei.istex.fr/**](https://tei.istex.fr/)
 {% endhint %}
 
 ### **o TXT (**Text)
 
-Un fichier txt est un fichier contenant du texte au format ASCII.
-
-Le code ASCII (American Standard Code for Information Interchange - Code Américain Standard pour l'Echange d'Informations) est le code numérique représentant les 128 caractères possibles du clavier.
+Un fichier txt est un fichier contenant du texte au format UTF-8.
 
 Un fichier txt peut être lu ou modifié via le bloc-notes ou un éditeur de texte traditionnel.
 
@@ -50,7 +48,9 @@ _Dans ISTEX, les fichiers en texte brut sont générés à partir d’une transf
 
 ### o CLEANED (Nettoyé)
 
-Un fichier texte contenant le texte intégral sans mise en forme, sans image, sans tableau et sans formule. Uniquement le contenu textuel des paragraphes a été conservé.
+Fichier au format TXT
+
+Le format “Cleaned” a été créé par ISTEX pour les besoins de la fouille textuelle sur le texte intégral des publications. Il est issu d’une structuration des documents soit par l’outil Grobid, soit par l’outil Pub2TEI, la version TEI obtenue la meilleure étant sélectionnée. Le fichier “Cleaned” est alors généré en ciblant le contenu textuel de la balise du document, dont est retirée toute mise en forme, ainsi que les éléments susceptibles d’entraîner des problèmes dans le traitement réalisé par les outils de TDM (images, tableaux, figures, formules).
 
 ### **o OCR (**Optical Character Recognition _\*Reconnaissance optique de caractères_)
 
@@ -211,7 +211,7 @@ Il est souvent utilisé avec le langage de programmation JavaScript et des feuil
 
 ## Enrichissements
 
-Les enrichissements sont des informations complémentaires de plusieurs types obtenues à partir du texte intégral et ajoutées au document pour permettre leur réutilisation dans d’autres projets ou initiatives, notamment en fouille de textes. Ils permettent également de cibler plus finement une requête pour constituer un corpus. Ces informations complémentaires sont des catégories scientifiques, des références bibliographiques structurées, des entités nommées et des termes d'indexation.
+Les enrichissements sont des informations complémentaires de plusieurs types obtenues à partir du texte intégral et ajoutées au document pour permettre leur réutilisation dans d’autres projets ou initiatives, notamment en fouille de textes. Ils permettent également de cibler plus finement une requête pour constituer un corpus. Ces informations complémentaires sont des catégories scientifiques, des références bibliographiques structurées, une version structurée du texte intégral des documents, des entités nommées et des termes d'indexation.
 
 Ces enrichissements sont produits par ISTEX à l’aide de plusieurs outils ou méthodes issus de la recherche en traitement automatique des langues et de la recherche en sciences des données et des connaissances, et qui ont été adaptés par ISTEX pour traiter un grand volume de données. Chaque type d'enrichissement est nommé à partir de l'outil ayant permis de le générer.
 
@@ -223,11 +223,11 @@ Désigne les enrichissements par catégories scientifiques produits par l'outil 
 
 Les enrichissements produits sont en format TEI-Standoff et contiennent toutes les catégories qui ont été attribuées à la revue par ces différentes ressources. À noter que les catégories scientifiques attribuées à une revue ne sont pas toujours adaptées pour catégoriser tous les articles de la même revue.
 
-Plus de détails sur ces enrichissements et le processus d'enrichissement dans les rubriques suivantes du site [data.istex.fr](https://data.istex.fr) :
+Plus de détails sur ces enrichissements et le processus d'enrichissement dans les rubriques suivantes du site [data.istex.fr](https://data.istex.fr/) :
 
-* [catégories Science-Metrix](https://sciencemetrix-category.data.istex.fr)
-* [catégories WoS](https://wos-category.data.istex.fr)
-* [catégories Scopus](https://scopus-category.data.istex.fr)
+* [catégories Science-Metrix](https://sciencemetrix-category.data.istex.fr/)
+* [catégories WoS](https://wos-category.data.istex.fr/)
+* [catégories Scopus](https://scopus-category.data.istex.fr/)
 * [processus Multicat/Science-Metrix](https://enrichment-process.data.istex.fr/ark:/67375/R0H-Q29BJZWS-N)
 * [processus Multicat/WoS](https://enrichment-process.data.istex.fr/ark:/67375/R0H-PWBRNFQ8-H)
 * [processus Multicat/Scopus](https://enrichment-process.data.istex.fr/ark:/67375/R0H-BMCHCCJF-J)
@@ -238,9 +238,9 @@ Désigne les enrichissements par catégories scientifiques produits par l'outil 
 
 Les enrichissements produits sont en format TEI-Standoff et contiennent toutes les catégories prédites (code de classement + verbalisation) et leur probabilité.
 
-Plus de détails sur ces enrichissements et le processus d'enrichissement dans les rubriques suivantes du site [data.istex.fr](https://data.istex.fr) :
+Plus de détails sur ces enrichissements et le processus d'enrichissement dans les rubriques suivantes du site [data.istex.fr](https://data.istex.fr/) :
 
-* [catégories INIST](https://inist-category.data.istex.fr)
+* [catégories INIST](https://inist-category.data.istex.fr/)
 * [processus Bayésien naïf](https://enrichment-process.data.istex.fr/ark:/67375/R0H-DV0BN0B8-J)
 
 ### o refBibs
@@ -249,13 +249,17 @@ Désigne les enrichissements par références bibliographiques structurées prod
 
 Les enrichissements produits sont en format TEI-Standoff et contiennent une version structurée de chaque référence bibliographique.
 
-Plus de détails sur le processus d'enrichissement dans la rubrique suivante du site [data.istex.fr](https://data.istex.fr) :
+Plus de détails sur le processus d'enrichissement dans la rubrique suivante du site [data.istex.fr](https://data.istex.fr/) :
 
 * [processus Grobid](https://enrichment-process.data.istex.fr/ark:/67375/R0H-2WXX0NK2-9)
 
 ### o grobidFulltext
 
-Intégralité du document structuré au format TEI à l'aide de l'outil [Grobid](https://grobid.readthedocs.io/en/latest/Introduction/)
+Désigne les enrichissements par structuration du texte intégral produits par l'outil [Grobid](https://grobid.readthedocs.io/en/latest/) (GeneRation Of BIbliographic Data). Il s'agit d'un outil d'analyse et d'extraction d'informations bibliographiques et de contenu qui fonctionne par apprentissage automatique avec une cascade de modèles CRF (Conditional Random Fields). Grâce aux modèles utilisés, il permet de structurer du texte brut à partir d’un format PDF, en segmentant la totalité d’un document, mettant en évidence la structure fine du corps du texte (paragraphes, titres de sections, appel aux références bibliographiques, figures, tableaux, etc.).
+
+Les enrichissements produits sont en format TEI et contiennent une version structurée du texte intégral des documents.
+
+Plus de détails sur le processus d'enrichissement dans la rubrique suivante du site data.istex.fr : [processus GrobidFulltext](https://enrichment-process.data.istex.fr/ark:/67375/R0H-0T5BT0B0-Q).
 
 ### o teeft
 
@@ -263,7 +267,7 @@ Désigne les enrichissements par termes d'indexation produits par l'outil Teeft.
 
 Les enrichissements produits sont en format TEI-Standoff et contiennent les termes, leur fréquence et leur spécificité.
 
-Plus de détails sur le processus d'enrichissement dans la rubrique suivante du site [data.istex.fr](https://data.istex.fr) :
+Plus de détails sur le processus d'enrichissement dans la rubrique suivante du site [data.istex.fr](https://data.istex.fr/) :
 
 * [processus Teeft](https://enrichment-process.data.istex.fr/ark:/67375/R0H-R25KK4KZ-Q)
 
@@ -273,7 +277,7 @@ Désigne les enrichissements par entités nommées produits par l'outil Unitex. 
 
 Les enrichissements produits sont en format TEI-Standoff et contiennent les entités nommées de type "personne", "lieu", "organisation", "indicateur temporel", "pointeur vers références bibliographiques", "références bibliographiques complètes dans le texte", "url" retrouvées dans le texte en anglais et en français, ainsi que leur fréquence.
 
-Plus de détails sur ces enrichissements et le processus d'enrichissement dans les rubriques suivantes du site [data.istex.fr](https://data.istex.fr) :
+Plus de détails sur ces enrichissements et le processus d'enrichissement dans les rubriques suivantes du site [data.istex.fr](https://data.istex.fr/) :
 
-* [entités nommées](https://named-entity.data.istex.fr)
+* [entités nommées](https://named-entity.data.istex.fr/)
 * [processus Unitex-CasSys](https://enrichment-process.data.istex.fr/ark:/67375/R0H-KGDTPS40-S)
