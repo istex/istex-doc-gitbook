@@ -75,7 +75,7 @@ l'application est accessible à l’adresse suivante : [https://dl.istex.fr/](ht
 * l’information concernant les fichiers et formats, sélectionnés automatiquement lors du choix d’une plateforme ou d’un outil particuliers, est visible dans l’URL de partage, ainsi que dans l’historique une fois le corpus téléchargé
 * dans le cas du choix d’un “Usage personnalisé”, cocher ou décocher un type de fichier particulier ("Texte intégral", "Métadonnées", "Enrichissements"...) permet de sélectionner ou désélectionner automatiquement l'ensemble des formats de ce groupe
 * l’application simplifie le choix des formats TXT et OCR (le [format OCR](../annexes/liste-des-formats.md#o-ocr-optical-character-recognition-reconnaissance-optique-de-caracteres) est disponible dans ISTEX lorsqu’un document a été ré-océrisé) en sélectionnant, de manière transparente pour l’utilisateur, le format du texte de qualité la meilleure pour chaque document
-* la sélection du format "Cleaned" (format de texte brut sans images, légendes, tableaux, formules, etc. , particulièrement adapté à un traitement en fouille de textes) n'est pas exclusive du format TXT. Si vous choisissez d'extraire ces 2 formats pour votre corpus, les documents possédant ces formats seront téléchargés conjointement&#x20;
+* la sélection du [format "Cleaned"](https://doc.istex.fr/tdm/annexes/liste-des-formats.html#o-cleaned-nettoy%C3%A9) (format de texte brut sans images, légendes, tableaux, formules, etc. , particulièrement adapté à un traitement en fouille de textes) n'est pas exclusive du format TXT. Si vous choisissez d'extraire ces 2 formats pour votre corpus, les documents possédant ces formats seront téléchargés conjointement&#x20;
 
 #### Téléchargement&#xD;
 
