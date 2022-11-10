@@ -1,18 +1,18 @@
-# Application ISTEX-DL (ISTEX download)
+# Application Istex-DL (Istex download)
 
-Il s'agit d'une application Web permettant de télécharger facilement, au travers d’une interface conviviale, un corpus de documents ISTEX sous forme d'une archive zip ou tar.gz.
+Il s'agit d'une application Web permettant de télécharger facilement, au travers d’une interface conviviale, un corpus de documents Istex sous forme d'une archive zip ou tar.gz.
 
 ## **Avantages :**
 
 * très simple d'emploi, l'application propose un formulaire d'usage intuitif et met à disposition de nombreuses aides à toutes les étapes
 * elle gère l’authentification par la fédération d’identité lors du téléchargement d'un premier corpus (à l’exception de l’extraction des métadonnées qui sont libres de droit)
-* elle supporte le téléchargement de gros corpus (jusqu’à 100000 documents)
-* elle offre 3 modes d’interrogation
+* elle supporte le téléchargement de gros corpus (jusqu’à 100 000 documents)
+* elle offre 4 modes d’interrogation (utilisant des équations booléennes ou des identifiants uniques pérennes), dont un mode de "recherche assistée" à destination des utilisateurs débutants
 * elle autorise des équations booléennes sans limite de taille et des listes d’identifiants sans limite de nombre
-* elle permet de générer et de réutiliser des fichiers .corpus
+* elle permet de générer et de réutiliser des fichiers .corpus, fichiers documentant une extraction et conservant la liste des identifiants uniques de chaque document du corpus
 * elle met à disposition des exemples pédagogiques de requêtes
 * elle propose 3 options de tri des documents si l’on souhaite se restreindre à une partie des résultats (aléatoire, par pertinence, par pertinence & qualité)
-* elle affiche un échantillon de 6 documents correspondants aux résultats de l’interrogation effectuée
+* elle permet de naviguer dans la totalité des documents correspondants aux résultats de l’interrogation effectuée
 * elle facilite la sélection des types de fichiers et de formats à extraire dans le cas du choix d’une plateforme ou d’un outil déterminés, comme CorText par exemple
 * elle procure une estimation moyenne de la taille de l’archive à télécharger (dans le cas de corpus volumineux) et offre le choix de 2 formats d’archive
 * elle présente un menu de 4 fonctionnalités additionnelles accessibles en permanence en bas d’écran (réinitialiser, récupérer, partager, historique)
@@ -20,6 +20,7 @@ Il s'agit d'une application Web permettant de télécharger facilement, au trave
 ## **Inconvénient :**
 
 * la réutilisation d’un tri aléatoire particulier n’est pas encore disponible
+* l'exploitation d'un export de gestionnaire bibliographique n'est pas encore disponible
 
 ## **Mode d'emploi :**&#x20;
 
@@ -27,18 +28,19 @@ l'application est accessible à l’adresse suivante : [https://dl.istex.fr/](ht
 
 #### ‌Requête :&#x20;
 
-l’application permet de constituer un corpus à l’aide d'une équation de type booléenne, d'une simple liste d'identifiants pérennes uniques de type ARK, ou bien encore au moyen d’un fichier, de type “.corpus”, contenant des éléments propres à identifier de manière unique des documents
+L’application permet de constituer un corpus à l’aide d'une équation de type booléenne, d'une simple liste d'identifiants uniques pérennes de type ARK, ou bien encore au moyen d’un fichier (de type “.corpus”) contenant des éléments propres à identifier de manière unique des documents.&#x20;
 
-* les exemples d'équations (accessibles via le bouton "Exemples") sont cliquables et modifiables une fois copiés dans la fenêtre d’interrogation, ce qui permet de se familiariser avec la syntaxe à employer lors de la construction de sa requête
-* la recherche par ARK nécessite simplement de copier/coller une liste d'identifiants en colonne qui sera automatiquement interprétée par l'application (tester le dernier item de la liste proposée dans le bouton "Exemples")
+* la "recherche assistée" permet de construire pas à pas une requête simple de type équation booléenne, sans connaissance des champs à interroger et de la syntaxe à utiliser
+* les exemples d'équations (accessibles via le bouton "Exemples") sont cliquables et modifiables une fois copiés dans la fenêtre d’interrogation, ce qui permet également de se familiariser avec la syntaxe à employer lors de la construction de sa requête
+* la recherche par identifiants ARK nécessite simplement de copier/coller une liste d'identifiants en colonne ; elle sera automatiquement interprétée par l'application (tester le dernier item de la liste proposée dans le bouton "Exemples")
 * la liste des identifiants ARK copiée/collée peut être modifiée directement dans la zone de saisie de la requête
 * si l’on ne dispose pas de fichier .corpus, une extraction par l’un des 2 autres modes de requêtage (équation booléenne ou liste d’identifiants ARK) en générera un premier, que l'on pourra récupérer dans le fichier compressé obtenu lors du téléchargement
-* l’échantillon de résultats permet de visualiser en temps réel les résultats de sa requête et de l’ajuster le cas échéant
+* la visualisation des résultats permet de tester en temps réel les résultats de sa requête et de l’ajuster le cas échéant
 * si l’on veut se limiter à un sous-ensemble des résultats, l’option de tirage aléatoire permettra de rassembler un échantillon représentatif de la diversité des résultats obtenus, à la différence du classement selon un ordre de pertinence qui sélectionnera les documents les plus pertinents répondant à la requête, ou du tri selon le critère “qualityOverRelevance” ou “pertinence & qualité” choisi par défaut, représentant un classement des documents selon un ordre de pertinence associé à des indicateurs de qualité (voir la rubrique [Choix du type de scoring](../../api/results/scoring.md) pour le mode de calcul de ces différents tris). _NB : les modes de classement impliquant un critère de pertinence ne s’appliquent qu’aux résultats d’une recherche par équation booléenne._
 
-#### Usage&#xD;
+#### Usage <a href="#usage" id="usage"></a>
 
-* l’usage personnalisé donne accès à tous les types de fichiers et de formats disponibles dans ISTEX ; cependant, selon les publications à télécharger, il se peut, en dépit de la sélection faite, que certains formats ou types de fichiers (en particulier, les annexes, couvertures ou enrichissements) ne soient pas présents dans l’archive extraite, s’ils n’ont pas été fournis par l’éditeur ou ajoutés lors du passage dans la chaîne de traitement propre à ISTEX
+* l’usage personnalisé donne accès à tous les types de fichiers et de formats disponibles dans Istex ; cependant, selon les publications à télécharger, il se peut, en dépit de la sélection faite, que certains formats ou types de fichiers (en particulier, les annexes, couvertures ou enrichissements) ne soient pas présents dans l’archive extraite, s’ils n’ont pas été fournis par l’éditeur ou ajoutés lors du passage dans la chaîne de traitement propre à Istex
 * en fonction de la plateforme ou de l’outil particulier envisagés pour l’exploitation de son corpus, une sélection automatique des types de fichiers et de formats compatibles avec l'outil visé sera opérée par l’application ; changer d’option reste possible à tout moment
 
 #### Téléchargement&#xD;
@@ -64,17 +66,18 @@ l'application est accessible à l’adresse suivante : [https://dl.istex.fr/](ht
 #### Requête&#xD;
 
 * dans la recherche par équation booléenne, l'opérateur "OR", qui s'applique par défaut, peut être remplacé par un blanc (voir la rubrique [Les principaux opérateurs à manipuler](../requetage/operateurs.md))
-* au-delà d'une certaine limite (de 2000 caractères dans le cas d'une équation booléenne ou de 80 identifiants ARK), un identifiant unique, nommé "q\_id", est attribué à chaque requête ; le détail de chaque q\_id étant conservé  &#x20;par l'API ISTEX, la réutilisation de ces requêtes longues est assurée au travers de la fonctionnalité “Historique”, au même titre que pour les requêtes plus courtes
-* l’interrogation par liste d’identifiants ARK ou par sélection de fichier du type .corpus lance une étape de calcul du nombre de documents, destinée à vérifier que tous les identifiants fournis correspondent bien à des publications présentes dans le réservoir ISTEX
-* dans le cas de la sélection d’un classement aléatoire, l’échantillon de documents affiché ne sera pas nécessairement celui qui sera présent dans l’archive extraite (en raison du principe même du tirage aléatoire, différent à chaque fois)
-* par défaut, l’échantillon de résultats correspond aux 6 premiers documents répondant à la requête et classés selon le critère “pertinence & qualité” ; mais il s’accordera au choix d’un autre mode de classement
-* le texte intégral, au format PDF, de chacun des documents de l’échantillon est accessible par un simple clic
+* au-delà d'un certain seuil (de 2000 caractères dans le cas d'une équation booléenne ou de 80 identifiants ARK), un identifiant unique, nommé "q\_id", est attribué à chaque requête ; le détail de chaque q\_id étant conservé  &#x20;par l'API Istex, la réutilisation de ces requêtes longues est assurée au travers de la fonctionnalité “Historique”, au même titre que pour les requêtes plus courtes
+* l’interrogation par liste d’identifiants ARK ou par sélection de fichier du type .corpus lance une étape de calcul du nombre de documents, destinée à vérifier que tous les identifiants fournis correspondent bien à des publications présentes dans le réservoir Istex
+* dans le mode "recherche assistée", l'équation booléenne correspondant aux différentes sélections et recherches effectuées s'écrit automatiquement en parallèle et en temps réel ; cette fonctionnalité permet de se familiariser avec les noms techniques des champs et la syntaxe propre à l'API Istex
+* pour modifier directement en écriture l'équation booléenne initiée via l'assistant de construction de requête, il est possible à tout moment de basculer du mode "recherche assistée" au mode "équation booléenne" par un simple clic sur le bouton crayon ; attention : basculer du mode "équation booléenne" au mode "recherche assistée" réinitialise le formulaire !
+* par défaut, l'affichage des résultats répondant à la requête suit un classement selon le critère “pertinence & qualité” ; mais il s’accordera au choix d’un autre mode de classement
+* pour chaque résultat, les différents types de fichiers et de formats existants dans la plateforme Istex sont accessibles par un simple clic
 
-#### Usage
+#### Usage <a href="#usage_1" id="usage_1"></a>
 
 * l’information concernant les fichiers et formats, sélectionnés automatiquement lors du choix d’une plateforme ou d’un outil particuliers, est visible dans l’URL de partage, ainsi que dans l’historique une fois le corpus téléchargé
 * dans le cas du choix d’un “Usage personnalisé”, cocher ou décocher un type de fichier particulier ("Texte intégral", "Métadonnées", "Enrichissements"...) permet de sélectionner ou désélectionner automatiquement l'ensemble des formats de ce groupe
-* l’application simplifie le choix des formats TXT et OCR (le [format OCR](../annexes/liste-des-formats.md#o-ocr-optical-character-recognition-reconnaissance-optique-de-caracteres) est disponible dans ISTEX lorsqu’un document a été ré-océrisé) en sélectionnant, de manière transparente pour l’utilisateur, le format du texte de qualité la meilleure pour chaque document
+* l’application simplifie le choix des formats TXT et OCR (le [format OCR](../annexes/liste-des-formats.md#o-ocr-optical-character-recognition-reconnaissance-optique-de-caracteres) est disponible dans Istex lorsqu’un document a été ré-océrisé) en sélectionnant, de manière transparente pour l’utilisateur, le format du texte de qualité la meilleure pour chaque document
 * la sélection du [format "Cleaned"](https://doc.istex.fr/tdm/annexes/liste-des-formats.html#o-cleaned-nettoy%C3%A9) (format de texte brut sans images, légendes, tableaux, formules, etc. , particulièrement adapté à un traitement en fouille de textes) n'est pas exclusive du format TXT. Si vous choisissez d'extraire ces 2 formats pour votre corpus, les documents possédant ces formats seront téléchargés conjointement&#x20;
 
 #### Téléchargement&#xD;
