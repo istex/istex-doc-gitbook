@@ -26,7 +26,7 @@ Il s'agit d'une application Web permettant de télécharger facilement, au trave
 
 l'application est accessible à l’adresse suivante : [https://dl.istex.fr/](https://dl.istex.fr/)
 
-#### ‌Requête :&#x20;
+#### ‌Requête :  <a href="#mode-demploi-requete" id="mode-demploi-requete"></a>
 
 L’application permet de constituer un corpus à l’aide d'une équation de type booléenne, d'une simple liste d'identifiants uniques pérennes de type ARK, ou bien encore au moyen d’un fichier (de type “.corpus”) contenant des éléments propres à identifier de manière unique des documents.&#x20;
 
@@ -38,19 +38,19 @@ l'application est accessible à l’adresse suivante : [https://dl.istex.fr/](ht
 * la visualisation des résultats permet de tester en temps réel les résultats de sa requête et de l’ajuster le cas échéant
 * si l’on veut se limiter à un sous-ensemble des résultats, l’option de tirage aléatoire permettra de rassembler un échantillon représentatif de la diversité des résultats obtenus, à la différence du classement selon un ordre de pertinence qui sélectionnera les documents les plus pertinents répondant à la requête, ou du tri selon le critère “qualityOverRelevance” ou “pertinence & qualité” choisi par défaut, représentant un classement des documents selon un ordre de pertinence associé à des indicateurs de qualité (voir la rubrique [Choix du type de scoring](../../api/results/scoring.md) pour le mode de calcul de ces différents tris). _NB : les modes de classement impliquant un critère de pertinence ne s’appliquent qu’aux résultats d’une recherche par équation booléenne._
 
-#### Usage <a href="#usage" id="usage"></a>
+#### Usage <a href="#mode-demploi-usage" id="mode-demploi-usage"></a>
 
 * l’usage personnalisé donne accès à tous les types de fichiers et de formats disponibles dans Istex ; cependant, selon les publications à télécharger, il se peut, en dépit de la sélection faite, que certains formats ou types de fichiers (en particulier, les annexes, couvertures ou enrichissements) ne soient pas présents dans l’archive extraite, s’ils n’ont pas été fournis par l’éditeur ou ajoutés lors du passage dans la chaîne de traitement propre à Istex
 * en fonction de la plateforme ou de l’outil particulier envisagés pour l’exploitation de son corpus, une sélection automatique des types de fichiers et de formats compatibles avec l'outil visé sera opérée par l’application ; changer d’option reste possible à tout moment
 
-#### Téléchargement&#xD;
+#### Téléchargement&#xD; <a href="#mode-demploi-telechargement" id="mode-demploi-telechargement"></a>
 
 * 2 formats d’archive sont à disposition : zip, format le plus répandu, ou bien tar.gz (format « tar », lui-même compressé au format « gzip »), couramment utilisé dans les environnements Unix/Linux
 * la taille du corpus que l’on s’apprête à télécharger est fournie lorsqu’elle dépasse 1 Go ; elle est estimée en fonction du nombre de documents à extraire et de la sélection opérée parmi les types de fichiers et de formats associés
 * une indication colorée est associée à l’estimation de la taille : la couleur orange signale une taille comprise entre 1 et 5 Go, tandis que le rouge avertit du dépassement de 5 Go
 * le niveau de compression est à choisir et à adapter à la taille estimée du corpus (lorsque cette indication est donnée), à la bande passante de l’utilisateur, ainsi qu’à l’espace de stockage disponible sur le disque dur
 
-#### Menu&#xD;
+#### Menu&#xD; <a href="#mode-demploi-menu" id="mode-demploi-menu"></a>
 
 * la fonctionnalité “Récupérer” permet de retrouver sa requête et tous les choix de paramétrage effectués en cas de fermeture de l'onglet actif ou même du navigateur (voir aussi la rubrique “Prérequis”)
 * la fonctionnalité “Partager” s'active lorsque le formulaire est complété ; elle assure le partage du corpus que l’on s’apprête à extraire via la copie de l’URL qui s’est mise à jour au fur et à mesure où le formulaire est rempli. Coller l’URL partagée permettra de générer l’interface avec le corpus prêt à être téléchargé.&#x20;
@@ -63,7 +63,7 @@ l'application est accessible à l’adresse suivante : [https://dl.istex.fr/](ht
 
 ## **Astuces :**&#x20;
 
-#### Requête&#xD;
+#### Requête&#xD; <a href="#astuces-requete" id="astuces-requete"></a>
 
 * dans la recherche par équation booléenne, l'opérateur "OR", qui s'applique par défaut, peut être remplacé par un blanc (voir la rubrique [Les principaux opérateurs à manipuler](../requetage/operateurs.md))
 * au-delà d'un certain seuil (de 2000 caractères dans le cas d'une équation booléenne ou de 80 identifiants ARK), un identifiant unique, nommé "q\_id", est attribué à chaque requête ; le détail de chaque q\_id étant conservé  &#x20;par l'API Istex, la réutilisation de ces requêtes longues est assurée au travers de la fonctionnalité “Historique”, au même titre que pour les requêtes plus courtes
@@ -73,19 +73,19 @@ l'application est accessible à l’adresse suivante : [https://dl.istex.fr/](ht
 * par défaut, l'affichage des résultats répondant à la requête suit un classement selon le critère “pertinence & qualité” ; mais il s’accordera au choix d’un autre mode de classement
 * pour chaque résultat, les différents types de fichiers et de formats existants dans la plateforme Istex sont accessibles par un simple clic
 
-#### Usage <a href="#usage_1" id="usage_1"></a>
+#### Usage <a href="#astuces-usage" id="astuces-usage"></a>
 
 * l’information concernant les fichiers et formats, sélectionnés automatiquement lors du choix d’une plateforme ou d’un outil particuliers, est visible dans l’URL de partage, ainsi que dans l’historique une fois le corpus téléchargé
 * dans le cas du choix d’un “Usage personnalisé”, cocher ou décocher un type de fichier particulier ("Texte intégral", "Métadonnées", "Enrichissements"...) permet de sélectionner ou désélectionner automatiquement l'ensemble des formats de ce groupe
 * l’application simplifie le choix des formats TXT et OCR (le [format OCR](../annexes/liste-des-formats.md#o-ocr-optical-character-recognition-reconnaissance-optique-de-caracteres) est disponible dans Istex lorsqu’un document a été ré-océrisé) en sélectionnant, de manière transparente pour l’utilisateur, le format du texte de qualité la meilleure pour chaque document
 * la sélection du [format "Cleaned"](https://doc.istex.fr/tdm/annexes/liste-des-formats.html#o-cleaned-nettoy%C3%A9) (format de texte brut sans images, légendes, tableaux, formules, etc. , particulièrement adapté à un traitement en fouille de textes) n'est pas exclusive du format TXT. Si vous choisissez d'extraire ces 2 formats pour votre corpus, les documents possédant ces formats seront téléchargés conjointement&#x20;
 
-#### Téléchargement&#xD;
+#### Téléchargement&#xD; <a href="#astuces-telechargement" id="astuces-telechargement"></a>
 
 * l’archive téléchargée comprend, en complément des publications demandées et du fichier .corpus, un fichier “manifest” reprenant les caractéristiques de l’interrogation, ainsi que, si nécessaire, un fichier “log” répertoriant les documents qui n’ont pu être extraits
 * les usages LODEX et CorText nécessitent un téléchargement au format zip
 
-#### Menu&#xD;
+#### Menu&#xD; <a href="#astuces-menu" id="astuces-menu"></a>
 
 *   lorsque le téléchargement a été lancé, le partage du corpus extrait est toujours possible via la fonctionnalité "Historique"
 
