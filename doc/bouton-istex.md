@@ -1,7 +1,7 @@
 # Extension ISTEX
 
 {% hint style="info" %}
-### **L'extension de navigateur Istex n'est plus maintenue et ne peut plus être installée =>** [**Installez l'extension Click & Read**](extension-click-and-read.md)
+#### **L'extension de navigateur Istex n'est plus maintenue et ne peut plus être installée =>** [**Installez l'extension Click & Read**](extension-click-and-read.md)
 {% endhint %}
 
 
@@ -25,7 +25,7 @@ _Vous trouverez ci-dessous comment l'installer étape par étape pour les diffé
 ## _Firefox_
 
 {% hint style="info" %}
-### **L'extension de navigateur Istex n'est plus maintenue et ne peut plus être installée =>** [**Installez l'extension Click & Read**](extension-click-and-read.md)
+#### **L'extension de navigateur Istex n'est plus maintenue et ne peut plus être installée =>** [**Installez l'extension Click & Read**](extension-click-and-read.md)
 {% endhint %}
 
 
@@ -67,7 +67,7 @@ _=> Recharger la page de Wikipédia « Ctrl F5 »_
 
 
 {% hint style="info" %}
-### **L'extension de navigateur Istex n'est plus maintenue et ne peut plus être installée =>** [**Installez l'extension Click & Read**](extension-click-and-read.md)
+#### **L'extension de navigateur Istex n'est plus maintenue et ne peut plus être installée =>** [**Installez l'extension Click & Read**](extension-click-and-read.md)
 {% endhint %}
 
 
