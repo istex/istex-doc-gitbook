@@ -1,12 +1,10 @@
 # Extension ISTEX
 
-###
-
 {% hint style="info" %}
 ### **L'extension de navigateur Istex n'est plus maintenue et ne peut plus être installée =>** [**Installez l'extension Click & Read**](extension-click-and-read.md)
 {% endhint %}
 
-### &#x20;
+
 
 _"L 'extension ISTEX", communément appelé "Bouton" est une extension à installer dans un navigateur, Chrome ou Firefox. Une fois installé dans votre navigateur, il analysera l'ensemble des pages visitées à la recherche d'identifiants documentaires (DOI, PII, PMID, COinS...) et ajoutera des boutons cliquables « ISTEX » d’accès au plein-texte PDF lorsque le document est disponible dans la plateforme ISTEX._
 
