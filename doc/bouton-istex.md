@@ -64,7 +64,7 @@ _=> Recharger la page de Wikipédia « Ctrl F5 »_
 
 ## _Chrome_
 
-###
+
 
 {% hint style="info" %}
 ### **L'extension de navigateur Istex n'est plus maintenue et ne peut plus être installée =>** [**Installez l'extension Click & Read**](extension-click-and-read.md)
