@@ -1,8 +1,10 @@
 # Extension ISTEX
 
+###
+
+{% hint style="info" %}
 ### **L'extension de navigateur Istex n'est plus maintenue et ne peut plus être installée =>** [**Installez l'extension Click & Read**](extension-click-and-read.md)
-
-
+{% endhint %}
 
 ### &#x20;
 
@@ -24,7 +26,11 @@ _Vous trouverez ci-dessous comment l'installer étape par étape pour les diffé
 
 ## _Firefox_
 
+{% hint style="info" %}
 ### **L'extension de navigateur Istex n'est plus maintenue et ne peut plus être installée =>** [**Installez l'extension Click & Read**](extension-click-and-read.md)
+{% endhint %}
+
+
 
 _=> La recherche sur Wikipédia d’_[_**« Hélium »**_](https://fr.wikipedia.org/wiki/H%C3%A9lium) _donne la bibliographie suivante :_
 
@@ -60,7 +66,13 @@ _=> Recharger la page de Wikipédia « Ctrl F5 »_
 
 ## _Chrome_
 
+###
+
+{% hint style="info" %}
 ### **L'extension de navigateur Istex n'est plus maintenue et ne peut plus être installée =>** [**Installez l'extension Click & Read**](extension-click-and-read.md)
+{% endhint %}
+
+
 
 _=> La recherche sur Wikipédia d’_[_**« Hélium »**_](https://fr.wikipedia.org/wiki/H%C3%A9lium) _donne la bibliographie suivante :_
 
