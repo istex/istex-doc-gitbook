@@ -6,9 +6,9 @@ Comme pour tous les autres modes d’accès au PDF, il est limité aux ayants dr
 
 Il est possible au cours d'une recherche sur Google Scholar d'avoir accès via une OpenURL au pdf du document présent sur la plateforme ISTEX.
 
-A chaque chargement d'un nouveau corpus sur la plateforme ISTEX un formulaire est adressé à Google Scholar pour leur demander l'activation des liens OpenURL pour les ressources présentes dans les fichiers Kbart disponibles sur le site le BACON en XML \(fournis par ABES\).
+A chaque chargement d'un nouveau corpus sur la plateforme ISTEX un formulaire est adressé à Google Scholar pour leur demander l'activation des liens OpenURL pour les ressources présentes dans les fichiers Kbart disponibles sur le site le BACON en XML (fournis par ABES).
 
-Google Scholar indique que l'activation \(et la mise à jour\) prend une à deux semaines.
+Google Scholar indique que l'activation (et la mise à jour) prend une à deux semaines.
 
 ## Paramètrage pour l'utilisateur
 
@@ -30,7 +30,7 @@ Google Scholar indique que l'activation \(et la mise à jour\) prend une à deux
 
 ![](../.gitbook/assets/google3.png)
 
-* \[PDF\]ISTEX signale un lien disponible
+* \[PDF]ISTEX signale un lien disponible
 
 ![](../.gitbook/assets/google4.png)
 
@@ -40,7 +40,7 @@ Google Scholar indique que l'activation \(et la mise à jour\) prend une à deux
 
 * Recherche l’auteur « Albert Einstein »
 
-![](../.gitbook/assets/gs-profil1-1.png)
+![](<../.gitbook/assets/gs-profil1 (1).png>)
 
 * Puis sélectionner le menu à gauche , pour quitter le mode de recherche « Articles » et choisir le mode de recherche « Profils »
 
@@ -54,9 +54,9 @@ Google Scholar indique que l'activation \(et la mise à jour\) prend une à deux
 
 ![](../.gitbook/assets/gs-profil4.png)
 
-* Sélectionner l’article de votre choix
+*   Sélectionner l’article de votre choix
 
-  Par exemple : « Physics and reality » de 1936 cité 674 fois dont 21 fois en 2018 Le lien \[PDF\] ISTEX qui s’affiche permet d’accéder au PDF présent sur la plateforme ISTEX
+    Par exemple : « Physics and reality » de 1936 cité 674 fois dont 21 fois en 2018 Le lien \[PDF] ISTEX qui s’affiche permet d’accéder au PDF présent sur la plateforme ISTEX
 
 ![](../.gitbook/assets/gs-profil5.png)
 
@@ -68,5 +68,4 @@ Les liens OpenURL sont activés à partir des fichiers Kbart fournis à Google S
 
 **Autre possibilité de paramétrage du lien vers la bibliothèque ISTEX**
 
-L'option de sélectionner le lien vers la bibliothèque ISTEX est proposée automatiquement au moment de l'installation de l'extension  **ISTEX**  \(voir [**Bouton ISTEX**](bouton-istex.md) **\)** et est disponible dès l'activation de l’extension **Click and Read**  \( voir [**Extension Click & Read**](extension-click-and-read.md) **\).**
-
+L'option de sélectionner le lien vers la bibliothèque ISTEX est proposée automatiquement au moment de l'installation de l'extension  **ISTEX**  (voir [**Bouton ISTEX**](bouton-istex.md) **)** et est disponible dès l'activation de l’extension **Click and Read**  ( voir [**Extension Click & Read**](extension-click-and-read.md) **).**

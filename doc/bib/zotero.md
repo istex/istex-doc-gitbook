@@ -21,15 +21,14 @@ Un seul résolveur de liens OpenURL possible
 * Cliquer sur la flèche verte **"Localiser"**
 * Choisir **"Recherche dans la bibliothèque"** qui permet de rechercher le ou les documents sélectionnés en utilisant le résolveur de liens OpenURL renseigné dans le module **"Préférences"** de Zotéro.
 
-![](../../.gitbook/assets/zotero2-1.png)
+![](<../../.gitbook/assets/zotero2 (1).png>)
 
 * **"Enregistrer dans Zotero"** le PDF
 
-![](../../.gitbook/assets/zotero3-2.png)
+![](<../../.gitbook/assets/zotero3 (2).png>)
 
 ![](../../.gitbook/assets/zotero4.png)
 
 * Faire glisser le PDF dans la notice
 
 ![](../../.gitbook/assets/zotero5.png)
-

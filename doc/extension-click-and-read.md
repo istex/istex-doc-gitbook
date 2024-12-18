@@ -1,176 +1,174 @@
 # Extension Click & Read
 
-L’extension Click & Read CNRS, tout comme l’extension ISTEX, est une **extension de navigateur web développée pour Firefox, Chrome et Safari \(à partir de l'OS 14\)**
+L’extension Click & Read CNRS, tout comme l’extension ISTEX, est une **extension de navigateur web développée pour Firefox, Chrome et Safari (à partir de l'OS 14)**
 
 L'extension Click & Read **remplace et unifie** les 3 extensions existantes des plateformes gérées par l'Inist-CNRS **ISTEX**, **Panist** et **BibCnrs**, auxquelles s'ajoute l'extension libre **Unpaywall**.
 
 L'extension Click & Read reprenant les fonctionnalités de l’extension ISTEX il est préférable de la désinstaller.
 
-Cette extension est destinée aux personnels de l'Enseignement Supérieur et de la Recherche \(ESR\).
+Cette extension est destinée aux personnels de l'Enseignement Supérieur et de la Recherche (ESR).
 
 {% hint style="info" %}
 **Unpaywall** : ressources scientifiques en accès libre. Pas de droits d’accès.
 
 _L’accès aux ressources est limité selon la source consultée aux ayants droit :_
 
-**BibCnrs** \(communautés de recherche du CNRS\)
+**BibCnrs** (communautés de recherche du CNRS)
 
-**ISTEX** \(communauté de l’Enseignement Supérieur et de la Recherche Française\)
+**ISTEX** (communauté de l’Enseignement Supérieur et de la Recherche Française)
 
-**Panist** \(communauté des établissements membres des contrats d’abonnement\)
+**Panist** (communauté des établissements membres des contrats d’abonnement)
 {% endhint %}
 
-L’extension **Click & Read** parcourt la page internet que vous visitez à la recherche uniquement d’identifiants documentaires \(DOI, PMID, PII\) et ajoute le bouton C&R si la ressource est disponible. Il suffit alors de cliquer sur le bouton pour accéder au document. 
+L’extension **Click & Read** parcourt la page internet que vous visitez à la recherche uniquement d’identifiants documentaires (DOI, PMID, PII) et ajoute le bouton C\&R si la ressource est disponible. Il suffit alors de cliquer sur le bouton pour accéder au document.&#x20;
 
 **Installer l'extension Click & Read sur :**
 
 ## **Chrome**
 
-=&gt; Cliquer sur [https://clickandread.inist.fr](https://clickandread.inist.fr)
+\=> Cliquer sur [https://clickandread.inist.fr](https://clickandread.inist.fr)
 
-=&gt; Cliquer sur le bouton « _Ajouter l’extension à Chrome_ »
+\=> Cliquer sur le bouton « _Ajouter l’extension à Chrome_ »
 
-![](../.gitbook/assets/cr1chrome.jpg)
+<div align="left"><img src="../.gitbook/assets/Cr1chrome.JPG" alt=""></div>
 
-=&gt;  Cliquer sur « _Ajouter à Chrome_ »
+\=>  Cliquer sur « _Ajouter à Chrome_ »
 
-![](../.gitbook/assets/cr2chrome.jpg)
+<div align="left"><img src="../.gitbook/assets/Cr2chrome.JPG" alt=""></div>
 
-=&gt; Accepter les permissions en cliquant sur « _Ajouter l’extension_ »
+\=> Accepter les permissions en cliquant sur « _Ajouter l’extension_ »
 
-![](../.gitbook/assets/cr3chrome.jpg)
+<div align="left"><img src="../.gitbook/assets/cr3chrome (1).JPG" alt=""></div>
 
-_=&gt;_  Un message vous avertit que votre extension est installée
+_=>_ Un message vous avertit que votre extension est installée
 
-![](../.gitbook/assets/image%20%281%29.png)
+<div align="left"><img src="../.gitbook/assets/image (1).png" alt=""></div>
 
-=&gt; Paramétrer l’extension Click & Read pour ouvrir vos droits
+\=> Paramétrer l’extension Click & Read pour ouvrir vos droits
 
-![](../.gitbook/assets/boules.png)
+<div align="left"><img src="../.gitbook/assets/boules (1).png" alt=""></div>
 
 1. Choisir votre établissement d’appartenance, si votre établissement ne figure pas dans la liste, sélectionner « _Autre_ »
-2. Préciser si vous êtes utilisateur de BibCnrs, si oui sélectionner votre / vos domaine\(s\) 
+2. Préciser si vous êtes utilisateur de BibCnrs, si oui sélectionner votre / vos domaine(s)&#x20;
 3. Activer, si vous le souhaitez, les bibliothèques ISTEX et BibCnrs dans Google Scholar
 4. Enregistrer
 
 {% hint style="info" %}
-A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C&R dans votre barre Chrome des extensions.
+A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C\&R dans votre barre Chrome des extensions.
 {% endhint %}
 
-=&gt; En navigant sur Internet :
+\=> En navigant sur Internet :
 
-* quel que soit le site \(Google, Google Scholar, sites éditeurs, Wikipédia...\) 
-* quelle que soit la requête \(titre article, auteurs, DOI...\) 
-* l'extension Click & Read parcourt la page Internet que vous visitez à la recherche uniquement d'identifiants documentaires DOI, PMID, PII \(identifiant Elsevier\) 
-* puis recherche le document qui correspond à l'identifiant trouvé dans les fonds : Unpaywall, Istex, Panist et BibCnrs 
-* et ajoute le bouton C&R si la ressource est disponible
+* quel que soit le site (Google, Google Scholar, sites éditeurs, Wikipédia...)&#x20;
+* quelle que soit la requête (titre article, auteurs, DOI...)&#x20;
+* l'extension Click & Read parcourt la page Internet que vous visitez à la recherche uniquement d'identifiants documentaires DOI, PMID, PII (identifiant Elsevier)&#x20;
+* puis recherche le document qui correspond à l'identifiant trouvé dans les fonds : Unpaywall, Istex, Panist et BibCnrs&#x20;
+* et ajoute le bouton C\&R si la ressource est disponible
 * il suffit alors de cliquer sur le bouton pour accéder au document.
 
-=&gt;  Exemple : la recherche sur Wikipédia d’« [Hélium](https://fr.wikipedia.org/wiki/Hélium) » donne la bibliographie suivante
+\=>  Exemple : la recherche sur Wikipédia d’« [Hélium](https://fr.wikipedia.org/wiki/H%C3%A9lium) » donne la bibliographie suivante
 
-![](../.gitbook/assets/wikicandr.jpg)
+<div align="left"><img src="../.gitbook/assets/wikicandr (1).JPG" alt=""></div>
 
-[En savoir plus](https://clickandread.inist.fr/page_info) 
+[En savoir plus](https://clickandread.inist.fr/page_info)&#x20;
 
 ## Firefox
 
-=&gt; Cliquer sur [https://clickandread.inist.fr](https://clickandread.inist.fr)
+\=> Cliquer sur [https://clickandread.inist.fr](https://clickandread.inist.fr)
 
-=&gt; Cliquer sur le bouton « _Ajouter l’extension à Firefox_ »
+\=> Cliquer sur le bouton « _Ajouter l’extension à Firefox_ »
 
-![](../.gitbook/assets/crfirefox%20%281%29.jpg)
+<div align="left"><img src="../.gitbook/assets/crfirefox (1).JPG" alt=""></div>
 
-=&gt; Cliquer sur « _Ajouter à Firefox_ »
+\=> Cliquer sur « _Ajouter à Firefox_ »
 
-![](../.gitbook/assets/cr2firefox.jpg)
+<div align="left"><img src="../.gitbook/assets/cr2firefox.JPG" alt=""></div>
 
-=&gt; Accepter les permissions en cliquant sur « _Ajouter_ »
+\=> Accepter les permissions en cliquant sur « _Ajouter_ »
 
-![ ](../.gitbook/assets/cr3firefox.jpg)
+<div align="left"><img src="../.gitbook/assets/cr3firefox.JPG" alt=" "></div>
 
-=&gt; Une pop-up s'ouvre en haut à droite, cliquer sur  « _OK_ » et l'extension s'installe
+\=> Une pop-up s'ouvre en haut à droite, cliquer sur  « _OK_ » et l'extension s'installe
 
-![](../.gitbook/assets/cr4firefox.jpg)
+<div align="left"><img src="../.gitbook/assets/cr4firefox.JPG" alt=""></div>
 
-=&gt; Paramétrer l’extension Click & Read pour ouvrir vos droits
+\=> Paramétrer l’extension Click & Read pour ouvrir vos droits
 
-![](../.gitbook/assets/boules%20%281%29.png)
+![](<../.gitbook/assets/boules (2).png>)
 
 1. Choisir votre établissement d’appartenance, si votre établissement ne figure pas dans la liste, sélectionner « _Autre_ »
-2. Préciser si vous êtes utilisateur de BibCnrs, si oui sélectionner votre / vos domaine\(s\) 
+2. Préciser si vous êtes utilisateur de BibCnrs, si oui sélectionner votre / vos domaine(s)&#x20;
 3. Activer, si vous le souhaitez, les bibliothèques ISTEX et BibCnrs dans Google Scholar
 4. Enregistrer
 
 {% hint style="info" %}
-A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C&R dans votre barre Firefox des extensions. 
+A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C\&R dans votre barre Firefox des extensions.&#x20;
 {% endhint %}
 
-=&gt; En navigant sur Internet :
+\=> En navigant sur Internet :
 
-* quel que soit le site \(Google, Google Scholar, sites éditeurs, Wikipédia...\) 
-* quelle que soit la requête \(titre article, auteurs, DOI...\) 
-* l'extension Click & Read parcourt la page Internet que vous visitez à la recherche uniquement d'identifiants documentaires DOI, PMID, PII \(identifiant Elsevier\)
-* puis recherche le document qui correspond à l'identifiant trouvé dans les fonds : Unpaywall, Istex, Panist et BibCnrs 
-* et ajoute le bouton C&R si la ressource est disponible 
+* quel que soit le site (Google, Google Scholar, sites éditeurs, Wikipédia...)&#x20;
+* quelle que soit la requête (titre article, auteurs, DOI...)&#x20;
+* l'extension Click & Read parcourt la page Internet que vous visitez à la recherche uniquement d'identifiants documentaires DOI, PMID, PII (identifiant Elsevier)
+* puis recherche le document qui correspond à l'identifiant trouvé dans les fonds : Unpaywall, Istex, Panist et BibCnrs&#x20;
+* et ajoute le bouton C\&R si la ressource est disponible&#x20;
 * il suffit alors de cliquer sur le bouton pour accéder au document.
 
-=&gt; Exemple : la recherche sur Wikipédia d’« [Hélium ](https://fr.wikipedia.org/wiki/Hélium)» donne la bibliographie suivante
+\=> Exemple : la recherche sur Wikipédia d’« [Hélium ](https://fr.wikipedia.org/wiki/H%C3%A9lium)» donne la bibliographie suivante
 
-![](../.gitbook/assets/wikicandr%20%281%29.jpg)
+![](../.gitbook/assets/wikicandr.JPG)
 
 [​En savoir plus](https://clickandread.inist.fr/page_info)
 
 ## Safari
 
-=&gt; Cliquer sur [https://clickandread.inist.fr](https://clickandread.inist.fr)
+\=> Cliquer sur [https://clickandread.inist.fr](https://clickandread.inist.fr)
 
-=&gt; Cliquer sur le bouton « _Ajouter l’extension à Safari_ »
+\=> Cliquer sur le bouton « _Ajouter l’extension à Safari_ »
 
 ![](../.gitbook/assets/safari1.png)
 
-=&gt; Cliquer sur « _Ouvrir_ » puis sur « _Quit and Open Safari Extensions Preferences_ »
+\=> Cliquer sur « _Ouvrir_ » puis sur « _Quit and Open Safari Extensions Preferences_ »
 
 ![](../.gitbook/assets/safari2.png)
 
-=&gt; Cocher la case « _Click and Read_ » et cliquer sur « _Préférences_ »
+\=> Cocher la case « _Click and Read_ » et cliquer sur « _Préférences_ »
 
 ![](../.gitbook/assets/safari3.png)
 
-=&gt; Paramétrer l’extension Click & Read pour ouvrir vos droits
+\=> Paramétrer l’extension Click & Read pour ouvrir vos droits
 
-![](../.gitbook/assets/boules%20%282%29.png)
+<div align="left"><img src="../.gitbook/assets/boules.png" alt=""></div>
 
-1. Choisir votre établissement d’appartenance, si votre établissement ne figure pas dans la liste, sélectionner « _Autre_ » 
-2. Préciser si vous êtes utilisateur de BibCnrs, si oui sélectionner votre / vos domaine\(s\) 
-3. Activer, si vous le souhaitez, les bibliothèques ISTEX et BibCnrs dans Google Scholar 
+1. Choisir votre établissement d’appartenance, si votre établissement ne figure pas dans la liste, sélectionner « _Autre_ »&#x20;
+2. Préciser si vous êtes utilisateur de BibCnrs, si oui sélectionner votre / vos domaine(s)&#x20;
+3. Activer, si vous le souhaitez, les bibliothèques ISTEX et BibCnrs dans Google Scholar&#x20;
 4. Enregistrer
 
 {% hint style="info" %}
-A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C&R dans votre barre Firefox des extensions.
+A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C\&R dans votre barre Firefox des extensions.
 {% endhint %}
 
-=&gt; Cliquer sur l’icône C&R dans la barre des extensions et sélectionner  «_Toujours autorisé sur chaque site web_ »
+\=> Cliquer sur l’icône C\&R dans la barre des extensions et sélectionner  «_Toujours autorisé sur chaque site web_ »
 
 ![](../.gitbook/assets/safari5.png)
 
-=&gt; Cliquer à nouveau sur « _Toujours autorisé sur chaque site web_ »
+\=> Cliquer à nouveau sur « _Toujours autorisé sur chaque site web_ »
 
 ![](../.gitbook/assets/safari6.png)
 
-=&gt; En navigant sur Internet :
+\=> En navigant sur Internet :
 
-* quel que soit le site \(Google, Google Scholar, sites éditeurs, Wikipédia...\) 
-* quelle que soit la requête \(titre article, auteurs, DOI...\) 
-* l'extension Click & Read parcourt la page Internet que vous visitez à la recherche uniquement d'identifiants documentaires DOI, PMID, PII \(identifiant Elsevier\) 
-* puis recherche le document qui correspond à l'identifiant trouvé dans les fonds : Unpaywall, Istex, Panist et BibCnrs 
-* et ajoute le bouton C&R si la ressource est disponible 
+* quel que soit le site (Google, Google Scholar, sites éditeurs, Wikipédia...)&#x20;
+* quelle que soit la requête (titre article, auteurs, DOI...)&#x20;
+* l'extension Click & Read parcourt la page Internet que vous visitez à la recherche uniquement d'identifiants documentaires DOI, PMID, PII (identifiant Elsevier)&#x20;
+* puis recherche le document qui correspond à l'identifiant trouvé dans les fonds : Unpaywall, Istex, Panist et BibCnrs&#x20;
+* et ajoute le bouton C\&R si la ressource est disponible&#x20;
 * il suffit alors de cliquer sur le bouton pour accéder au document.
 
-=&gt; Exemple : la recherche sur Wikipédia d’« [Hélium](https://fr.wikipedia.org/wiki/Hélium) » donne la bibliographie suivante
+\=> Exemple : la recherche sur Wikipédia d’« [Hélium](https://fr.wikipedia.org/wiki/H%C3%A9lium) » donne la bibliographie suivante
 
-![](../.gitbook/assets/wikicandr%20%282%29.jpg)
+<div align="left"><img src="../.gitbook/assets/wikicandr (2).JPG" alt=""></div>
 
 ​[En savoir plus](https://clickandread.inist.fr/page_info)
-
-
 

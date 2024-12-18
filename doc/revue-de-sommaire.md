@@ -1,6 +1,6 @@
 # Revue de sommaire
 
-![](../.gitbook/assets/revue-de-sommaire-.jpg)
+![](<../.gitbook/assets/revue de sommaire .JPG>)
 
 
 
@@ -24,7 +24,7 @@ La _Revue de sommaire_ a pour but de :
 * La création d'un export **KBART-ISTEX** permet de mettre à disposition des utilisateurs des tableaux KBART qui reflètent **la couverture réelle d'ISTEX, il peut donc y avoir plusieurs lignes par titre pour mettre en avant les trous dans les collections.**
 {% endhint %}
 
-L'instance [_Revue de sommaire ISTEX_](https://revue-sommaire.istex.fr) \_\_ est disponible sur le site [https://data.istex.fr](https://data.istex.fr). [ ](http://data.istex.fr)Le site data.istex.fr expose des données [ISTEX](http://www.istex.fr), selon les normes du web sémantique, dans un Triple Store via son [SPARQL Endpoint](http://data.istex.fr/triplestore/sparql).
+L'instance [_Revue de sommaire ISTEX_](https://revue-sommaire.istex.fr/) \_\_ est disponible sur le site [https://data.istex.fr](https://data.istex.fr). [ ](http://data.istex.fr)Le site data.istex.fr expose des données [ISTEX](http://www.istex.fr/), selon les normes du web sémantique, dans un Triple Store via son [SPARQL Endpoint](http://data.istex.fr/triplestore/sparql).
 
 ## Interface
 
@@ -54,7 +54,7 @@ Des revues incontournables sont mises en avant pour introduire la plateforme.
 
 * il suffit d'écrire un mot ou un titre dans l'écran de recherche (1)
 
-![](../.gitbook/assets/kbartrs.jpg)
+![](../.gitbook/assets/kbartrs.JPG)
 
 * pour affiner et aider à la recherche, une recherche filtrée (2) est proposée par _A-Z_, _corpus_ (ressources négociées), _éditeur scientifique_ (le nom peut être différent de celui du corpus), _début de collection_ (données ABES), _fin de collection_ (données ABES), _type_ (monographie, série).
 *   Le résultat de votre recherche peut-être exporter dans différents formats (3) : CSV, TSV, KBART-ISTEX....
@@ -63,11 +63,11 @@ Des revues incontournables sont mises en avant pour introduire la plateforme.
 
 
 
-![](../.gitbook/assets/sparql.JPG) SPARQL
+![](<../.gitbook/assets/sparql (1).JPG>) SPARQL
 
 Pour utiliser le SPARQL EndPoint ISTEX et/ou comparer vos ressources avec les ressources présentes dans ISTEX.
 
-![](../.gitbook/assets/sparql.jpg)
+![](../.gitbook/assets/sparql.JPG)
 
 {% hint style="info" %}
 Pour afficher cet écran, n'hésitez pas à re-cliquer si besoin.
@@ -93,13 +93,13 @@ La recherche peut se faire sur la page _Recherche_ ou _Ressources_.
 
 En sélectionnant le titre de la ressource souhaitée une page s'ouvre :
 
-![](../.gitbook/assets/pagers.jpg)
+![](../.gitbook/assets/pagers.JPG)
 
 * titre de la ressource (1)
 * couverture de la ressource jusqu'au document (article, chapitre) requête à l'API ISTEX (2)
-* accès à un panel des 10 revues les plus pertinentes citant les articles de la revue recherchée, possibilité de télécharger leurs citations dans [ISTEX-DL](https://dl.istex.fr) (3)
+* accès à un panel des 10 revues les plus pertinentes citant les articles de la revue recherchée, possibilité de télécharger leurs citations dans [ISTEX-DL](https://dl.istex.fr/) (3)
 
-![](../.gitbook/assets/rsdl.jpg)
+![](../.gitbook/assets/rsdl.JPG)
 
 * information sur le corpus, lien vers le référentiel des corpus chargés dans ISTEX   [https://loaded-corpus.data.istex.fr](https://loaded-corpus.data.istex.fr) et nom du corpus, lors de la négociation nationale (4)
 * éditeur scientifique, le nom peut être différent que celui du corpus (5)

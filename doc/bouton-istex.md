@@ -14,7 +14,7 @@ _Voici à quoi ressembleront les boutons ISTEX cliquables qui apparaîtront dans
 
 ![](../.gitbook/assets/image.png)
 
-_Le bouton « ISTEX » peut s’activer notamment sur les pages_ [_Wikipédia_](https://fr.wikipedia.org/wiki/H%C3%A9lium)_,_ [_Google Scholar_](https://scholar.google.fr/scholar?hl=fr\&as\_sdt=0%2C5\&q=brain\&btnG=)_, Scopus, ou même HAL augmentant ainsi la visibilité et la diffusion des ressources ISTEX sans avoir à proposer un nouveau portail documentaire à l'utilisateur final._
+_Le bouton « ISTEX » peut s’activer notamment sur les pages_ [_Wikipédia_](https://fr.wikipedia.org/wiki/H%C3%A9lium)_,_ [_Google Scholar_](https://scholar.google.fr/scholar?hl=fr\&as_sdt=0%2C5\&q=brain\&btnG=)_, Scopus, ou même HAL augmentant ainsi la visibilité et la diffusion des ressources ISTEX sans avoir à proposer un nouveau portail documentaire à l'utilisateur final._
 
 _Comme pour tous les autres modes d’accès au PDF (_[_widgets_](https://widgets.istex.fr)_,_ [_démonstrateur_](http://demo.istex.fr)_…) il est limité aux ayants droit ISTEX, c'est-à-dire les personnels de l'Enseignement Supérieur et de la Recherche._
 
@@ -38,11 +38,11 @@ _=> Aller sur_ [_**https://addons.istex.fr**_](https://addons.istex.fr/)
 
 _=> Cliquer sur « Ajouter l’extension à Firefox »_
 
-![](../.gitbook/assets/addonfirefox.jpg)
+![](../.gitbook/assets/addonfirefox.JPG)
 
-![](../.gitbook/assets/addonfirefox2.jpg)
+![](../.gitbook/assets/addonfirefox2.JPG)
 
-![](../.gitbook/assets/addonfirefox3.jpg)
+![](../.gitbook/assets/addonfirefox3.JPG)
 
 _=> Autoriser l’installation_
 
@@ -78,13 +78,13 @@ _=> La recherche sur Wikipédia d’_[_**« Hélium »**_](https://fr.wikipedia.
 
 _=> Aller sur_ [_**htt**_](https://addons.istex.fr/)[_**ps://addons.istex.fr**_](https://addons.istex.fr/)
 
-![](../.gitbook/assets/addonchrome.jpg)
+![](../.gitbook/assets/addonchrome.JPG)
 
-![](../.gitbook/assets/addonchrome1.jpg)
+![](../.gitbook/assets/addonchrome1.JPG)
 
 _=> Cliquer sur « Ajouter l’extension à Chrome »_
 
-![](../.gitbook/assets/addonchrome3.jpg)
+![](../.gitbook/assets/addonchrome3.JPG)
 
 _=> Autoriser l’installation_
 

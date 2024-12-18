@@ -4,7 +4,7 @@ Pendant l’extraction, il est possible que le programme perde la connexion avec
 
 Le texte du document ne correspond alors plus au document souhaité et peut ainsi générer du bruit dans les analyses thématiques ou dans l'analyse du silence dans les détections d'entités spécifiques.
 
-Ci-dessous un exemple de fichier extrait \(`Vieil_00718.txt` issu du Corpus Vieillissement V2 old\):
+Ci-dessous un exemple de fichier extrait (`Vieil_00718.txt` issu du Corpus Vieillissement V2 old):
 
 ![](../../.gitbook/assets/pbauthentification.png)
 
@@ -12,7 +12,7 @@ Ce phénomène est aléatoire et peut survenir sur n'importe quel document, lors
 
 Dans ce cas, il faut simplement vérifier que le corpus ne contient pas de document HTML même si l'extension indique .txt, .zip, .pdf, etc.
 
-Le programme suivant permet de réaliser cette action pour les fichiers extraits et renommés par l'outil `harvestCorpus.pl` \(selon modèle de renommage « nomCorpus\_0_nn_ » où « _0nn_ » est un nombre\) :
+Le programme suivant permet de réaliser cette action pour les fichiers extraits et renommés par l'outil `harvestCorpus.pl` (selon modèle de renommage « nomCorpus\_&#x30;_&#x6E;n_ » où « _0nn_ » est un nombre) :
 
 ```bash
 for i in nomCorpus_0*
@@ -26,4 +26,3 @@ done
 ```
 
 Si le programme détecte un document HTML, il faut relancer l'extraction et recommencer la vérification.
-

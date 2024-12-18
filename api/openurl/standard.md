@@ -2,27 +2,27 @@
 
 Ce standard est déjà en grande partie implémenté dans l'API, mais il se peut que certains types de métadonnées ne soient pas encore pris en charge. Si cela s'avère utile ou nécessaire, nous ferons évoluer le résolveur pour qu'il respecte de plus en plus le standard tel qu'il est défini officiellement.
 
-Voici la liste des descripteurs d'identification disponibles \(rft\_id\), qui permettent d'identifier une ressource unique :
+Voici la liste des descripteurs d'identification disponibles (rft\_id), qui permettent d'identifier une ressource unique :
 
-```text
+```
 &rft_id      = info:doi/<value>   Recherche sur un DOI
-&rft_pii     = info:pii/<value>   Recherche sur un PII (identifiants spécifiques, utilisés notamment chez Elsevier et IOP)
-&rft_pmid    = info:pmid/<value>  Recherche sur un PMID (PubMed ID, utilisés notamment chez BMJ et OUP)
+&rft_id      = info:pii/<value>   Recherche sur un PII (identifiants spécifiques, utilisés notamment chez Elsevier et IOP)
+&rft_id      = info:pmid/<value>  Recherche sur un PMID (PubMed ID, utilisés notamment chez BMJ et OUP)
 ```
 
 Exemples :
 
 [https://api.istex.fr/document/openurl?rft\_id=info:doi/10.1136/acupmed-2012-010183](https://api.istex.fr/document/openurl?rft_id=info:doi/10.1136/acupmed-2012-010183)
 
-[ https://api.istex.fr/document/openurl?rft\_id=info:pii/S0143-0807\(98\)90774-7](https://api.istex.fr/document/openurl?rft_id=info:pii/S0143-0807%2898%2990774-7)
+[ https://api.istex.fr/document/openurl?rft\_id=info:pii/S0143-0807(98)90774-7](https://api.istex.fr/document/openurl?rft_id=info:pii/S0143-0807%2898%2990774-7)
 
 {% hint style="danger" %}
-**Il doit s'agir du DOI d'une ressource** _**unique**_ **\(article ou chapitre\). Le DOI d'un livre ou d'une revue ne fonctionneront pas. Si vous ne possédez que le DOI du livre ou de la revue, utilisez les descripteurs de méta-données jdoi et bdoi comme décrits ci-dessous.**
+**Il doit s'agir du DOI d'une ressource** _**unique**_ **(article ou chapitre). Le DOI d'un livre ou d'une revue ne fonctionneront pas. Si vous ne possédez que le DOI du livre ou de la revue, utilisez les descripteurs de méta-données jdoi et bdoi comme décrits ci-dessous.**
 {% endhint %}
 
 Et les descripteurs de meta-données :
 
-```text
+```
 &rft.atitle = <value>   Titre de l'article
 &rft.jtitle = <value>   Titre du journal
 &rft.btitle = <value>   Titre du Livre
@@ -46,9 +46,8 @@ Vos critères doivent être suffisamment précis pour identifier une unique ress
 
 Exemple :
 
-[https://api.istex.fr/document/openurl?rft.au=Richard James Clark&rft.issn=0964-5284&rft.volume=30&rft.issue=4&rft.spage=298](https://api.istex.fr/document/openurl?rft.au=Richard%20James%20Clark&rft.issn=0964-5284&rft.volume=30&rft.issue=4&rft.spage=298)
+[https://api.istex.fr/document/openurl?rft.au=Richard James Clark\&rft.issn=0964-5284\&rft.volume=30\&rft.issue=4\&rft.spage=298](https://api.istex.fr/document/openurl?rft.au=Richard%20James%20Clark\&rft.issn=0964-5284\&rft.volume=30\&rft.issue=4\&rft.spage=298)
 
 Exemple d'un manque d'exhaustivité :
 
 [https://api.istex.fr/document/openurl?rft.au=Richard](https://api.istex.fr/document/openurl?rft.au=Richard)
-

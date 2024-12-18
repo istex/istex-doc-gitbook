@@ -4,14 +4,14 @@
 
 Une recherche sur l’article suivant : _Tricuspid incompetence and right ventricular output in congestive heart failure_ de la revue **British Heart Journal Janvier 1957, Vol. 19 Issue 1**, du bouquet BMJ ISTEX
 
-![](../../.gitbook/assets/recherchebibcnrs-1.png)
+![](<../../.gitbook/assets/recherchebibcnrs (1).png>)
 
 Deux propositions d'accès au PDF :
 
 * Directement à partir de la plateforme ISTEX par OpenURL avec pérennité de l’accès
 * Ou par rebond à partir du site de l'éditeur via le résolveur de lien FTF d'EBSCO
 
-![](../../.gitbook/assets/lien-1.png)
+![](<../../.gitbook/assets/lien (1).png>)
 
 L'accès direct au document sur la plateforme ISTEX est possible de 2 façons en fonction des habitudes de travail.
 
@@ -33,7 +33,7 @@ Dans le HLM en cliquant sur **"Liens"**, l’administrateur peut visualiser les 
 
 Cliquer sur **"Nouveau lien"**
 
-![](../../.gitbook/assets/creationdelienistex-1.png)
+![](<../../.gitbook/assets/creationdelienistex (1).png>)
 
 Remplir le formulaire **"Url\* de base"**
 
@@ -43,7 +43,7 @@ Au niveau de la **"Chaîne de requête"** préciser le champ DOI et PMID plus le
 
 `?rft_id=info:doi/{DOI}&rft_id=info:pmid/{PMID}&sid=ebsco&auth=ip,fede`
 
-![](../../.gitbook/assets/istexview2-1.png)
+![](<../../.gitbook/assets/istexview2 (1).png>)
 
 Ainsi que les métadonnées prises en compte :
 
@@ -69,7 +69,7 @@ L'Open URL ne se fait pas que sur le champ DOI mais également sur le champ PMID
 
 \=> Choisir SetUp MaintainCustomLink
 
-![](../../.gitbook/assets/pmid2-1.png)
+![](<../../.gitbook/assets/pmid2 (1).png>)
 
 \=> Sélectionner le résolver de lien FullTextFinder
 
@@ -77,7 +77,7 @@ L'Open URL ne se fait pas que sur le champ DOI mais également sur le champ PMID
 
 \=> Dans Query String, vérifier
 
-![](../../.gitbook/assets/pmid4-1.png)
+![](<../../.gitbook/assets/pmid4 (1).png>)
 
 \=> et complèter l'équation.
 
@@ -223,7 +223,7 @@ L’activation par l’administrateur du compte se passe dans le sous onglet Lin
 
 Linking/Add New CustomLinks
 
-![](../../.gitbook/assets/setup-1.png)
+![](<../../.gitbook/assets/setup (1).png>)
 
 Chercher ISTEX plateforme et cliquer sur Go
 

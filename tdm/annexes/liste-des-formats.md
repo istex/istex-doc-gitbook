@@ -12,7 +12,7 @@ Ces types de fichiers sont eux-mêmes disponibles dans différents formats qui o
 
 ## Texte intégral
 
-### **o PDF (**Portable Document Format _\*Format de document portable_)
+### **o PDF (**&#x50;ortable Document Format _\*Format de document portable_)
 
 Il s'agit d'un format de description de pages pouvant contenir du texte, des dessins, des images et photographies (noir et blanc, couleur, 3D). C’est un format ouvert, évolutif et multiplateforme, issu de l’imprimerie, qui conserve la mise en page du document original. Il offre une sécurité permettant à l’auteur d’un document d’empêcher sa modification par des utilisateurs. Il a été créé par Adobe Systems, Inc. Le logiciel Adobe® Acrobat® Reader est nécessaire pour lire et imprimer un fichier PDF.
 
@@ -26,19 +26,19 @@ _Dans ISTEX, le répertoire ZIP proposé pour chaque document du corpus contient
 
 _NB : La rubrique_ [_Extraire les documents XML des fichiers ZIP_](../verification/extract-xml-from-zip/) _propose une procédure permettant de récupérer le fichier en format XML structuré fourni par l'éditeur afin de pouvoir l'exploiter avec des outils TAL ou TDM._
 
-### **o TEI (**Text Encoding Initiative _\*Initiative pour l’encodage du texte_)
+### **o TEI (**&#x54;ext Encoding Initiative _\*Initiative pour l’encodage du texte_)
 
 La TEI est un format d’encodage de textes permettant de traiter tout type de document numérique exprimé en langage de balisage XML.
 
 La communauté académique internationale constituée autour de la Text Encoding Initiative définit des recommandations pour la syntaxe de ce format et un métalangage pour la description des structures d’encodage de textes. Le consortium de la TEI s’organise en différentes instances : conseil d’administration, conseil technique, groupes de travail, groupes d’intérêt spécifique. Les groupes font des propositions pour les recommandations qui sont ensuite adoptées (ou non) par le conseil technique. Ces recommandations sont regroupées dans un guide : [TEI: P5 Guidelines](http://www.tei-c.org/Guidelines/P5/).
 
-_C'est le format qui a été retenu dans ISTEX pour harmoniser, autour d'un format pivot, les fichiers XML issus des différentes_ [_DTD_ ](https://fr.wikipedia.org/wiki/Document\_type\_definition)_des éditeurs. Les fichiers XML TEI ainsi générés reproduisent la structuration fine du texte présente au départ. Dans le cas où l’éditeur ne fournit pas de XML, les fichiers XML TEI sont générés à partir du PDF via une transformation PDF-to-text et une injection du texte brut non structuré dans la balise \<body>_.
+_C'est le format qui a été retenu dans ISTEX pour harmoniser, autour d'un format pivot, les fichiers XML issus des différentes_ [_DTD_ ](https://fr.wikipedia.org/wiki/Document_type_definition)_des éditeurs. Les fichiers XML TEI ainsi générés reproduisent la structuration fine du texte présente au départ. Dans le cas où l’éditeur ne fournit pas de XML, les fichiers XML TEI sont générés à partir du PDF via une transformation PDF-to-text et une injection du texte brut non structuré dans la balise \<body>_.
 
 {% hint style="info" %}
 **Pour connaitre le shéma TEI (Text Encoding Initiative) utilisé pour le projet ISTEX (liste de notions textuelles admises par le plus grand nombre) voir** [**https://tei.istex.fr/**](https://tei.istex.fr/)
 {% endhint %}
 
-### **o TXT (**Text)
+### **o TXT (**&#x54;ext)
 
 Un fichier txt est un fichier contenant du texte au format UTF-8.
 
@@ -52,7 +52,7 @@ Fichier au format TXT
 
 Le format “Cleaned” a été créé par ISTEX pour les besoins de la fouille textuelle sur le texte intégral des publications. Il est issu d’une structuration des documents soit par l’outil Grobid, soit par l’outil Pub2TEI, la version TEI obtenue la meilleure étant sélectionnée. Le fichier “Cleaned” est alors généré en ciblant le contenu textuel de la balise du document, dont est retirée toute mise en forme, ainsi que les éléments susceptibles d’entraîner des problèmes dans le traitement réalisé par les outils de TDM (images, tableaux, figures, formules).
 
-### **o OCR (**Optical Character Recognition _\*Reconnaissance optique de caractères_)
+### **o OCR (**&#x4F;ptical Character Recognition _\*Reconnaissance optique de caractères_)
 
 La reconnaissance optique de caractères, ou océrisation, est une technique informatique permettant – grâce à un procédé optique – de lire et stocker des images de textes imprimés, dactylographiés ou manuscrits, et de les traduire en fichiers textes.
 
@@ -60,7 +60,7 @@ _Dans ISTEX, les fichiers OCR sont générés grâce à une chaîne de réocéri
 
 _NB : La rubrique_ [_Remplacer les documents TXT par les documents OCR_](liste-des-formats.md) _propose une procédure permettant d'exploiter le fichier OCR pour faire de la fouille de textes._
 
-### **o TIFF (**Tagged Image File Format _\*Format de fichier d’image étiqueté_)
+### **o TIFF (**&#x54;agged Image File Format _\*Format de fichier d’image étiqueté_)
 
 TIFF est un format de fichier pour image numérique dans lequel des balises permettent de décrire les caractéristiques d’une image (dimensions, nombre de couleurs utilisées, type de compression).
 
@@ -74,13 +74,13 @@ _Les fichiers en format TIFF dans ISTEX sont des fichiers originaux fournis uniq
 
 Les métadonnées sont les informations bibliographiques permettant de présenter un document (nom de l’auteur, affiliation, revue, éditeur, etc.).
 
-### **o XML (**Extensible Markup Language _\*Langage de balisage extensible_)
+### **o XML (**&#x45;xtensible Markup Language _\*Langage de balisage extensible_)
 
 Il s'agit d'un langage de balisage ouvert qui permet de structurer de manière hiérarchisée les données d’un document. La structuration balisée des métadonnées d’un document permet la lecture de ces données par une machine (traitement automatique) et l’échange de ces données entre les machines. C’est un langage standardisé, simple et extensible, permettant de décrire tout type de donnée.
 
 _Dans ISTEX, les métadonnées en XML sont des fichiers originaux fournis par l’éditeur selon une DTD propre._
 
-### **o MODS (**Metadata Object Description Schema _\*Schéma de description objet de métadonnées_) <a href="#o-mods-metadata-object-description-schema-schema-de-description-objet-de-metadonnees" id="o-mods-metadata-object-description-schema-schema-de-description-objet-de-metadonnees"></a>
+### **o MODS (**&#x4D;etadata Object Description Schema _\*Schéma de description objet de métadonnées_) <a href="#o-mods-metadata-object-description-schema-schema-de-description-objet-de-metadonnees" id="o-mods-metadata-object-description-schema-schema-de-description-objet-de-metadonnees"></a>
 
 MODS est un schéma XML créé pour traiter des données bibliographiques et qui s’est élargi de façon à permettre la description de tout type de document et de tout support (numérique ou non) : texte imprimé, document iconographique, enregistrement sonore, document d'archive, collection de documents.
 
@@ -100,41 +100,41 @@ Les annexes sont des fichiers originaux parfois fournis par l’éditeur pour ac
 
 _NB : les formats d'Annexes présents dans ISTEX qui sont déjà décrits dans les rubriques précédentes ne sont pas répétés ici._
 
-### **o DOC (**Document)
+### **o DOC (**&#x44;ocument)
 
 DOC ou doc est une extension de nom de fichier, utilisée pour la documentation en format texte propriétaire, sur une large variété de systèmes d'exploitation.
 
 Ce n’est pas une norme industrielle, ce qui pose des problèmes d’interopérabilité.
 
-### **o RTF (**Rich Text Format _\*Format de texte enrichi_)
+### **o RTF (**&#x52;ich Text Format _\*Format de texte enrichi_)
 
 Format descriptif, non compressé, de fichier de traitement de texte, créé par Microsoft. Il est reconnu par la plupart des logiciels de traitement de texte comme OpenOffice.org Writer, LibreOffice Writer ou Word et peut être lu sur tous les systèmes d’exploitation (Windows, Mac, Linux, Unix, etc.). Il a été créé pour être un format pivot entre logiciels et plates-formes hétérogènes.
 
 Son codage textuel des données, non compressé, le rend théoriquement lisible par l’œil humain.
 
-### **o XLS (**eXceL Spreadsheet _\*Feuille de calcul Excel_)
+### **o XLS (**&#x65;XceL Spreadsheet _\*Feuille de calcul Excel_)
 
 Le logiciel Excel est un logiciel tableur (permet de créer des tableaux) et grapheur (permet de générer des graphiques à partir de ces tableaux). Il intègre des fonctions de calcul numérique, de représentation graphique, d'analyse de données et de programmation.
 
 Excel utilise des fichiers portant l'extension xls ou xlsx. Chaque fichier correspond à un classeur contenant des feuilles de calculs. Chaque feuille correspond à un tableau de lignes et de colonnes pouvant contenir des valeurs (numériques ou non) ainsi que des formules permettant les calculs.
 
-### o **XLSX (**eXceL Spreadsheet Xml _\*Feuille de calcul Excel respectant la norme XML_)
+### o **XLSX (**&#x65;XceL Spreadsheet Xml _\*Feuille de calcul Excel respectant la norme XML_)
 
 .xlsx est une extension de nom de fichier pour tableur au format Office Open XML utilisé par Microsoft Office à partir de la version 2007.
 
 Le nouveau format xlsx permet de bénéficier des nouveaux outils (comme les tables ou mises en forme conditionnelles avancées).
 
-### o **PPT (**PowerPoinT)
+### o **PPT (**&#x50;owerPoinT)
 
 PowerPoint est un logiciel de présentation de diaporama édité par Microsoft et faisant partie de la suite Microsoft Office. Il fonctionne sous Windows et Mac OS. Un fichier PPT est un diaporama.
 
-### **o GIF (**Graphics Interchange Format _\*Format d'échange d'images_)
+### **o GIF (**&#x47;raphics Interchange Format _\*Format d'échange d'images_)
 
 Format d’image numérique, à mi-chemin entre une image fixe et une courte vidéo, couramment utilisé sur le web.
 
 Il a été créé par CompuServe pour réaliser des images de poids assez faible (légèreté obtenue par une limitation du nombre des couleurs à 256). Il utilise l’algorithme non destructeur LZW (Lampel Ziv Welch : noms de ses auteurs) pour la compression d'images, breveté par l’entreprise Unisys à laquelle une redevance devait être versée par les éditeurs de logiciels manipulant des images GIF. C’est une des raisons pour lesquelles le format PNG (aussi limité à 256 couleurs), libre de droits, a été préféré. Le fait que le GIF soit tombé dans le domaine public ne devrait pas changer cette préférence, car le PNG qui permet un codage des couleurs sur 32 bits (contre 8 pour le GIF) et plusieurs niveaux de transparence, est désormais techniquement supérieur au GIF.
 
-### **o JPEG (**Joint Photographic Experts Group _\*Groupe mixte d'experts en photographie_)
+### **o JPEG (**&#x4A;oint Photographic Experts Group _\*Groupe mixte d'experts en photographie_)
 
 Norme qui définit le format d'encodage et l'algorithme de décodage pour une représentation numérique compressée d'une image fixe.
 
@@ -144,7 +144,7 @@ Les images JPEG ont l'extension ".jpg", ".jpeg", ".jpe" ou ".jfif".
 
 Le format JPEG permet de compresser des images bitmap très détaillées, en utilisant un algorithme de compression destructif (taux de compression élevé, mais dégradation de la qualité d'image).
 
-### o **MPEG (**Moving Pictures Experts Group _\*Groupe d’experts internationaux de l’industrie de l’image_)
+### o **MPEG (**&#x4D;oving Pictures Experts Group _\*Groupe d’experts internationaux de l’industrie de l’image_)
 
 Le MPEG est un groupe d’experts ayant développé des standards internationaux pour la compression, le traitement et le codage d’images animées et de données audio. Ces standards internationaux sont le MPEG-1, le MPEG-2, le MPEG-4, le MPEG-7, le MPEG-21.
 
@@ -160,7 +160,7 @@ Pour ce faire, les formats MPEG-1 et MPEG-2 utilisent la prédiction compensée 
 * MPEG-7 : fournit une représentation standard des données audio et vidéo pour décrire et chercher du contenu multimédia.
 * MPEG-21 : offre un cadre de travail pour l’interopérabilité et l’utilisation de tous les contenus multimédia.
 
-### **o AVI (**Audio Video Interleave _\*Imbrication audio vidéo_)
+### **o AVI (**&#x41;udio Video Interleave _\*Imbrication audio vidéo_)
 
 L'AVI est un format d'empaquetage conçu pour stocker des données audio et vidéo.
 
@@ -191,7 +191,7 @@ Les **codecs libres** ou ouverts comme Vorbis sont inventés et développés par
 
 _NB : le mot-valise « codec » vient de « codeur décodeur » (en anglais : coder-decoder)._
 
-### **o QT (**Quick Time)
+### **o QT (**&#x51;uick Time)
 
 Format multimédia développé par Apple ; il est multiplateforme (pris en charge sur les systèmes Macintosh et Windows) ; il peut contenir une piste audio et vidéo compressée.
 
@@ -203,7 +203,7 @@ Il s'agit de fichiers originaux parfois fournis par l’éditeur pour présenter
 
 _NB : les formats de "Couvertures" présents dans ISTEX qui sont déjà décrits dans les rubriques précédentes ne sont pas répétés ici._
 
-### **o HTML (**HyperText Markup Language _\*Langage de balisage d’hypertexte_)
+### **o HTML (**&#x48;yperText Markup Language _\*Langage de balisage d’hypertexte_)
 
 Langage de balisage conçu pour représenter les pages web, pour écrire de l’hypertexte. Il permet de structurer sémantiquement et de mettre en forme le contenu des pages web, d’inclure des ressources multimédias dont des images, des formulaires de saisie, et des programmes informatiques.
 
