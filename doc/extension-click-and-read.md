@@ -1,6 +1,8 @@
 # Extension Click & Read
 
-L’extension Click & Read CNRS, tout comme l’extension ISTEX, est une **extension de navigateur web développée pour Firefox, Chrome et Safari (à partir de l'OS 14)**
+L’extension Click & Read CNRS, tout comme l’extension ISTEX, est une **extension de navigateur web développée pour Firefox, Chrome, Opera et Safari (à partir de l'OS 14)**
+
+Elle est aussi installable sur les navigateurs basés Chromium, comme Brave ou Edge (à partir de la version 2021).
 
 L'extension Click & Read **remplace et unifie** les 3 extensions existantes des plateformes gérées par l'Inist-CNRS **ISTEX**, **Panist** et **BibCnrs**, auxquelles s'ajoute l'extension libre **Unpaywall**.
 
@@ -21,6 +23,12 @@ _L’accès aux ressources est limité selon la source consultée aux ayants dro
 {% endhint %}
 
 L’extension **Click & Read** parcourt la page internet que vous visitez à la recherche uniquement d’identifiants documentaires (DOI, PMID, PII) et ajoute le bouton C\&R si la ressource est disponible. Il suffit alors de cliquer sur le bouton pour accéder au document.&#x20;
+
+
+
+{% hint style="info" %}
+Pour en savoir plus : [https://clickandread.inist.fr/info](https://clickandread.inist.fr/info)
+{% endhint %}
 
 **Installer l'extension Click & Read sur :**
 
