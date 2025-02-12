@@ -2,7 +2,7 @@
 
 * [Documentation ISTEX](README.md)
 * [Usage documentaire d'ISTEX](doc/README.md)
-  * [Istex Search](doc/istex-search.md)
+  * [Istex Search (en cour)](doc/istex-search-en-cour.md)
   * [Extension ISTEX](doc/bouton-istex.md)
   * [Extension Click & Read](doc/extension-click-and-read.md)
   * [Google Scholar](doc/google-scholar.md)
