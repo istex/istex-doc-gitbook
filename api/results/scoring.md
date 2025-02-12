@@ -20,7 +20,7 @@
   * **{type de ranking**} : mot-clé désignant le type de score spécial **(qualityOverRelevance, random)**.
 * Code de retour
   * 200 si OK,&#x20;
-  * 500 en cas de problème (dans ce cas, contacter api-bug@listes.istex.fr)
+  * 500 en cas de problème
 
 | Exemples                                                                    |                                                                                                                                                     |
 | --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |

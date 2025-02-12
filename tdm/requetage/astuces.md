@@ -32,7 +32,7 @@ q=logop?d*
 
 Cette dernière requête aura l'avantage de retrouver des documents avec d'autres formes que l'on n'aurait pas pensé à rechercher (par exemple : "Logopadie").
 
-Attention, certains documents peuvent échapper à une recherche sur un mot accentué car certaines entités caractères XML ne sont pas reconnues et sont donc supprimées lors de l’entrée dans la base ISTEX.
+Attention, certains documents peuvent échapper à une recherche sur un mot accentué car certaines entités caractères XML ne sont pas reconnues et sont donc supprimées lors de l’entrée dans la base Istex.
 
 Ce problème concerne par exemple la recherche de documents en espagnol :
 
@@ -54,7 +54,7 @@ q=title:exploraci*n
 
 L’apostrophe qui sépare un nom et son déterminant marque la frontière entre les 2 mots.
 
-Dans l’API ISTEX, le nom n’est pas désolidarisé de son déterminant quand ce dernier contient une apostrophe.
+Dans l’API Istex, le nom n’est pas désolidarisé de son déterminant quand ce dernier contient une apostrophe.
 
 Ainsi, on n’obtient pas les mêmes résultats lorsque l’on inclut le nom avec l’apostrophe ou pas :
 
@@ -175,7 +175,7 @@ Une recherche sur un **intervalle de mots** équivaut à une recherche sur des m
 
 * _**Exemple :**_ `[seal TO seas]` ramène tous les mots de 4 lettres compris entre **seal** et **seas** mais aussi **sealant**, **seamen**, **seaport**, **search**, etc.
 
-NB : dans le **démonstrateur** ISTEX en mode « **recherche avancée** » :
+NB : dans le **démonstrateur** Istex en mode « **recherche avancée** » :
 
 * « supérieur » est équivalent à « supérieur **ou égal** »
 * « inférieur » est équivalent à « inférieur **ou égal** »

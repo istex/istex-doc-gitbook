@@ -1,8 +1,8 @@
 # Programme "harvestCorpus.pl"
 
-`harvestCorpus` est un outil d’extraction de corpus ISTEX en ligne de commande. Il est écrit en Perl.
+`harvestCorpus` est un outil d’extraction de corpus Istex en ligne de commande. Il est écrit en Perl.
 
-Il permet de décharger un corpus depuis la base ISTEX à partir d’une requête ou d’un fichier `.corpus`.
+Il permet de décharger un corpus depuis la plateforme Istex à partir d’une requête ou d’un fichier `.corpus`.
 
 ## **Avantages** :
 

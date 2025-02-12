@@ -1,6 +1,6 @@
 # Emplacement des ARK
 
-Un identifiant ARK, lorsqu'il a été attribué à un document ISTEX, se retrouve à différents niveaux :
+Un identifiant ARK, lorsqu'il a été attribué à un document Istex, se retrouve à différents niveaux :
 
 ## Dans le format MODS
 
@@ -39,12 +39,12 @@ Comme dans le MODS, il se retrouve aux côtés des autres identifiants dans l'é
 ```
 
 {% hint style="info" %}
-**Pour connaitre le shéma TEI \(Text Encoding Initiative\) utilisé pour le projet ISTEX \(liste de notions textuelles admises par le plus grand nombre\) voir** [**https://tei.istex.fr/**](https://tei.istex.fr/)
+**Pour connaitre le shéma TEI (Text Encoding Initiative) utilisé pour le projet Istex (liste de notions textuelles admises par le plus grand nombre) voir** [**https://tei.istex.fr/**](https://tei.istex.fr/)
 {% endhint %}
 
 ## Dans le format JSON
 
-Dans ce format, il se retrouve à la racine de la structure représentant le document \(article ou chapitre\) dans le champ `arkIstex` :
+Dans ce format, il se retrouve à la racine de la structure représentant le document (article ou chapitre) dans le champ `arkIstex` :
 
 ```javascript
 {
@@ -59,4 +59,3 @@ Dans ce format, il se retrouve à la racine de la structure représentant le doc
 ```
 
 On notera également la présence dans ce format d'un champ multi-valué `ark`. Contrairement à `arkIstex`, ce champ pourra contenir plusieurs identifiants ARK, dans le cas où plusieurs autorités auraient attribué un ARK au même document.
-

@@ -1,8 +1,8 @@
 ---
 description: >-
-  La documentation ISTEX couvre les usages documentaires, les usages pour la
+  La documentation Istex couvre les usages documentaires, les usages pour la
   fouille de texte, les fonctionnalités de l'API, ainsi que les différentes
-  façon d'intégrer ISTEX dans un ENT.
+  façon d'intégrer Istex dans un ENT.
 ---
 
 # Documentation ISTEX
@@ -13,5 +13,4 @@ Cette documentation couvre les [usages documentaires](doc/), les [usages pour la
 
 Elle est tenue à jour par [l'équipe ISTEX que vous pouvez contacter si besoin](faq/community.md).
 
-_Pour information l'accès aux ressources ISTEX est limité aux ayants droit ISTEX, c'est-à-dire les personnels de l'Enseignement Supérieur et de la Recherche._
-
+_Pour information l'accès aux ressources Istex_ _est limité aux ayants droit Istex, c'est-à-dire les personnels de l'Enseignement Supérieur et de la Recherche._

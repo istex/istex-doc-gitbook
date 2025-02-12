@@ -1,6 +1,6 @@
 # Liste des formats et types de fichiers présents dans ISTEX
 
-ISTEX met à la disposition de ses utilisateurs différents types de fichiers pour ses documents :
+Istex met à la disposition de ses utilisateurs différents types de fichiers pour ses documents :
 
 * le texte intégral
 * les métadonnées
@@ -16,13 +16,13 @@ Ces types de fichiers sont eux-mêmes disponibles dans différents formats qui o
 
 Il s'agit d'un format de description de pages pouvant contenir du texte, des dessins, des images et photographies (noir et blanc, couleur, 3D). C’est un format ouvert, évolutif et multiplateforme, issu de l’imprimerie, qui conserve la mise en page du document original. Il offre une sécurité permettant à l’auteur d’un document d’empêcher sa modification par des utilisateurs. Il a été créé par Adobe Systems, Inc. Le logiciel Adobe® Acrobat® Reader est nécessaire pour lire et imprimer un fichier PDF.
 
-_Les fichiers en format PDF dans ISTEX sont des fichiers originaux fournis par l’éditeur._
+_Les fichiers en format PDF dans Istex sont des fichiers originaux fournis par l’éditeur._
 
 ### **o ZIP**
 
 Il s'agit d'un format permettant l’archivage et la compression de fichiers. L’archivage est l’utilisation d’un seul fichier pour stocker plusieurs fichiers. La compression des fichiers permet de réduire leur taille. Compresser les fichiers permet de gagner du temps dans le chargement des données et de la place dans le stockage de celles-ci. Le logiciel de compression analyse le fichier et compresse les parties qui se répètent. Lors de la décompression, la forme originale du fichier est restaurée. On peut le comparer à la combinaison de tar (archivage) et gzip (compression) dans le cadre d'une archive compressée .tgz.
 
-_Dans ISTEX, le répertoire ZIP proposé pour chaque document du corpus contient les fichiers fournis par l’éditeur (texte intégral en format PDF, en XML structuré, et éventuellement des couvertures et des annexes), ainsi que le fichier_ [_JSON_](liste-des-formats.md#o-json-javascript-object-notation-notation-des-objets-du-langage-javascript) _produit par ISTEX._
+_Dans Istex, le répertoire ZIP proposé pour chaque document du corpus contient les fichiers fournis par l’éditeur (texte intégral en format PDF, en XML structuré, et éventuellement des couvertures et des annexes), ainsi que le fichier_ [_JSON_](liste-des-formats.md#o-json-javascript-object-notation-notation-des-objets-du-langage-javascript) _produit par Istex._
 
 _NB : La rubrique_ [_Extraire les documents XML des fichiers ZIP_](../verification/extract-xml-from-zip/) _propose une procédure permettant de récupérer le fichier en format XML structuré fourni par l'éditeur afin de pouvoir l'exploiter avec des outils TAL ou TDM._
 
@@ -32,10 +32,10 @@ La TEI est un format d’encodage de textes permettant de traiter tout type de d
 
 La communauté académique internationale constituée autour de la Text Encoding Initiative définit des recommandations pour la syntaxe de ce format et un métalangage pour la description des structures d’encodage de textes. Le consortium de la TEI s’organise en différentes instances : conseil d’administration, conseil technique, groupes de travail, groupes d’intérêt spécifique. Les groupes font des propositions pour les recommandations qui sont ensuite adoptées (ou non) par le conseil technique. Ces recommandations sont regroupées dans un guide : [TEI: P5 Guidelines](http://www.tei-c.org/Guidelines/P5/).
 
-_C'est le format qui a été retenu dans ISTEX pour harmoniser, autour d'un format pivot, les fichiers XML issus des différentes_ [_DTD_ ](https://fr.wikipedia.org/wiki/Document_type_definition)_des éditeurs. Les fichiers XML TEI ainsi générés reproduisent la structuration fine du texte présente au départ. Dans le cas où l’éditeur ne fournit pas de XML, les fichiers XML TEI sont générés à partir du PDF via une transformation PDF-to-text et une injection du texte brut non structuré dans la balise \<body>_.
+_C'est le format qui a été retenu dans Istex pour harmoniser, autour d'un format pivot, les fichiers XML issus des différentes_ [_DTD_ ](https://fr.wikipedia.org/wiki/Document_type_definition)_des éditeurs. Les fichiers XML TEI ainsi générés reproduisent la structuration fine du texte présente au départ. Dans le cas où l’éditeur ne fournit pas de XML, les fichiers XML TEI sont générés à partir du PDF via une transformation PDF-to-text et une injection du texte brut non structuré dans la balise \<body>_.
 
 {% hint style="info" %}
-**Pour connaitre le shéma TEI (Text Encoding Initiative) utilisé pour le projet ISTEX (liste de notions textuelles admises par le plus grand nombre) voir** [**https://tei.istex.fr/**](https://tei.istex.fr/)
+**Pour connaitre le shéma TEI (Text Encoding Initiative) utilisé pour le projet Istex (liste de notions textuelles admises par le plus grand nombre) voir** [**https://tei.istex.fr/**](https://tei.istex.fr/)
 {% endhint %}
 
 ### **o TXT (**&#x54;ext)
@@ -44,19 +44,19 @@ Un fichier txt est un fichier contenant du texte au format UTF-8.
 
 Un fichier txt peut être lu ou modifié via le bloc-notes ou un éditeur de texte traditionnel.
 
-_Dans ISTEX, les fichiers en texte brut sont générés à partir d’une transformation du PDF original à l’aide du logiciel PDF-to-text._
+_Dans Istex, les fichiers en texte brut sont générés à partir d’une transformation du PDF original à l’aide du logiciel PDF-to-text._
 
 ### o CLEANED (Nettoyé)
 
 Fichier au format TXT
 
-Le format “Cleaned” a été créé par ISTEX pour les besoins de la fouille textuelle sur le texte intégral des publications. Il est issu d’une structuration des documents soit par l’outil Grobid, soit par l’outil Pub2TEI, la version TEI obtenue la meilleure étant sélectionnée. Le fichier “Cleaned” est alors généré en ciblant le contenu textuel de la balise du document, dont est retirée toute mise en forme, ainsi que les éléments susceptibles d’entraîner des problèmes dans le traitement réalisé par les outils de TDM (images, tableaux, figures, formules).
+Le format “Cleaned” a été créé par Istex pour les besoins de la fouille textuelle sur le texte intégral des publications. Il est issu d’une structuration des documents soit par l’outil Grobid, soit par l’outil Pub2TEI, la version TEI obtenue la meilleure étant sélectionnée. Le fichier “Cleaned” est alors généré en ciblant le contenu textuel de la balise du document, dont est retirée toute mise en forme, ainsi que les éléments susceptibles d’entraîner des problèmes dans le traitement réalisé par les outils de TDM (images, tableaux, figures, formules).
 
 ### **o OCR (**&#x4F;ptical Character Recognition _\*Reconnaissance optique de caractères_)
 
 La reconnaissance optique de caractères, ou océrisation, est une technique informatique permettant – grâce à un procédé optique – de lire et stocker des images de textes imprimés, dactylographiés ou manuscrits, et de les traduire en fichiers textes.
 
-_Dans ISTEX, les fichiers OCR sont générés grâce à une chaîne de réocérisation basée sur l’outil Tesseract. Cette chaîne permet d’améliorer la qualité des documents originaux dont le texte est absent (PDF image) ou non exploitable (problèmes de reconnaissance de caractères). Lorsqu’il est disponible, ce fichier OCR sera automatiquement choisi à la place du fichier TXT d’origine. Pour plus de détails, voir le billet de blog_ [_OCR : production de plein texte_](https://blog.istex.fr/ocr-production-de-plein-texte/)_._
+_Dans Istex, les fichiers OCR sont générés grâce à une chaîne de réocérisation basée sur l’outil Tesseract. Cette chaîne permet d’améliorer la qualité des documents originaux dont le texte est absent (PDF image) ou non exploitable (problèmes de reconnaissance de caractères). Lorsqu’il est disponible, ce fichier OCR sera automatiquement choisi à la place du fichier TXT d’origine. Pour plus de détails, voir le billet de blog_ [_OCR : production de plein texte_](https://blog.istex.fr/ocr-production-de-plein-texte/)_._
 
 _NB : La rubrique_ [_Remplacer les documents TXT par les documents OCR_](liste-des-formats.md) _propose une procédure permettant d'exploiter le fichier OCR pour faire de la fouille de textes._
 
@@ -68,7 +68,7 @@ Il permet de stocker des images matricielles (cartes de points) de taille import
 
 Il s'agit d'un format de conteneur (ou encapsulation), à la manière de avi ou zip, c'est-à-dire pouvant contenir des données de formats arbitraires. C’est un format issu du fax.
 
-_Les fichiers en format TIFF dans ISTEX sont des fichiers originaux fournis uniquement par les éditeurs des ressources EBBO et ECCO._
+_Les fichiers en format TIFF dans Istex sont des fichiers originaux fournis uniquement par les éditeurs des ressources EBBO et ECCO._
 
 ## Métadonnées
 
@@ -78,19 +78,19 @@ Les métadonnées sont les informations bibliographiques permettant de présente
 
 Il s'agit d'un langage de balisage ouvert qui permet de structurer de manière hiérarchisée les données d’un document. La structuration balisée des métadonnées d’un document permet la lecture de ces données par une machine (traitement automatique) et l’échange de ces données entre les machines. C’est un langage standardisé, simple et extensible, permettant de décrire tout type de donnée.
 
-_Dans ISTEX, les métadonnées en XML sont des fichiers originaux fournis par l’éditeur selon une DTD propre._
+_Dans Istex, les métadonnées en XML sont des fichiers originaux fournis par l’éditeur selon une DTD propre._
 
 ### **o MODS (**&#x4D;etadata Object Description Schema _\*Schéma de description objet de métadonnées_) <a href="#o-mods-metadata-object-description-schema-schema-de-description-objet-de-metadonnees" id="o-mods-metadata-object-description-schema-schema-de-description-objet-de-metadonnees"></a>
 
 MODS est un schéma XML créé pour traiter des données bibliographiques et qui s’est élargi de façon à permettre la description de tout type de document et de tout support (numérique ou non) : texte imprimé, document iconographique, enregistrement sonore, document d'archive, collection de documents.
 
-_Dans ISTEX, les fichiers MODS sont générés à partir d’une transformation des XML originaux, afin de les homogénéiser dans un format de description standard. Le format MODS a été utilisé dans sa version 3.6._
+_Dans Istex, les fichiers MODS sont générés à partir d’une transformation des XML originaux, afin de les homogénéiser dans un format de description standard. Le format MODS a été utilisé dans sa version 3.6._
 
 ### o JSON (JavaScript Object Notation _\*Notation des objets du langage JavaScript_)
 
 JSON est un format standard permettant la représentation et l’échange de données structurées, facile à lire/écrire par les humains, facile à analyser par les machines. JSON est issu du langage de programmation JavaScript. Les documents JSON étant relativement légers, ce format est souvent utilisé pour structurer et transmettre des données sur des sites web. JSON est une syntaxe permettant de stocker des données de différents types : objets, tableaux, nombres, chaînes de caractères, booléens, valeurs "null", et de conserver des données hiérarchiques.
 
-_Dans ISTEX, les fichiers JSON regroupent les métadonnées du document, le lien vers le texte intégral dans ses différents formats (et le cas échéant les liens vers les annexes et couvertures), ainsi que toutes les informations à valeur ajoutée produites par ISTEX sur le document (identifiant ARK ; indicateurs de qualité ; enrichissements par catégories scientifiques, par références bibliographiques structurées, par entités nommées, par termes d'indexation)._
+_Dans Istex, les fichiers JSON regroupent les métadonnées du document, le lien vers le texte intégral dans ses différents formats (et le cas échéant les liens vers les annexes et couvertures), ainsi que toutes les informations à valeur ajoutée produites par Istex sur le document (identifiant ARK ; indicateurs de qualité ; enrichissements par catégories scientifiques, par références bibliographiques structurées, par entités nommées, par termes d'indexation)._
 
 
 
@@ -98,7 +98,7 @@ _Dans ISTEX, les fichiers JSON regroupent les métadonnées du document, le lien
 
 Les annexes sont des fichiers originaux parfois fournis par l’éditeur pour accompagner et compléter le texte intégral. Ils peuvent être de plusieurs types : textes, tableurs, diaporamas, images, vidéos, multimédias, etc.
 
-_NB : les formats d'Annexes présents dans ISTEX qui sont déjà décrits dans les rubriques précédentes ne sont pas répétés ici._
+_NB : les formats d'Annexes présents dans Istex qui sont déjà décrits dans les rubriques précédentes ne sont pas répétés ici._
 
 ### **o DOC (**&#x44;ocument)
 
@@ -213,9 +213,9 @@ Il est souvent utilisé avec le langage de programmation JavaScript et des feuil
 
 Les enrichissements sont des informations complémentaires de plusieurs types obtenues à partir du texte intégral et ajoutées au document pour permettre leur réutilisation dans d’autres projets ou initiatives, notamment en fouille de textes. Ils permettent également de cibler plus finement une requête pour constituer un corpus. Ces informations complémentaires sont des catégories scientifiques, des références bibliographiques structurées, une version structurée du texte intégral des documents, des entités nommées et des termes d'indexation.
 
-Ces enrichissements sont produits par ISTEX à l’aide de plusieurs outils ou méthodes issus de la recherche en traitement automatique des langues et de la recherche en sciences des données et des connaissances, et qui ont été adaptés par ISTEX pour traiter un grand volume de données. Chaque type d'enrichissement est nommé à partir de l'outil ayant permis de le générer.
+Ces enrichissements sont produits par Istex à l’aide de plusieurs outils ou méthodes issus de la recherche en traitement automatique des langues et de la recherche en sciences des données et des connaissances, et qui ont été adaptés par Istex pour traiter un grand volume de données. Chaque type d'enrichissement est nommé à partir de l'outil ayant permis de le générer.
 
-La présence de ces différents types d'enrichissements dans ISTEX varie en fonction de la langue des documents et des résultats produits par les outils.
+La présence de ces différents types d'enrichissements dans Istex varie en fonction de la langue des documents et des résultats produits par les outils.
 
 ### o multicat
 
@@ -234,7 +234,7 @@ Plus de détails sur ces enrichissements et le processus d'enrichissement dans l
 
 ### o nb
 
-Désigne les enrichissements par catégories scientifiques produits par l'outil Nb, afin de compléter les résultats de Multicat en proposant un traitement ciblé sur l'article. Ils sont issus d'un processus de catégorisation supervisée qui utilise une approche statistique (Bayésien Naïf) comprenant une phase d'apprentissage sur un corpus extrait des bases de données bibliographiques Pascal et Francis de l'INIST-CNRS, puis une phase de prédiction.
+Désigne les enrichissements par catégories scientifiques produits par l'outil Nb, afin de compléter les résultats de Multicat en proposant un traitement ciblé sur l'article. Ils sont issus d'un processus de catégorisation supervisée qui utilise une approche statistique (Bayésien Naïf) comprenant une phase d'apprentissage sur un corpus extrait des bases de données bibliographiques Pascal et Francis de l'Inist-CNRS, puis une phase de prédiction.
 
 Les enrichissements produits sont en format TEI-Standoff et contiennent toutes les catégories prédites (code de classement + verbalisation) et leur probabilité.
 

@@ -1,12 +1,12 @@
 # Extension Click & Read
 
-L’extension Click & Read CNRS, tout comme l’extension ISTEX, est une **extension de navigateur web développée pour Firefox, Chrome, Opera et Safari (à partir de l'OS 14)**
+L’extension Click & Read CNRS, tout comme l’extension Istex, est une **extension de navigateur web développée pour Firefox, Chrome, Opera et Safari (à partir de l'OS 14)**
 
 Elle est aussi installable sur les navigateurs basés Chromium, comme Brave ou Edge (à partir de la version 2021).
 
-L'extension Click & Read **remplace et unifie** les 3 extensions existantes des plateformes gérées par l'Inist-CNRS **ISTEX**, **Panist** et **BibCnrs**, auxquelles s'ajoute l'extension libre **Unpaywall**.
+L'extension Click & Read **remplace et unifie** les 3 extensions existantes des plateformes gérées par l'Inist-CNRS **Istex**, **Panist** et **BibCnrs**, auxquelles s'ajoute l'extension libre **Unpaywall**.
 
-L'extension Click & Read reprenant les fonctionnalités de l’extension ISTEX il est préférable de la désinstaller.
+L'extension Click & Read reprenant les fonctionnalités de l’extension Istex il est préférable de la désinstaller.
 
 Cette extension est destinée aux personnels de l'Enseignement Supérieur et de la Recherche (ESR).
 
@@ -17,14 +17,12 @@ _L’accès aux ressources est limité selon la source consultée aux ayants dro
 
 **BibCnrs** (communautés de recherche du CNRS)
 
-**ISTEX** (communauté de l’Enseignement Supérieur et de la Recherche Française)
+**Istex** (communauté de l’Enseignement Supérieur et de la Recherche Française)
 
 **Panist** (communauté des établissements membres des contrats d’abonnement)
 {% endhint %}
 
 L’extension **Click & Read** parcourt la page internet que vous visitez à la recherche uniquement d’identifiants documentaires (DOI, PMID, PII) et ajoute le bouton C\&R si la ressource est disponible. Il suffit alors de cliquer sur le bouton pour accéder au document.&#x20;
-
-
 
 {% hint style="info" %}
 Pour en savoir plus : [https://clickandread.inist.fr/info](https://clickandread.inist.fr/info)
@@ -58,7 +56,7 @@ _=>_ Un message vous avertit que votre extension est installée
 
 1. Choisir votre établissement d’appartenance, si votre établissement ne figure pas dans la liste, sélectionner « _Autre_ »
 2. Préciser si vous êtes utilisateur de BibCnrs, si oui sélectionner votre / vos domaine(s)&#x20;
-3. Activer, si vous le souhaitez, les bibliothèques ISTEX et BibCnrs dans Google Scholar
+3. Activer, si vous le souhaitez, les bibliothèques Istex et BibCnrs dans Google Scholar
 4. Enregistrer
 
 {% hint style="info" %}
@@ -106,7 +104,7 @@ A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C\
 
 1. Choisir votre établissement d’appartenance, si votre établissement ne figure pas dans la liste, sélectionner « _Autre_ »
 2. Préciser si vous êtes utilisateur de BibCnrs, si oui sélectionner votre / vos domaine(s)&#x20;
-3. Activer, si vous le souhaitez, les bibliothèques ISTEX et BibCnrs dans Google Scholar
+3. Activer, si vous le souhaitez, les bibliothèques Istex et BibCnrs dans Google Scholar
 4. Enregistrer
 
 {% hint style="info" %}
@@ -150,7 +148,7 @@ A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C\
 
 1. Choisir votre établissement d’appartenance, si votre établissement ne figure pas dans la liste, sélectionner « _Autre_ »&#x20;
 2. Préciser si vous êtes utilisateur de BibCnrs, si oui sélectionner votre / vos domaine(s)&#x20;
-3. Activer, si vous le souhaitez, les bibliothèques ISTEX et BibCnrs dans Google Scholar&#x20;
+3. Activer, si vous le souhaitez, les bibliothèques Istex et BibCnrs dans Google Scholar&#x20;
 4. Enregistrer
 
 {% hint style="info" %}

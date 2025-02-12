@@ -6,17 +6,17 @@
 
 
 
-_"L 'extension ISTEX", communément appelé "Bouton" est une extension à installer dans un navigateur, Chrome ou Firefox. Une fois installé dans votre navigateur, il analysera l'ensemble des pages visitées à la recherche d'identifiants documentaires (DOI, PII, PMID, COinS...) et ajoutera des boutons cliquables « ISTEX » d’accès au plein-texte PDF lorsque le document est disponible dans la plateforme ISTEX._
+_"L 'extension Istex", communément appelé "Bouton" est une extension à installer dans un navigateur, Chrome ou Firefox. Une fois installé dans votre navigateur, il analysera l'ensemble des pages visitées à la recherche d'identifiants documentaires (DOI, PII, PMID, COinS...) et ajoutera des boutons cliquables «_ Istex _» d’accès au plein-texte PDF lorsque le document est disponible dans la plateforme Istex._
 
 _Installez le en vous rendant sur_ [_**https://addons.istex.fr**_](https://addons.istex.fr/)
 
-_Voici à quoi ressembleront les boutons ISTEX cliquables qui apparaîtront dans les pages web au plus près des références bibliographiques :_
+_Voici à quoi ressembleront les boutons Istex cliquables qui apparaîtront dans les pages web au plus près des références bibliographiques :_
 
 ![](../.gitbook/assets/image.png)
 
-_Le bouton « ISTEX » peut s’activer notamment sur les pages_ [_Wikipédia_](https://fr.wikipedia.org/wiki/H%C3%A9lium)_,_ [_Google Scholar_](https://scholar.google.fr/scholar?hl=fr\&as_sdt=0%2C5\&q=brain\&btnG=)_, Scopus, ou même HAL augmentant ainsi la visibilité et la diffusion des ressources ISTEX sans avoir à proposer un nouveau portail documentaire à l'utilisateur final._
+_Le bouton «Istex» peut s’activer notamment sur les pages_ [_Wikipédia_](https://fr.wikipedia.org/wiki/H%C3%A9lium)_,_ [_Google Scholar_](https://scholar.google.fr/scholar?hl=fr\&as_sdt=0%2C5\&q=brain\&btnG=)_, Scopus, ou même HAL augmentant ainsi la visibilité et la diffusion des ressources Istex sans avoir à proposer un nouveau portail documentaire à l'utilisateur final._
 
-_Comme pour tous les autres modes d’accès au PDF (_[_widgets_](https://widgets.istex.fr)_,_ [_démonstrateur_](http://demo.istex.fr)_…) il est limité aux ayants droit ISTEX, c'est-à-dire les personnels de l'Enseignement Supérieur et de la Recherche._
+_Comme pour tous les autres modes d’accès au PDF (_[_widgets_](https://widgets.istex.fr)_,_ [_démonstrateur_](http://demo.istex.fr)_…) il est limité aux ayants droit Istex, c'est-à-dire les personnels de l'Enseignement Supérieur et de la Recherche._
 
 _En tâche de fond, cette extension fait un usage intensif du_ [_**service de résolution OpenURL de l’API ISTEX**_](../api/openurl/)_._
 
@@ -50,11 +50,11 @@ _Retrouver l’extension dans « Ouvrir le menu/Modules/Extensions »_
 
 ![](../.gitbook/assets/firefox4.png)
 
-_=> Un écran propose alors la possibilité d’avoir un lien vers la bibliothèque ISTEX sur Google Scholar en cliquant sur «Oui» sans avoir besoin de l’installer_
+_=> Un écran propose alors la possibilité d’avoir un lien vers la bibliothèque Istex sur Google Scholar en cliquant sur «Oui» sans avoir besoin de l’installer_
 
 ![](../.gitbook/assets/firefox5.png)
 
-_=> En cliquant «Passer » pas de lien vers la bibliothèque ISTEX_
+_=> En cliquant «Passer » pas de lien vers la bibliothèque Istex_
 
 ![](../.gitbook/assets/firefox6.png)
 
@@ -92,11 +92,11 @@ _Retrouver l’extension dans « Personnaliser et contrôler Google Chrome/Plus 
 
 ![](../.gitbook/assets/chrome4.png)
 
-_=> Un écran propose alors la possibilité d’avoir un lien vers la bibliothèque ISTEX sur Google Scholar en cliquant sur «Oui» sans avoir besoin de l’installer_
+_=> Un écran propose alors la possibilité d’avoir un lien vers la bibliothèque Istex sur Google Scholar en cliquant sur «Oui» sans avoir besoin de l’installer_
 
 ![](../.gitbook/assets/chrome5.png)
 
-_=> En cliquant «Passer » pas de lien vers la bibliothèque ISTEX_
+_=> En cliquant «Passer » pas de lien vers la bibliothèque Istex_
 
 ![](../.gitbook/assets/chrome6.png)
 

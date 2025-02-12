@@ -2,7 +2,7 @@
 
 Cette procédure est utile si l'on souhaite exploiter les PDF pour faire de la fouille de textes. Dans ce cas, il est nécessaire de vérifier que le PDF de départ ne soit pas du PDF image car celui-ci risque de bloquer le traitement de l'outil utilisé.
 
-Pour cela, il faut d'abord calculer le nombre de mots par page contenus dans un document et ensuite vérifier s'il s'agit d'une image ou d'un texte. En-deçà d’un certain seuil \(seuil qui est variable: voir étape 4\), le document sera considéré comme un PDF image.
+Pour cela, il faut d'abord calculer le nombre de mots par page contenus dans un document et ensuite vérifier s'il s'agit d'une image ou d'un texte. En-deçà d’un certain seuil (seuil qui est variable: voir étape 4), le document sera considéré comme un PDF image.
 
 Le programme `harvestCorpus.pl` génère un fichier `logRequete.txt` qui conserve les métadonnées des documents Istex extraits et un fichier `.corpus`, lequel contient une mise en correspondance entre les identifiants Istex et les noms de fichiers.
 
@@ -30,14 +30,14 @@ perl -ne 'if (/^ {6}"id":"(\w+)"/o) {$id = $1;}
 
 Ce programme génère un fichier `tmp01.txt` qui contient les informations suivantes :
 
-* identifiant ISTEX
+* identifiant Istex
 * nombre total de pages
 * nombre total de mots
 * nombre de mots par page
 
 Exemple :
 
-```text
+```
 000177F07386D728EA2F5D0169D4F9BF8276EB22    12    7338    611.50
 0005217AB88EECA913D27DDDBAE470D54209FBA2    11    5859    532.64
 00052DA849FA3FEA62F65A2984754C513B541F85    13    6549    503.77
@@ -60,7 +60,7 @@ sort | join -t $'\t' - tmp01.txt > DistNbMotNbPage.txt
 
 Il génère ainsi un fichier `DistNbMotNbPage.txt` qui contient les informations suivantes :
 
-* identifiant ISTEX
+* identifiant Istex
 * nom de fichier
 * nombre total de pages
 * nombre total de mots
@@ -68,7 +68,7 @@ Il génère ainsi un fichier `DistNbMotNbPage.txt` qui contient les informations
 
 Exemple :
 
-```text
+```
 000177F07386D728EA2F5D0169D4F9BF8276EB22    Syst_veg6_v2_045218    12    7338    611.50
 0005217AB88EECA913D27DDDBAE470D54209FBA2    Syst_veg6_v2_027437    11    5859    532.64
 00052DA849FA3FEA62F65A2984754C513B541F85    Syst_veg6_v2_051847    13    6549    503.77
@@ -96,16 +96,16 @@ Dans le 2e cas, il faut vérifier manuellement chaque PDF dans le démonstrateur
 
 La procédure de vérification est la suivante :
 
-* Recherche dans le démonstrateur Istex : 
+* Recherche dans le démonstrateur Istex :&#x20;
 
-```text
+```
      id:identifiant_Istex
 ```
 
 * Ouverture du PDF correspondant au résultat de cette requête
 * Sélection du texte
-  * Si la sélection totale ou partielle du texte est possible et si en collant le texte dans un document Word, ce texte est illisible =&gt; il s’agit d’un PDF Image
-  * Si la sélection totale du texte est possible et si en collant le texte dans un document Word, ce texte est identique au texte sélectionné =&gt; il s’agit d’un PDF Texte
+  * Si la sélection totale ou partielle du texte est possible et si en collant le texte dans un document Word, ce texte est illisible => il s’agit d’un PDF Image
+  * Si la sélection totale du texte est possible et si en collant le texte dans un document Word, ce texte est identique au texte sélectionné => il s’agit d’un PDF Texte
 
 ## **Etape 5 : Procédure de suppression des PDF Image**
 
@@ -136,4 +136,3 @@ done
 ```
 
 * Supprimer les fichiers `tmp01.txt` et `tmp02.txt`
-

@@ -16,7 +16,7 @@ Les paramètres de pagination se basent sur les deux options `from` et `size` qu
   * **{position}** : le numéro de départ en question.
 * Code de retour
   * 200 si OK,&#x20;
-  * 500 en cas de problème (dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr))
+  * 500 en cas de problème&#x20;
 
 **La syntaxe pour le "nombre" est la suivante :**
 
@@ -33,7 +33,7 @@ Les paramètres de pagination se basent sur les deux options `from` et `size` qu
   * **{position}** : le numéro de départ en question.
 * Code de retour
   * 200 si OK,&#x20;
-  * 500 en cas de problème (dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr))
+  * 500 en cas de problème&#x20;
 
 | Exemples                                                                  |                                                                                                                                                                                                                                                                             |
 | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

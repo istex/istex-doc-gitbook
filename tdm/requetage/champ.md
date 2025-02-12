@@ -1,6 +1,6 @@
-# Sur quel\(s\) champ\(s\) faire son interrogation ?
+# Sur quel(s) champ(s) faire son interrogation ?
 
-Les champs interrogeables sont présentés dans la rubrique [**Accès aux données indexées**](../../api/fields/) de la documentation technique de l’API ISTEX.
+Les champs interrogeables sont présentés dans la rubrique [**Accès aux données indexées**](../../api/fields/) de la documentation technique de l’API Istex.
 
 Par défaut, sans mention de champ, la recherche est effectuée sur tout le document.
 
@@ -8,7 +8,7 @@ Mais, si on a un critère de recherche large, qui ne porte pas sur un champ part
 
 En effet, si on lance une requête sur l’ensemble du document, sans précision de champ, les mots recherchés peuvent être retrouvés dans les métadonnées ou dans les références bibliographiques, et ramener des résultats moins pertinents.
 
-Dans ce cas, il faut répéter la requête en fonction des différents champs choisis \(pas de factorisation de champs possible\).
+Dans ce cas, il faut répéter la requête en fonction des différents champs choisis (pas de factorisation de champs possible).
 
 _​**Exemple** : si l'on souhaite rechercher des documents contenant les mots Arctic, Subarctic et ses variantes, à la fois dans le champ_ `title` _et dans le champ_ `abstract`_, il faut répéter la requête, même complexe, pour chacun des champs souhaités._
 
@@ -20,19 +20,19 @@ _​**Exemple** : si l'on souhaite rechercher des documents contenant les mots A
 
 Le champ `language` permet d'interroger la langue d’un document.
 
-L’interrogation nécessite d’utiliser des codes langues \(généralement 3 lettres\) issus de la liste normalisée ISO 639, et non le nom complet de la langue ou de la famille de langues.
+L’interrogation nécessite d’utiliser des codes langues (généralement 3 lettres) issus de la liste normalisée ISO 639, et non le nom complet de la langue ou de la famille de langues.
 
 _​**Exemple :** recherche de documents en **mohawk**​_
 
 `q=language:moh`
 
-Pour savoir quel code langue utiliser, vous pouvez consulter en [**annexe**](../annexes/) la liste des codes interrogeables dans ISTEX.
+Pour savoir quel code langue utiliser, vous pouvez consulter en [**annexe**](../annexes/) la liste des codes interrogeables dans Istex.
 
 NB : La valeur "unknown" est présente lorsqu'aucun code langue ne renseigne ce champ. Le champ `host.language` contient quant à lui systématiquement la valeur "unknown", car il n'est actuellement pas renseigné.
 
 ### _**Dates de publication**_
 
-Le champ `publicationDate` permet de retrouver les documents publiés au cours d’une année particulière ou bien d’un intervalle de temps grâce à l’emploi de **crochets ou d’accolades** \(voir à ce sujet le paragraphe « Intervalles » ci-dessous\).
+Le champ `publicationDate` permet de retrouver les documents publiés au cours d’une année particulière ou bien d’un intervalle de temps grâce à l’emploi de **crochets ou d’accolades** (voir à ce sujet le paragraphe « Intervalles » ci-dessous).
 
 Quelques types de requêtes :
 
@@ -58,19 +58,19 @@ ou bien
 
 `q=NOT publicationDate:[* TO *]`
 
-* _Pour rechercher des documents sans date de publication \(champ_ `publicationDate` _vide\) mais qui comporteraient une date de copyright, en s’étant assuré au préalable que ce champ est renseigné \(champ_ `copyrightDate` _plein\) :_
+* _Pour rechercher des documents sans date de publication (champ_ `publicationDate` _vide) mais qui comporteraient une date de copyright, en s’étant assuré au préalable que ce champ est renseigné (champ_ `copyrightDate` _plein) :_
 
 `q=copyrightDate:[* TO *] NOT publicationDate:[* TO *]`
 
 ### _**Enrichissements**_
 
-Les enrichissements, produits par les différents outils de TDM développés ou adaptés pour ISTEX, sont interrogeables. 
+Les enrichissements, produits par les différents outils de TDM développés ou adaptés pour Istex, sont interrogeables.&#x20;
 
-#### _**Catégories scientifiques**_ 
+#### _**Catégories scientifiques**_&#x20;
 
-Les catégories Scopus, Science-Metrix, WoS ou Inist donnent accès au contenu scientifique. 
+Les catégories Scopus, Science-Metrix, WoS ou Inist donnent accès au contenu scientifique.&#x20;
 
-Pour avoir plus de détails sur ces catégories et connaître celles qui sont présentes dans ISTEX, vous pouvez consulter en [**annexe**](../annexes/scientific-categories.md) la liste des catégories scientifiques dans ISTEX.
+Pour avoir plus de détails sur ces catégories et connaître celles qui sont présentes dans Istex, vous pouvez consulter en [**annexe**](../annexes/scientific-categories.md) la liste des catégories scientifiques dans Istex.
 
 Quelques types de requêtes :
 
@@ -84,9 +84,9 @@ Quelques types de requêtes :
 
 
 
-#### _**Entités nommées**_ 
+#### _**Entités nommées**_&#x20;
 
-Plusieurs types d'entités nommées peuvent être détectés dans les documents ISTEX. Leur description, ainsi que des exemples, sont fournis sur la page dédiée du site [data.istex](https://named-entity.data.istex.fr/).
+Plusieurs types d'entités nommées peuvent être détectés dans les documents Istex. Leur description, ainsi que des exemples, sont fournis sur la page dédiée du site [data.istex](https://named-entity.data.istex.fr/).
 
 ‌
 
@@ -112,7 +112,7 @@ ou bien
 
 ‌
 
-**Entités de type "lieu" :** les noms de lieux sont annotés grâce à deux balises qui distinguent, d’une part les lieux géopolitiques ou administratifs \(entité `placeName`\), et d’autre part, les lieux comportant une caractéristique géographique \(entité `geogName`\).
+**Entités de type "lieu" :** les noms de lieux sont annotés grâce à deux balises qui distinguent, d’une part les lieux géopolitiques ou administratifs (entité `placeName`), et d’autre part, les lieux comportant une caractéristique géographique (entité `geogName`).
 
 Quelques exemples de requêtes :
 
@@ -142,7 +142,7 @@ Exemple de requête :
 
 ‌‌
 
-**Entités de type "organisation" :** dans ISTEX sont différenciés trois types d’organisations. Ces types sont les suivants :
+**Entités de type "organisation" :** dans Istex sont différenciés trois types d’organisations. Ces types sont les suivants :
 
 * l’entité `orgName` fait référence aux noms des organisations en général
 * l’entité `orgName type funder` fait référence aux organismes finançant des projets officiels ou aux projets financés
@@ -150,11 +150,11 @@ Exemple de requête :
 
 Quelques exemples de requêtes :
 
-* _recherche des publications citant l’IPCC \(c’est-à-dire le GIEC ou groupe d'experts intergouvernemental sur l'évolution du climat\)_
+* _recherche des publications citant l’IPCC (c’est-à-dire le GIEC ou groupe d'experts intergouvernemental sur l'évolution du climat)_
 
 ‌`q=namedEntities.unitex.orgName:ipcc`
 
-* _recherche des documents mentionnant l’ANR \(acronyme et forme développée\) comme financeur des recherches relatées_
+* _recherche des documents mentionnant l’ANR (acronyme et forme développée) comme financeur des recherches relatées_
 
 ‌`q=namedEntities.unitex.orgName_funder:ANR`
 
@@ -164,7 +164,7 @@ Quelques exemples de requêtes :
 
 ‌`q=namedEntities.unitex.orgName_provider:"Geological Survey of Canada"`
 
-NB : les organisations de type "fournisseur" ne sont pas encore accessibles sur l'API ISTEX, mais elles le seront prochainement. 
+NB : les organisations de type "fournisseur" ne sont pas encore accessibles sur l'API Istex, mais elles le seront prochainement.&#x20;
 
 ‌‌
 
@@ -172,7 +172,7 @@ NB : les organisations de type "fournisseur" ne sont pas encore accessibles sur 
 
 Exemple de requête :
 
-* _recherche des documents dans lesquels est indiqué le lien vers le site du projet international d’évaluation des politiques de lutte antitabac \(ITC project\)_
+* _recherche des documents dans lesquels est indiqué le lien vers le site du projet international d’évaluation des politiques de lutte antitabac (ITC project)_
 
 ‌`q=namedEntities.unitex.ref_url:http://www.itcproject.org`
 
@@ -196,11 +196,11 @@ Quelques exemples de requêtes :
 
 Exemple de requête :
 
-* _recherche des documents comportant la mention de l'article sur les arrêts cardiaques peropératoires de J. P. Morray publié en 1996_ 
+* _recherche des documents comportant la mention de l'article sur les arrêts cardiaques peropératoires de J. P. Morray publié en 1996_&#x20;
 
 ‌`q=namedEntities.unitex.bibl:"Morray JP. Pediatric perioperative cardiac arrest registry: an update. A.S.A. Newsletter 1996 ; 60 : 26-8"`
 
-NB : ce type d’entités n'est pas encore accessible sur l'API ISTEX, mais elle le sera prochainement.
+NB : ce type d’entités n'est pas encore accessible sur l'API Istex, mais elle le sera prochainement.
 
 
 
@@ -215,4 +215,3 @@ Exemple de requête :
 * _recherche des documents contenant les unitermes ou mots-composés avec music, musicology, musical, etc._
 
 `q=keywords.teeft:"music*"`
-

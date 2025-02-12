@@ -9,7 +9,7 @@
 
 ![](../../.gitbook/assets/zotero1.png)
 
-* Renseigner au niveau de **"Résolveur de liens"** l'OpenURL ISTEX `https://api.istex.fr/document/openurl?rft`
+* Renseigner au niveau de **"Résolveur de liens"** l'OpenURL Istex `https://api.istex.fr/document/openurl?rft`
 * N'oublier pas de choisir la **version 1.0** pour l'OpenURL
 
 {% hint style="danger" %}
