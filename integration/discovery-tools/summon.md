@@ -2,7 +2,7 @@
 
 ## ISTEX disponible dans l'Index central de découverte (CDI)
 
-ISTEX est accessible depuis le 9 mai 2021 dans l'index central Summon&#x20;
+&#x20;Istex est accessible depuis le 9 mai 2021 dans l'index central Summon&#x20;
 
 Un grand merci à tous pour ce travail collaboratif!&#x20;
 

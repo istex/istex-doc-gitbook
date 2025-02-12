@@ -1,6 +1,5 @@
 # Ils ont intégré ISTEX
 
-**Ils ont intégré ISTEX dans leurs outils documentaires et vous? c'est pour bientôt ?** [**dites-le à l'équipe ISTEX**](mailto:contact@listes.istex.fr)**.**
+**Ils ont intégré Istex dans leurs outils documentaires et vous? c'est pour bientôt ?** [**dites-le à l'équipe Istex**](mailto:contact@listes.istex.fr)**.**
 
-_C'est important de savoir que la plateforme ISTEX est utilisée et de quelle façon, par la communauté._
-
+_C'est important de savoir que la plateforme Istex est utilisée et de quelle façon, par la communauté._

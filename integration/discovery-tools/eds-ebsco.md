@@ -8,12 +8,12 @@ Une recherche sur l’article suivant : _Tricuspid incompetence and right ventri
 
 Deux propositions d'accès au PDF :
 
-* Directement à partir de la plateforme ISTEX par OpenURL avec pérennité de l’accès
+* Directement à partir de la plateforme Istex par OpenURL avec pérennité de l’accès
 * Ou par rebond à partir du site de l'éditeur via le résolveur de lien FTF d'EBSCO
 
 ![](<../../.gitbook/assets/lien (1).png>)
 
-L'accès direct au document sur la plateforme ISTEX est possible de 2 façons en fonction des habitudes de travail.
+L'accès direct au document sur la plateforme Istex est possible de 2 façons en fonction des habitudes de travail.
 
 **1- FTF/Résolveur de lien : En créant un lien Open URL et en lui assignant des bouquets**
 
@@ -53,7 +53,7 @@ Ne pas oublier de cocher l'affichage du lien "Pour mes fonds documentaires assoc
 
 ![](../../.gitbook/assets/liensuite.png)
 
-Pour personnifier l'affichage du lien, rajouter l’icône ISTEX dont l'URL est :
+Pour personnifier l'affichage du lien, rajouter l’icône Istex dont l'URL est :
 
 `https://content-delivery.istex.fr/assets/img/istex-minilink.png`
 
@@ -61,7 +61,7 @@ Pour personnifier l'affichage du lien, rajouter l’icône ISTEX dont l'URL est 
 
 ### **C- OpenURL sur le champ PMID**
 
-L'Open URL ne se fait pas que sur le champ DOI mais également sur le champ PMID et les résultats sont d'autant plus performants que 4 000 000 de PMID ont été ingérés dans la plateforme ISTEX. Il faut donc au préalable en plus de rajouter le PMID dans le paramétrage au moment de la création du lien "ISTEX Plateforme", modifier l'équation dans le résolveur de lien.
+L'Open URL ne se fait pas que sur le champ DOI mais également sur le champ PMID et les résultats sont d'autant plus performants que 4 000 000 de PMID ont été ingérés dans la plateforme Istex. Il faut donc au préalable en plus de rajouter le PMID dans le paramétrage au moment de la création du lien "Istex Plateforme", modifier l'équation dans le résolveur de lien.
 
 \=> EDS/Linking/Custom Links puis Modify
 
@@ -85,14 +85,14 @@ L'Open URL ne se fait pas que sur le champ DOI mais également sur le champ PMID
 
 ### **D- Open URL : erreur 404 et Istex View**
 
-Il peut y avoir une différence de contenu entre la liste des revues négociées avec les éditeurs, disponible au format Kbart sur le site des licences nationales, et les documents, réellement livrés en xml, disponibles sur la plateforme ISTEX.
+Il peut y avoir une différence de contenu entre la liste des revues négociées avec les éditeurs, disponible au format Kbart sur le site des licences nationales, et les documents, réellement livrés en xml, disponibles sur la plateforme Istex.
 
 \=> Un message code 404 peu **user friendly** s’affiche :
 
 ![](../../.gitbook/assets/istexview1.png)
 
-\=> **Une couche IHM** (pour interface Homme-Machine) a été développée et rajoutée au-dessus de l'API ISTEX et en particulier de son OpenURL pour permettre l’affichage d’un message plus explicite pour l’utilisateur.\
-Il suffit pour le voir de remplacer `https://api.istex.fr/document/openurl` (Pour ceux qui ont paramétré le lien avant ISTEX View) par `https://view.istex.fr/document/openurl` dans le champ **« URL\* de base »** de la fenêtre de paramétrage du lien ISTEX plateforme.
+\=> **Une couche IHM** (pour interface Homme-Machine) a été développée et rajoutée au-dessus de l'API  Istex et en particulier de son OpenURL pour permettre l’affichage d’un message plus explicite pour l’utilisateur.\
+Il suffit pour le voir de remplacer `https://api.istex.fr/document/openurl` (Pour ceux qui ont paramétré le lien avant Istex View) par `https://view.istex.fr/document/openurl` dans le champ **« URL\* de base »** de la fenêtre de paramétrage du lien Istex plateforme.
 
 ![](../../.gitbook/assets/istexview2.png)
 
@@ -102,7 +102,7 @@ Il suffit pour le voir de remplacer `https://api.istex.fr/document/openurl` (Pou
 
 ### **E- Assigner le lien aux bouquets concernés**
 
-Une fois le lien créé il faut l’assigner à tous les bouquets Licences Nationales ISTEX déjà présents dans la plateforme ISTEX :
+Une fois le lien créé il faut l’assigner à tous les bouquets Licences Nationales Istex déjà présents dans la plateforme Istex :
 
 * Les rechercher
 
@@ -113,7 +113,7 @@ Une fois le lien créé il faut l’assigner à tous les bouquets Licences Natio
 ![](../../.gitbook/assets/associerbouquetsistex.png)
 
 {% hint style="danger" %}
-Seuls les bouquets suivants sont déjà disponibles sur la plateforme ISTEX.
+Seuls les bouquets suivants sont déjà disponibles sur la plateforme Istex.
 {% endhint %}
 
 35 négociations mais 36 bouquets à sélectionner car la négociation "Numérique Premium" comporte 2 bouquets "Révolution française-Premier Empire" et "Littérature française et francophone" et la négociation "Droz" comporte le 2 bouquets "Portail Calvin"  et le "Portail Humanisme et Renaissance"
@@ -161,7 +161,7 @@ Seuls les bouquets suivants sont déjà disponibles sur la plateforme ISTEX.
 ### F- Laisser EBSCO gérer le customlink ISTEX
 
 * Depuis août 2018 EBSCO a créé en "dur" un Customlink Full Text "managed" pour du contenu consortial (donc Custom selon leurs critères).
-* Ce lien sera automatiquement associé au lien éditeur du bouquet dès que la ressource est disponible dans la plateforme ISTEX. Pour ceux qui avaient déjà paramétré un customlink ISTEX vous pouvez supprimer le premier lien => "Géré  par votre bibliothèque" et garder "Gérer EBSCO" si vous souhaiter ne plus gérer la sélection  des bouquets ISTEX .
+* Ce lien sera automatiquement associé au lien éditeur du bouquet dès que la ressource est disponible dans la plateforme Istex. Pour ceux qui avaient déjà paramétré un customlink Istex vous pouvez supprimer le premier lien => "Géré  par votre bibliothèque" et garder "Gérer EBSCO" si vous souhaiter ne plus gérer la sélection des bouquets Istex .
 
 Exemple pour **BMJ Journals (ISTEX-Licences Nationales)**
 
@@ -171,13 +171,13 @@ Exemple pour **BMJ Journals (ISTEX-Licences Nationales)**
 
 ![](../../.gitbook/assets/lienistex2.JPG)
 
-* A vous de rajouter comme ci-dessus l'url de l'image ISTEX
+* A vous de rajouter comme ci-dessus l'url de l'image Istex
 
 `https://content-delivery.istex.fr/assets/img/istex-minilink.png`
 
 ## 2- EDS/Customlinks
 
-Contrairement au cas précédent ou un lien plateforme est créé par l'utilisateur, cette fois c'est EBSCO qui gère le CustomLink l'utilisateur choisit d'associer des System collections (champ Local collection for filter) au Customlink ISTEX Plateforme créé par EBSCO.
+Contrairement au cas précédent ou un lien plateforme est créé par l'utilisateur, cette fois c'est EBSCO qui gère le CustomLink l'utilisateur choisit d'associer des System collections (champ Local collection for filter) au Customlink Istex Plateforme créé par EBSCO.
 
 L’activation par l’administrateur du compte se passe dans le sous onglet Linking du ou des Group(s) et profil(s) concernés. Elle sera à répéter pour chaque profil et ou Group. Exemple le plus fréquent, Group Main, profil (eds), onglet Linking, puis Customlinks / lien Modify.
 
@@ -186,13 +186,13 @@ L’activation par l’administrateur du compte se passe dans le sous onglet Lin
 ### **A- Premier cas : ISTEX plateforme est déjà activé parmi les customlinks EDS**
 
 1. Cliquer sur SetUp/Maintain CustomLinks
-2. Descendre jusqu’au lien ISTEX plateforme et cliquer sur le lien
+2. Descendre jusqu’au lien Istex plateforme et cliquer sur le lien
 3. Descendre jusqu’à la fonction Local Collections for Filter
 
 ![](../../.gitbook/assets/custom2.png)
 
 1. Appuyer sur la touche ctrl du clavier et en même temps cliquer sur la source déjà sélectionnée (si elle se désélectionne, la cocher de nouveau sans lâcher la touche ctrl)
-2. Toujours en appuyant sur la touche ctrl, appuyer sur la touche F du clavier pour ouvrir le champ de recherche dans la page et tapez ISTEX pour aller à toutes les occurrences du mot.
+2. Toujours en appuyant sur la touche ctrl, appuyer sur la touche F du clavier pour ouvrir le champ de recherche dans la page et tapez Istex pour aller à toutes les occurrences du mot.
 
 ![](../../.gitbook/assets/custom3.png)
 
@@ -207,7 +207,7 @@ L’activation par l’administrateur du compte se passe dans le sous onglet Lin
 2. Cliquer sur Add New CustomLink
 3. Cocher “Copy from existing CustomLink » et cliquer sur Continue
 4. Dans Choose Category, sélectionner Full Text et cliquer sur ++show other available CustomLinks
-5. Descendre jusqu’au lien ISTEX plateforme et cliquer sur le lien
+5. Descendre jusqu’au lien Istex plateforme et cliquer sur le lien
 6. Descendre jusqu’à la fonction Local Collections for Filter
 7. Suivre les étapes 4 à 7 de du Cas N°1
 
@@ -219,7 +219,7 @@ L’activation par l’administrateur du compte se passe dans le sous onglet Lin
 
 ![](../../.gitbook/assets/ebscogestion.png)
 
-* Il est possible de vérifier les corpus présents dans le custom link ISTEX plateforme en sélectionnant:
+* Il est possible de vérifier les corpus présents dans le custom link Istex plateforme en sélectionnant:
 
 Linking/Add New CustomLinks
 

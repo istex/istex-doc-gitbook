@@ -10,7 +10,7 @@ _Un grand merci à Julien Sicot (Université de Rennes 2) pour le parser ISTEXv2
 
 ## 2-Paramétrage du résolveur SFXv2 vers la plateforme ISTEX&#x20;
 
-L’interrogation de la plateforme ISTEX est basée sur le résolveur de liens SFX.
+L’interrogation de la plateforme Istex est basée sur le résolveur de liens SFX.
 
 Le parseur SFX v2 , développé par Julien Sicot ( [https://github.com/jsicot/sfxbur2](https://github.com/jsicot/sfxbur2) ) a été intégré à la base de connaissance SFX dans la mise à jour d'août 2018 (20183400)
 
@@ -46,7 +46,7 @@ Le parseur SFX v2 , développé par Julien Sicot ( [https://github.com/jsicot/sf
 
 ![](../../.gitbook/assets/exlibris7.png)
 
-* Cliquer sur **“Accès au texte intégral”** sur la plateforme ISTEX
+* Cliquer sur **“Accès au texte intégral”** sur la plateforme Istex
 
 Un grand merci à Julien Sicot (Université de Rennes 2) pour le parser ISTEXv2 et à Laurent Aucher (Université PSL/ACEF) pour ses interventions répétée auprès d'ExLibris
 
@@ -55,11 +55,11 @@ Un grand merci à Julien Sicot (Université de Rennes 2) pour le parser ISTEXv2 
 * [INRA](https://doc.istex.fr/users/integration/exemples/#inra)
 * [Université Rennes2](https://doc.istex.fr/users/integration/exemples/#universite-rennes2) => [Code source disponible sur GitHub](https://github.com/jsicot/sfxbur2)
 * [Université Paris Sciences Lettres](https://doc.istex.fr/users/integration/exemples/#universite-paris-sciences-lettres)
-* Vous très bientôt ? [dites-le à l'équipe ISTEX](mailto:contact@listes.istex.fr), savoir que la plateforme ISTEX est utilisée par la communauté et comment est très important.
+* Vous très bientôt ? [dites-le à l'équipe Istex](mailto:contact@listes.istex.fr), savoir que la plateforme Istex est utilisée par la communauté et comment est très important.
 
 ## 3- ISTEX disponible dans l'Index central de découverte (CDI)
 
-ISTEX est accessible depuis le 9 mai 2021 dans l'index central PRIMO&#x20;
+&#x20;Istex est accessible depuis le 9 mai 2021 dans l'index central PRIMO&#x20;
 
 Un grand merci à tous pour ce travail collaboratif!&#x20;
 
