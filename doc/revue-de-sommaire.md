@@ -1,8 +1,6 @@
 # Revue de sommaire
 
-![](<../.gitbook/assets/revue de sommaire .JPG>)
-
-
+<figure><img src="../.gitbook/assets/revue de sommaire.PNG" alt=""><figcaption></figcaption></figure>
 
 La _Revue de sommaire_ a pour but de :
 
