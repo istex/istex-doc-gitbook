@@ -6,11 +6,11 @@ Ici sont listés différents types de recherche pouvant être effectué via l'AP
 
 _Champ concerné_ : **corpusName:{valeur}**
 
-| Syntaxe        |                                                                                                                           |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| URI            | `https://api.istex.fr/document/?q=`**`corpusName:{valeur}`**                                                              |
-| Paramètres     | - **corpusName** : le champ concerné, - **{valeur}** : la valeur recherchée.                                              |
-| Code de retour | - 200 si OK,  - 500 en cas de problème (dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)) |
+| Syntaxe        |                                                                              |
+| -------------- | ---------------------------------------------------------------------------- |
+| URI            | `https://api.istex.fr/document/?q=`**`corpusName:{valeur}`**                 |
+| Paramètres     | - **corpusName** : le champ concerné, - **{valeur}** : la valeur recherchée. |
+| Code de retour | - 200 si OK,  - 500 en cas de problème                                       |
 
 | Exemples                                                                                  |                                                                                                                                                                                                                                                                                                                                     |
 | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -19,11 +19,11 @@ _Champ concerné_ : **corpusName:{valeur}**
 
 ## Recherche par auteur
 
-| Syntaxe        |                                                                                                                           |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| URI            | [https://api.istex.fr/document/?q=\*\*author.name:{nom}\*\*](https://api.istex.fr/document/?q=**author.name:{nom}**)      |
-| Paramètres     | - **author.name** : le champ concerné, - **{nom}** : le nom recherché.                                                    |
-| Code de retour | - 200 si OK,  - 500 en cas de problème (dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)) |
+| Syntaxe        |                                                                                                                      |
+| -------------- | -------------------------------------------------------------------------------------------------------------------- |
+| URI            | [https://api.istex.fr/document/?q=\*\*author.name:{nom}\*\*](https://api.istex.fr/document/?q=**author.name:{nom}**) |
+| Paramètres     | - **author.name** : le champ concerné, - **{nom}** : le nom recherché.                                               |
+| Code de retour | - 200 si OK,  - 500 en cas de problème                                                                               |
 
 | Exemples                                                                                                  |                                                                                                                                                                                 |
 | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -36,7 +36,7 @@ _Champ concerné_ : **corpusName:{valeur}**
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | URI            | [https://api.istex.fr/document/?q=\*\*host.editor.name:{nom}\*\*](https://api.istex.fr/document/?q=**host.editor.name:{nom}**) |
 | Paramètres     | - **host.editor.name** : le champ concerné,  - **{nom}** : le nom recherché.                                                   |
-| Code de retour | - 200 si OK,  - 500 en cas de problème (dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr))      |
+| Code de retour | - 200 si OK,  - 500 en cas de problème                                                                                         |
 
 | Exemples                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                      |
 | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -45,11 +45,11 @@ _Champ concerné_ : **corpusName:{valeur}**
 
 ## Recherche par genre de document
 
-| Syntaxe        |                                                                                                                           |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| URI            | [https://api.istex.fr/document/?q=\*\*genre:{valeur}\*\*](https://api.istex.fr/document/?q=**genre:{valeur}**)            |
-| Paramètres     | - **genre** : le champ concerné, - **{valeur}** : la valeur recherchée.                                                   |
-| Code de retour | - 200 si OK,  - 500 en cas de problème (dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)) |
+| Syntaxe        |                                                                                                                |
+| -------------- | -------------------------------------------------------------------------------------------------------------- |
+| URI            | [https://api.istex.fr/document/?q=\*\*genre:{valeur}\*\*](https://api.istex.fr/document/?q=**genre:{valeur}**) |
+| Paramètres     | - **genre** : le champ concerné, - **{valeur}** : la valeur recherchée.                                        |
+| Code de retour | - 200 si OK,  - 500 en cas de problème                                                                         |
 
 | Exemples                                                                                      |                                                                                                                                                                                                                                                                                                                      |
 | --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -58,11 +58,11 @@ _Champ concerné_ : **corpusName:{valeur}**
 
 ## Recherche par genre de série
 
-| Syntaxe        |                                                                                                                           |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| URI            | [https://api.istex.fr/document/?q=\*\*host.genre:{valeur}\*\*](https://api.istex.fr/document/?q=**host.genre:{valeur}**)  |
-| Paramètres     | - **host.genre** : le champ concerné, - **{valeur}** : la valeur recherchée.                                              |
-| Code de retour | - 200 si OK,  - 500 en cas de problème (dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)) |
+| Syntaxe        |                                                                                                                          |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| URI            | [https://api.istex.fr/document/?q=\*\*host.genre:{valeur}\*\*](https://api.istex.fr/document/?q=**host.genre:{valeur}**) |
+| Paramètres     | - **host.genre** : le champ concerné, - **{valeur}** : la valeur recherchée.                                             |
+| Code de retour | - 200 si OK,  - 500 en cas de problème                                                                                   |
 
 | Exemples                                                                             |                                                                                                                                                         |
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -77,7 +77,7 @@ _Champ concerné_ : **subject.value:{valeur}**
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | URI            | [https://api.istex.fr/document/?q=\*\*subject.value:{valeur}\*\*](https://api.istex.fr/document/?q=**subject.value:{valeur}**) |
 | Paramètres     | - **subject.value** : le champ concerné, - **{valeur}** : la valeur recherchée.                                                |
-| Code de retour | - 200 si OK,  - 500 en cas de problème (dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr))      |
+| Code de retour | - 200 si OK,  - 500 en cas de problème                                                                                         |
 
 | Exemples                                                                 |                                                                                                                                                                           |
 | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -92,7 +92,7 @@ _Champ concerné_ : **host.subject.value:{valeur}**
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | URI            | [https://api.istex.fr/document/?q=\*\*host.subject.value:{valeur}\*\*](https://api.istex.fr/document/?q=**host.subject.value:{valeur}**) |
 | Paramètres     | **- host.subject.value** : le champ concerné, - **{valeur}** : la valeur recherchée.                                                     |
-| Code de retour | - 200 si OK,  - 500 en cas de problème (dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr))                |
+| Code de retour | - 200 si OK,  - 500 en cas de problème                                                                                                   |
 
 | Exemples                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -103,11 +103,11 @@ _Champ concerné_ : **host.subject.value:{valeur}**
 
 _Champ concerné_ : **language:{valeur}**
 
-| Syntaxe        |                                                                                                                           |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| URI            | [https://api.istex.fr/document/?q=\*\*language:{valeur}\*\*](https://api.istex.fr/document/?q=**language:{valeur}**)      |
-| Paramètres     | - **language** : le champ concerné, - **{valeur}** : la valeur recherchée.                                                |
-| Code de retour | - 200 si OK,  - 500 en cas de problème (dans ce cas, contacter [api-bug@listes.istex.fr](mailto:api-bug@listes.istex.fr)) |
+| Syntaxe        |                                                                                                                      |
+| -------------- | -------------------------------------------------------------------------------------------------------------------- |
+| URI            | [https://api.istex.fr/document/?q=\*\*language:{valeur}\*\*](https://api.istex.fr/document/?q=**language:{valeur}**) |
+| Paramètres     | - **language** : le champ concerné, - **{valeur}** : la valeur recherchée.                                           |
+| Code de retour | - 200 si OK,  - 500 en cas de problème                                                                               |
 
 | Exemples                                                                               |                                                                                                                                                             |
 | -------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
