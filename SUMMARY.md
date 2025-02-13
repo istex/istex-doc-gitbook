@@ -91,6 +91,7 @@
     * [EDS - EBSCO](integration/discovery-tools/eds-ebsco.md)
     * [PRIMO / Alma - ExLibris](integration/discovery-tools/primo-exlibris.md)
     * [SUMMON](integration/discovery-tools/summon.md)
+  * [Intégration dans uPortal](integration/integration-dans-uportal.md)
   * [Intégration du bouton ISTEX](integration/bouton/README.md)
     * [Métadonnées pour l'intégration du bouton ISTEX](integration/bouton/improved-metadata.md)
   * [Intégration avancée avec l'API ISTEX](integration/advanced-api.md)
