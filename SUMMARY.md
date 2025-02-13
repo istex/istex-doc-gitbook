@@ -105,6 +105,7 @@
     * [Université Paris Saclay](integration/examples/univ-paris-saclay.md)
     * [Université Paris Sciences Lettres](integration/examples/psl.md)
     * [Université Rennes 2](integration/examples/univ-rennes2.md)
+  * [Intégration dans Drupal](integration/integration-dans-drupal.md)
 * [FAQ](faq/README.md)
   * [A quoi sert ISTEX ?](faq/aquoisertistex.md)
   * [Mais pourquoi mettre un ARK ?](faq/ark.md)
