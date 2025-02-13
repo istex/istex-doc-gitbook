@@ -2,10 +2,10 @@
 
 ![](../../.gitbook/assets/rio1.PNG)
 
-* [Intégration du bouton ISTEX](../bouton/) \(1\) dans l’interface de recherche de « Flora » renommée [Joint ILL-ESRF Library catalogue ](https://epn-library.esrf.fr/flora/). [voir l'exemple](https://epn-library.esrf.fr/flora/jsp/portal/index.jsp?record=doc:PUB_ESRF:32023&action=opac_direct_view&success=/jsp/portal/index.jsp&profile=anonymous)
-* [Intégration des widgets ISTEX ](../widgets.md)\(2\) [voir l’exemple](http://www.epn-campus.eu/index.php?id=834) 
-* Un grand merci à Sophie Rio pour ces 2 intégrations ! 
-* Ci dessous le code source HTML/Javascript de l’intégration dans Flora 
+* [Intégration du bouton ISTEX](../bouton/) (1) dans l’interface de recherche de « Flora » renommée [Joint ILL-ESRF Library catalogue ](https://epn-library.esrf.fr/flora/). [voir l'exemple](https://epn-library.esrf.fr/flora/jsp/portal/index.jsp?record=doc:PUB_ESRF:32023\&action=opac_direct_view\&success=/jsp/portal/index.jsp\&profile=anonymous)
+* [Code source des widgets sur github  ](https://github.com/istex/istex-widgets-angular)[voir l’exemple](http://www.epn-campus.eu/index.php?id=834)&#x20;
+* Un grand merci à Sophie Rio pour ces 2 intégrations !&#x20;
+* Ci dessous le code source HTML/Javascript de l’intégration dans Flora&#x20;
 
 ```markup
 <span id="istex-button-hook">
@@ -39,4 +39,3 @@
   </script>
 </span>
 ```
-

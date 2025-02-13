@@ -23,9 +23,8 @@ Les technologies des sites web où Istex peut venir s'intégrer sont les suivant
 
 Attention car ces intégrations avancées nécessites des compétences plus où moins techniques : du webmaster à l'informaticien codeur.
 
-Un webmaster pourra sans problème intégrer Istex en utilisant les techniques suivantes :
+Un webmaster pourra sans problème intégrer Istex en utilisant :
 
-* [Les widgets ISTEX](widgets.md)
 * [Le bouton ISTEX intégré](bouton/)
 
 Un informaticien codeur (peu importe le langage de programmation) pourra intégrer Istex en utilisant les techniques suivantes :
