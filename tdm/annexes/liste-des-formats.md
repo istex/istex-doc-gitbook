@@ -56,7 +56,7 @@ Le format “Cleaned” a été créé par Istex pour les besoins de la fouille 
 
 La reconnaissance optique de caractères, ou océrisation, est une technique informatique permettant – grâce à un procédé optique – de lire et stocker des images de textes imprimés, dactylographiés ou manuscrits, et de les traduire en fichiers textes.
 
-_Dans Istex, les fichiers OCR sont générés grâce à une chaîne de réocérisation basée sur l’outil Tesseract. Cette chaîne permet d’améliorer la qualité des documents originaux dont le texte est absent (PDF image) ou non exploitable (problèmes de reconnaissance de caractères). Lorsqu’il est disponible, ce fichier OCR sera automatiquement choisi à la place du fichier TXT d’origine. Pour plus de détails, voir le billet de blog_ [_OCR : production de plein texte_](https://blog.istex.fr/ocr-production-de-plein-texte/)_._
+_Dans Istex, les fichiers OCR sont générés grâce à une chaîne de réocérisation basée sur l’outil Tesseract. Cette chaîne permet d’améliorer la qualité des documents originaux dont le texte est absent (PDF image) ou non exploitable (problèmes de reconnaissance de caractères). Lorsqu’il est disponible, ce fichier OCR sera automatiquement choisi à la place du fichier TXT d’origine. Pour plus de détails, voir l'article d'actualité_ [_"OCR : production de plein texte"_](https://www.istex.fr/ocr-production-de-plein-texte/)
 
 _NB : La rubrique_ [_Remplacer les documents TXT par les documents OCR_](liste-des-formats.md) _propose une procédure permettant d'exploiter le fichier OCR pour faire de la fouille de textes._
 
