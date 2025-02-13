@@ -48,7 +48,7 @@ Exemple :
 
 ## **Etape 2 : Récupération des noms de fichiers correspondant aux identifiants ISTEX**
 
-Ce programme récupère les noms de fichiers dans le fichier `.corpus` et fait la jointure avec le fichier précédent sur l'identifiant ISTEX.
+Ce programme récupère les noms de fichiers dans le fichier `.corpus` et fait la jointure avec le fichier précédent sur l'identifiant Istex.
 
 ```bash
 perl -ne 'if (/^id /o) {
@@ -92,11 +92,11 @@ Le fichier `DistNbMotNbPage.txt` ainsi obtenu indique, pour chaque document du c
 * Si le nombre de mots par page est égal à 0, il s’agit d’un PDF image.
 * Si ce nombre est supérieur à 0, il s’agit également potentiellement d’un PDF image. La valeur limite à partir de laquelle, le PDF peut être considéré comme textuel est variable : environ 80, 100, 140 mots par page.
 
-Dans le 2e cas, il faut vérifier manuellement chaque PDF dans le démonstrateur.
+Dans le 2e cas, il faut vérifier manuellement chaque PDF dans Istex Search.
 
 La procédure de vérification est la suivante :
 
-* Recherche dans le démonstrateur Istex :&#x20;
+* Recherche dans Istex Search :&#x20;
 
 ```
      id:identifiant_Istex
@@ -113,7 +113,7 @@ Une fois les PDF Image identifiés, il faut les supprimer du corpus.
 
 La procédure de suppression est la suivante :
 
-* Préparer la liste d’identifiants Istex à supprimer et le fichier `corpus` faisant la correspondance entre les identifiants et les noms de fichiers
+* Préparer la liste d’identifiants Istex à supprimer et le fichier `corpus`faisant la correspondance entre les identifiants et les noms de fichiers
 
 ```bash
 export LC_COLLATE=C

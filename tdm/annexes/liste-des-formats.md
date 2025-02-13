@@ -201,7 +201,7 @@ L’extension .mov est souvent utilisée pour les fichiers vidéo QuickTime.
 
 Il s'agit de fichiers originaux parfois fournis par l’éditeur pour présenter la couverture de la revue dans laquelle est publié le document. Ils peuvent être de plusieurs types : documents textuels (ex. : PDF), images (exs. : GIF, TIFF, JPEG), pages web (ex. : HTML), etc.
 
-_NB : les formats de "Couvertures" présents dans ISTEX qui sont déjà décrits dans les rubriques précédentes ne sont pas répétés ici._
+_NB : les formats de "Couvertures" présents dans Istex qui sont déjà décrits dans les rubriques précédentes ne sont pas répétés ici._
 
 ### **o HTML (**&#x48;yperText Markup Language _\*Langage de balisage d’hypertexte_)
 

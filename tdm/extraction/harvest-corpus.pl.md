@@ -20,7 +20,7 @@ Il permet de décharger un corpus depuis la plateforme Istex à partir d’une r
 
 ## **Installation :**
 
-* ce programme est disponible sur [**GitHub**](https://github.com/istex/harvest-corpus)
+* ce programme est disponible sur [GitHub](https://github.com/istex/harvest-corpus)
 * en plus des modules présents dans la distribution standard de Perl, le programme a besoin de [modules supplémentaires](https://github.com/istex/harvest-corpus#pr%C3%A9requis) disponibles sur [CPAN](https://www.cpan.org/).
 * si besoin, installer Git pour Windows : [https://git-for-windows.github.io/](https://git-for-windows.github.io/)
 * cloner la distribution `harvest-corpus` :

@@ -4,7 +4,7 @@
 
 C’est tout à fait normal de se poser ce genre de questions car pour beaucoup d’utilisateurs, Istex c’est uniquement des archives en licences nationales avec accès sur la plateforme de l'éditeur via un portail institutionnel (BibCnrs, BiblioInserm, lien ressources portail <=> PubMed....)
 
-Mais Le projet [**ISTEX**](https://www.istex.fr/) a pour vocation :
+Mais le projet [**Istex**](https://www.istex.fr/) a pour vocation :
 
 **1) D’offrir à l’ensemble de la communauté de l’ESR, un accès en ligne aux collections rétrospectives de la littérature scientifique dans toutes les disciplines, en engageant une politique nationale d’acquisition massive de documentation** C'est l'utilisation documentaire quotidienne et transparente à partir d'une interface.
 

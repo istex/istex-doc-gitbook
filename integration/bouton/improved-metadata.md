@@ -1,10 +1,10 @@
 # Métadonnées pour l'intégration du bouton ISTEX
 
-L'[extension pour navigateur ISTEX](../../doc/bouton-istex.md) permet de venir afficher des boutons Istex
+L'extension pour navigateur Istex permet de venir afficher des boutons Istex
 
 ![](<../../.gitbook/assets/istex-button (1).png>)
 
-au sein de vos pages web lorsque des références bibliographiques y sont trouvées et qu'elles correspondent à des ressources présentes dans la plateforme Istex. Pour que cette technique fonctionne cela nécessite d'[installer dans son navigateur web l'extension ISTEX](../../doc/bouton-istex.md).
+au sein de vos pages web lorsque des références bibliographiques y sont trouvées et qu'elles correspondent à des ressources présentes dans la plateforme Istex. Pour que cette technique fonctionne cela nécessite d'installer dans son navigateur web l'extension Istex.
 
 Ces références bibliographiques sont le plus souvent des identifiants forts de documents comme des DOI ou des PMID mais elle peuvent également être des OpenURL que le bouton Istex sera aussi capable de repérer. Ces métadonnées peuvent apparaitre dans la page HTML sous différentes formes.
 

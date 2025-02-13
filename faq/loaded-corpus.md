@@ -1,8 +1,10 @@
 # Comment connaître la liste des corpus chargés dans la plateforme ISTEX ?
 
-Vous pouvez consulter le référentiel [https://loaded-corpus.data.istex.fr/](https://loaded-corpus.data.istex.fr/) qui vous proposera la liste ainsi que des liens web sémantique vers par exemple les éditeurs à qui Istex a acheté ces corpus. Exemple :
+Vous pouvez consulter le référentiel [https://loaded-corpus.data.istex.fr/](https://loaded-corpus.data.istex.fr/) qui vous proposera la liste ainsi que des liens web sémantique vers par exemple les éditeurs à qui Istex a acheté ces corpus. Exemple&#x20;
 
-![](<../.gitbook/assets/image (2) (1).png>)
+
+
+<figure><img src="../.gitbook/assets/listecorpusfaq.PNG" alt=""><figcaption></figcaption></figure>
 
 Vous pouvez également **consulter la liste des corpus chargés sur la plateforme Istex** **directement en consultant son** [**API**](../api/) **:**
 

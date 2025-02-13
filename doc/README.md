@@ -11,7 +11,8 @@ Istex centralise un grand nombre d'archives de ressources documentaires qui peuv
 
 Voici les différents usages documentaires d'Istex qui sont actuellement proposés :
 
-* [Bouton ISTEX](bouton-istex.md)
+* [Istex Search](istex-search-en-cours.md)
+* [Extension Click & Read](extension-click-and-read.md)
 * [Google Scholar](google-scholar.md)
 * [Logiciels de gestion bibliographique](bib/)
 * [Revue de sommaire](revue-de-sommaire.md)

@@ -2,7 +2,7 @@
 
 Toutes les URL suivantes sont accédées via la méthode **HTTP GET**.
 
-\_\_[_Pour apprendre à interroger l’API (Part1)_ ](https://istex-tutorial.data.istex.fr/ark:/67375/Q05-GXQNQL2L-L) _et_ [_(Part2)_](https://istex-tutorial.data.istex.fr/ark:/67375/Q05-KFHR984N-W) _n'hésitez pas à consulter les tutoriels multimédias :_
+\_\__Pour apprendre à interroger l’API_ _n'hésitez pas à consulter_ [_les tutoriels multimédias_ ](https://istex-tutorial.data.istex.fr/ark:/67375/Q05-4SBS2HWN-Z)_:_
 
 \_\_
 

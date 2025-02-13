@@ -1,6 +1,6 @@
 # Proposer des enrichissements
 
-Si vous avez une **idée d'enrichissement** et que vous souhaitez l'intégrer dans l'API[ Contactez-nous](https://app.gitbook.com/s/nkXZzohNf8kqRGcvquyv/).
+Si vous avez une **idée d'enrichissement** et que vous souhaitez l'intégrer dans l'API [**contactez-nous**](mailto:contact@listes.istex.fr)
 
 L'enrichissement en question se doit d'être un fichier **TEI** de la forme :
 

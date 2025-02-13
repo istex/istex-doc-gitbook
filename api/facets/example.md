@@ -15,8 +15,8 @@ La meilleure solution consiste alors à utiliser une facette [\&facet=corpusName
 
 Ici, nous n'avons que **deux noms de corpus** (par exemple, elsevier et wiley), le premier contenant 2 des résultats et le second les 3 autres.
 
-Les facettes sont donc très utiles pour filtrer sur une collection de données. Elles permettent, comme ici, de **générer des états de collection**, mais également à montrer à l'utilisateur final des moyens d'**affiner leur recherche**. En effet, l'objet "agrégations" peut être mappé sur votre portail :
+Les facettes sont donc très utiles pour filtrer sur une collection de données. Elles permettent, comme ici, de **générer des états de collection**, mais également à montrer à l'utilisateur final des moyens d'**affiner leur recherche**. En effet, l'objet "agrégations" peut être mappé sur votre portail&#x20;
 
-![](../../.gitbook/assets/facetdemo.png)
+<figure><img src="../../.gitbook/assets/facette api.PNG" alt=""><figcaption></figcaption></figure>
 
 Ainsi, l'utilisateur pourra **choisir quels critères ajouter à sa recherche plus facilement**.

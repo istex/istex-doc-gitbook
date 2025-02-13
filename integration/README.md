@@ -11,7 +11,7 @@ Istex a vocation à venir s'intégrer dans les outils documentaires des établis
 Dans cette section nous détaillons les **intégrations d'Istex de type ENT** (ou plus généralement les "Site web"). Les typologies de sites web visés sont :
 
 * Les [outils de découvertes et les résolveur de lien](discovery-tools/) car il proposent l'accès au courant. Istex viendra ainsi s'y intégrer pour compléter le courant avec les archives.
-* Les ENT car ils permettent de proposer des points d'accès à tous les service d'une université, service de documentation compris.
+* Les ENT car ils permettent de proposer des points d'accès à tous les services d'une université, service de documentation compris.
 * Les portails documentaires car ce sont les vitrines des services de la documentation de l'établissement, la bibliothèque numérique Istex peut logiquement venir s'y insérer.
 * Les OPAC car ils proposent des ressources documentaires aux usagers de façon directe ou indirecte. Istex peut venir s'y insérer pour proposer un accès directe à la ressources lorsque cette dernière est présente dans Istex.
 
@@ -29,5 +29,5 @@ Un webmaster pourra sans problème intégrer Istex en utilisant :
 
 Un informaticien codeur (peu importe le langage de programmation) pourra intégrer Istex en utilisant les techniques suivantes :
 
-* Toute les techniques lister plus haut adaptées au webmaster.
+* Toutes les techniques listées plus haut adaptées au webmaster.
 * [Intégration directe par API ISTEX](advanced-api.md)
