@@ -103,11 +103,11 @@ En sélectionnant le titre de la ressource souhaitée une page s'ouvre :
 
 ![](../.gitbook/assets/rsdl.JPG)
 
-* information sur le corpus, lien vers le référentiel des corpus chargés dans Istex [https://loaded-corpus.data.istex.fr](https://loaded-corpus.data.istex.fr) et nom du corpus, lors de la négociation nationale (4)
+* information sur le bouquet, lien vers le référentiel des bouquets chargés dans Istex [https://loaded-corpus.data.istex.fr](https://loaded-corpus.data.istex.fr) et nom du bouquet, lors de la négociation nationale (4)
 * éditeur scientifique, le nom peut être différent que celui du corpus (5)
 * issn/eissn  ou  isbn/eisbn (6)
 * alignement avec Wikidata, à l'aide d'une requête SPARQL (7)
-* ark de la revue (8) (en [savoir plus](https://blog.istex.fr/des-ark-dans-istex/))&#x20;
+* ark de la revue (8) (en[ savoir plus](https://www.istex.fr/les-ark-dans-istex-sortent-de-lombre/))&#x20;
 * exporter, de nombreux formats disponibles :  CSV, TSV, KBART, JSON... (9)
 
 
