@@ -15,18 +15,18 @@ La _Revue de sommaire_ a pour but de :
 
 &#x20;&#x20;
 
-![](../.gitbook/assets/Kbart2RS.png)
+<figure><img src="../.gitbook/assets/pageacceuil RS.PNG" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
-* Les titres présents, dans la "Revue de Sommaire"_,_ proviennent du fichier de **KBART-ABES de référence**
+* Les titres présents, dans la "Revue de Sommaire"_,_ proviennent du fichier de **KBART-Abes de référence**
 * La création d'un export **KBART-Istex** permet de mettre à disposition des utilisateurs des tableaux KBART qui reflètent **la couverture réelle d'Istex, il peut donc y avoir plusieurs lignes par titre pour mettre en avant les trous dans les collections.**
 {% endhint %}
 
-L'instance [_Revue de sommaire ISTEX_](https://revue-sommaire.istex.fr/) \_\_ est disponible sur le site [https://data.istex.fr](https://data.istex.fr). [ ](http://data.istex.fr)Le site data.istex.fr expose des données [ISTEX](http://www.istex.fr/), selon les normes du web sémantique, dans un Triple Store via son [SPARQL Endpoint](http://data.istex.fr/triplestore/sparql).
+L'instance [_Revue de sommaire Istex_](https://revue-sommaire.istex.fr/)  est disponible sur le site [https://data.istex.fr](https://data.istex.fr). [ ](http://data.istex.fr)Le site data.istex.fr expose des données [Istex](http://www.istex.fr/), selon les normes du web sémantique, dans un Triple Store via son [SPARQL Endpoint](http://data.istex.fr/triplestore/sparql).
 
 ## Interface
 
-### ![](../.gitbook/assets/acceuil.JPG) Accueil
+### Accueil
 
 1- Une répartition graphique des ressources par corpus
 
@@ -40,28 +40,32 @@ Pour rendre le graphique plus lisible, les très gros corpus, ECCO et EEBO, sont
 
 Par exemple, pour rechercher des ressources avec le mot _"physical"_
 
-![](../.gitbook/assets/corpusphysical.PNG)
+<figure><img src="../.gitbook/assets/grapheRS.PNG" alt=""><figcaption></figcaption></figure>
 
 2- Des exemples de revues présentes dans Istex
 
 Des revues incontournables sont mises en avant pour introduire la plateforme.
 
-![](../.gitbook/assets/exemples-de-revues.PNG)
 
-### ![](../.gitbook/assets/recherche.JPG) Recherche
+
+<figure><img src="../.gitbook/assets/page d&#x27;accueil titres rs.PNG" alt=""><figcaption></figcaption></figure>
+
+### Recherche
 
 * il suffit d'écrire un mot ou un titre dans l'écran de recherche (1)
 
-![](../.gitbook/assets/kbartrs.JPG)
 
-* pour affiner et aider à la recherche, une recherche filtrée (2) est proposée par _A-Z_, _corpus_ (ressources négociées), _éditeur scientifique_ (le nom peut être différent de celui du corpus), _début de collection_ (données ABES), _fin de collection_ (données ABES), _type_ (monographie, série).
+
+<figure><img src="../.gitbook/assets/exportRS.PNG" alt=""><figcaption></figcaption></figure>
+
+* pour affiner et aider à la recherche, une recherche filtrée (2) est proposée par _A-Z_, _bouquet_ (ressources négociées), _éditeur scientifique_ (le nom peut être différent de celui du corpus), _début de collection_ (données Abes), _fin de collection_ (données Abes), _type_ (monographie, série).
 *   Le résultat de votre recherche peut-être exporter dans différents formats (3) : CSV, TSV, KBART-Istex....
 
 
 
 
 
-![](<../.gitbook/assets/sparql (1).JPG>) SPARQL
+SPARQL
 
 Pour utiliser le SPARQL EndPoint Istex et/ou comparer vos ressources avec les ressources présentes dans Istex.
 
@@ -71,7 +75,7 @@ Pour utiliser le SPARQL EndPoint Istex et/ou comparer vos ressources avec les re
 Pour afficher cet écran, n'hésitez pas à re-cliquer si besoin.
 {% endhint %}
 
-### ![](../.gitbook/assets/ontologie.JPG) Ontologie
+### Ontologie
 
 Sont disponibles sur cette page toutes les informations de l'ontologie du projet Istex qui définit 14 Classes, 11 Object Properties et 13 Data Properties. Accès libre sur[ GITHUB](https://github.com/istex/ontology/blob/master/istexXML.owl) .
 
