@@ -8,7 +8,7 @@
 ![](../../.gitbook/assets/endnote1.png)
 
 * Dans "**EndNote Preferences"** aller dans **"Find Full Text"**
-* Renseigner au niveau de **"Open URL Path"** le résolveur OpenURL ISTEX `https://api.istex.fr/document/openurl?rft`
+* Renseigner au niveau de **"Open URL Path"** le résolveur OpenURL Istex `https://api.istex.fr/document/openurl?rft`
 * Cliquer sur **"Appliquer"**
 
 ![](../../.gitbook/assets/endnote2.png)
@@ -33,4 +33,3 @@
 * Un trombone signale la présence du PDF
 
 ![](../../.gitbook/assets/endnote6.png)
-

@@ -4,7 +4,7 @@
 
 La _Revue de sommaire_ a pour but de :
 
-* proposer des pages **dédiées pour chaque revue Istex** en présentant un accès par année - volume - numéro -titre du document, jusqu'à l'accès au plein texte disponible sur la plateforme Istex
+* proposer des pages **dédiées pour chaque revue Istex** en présentant un accès par année - volume - numéro - titre du document, jusqu'à l'accès au plein texte disponible sur la plateforme Istex
 * proposer aux établissements **une vision "revue de sommaire"**, pour les titres présents dans la plateforme Istex, intégrable dans leur portail documentaire
 * proposer une liste de titres dont les **articles citent l’ouvrage/la revue** recherchés
 * afficher **la liste contractuelle des titres** des licences nationales pour les corpus chargés sur la plateforme Istex
@@ -32,10 +32,10 @@ L'instance [_Revue de sommaire Istex_](https://revue-sommaire.istex.fr/)  est di
 
 ![](../.gitbook/assets/graphcorpus.PNG)
 
-En cliquant sur la flèche verte, ou sur voir les détails, vous pouvez naviguer dans les résultats, rechercher, filtrer.
+En cliquant sur la flèche verte, ou sur "voir les détails", vous pouvez naviguer dans les résultats, rechercher, filtrer.
 
 {% hint style="info" %}
-Pour rendre le graphique plus lisible, les très gros corpus, ECCO et EEBO, sont masqués, mais vous les retrouvez au moment de la navigation.
+Pour rendre le graphique plus lisible, les très gros corpus ECCO et EEBO, sont masqués, mais vous les retrouvez au moment de la navigation.
 {% endhint %}
 
 Par exemple, pour rechercher des ressources avec le mot _"physical"_
@@ -59,7 +59,7 @@ Des revues incontournables sont mises en avant pour introduire la plateforme.
 <figure><img src="../.gitbook/assets/exportRS.PNG" alt=""><figcaption></figcaption></figure>
 
 * pour affiner et aider à la recherche, une recherche filtrée (2) est proposée par _A-Z_, _bouquet_ (ressources négociées), _éditeur scientifique_ (le nom peut être différent de celui du corpus), _début de collection_ (données Abes), _fin de collection_ (données Abes), _type_ (monographie, série).
-*   Le résultat de votre recherche peut-être exporter dans différents formats (3) : CSV, TSV, KBART-Istex....
+*   Le résultat de votre recherche peut-être exporté dans différents formats (3) : CSV, TSV, KBART-Istex....
 
 
 
