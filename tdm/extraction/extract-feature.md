@@ -1,6 +1,6 @@
 # Fonction "Extract"
 
-Il s'agit d'une fonction du moteur de recherche de l'API Istex permettant d’extraire sous forme d’une archive zip le corpus correspondant à des critères de recherche. Elle s’utilise directement dans l’URL de requêtage sur l’API en la paramétrant selon ses besoins
+Il s'agit d'une fonction du moteur de recherche de l'API Istex permettant d’extraire sous forme d’une archive zip le corpus correspondant à des critères de recherche. Elle s’utilise directement dans l’URL de requêtage sur l’API en la paramétrant selon ses besoins.
 
 ## **Avantages :**
 

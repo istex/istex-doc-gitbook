@@ -104,8 +104,8 @@ La procédure de vérification est la suivante :
 
 * Ouverture du PDF correspondant au résultat de cette requête
 * Sélection du texte
-  * Si la sélection totale ou partielle du texte est possible et si en collant le texte dans un document Word, ce texte est illisible => il s’agit d’un PDF Image
-  * Si la sélection totale du texte est possible et si en collant le texte dans un document Word, ce texte est identique au texte sélectionné => il s’agit d’un PDF Texte
+  * Si la sélection totale ou partielle du texte est possible et si, en collant le texte dans un document Word, ce texte est illisible => il s’agit d’un PDF Image
+  * Si la sélection totale du texte est possible et si, en collant le texte dans un document Word, ce texte est identique au texte sélectionné => il s’agit d’un PDF Texte
 
 ## **Etape 5 : Procédure de suppression des PDF Image**
 

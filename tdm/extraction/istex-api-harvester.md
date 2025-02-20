@@ -31,7 +31,7 @@ Le programme **istex-api-harvester** est un utilitaire en ligne de commande perm
 ## **Astuces :**
 
 * les options de cet utilitaire sont listées sur le dépôt GitHub&#x20;
-* il est nécessaire d'indiquer le nombre de documents à extraire. Sans précision, aucun document n'est moissonné
+* il est nécessaire d'indiquer le nombre de documents à extraire. Sans précision, aucun document n'est moissonné.
 *   les métadonnées au format JSON étant extraites par défaut, si on ne souhaite que les fichiers textes, utiliser l'option -M avec une chaîne vide, c’est-à-dire un blanc entre doubles quotes : -M **""**
 
     * _**Exemple :** moissonnage du texte intégral au format txt, sans les métadonnées, de 590 documents correspondant à la requête querya1.txt, à télécharger dans le répertoire «corpusAncien»_

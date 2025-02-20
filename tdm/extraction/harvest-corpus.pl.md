@@ -8,7 +8,7 @@ Il permet de décharger un corpus depuis la plateforme Istex à partir d’une r
 
 * il permet de renommer les fichiers déchargés, de gérer l’arborescence des fichiers et de générer un fichier de notices bibliographiques, ainsi qu'un fichier `.corpus` (contenant la liste des identifiants du corpus).&#x20;
 * il permet également de traiter une requête de grande taille (9 000 caractères).&#x20;
-* il est associé à l'outil `statsCorpus.pl`, un programme de réalisation de statistiques sur le corpus, dont le fichier de sortie est notamment utilisée dans Lodex, outil de publication dans des formats du web sémantique et d'exposition de jeux de données sur le web.&#x20;
+* il est associé à l'outil `statsCorpus.pl`, un programme de réalisation de statistiques sur le corpus, dont le fichier de sortie est notamment utilisé dans Lodex, outil de publication dans des formats du web sémantique et d'exposition de jeux de données sur le web.&#x20;
 * comme ce programme extrait d'abord la liste des identifiants des documents pertinents avant de décharger les fichiers correspondants, il ne devrait pas être affecté par les limitations de la [pagination de type  `scroll`](../../api/results/scroll.md). Donc, même si la connexion Internet a un faible débit, l'extraction devrait se dérouler sans problème.&#x20;
 * il gère l'authentification au serveur en dehors du réseau interne de l'Inist.&#x20;
 * il vérifie le type des fichiers déchargés, signale les problèmes d'authentification et relance le déchargement des fichiers concernés en cas d’interruption intempestive (pour plus de détails, voir la rubrique [Détecter les problèmes d'authentification](../verification/auth-problems.md) dans le chapitre "Vérification et mise en forme des résultats").&#x20;
@@ -31,7 +31,7 @@ git clone https://github.com/istex/harvest-corpus.git
 
 ## **Exemples :**&#x20;
 
-pour récupérer les fichiers PDF et TEI à partir d'une requête et les placer dans le répertoire `Data/Fichiers` tout en générant un fichier de notices bibliographiques `oiseaux.txt` et un fichier d'identifiants `oiseaux.corpus` :
+Pour récupérer les fichiers PDF et TEI à partir d'une requête et les placer dans le répertoire `Data/Fichiers` tout en générant un fichier de notices bibliographiques `oiseaux.txt` et un fichier d'identifiants `oiseaux.corpus` :
 
 ```bash
 harvestCorpus.pl -q '/birds?/ OR (avian NOT flu)' -t pdf,tei -d Data/Fichiers -s oiseaux.corpus -n oiseaux.txt -p Oiseau_ -v
