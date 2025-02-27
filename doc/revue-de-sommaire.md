@@ -59,11 +59,7 @@ Des revues incontournables sont mises en avant pour introduire la plateforme.
 <figure><img src="../.gitbook/assets/exportRS.PNG" alt=""><figcaption></figcaption></figure>
 
 * pour affiner et aider à la recherche, une recherche filtrée (2) est proposée par _A-Z_, _bouquet_ (ressources négociées), _éditeur scientifique_ (le nom peut être différent de celui du corpus), _début de collection_ (données Abes), _fin de collection_ (données Abes), _type_ (monographie, série).
-*   Le résultat de votre recherche peut-être exporté dans différents formats (3) : CSV, TSV, KBART-Istex....
-
-
-
-
+* Le résultat de votre recherche peut-être exporté dans différents formats (3) : CSV, TSV, KBART-Istex....
 
 ### Ontologie
 
@@ -120,4 +116,4 @@ La couverture affichée pour une ressource correspond aux documents présents su
 
 ![](../.gitbook/assets/html-page.JPG)
 
-Il ne reste plus qu'à appliquer votre propre css (feuille de style de votre site)
+Il ne reste plus qu'à appliquer votre propre css (feuille de style de votre site).
