@@ -65,16 +65,6 @@ Des revues incontournables sont mises en avant pour introduire la plateforme.
 
 
 
-SPARQL
-
-Pour utiliser le SPARQL EndPoint Istex et/ou comparer vos ressources avec les ressources présentes dans Istex.
-
-![](../.gitbook/assets/sparql.JPG)
-
-{% hint style="info" %}
-Pour afficher cet écran, n'hésitez pas à re-cliquer si besoin.
-{% endhint %}
-
 ### Ontologie
 
 Sont disponibles sur cette page toutes les informations de l'ontologie du projet Istex qui définit 14 Classes, 11 Object Properties et 13 Data Properties. Accès libre sur[ GITHUB](https://github.com/istex/ontology/blob/master/istexXML.owl) .
@@ -86,9 +76,9 @@ Sont disponibles sur cette page toutes les informations de l'ontologie du projet
 La recherche peut se faire sur la page _Recherche_ ou _Ressources_.
 
 * par défaut l'opérateur booléen est un            =>  `pediatric journal = 5763`
-* par défaut un caractère wildcare est présent =>  `pediatrics journal = 5763`
+* par défaut un métacaractère est présent =>  `pediatrics journal = 5763`
 * pour avoir un AND entre 2 termes mettre des "  " => `"pediatrics" "journal" = 8`
-* dans ce cas pas de caractère wildcare =>`"pediatric" "journal" = 25`&#x20;
+* dans ce cas pas de métacaractère =>`"pediatric" "journal" = 25`&#x20;
 * la recherche par filtre remplace la recherche avancée&#x20;
 
 ### Revue de sommaire
