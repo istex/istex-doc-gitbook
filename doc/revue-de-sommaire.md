@@ -22,7 +22,7 @@ La _Revue de sommaire_ a pour but de :
 * La création d'un export **KBART-Istex** permet de mettre à disposition des utilisateurs des tableaux KBART qui reflètent **la couverture réelle d'Istex, il peut donc y avoir plusieurs lignes par titre pour mettre en avant les trous dans les collections.**
 {% endhint %}
 
-L'instance [_Revue de sommaire Istex_](https://revue-sommaire.istex.fr/)  est disponible sur le site [https://data.istex.fr](https://data.istex.fr). [ ](http://data.istex.fr)Le site data.istex.fr expose des données [Istex](http://www.istex.fr/), selon les normes du web sémantique, dans un Triple Store via son [SPARQL Endpoint](http://data.istex.fr/triplestore/sparql).
+L'instance [_Revue de sommaire Istex_](https://revue-sommaire.istex.fr/)  est disponible sur le site [https://data.istex.fr](https://data.istex.fr). [ ](http://data.istex.fr)
 
 ## Interface
 
