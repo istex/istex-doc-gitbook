@@ -97,7 +97,7 @@ On peut se servir d’une expression régulière dans une expression multi-terme
 * _**Exemple :**_ &#x20;
   * _"Franz Josef Land" OR "Franz Joseph Land"_ : `q=(franz AND /jose[fp]h?/ AND land)`
 
-Il est enfin conseillé de vérifier les résultats, des formes d'écriture peu usuelles ou inattendues pouvant être ramenées
+Il est enfin conseillé de vérifier les résultats, des formes d'écriture peu usuelles ou inattendues pouvant être ramenées.
 
 * _**Exemple :**_
   * _L'équation `q=/es(k|qu)im(o|au)[sx]?/` fournit des documents comportant par exemple "Esquimo", "Esquimos", "Eskimau", etc._

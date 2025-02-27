@@ -83,9 +83,15 @@ La recherche peut se faire sur la page _Recherche_ ou _Ressources_.
 
 ### Revue de sommaire
 
-En sélectionnant le titre de la ressource souhaitée une page s'ouvre :
+En sélectionnant le titre de la ressource souhaitée une page s'ouvre&#x20;
 
-![](../.gitbook/assets/pagers.JPG)
+
+
+
+
+<figure><img src="../.gitbook/assets/RS11 ponts (1).PNG" alt=""><figcaption></figcaption></figure>
+
+
 
 * titre de la ressource (1)
 * couverture de la ressource jusqu'au document (article, chapitre) requête à l'API Istex (2)
