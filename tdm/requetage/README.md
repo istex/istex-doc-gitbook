@@ -24,6 +24,6 @@ _**Exemple**_ : _Recherche des documents issus de la revue dont le titre est "Bi
 
 `https://api.istex.fr/document/?q=host.title:"Biofutur"OR host.issn:"0294-3506"AND(host.publicationDate:1995 AND author.name:"DODET")&output=title,author,host&size=100`
 
->
+
 
 NB : Tous les exemples de requêtes donnés ici sont conçus pour être utilisés directement dans l'API en précisant l'URL `https://api.istex.fr/document/?`. Si l'on souhaite les utiliser dans Istex Search, il ne faut garder que la partie {requête}, c'est-à-dire, supprimer `q=` et tout ce qui se trouve après `&`, caractère "&" inclus.
