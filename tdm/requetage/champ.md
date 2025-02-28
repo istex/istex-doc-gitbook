@@ -28,7 +28,7 @@ _​**Exemple :** recherche de documents en **mohawk**​_
 
 Pour savoir quel code langue utiliser, vous pouvez consulter en [**annexe**](../annexes/) la liste des codes interrogeables dans Istex.
 
-NB : La valeur "unknown" est présente lorsqu'aucun code langue ne renseigne ce champ. Le champ `host.language` contient quant à lui systématiquement la valeur "unknown", car il n'est actuellement pas renseigné.
+NB : La valeur "unknown" est présente lorsqu'aucun code langue ne renseigne ce champ. Le champ `host.language` contient quant à lui systématiquement la valeur "unknown" quand il n'est pas renseigné.
 
 ### _**Dates de publication**_
 
