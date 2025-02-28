@@ -71,7 +71,7 @@ Sont disponibles sur cette page toutes les informations de l'ontologie du projet
 
 La recherche peut se faire sur la page _Recherche_ ou _Ressources_.
 
-* par défaut l'opérateur booléen est un            =>  `pediatric journal = 5763`
+* par défaut l'opérateur booléen est un OR =>  `pediatric journal = 5763`
 * par défaut un métacaractère est présent =>  `pediatrics journal = 5763`
 * pour avoir un AND entre 2 termes mettre des "  " => `"pediatrics" "journal" = 8`
 * dans ce cas pas de métacaractère =>`"pediatric" "journal" = 25`&#x20;
@@ -99,11 +99,10 @@ En sélectionnant le titre de la ressource souhaitée une page s'ouvre :&#x20;
 * exporter, de nombreux formats disponibles :  CSV, TSV, KBART, JSON... (11)
 
 {% hint style="info" %}
-La liste des titres dans _Revue de sommaire Istex_ correspond à la liste contractuelle des [licences nationales](https://www.licencesnationales.fr/liste-ressources/) pour les corpus chargés sur la plateforme Istex
+- La liste des titres dans _Revue de sommaire Istex_ correspond à la liste contractuelle des [licences nationales](https://www.licencesnationales.fr/liste-ressources/) pour les corpus chargés sur la plateforme Istex
+- La couverture affichée pour une ressource correspond aux documents présents sur la plateforme Istex
 
-La couverture affichée pour une ressource correspond aux documents présents sur la plateforme Istex
-
-\=> Il peut y avoir une différence entre les deux
+&#x20;Il peut y avoir une différence entre les deux.
 {% endhint %}
 
 ### Intégrer le sommaire dans un site web
