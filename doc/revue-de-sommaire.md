@@ -2,6 +2,8 @@
 
 <figure><img src="../.gitbook/assets/revue de sommaire.PNG" alt=""><figcaption></figcaption></figure>
 
+
+
 La _Revue de sommaire_ a pour but de :
 
 * proposer des pages **dédiées pour chaque revue Istex** en présentant un accès par année - volume - numéro - titre du document, jusqu'à l'accès au plein texte disponible sur la plateforme Istex
@@ -15,6 +17,8 @@ La _Revue de sommaire_ a pour but de :
 
 &#x20;&#x20;
 
+
+
 <figure><img src="../.gitbook/assets/pageacceuil RS.PNG" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
@@ -23,6 +27,8 @@ La _Revue de sommaire_ a pour but de :
 {% endhint %}
 
 L'instance [_Revue de sommaire Istex_](https://revue-sommaire.istex.fr/)  est disponible sur le site [https://data.istex.fr](https://data.istex.fr). [ ](http://data.istex.fr)
+
+
 
 ## Interface
 
@@ -42,6 +48,8 @@ Par exemple, pour rechercher des ressources avec le mot _"physical"_
 
 <figure><img src="../.gitbook/assets/grapheRS.PNG" alt=""><figcaption></figcaption></figure>
 
+
+
 2- Des exemples de revues présentes dans Istex
 
 Des revues incontournables sont mises en avant pour introduire la plateforme.
@@ -49,6 +57,8 @@ Des revues incontournables sont mises en avant pour introduire la plateforme.
 
 
 <figure><img src="../.gitbook/assets/page d&#x27;accueil titres rs.PNG" alt=""><figcaption></figcaption></figure>
+
+###
 
 ### Recherche
 
@@ -64,6 +74,8 @@ Des revues incontournables sont mises en avant pour introduire la plateforme.
 ### Ontologie
 
 Sont disponibles sur cette page toutes les informations de l'ontologie du projet Istex qui définit 14 Classes, 11 Object Properties et 13 Data Properties. Accès libre sur[ GITHUB](https://github.com/istex/ontology/blob/master/istexXML.owl) .
+
+
 
 ## **Résultats**
 
@@ -98,11 +110,15 @@ En sélectionnant le titre de la ressource souhaitée une page s'ouvre :&#x20;
 * alignement avec Wikidata, à l'aide d'une requête SPARQL (10)
 * exporter, de nombreux formats disponibles :  CSV, TSV, KBART, JSON... (11)
 
+
+
 {% hint style="info" %}
-- La liste des titres dans _Revue de sommaire Istex_ correspond à la liste contractuelle des [licences nationales](https://www.licencesnationales.fr/liste-ressources/) pour les corpus chargés sur la plateforme Istex
-- La couverture affichée pour une ressource correspond aux documents présents sur la plateforme Istex
+* La liste des titres dans _Revue de sommaire Istex_ correspond à la liste contractuelle des [licences nationales](https://www.licencesnationales.fr/liste-ressources/) pour les corpus chargés sur la plateforme Istex
+* La couverture affichée pour une ressource correspond aux documents présents sur la plateforme Istex
 
 &#x20;Il peut y avoir une différence entre les deux.
+
+
 {% endhint %}
 
 ### Intégrer le sommaire dans un site web
