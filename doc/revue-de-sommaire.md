@@ -58,8 +58,6 @@ Des revues incontournables sont mises en avant pour introduire la plateforme.
 
 <figure><img src="../.gitbook/assets/page d&#x27;accueil titres rs.PNG" alt=""><figcaption></figcaption></figure>
 
-###
-
 ### Recherche
 
 * il suffit d'écrire un mot ou un titre dans l'écran de recherche (1)
