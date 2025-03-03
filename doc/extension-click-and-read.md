@@ -32,17 +32,17 @@ Pour en savoir plus : [https://clickandread.inist.fr/info](https://clickandread.
 
 ## **Chrome**
 
-* Cliquer sur [https://clickandread.inist.fr](https://clickandread.inist.fr)
-* Cliquer sur le bouton « _Ajouter l’extension à Chrome_ »
+* Cliquez sur [https://clickandread.inist.fr](https://clickandread.inist.fr)
+* Cliquez sur le bouton « _Ajouter l’extension à Chrome_ »
 
 <figure><img src="../.gitbook/assets/candr.PNG" alt=""><figcaption></figcaption></figure>
 
 * Vous devez également Accepter ou Refuser la politique de confidentialité
-* &#x20;Paramétrer l’extension Click & Read pour ouvrir vos droits
+* &#x20;Paramétrez l’extension Click & Read pour ouvrir vos droits
 
 
 
-**Choisir** votre établissement d’appartenance, si votre établissement ne figure pas dans la liste, sélectionner « _Autre_ »
+**Choisissez** votre établissement d’appartenance, si votre établissement ne figure pas dans la liste, sélectionner « _Autre_ »
 
 {% hint style="info" %}
 La sélection de votre établissement génère automatiquement les sources pour lesquelles vous êtes   ayants droit
@@ -58,13 +58,13 @@ Puis vous pouvez **ordonner vos sources** par « Glisser/Déposer »&#x20;
 
 <figure><img src="../.gitbook/assets/ordonner Candread.PNG" alt=""><figcaption></figcaption></figure>
 
-**Activer**, si vous le souhaitez, les bibliothèques Istex et BibCnrs dans **Google Scholar**
+**Activez**, si vous le souhaitez, les bibliothèques Istex et BibCnrs dans **Google Scholar**
 
 
 
 <figure><img src="../.gitbook/assets/activationcandread.PNG" alt=""><figcaption></figcaption></figure>
 
-**Enregistrer**
+**Enregistrez**
 
 &#x20;En navigant sur Internet :
 
@@ -83,7 +83,7 @@ Pour toute question contacter l'équipe [clickandread@inist.fr](mailto:)
 
 ## &#x20;Firefox
 
-* Cliquer sur [https://clickandread.inist.fr](https://clickandread.inist.fr)
+* Cliquez sur [https://clickandread.inist.fr](https://clickandread.inist.fr)
 * Puis sur le bouton "Ajouter l'extension à Firefox"
 * Cliquez sur le bouton « Ajouter à Firefox »
 
@@ -122,26 +122,26 @@ Puis vous pouvez **ordonner vos sources** par « Glisser/Déposer »
 
 <figure><img src="../.gitbook/assets/ordonner Candread (1).PNG" alt=""><figcaption></figcaption></figure>
 
-**Activer**, si vous le souhaitez, les bibliothèques Istex et BibCnrs dans **Google Scholar**
+
 
 
 
 <figure><img src="../.gitbook/assets/activationcandread (1).PNG" alt=""><figcaption></figcaption></figure>
 
-**Enregistrer** vos paramètres de C & R en cliquant sur « Enregistrer»
-
-
+**Enregistrez** vos paramètres de C & R en cliquant sur « Enregistrer»
 
 &#x20;En navigant sur Internet :
 
 * quel que soit le site (Google, Google Scholar, sites éditeurs, Wikipédia...)&#x20;
 * quelle que soit la requête (titre article, auteurs, DOI...)&#x20;
-* l'extension Click & Read parcourt la page Internet que vous visitez à la recherche uniquement d'identifiants documentaires DOI, PMID, PII (identifiant Elsevier)
+* l'extension Click & Read parcourt la page Internet que vous visitez à la recherche uniquement d'identifiants documentaires DOI, PMID, PII (identifiant Elsevier)&#x20;
 * puis recherche le document qui correspond à l'identifiant trouvé dans les fonds : Unpaywall, Istex, Panist et BibCnrs&#x20;
-* et ajoute le bouton C & R si la ressource est disponible&#x20;
+* et ajoute le bouton C & R si la ressource est disponible
 * il suffit alors de cliquer sur le bouton pour accéder au document.
 
-\=> Exemple : la recherche sur Wikipédia d’« [Hélium ](https://fr.wikipedia.org/wiki/H%C3%A9lium)» donne la bibliographie suivante
+
+
+&#x20;Exemple : la recherche sur Wikipédia d’« [Hélium ](https://fr.wikipedia.org/wiki/H%C3%A9lium)» donne la bibliographie suivante
 
 ![](../.gitbook/assets/wikicandr.JPG)
 
@@ -149,44 +149,70 @@ Pour toute question contacter l'équipe [clickandread@inist.fr](mailto:)[​](ht
 
 
 
-Safari
+## Safari
 
-\=> Cliquer sur [https://clickandread.inist.fr](https://clickandread.inist.fr)
-
-\=> Cliquer sur le bouton « _Ajouter l’extension à Safari_ »
+* Cliquez sur [https://clickandread.inist.fr](https://clickandread.inist.fr)
+* Cliquez sur le bouton « Ajouter l’extension à Safari »
 
 ![](../.gitbook/assets/safari1.png)
 
-\=> Cliquer sur « _Ouvrir_ » puis sur « _Quit and Open Safari Extensions Preferences_ »
+* Cliquez sur « Ouvrir » puis sur « Quit and Open Safari Extensions Preferences »
 
 ![](../.gitbook/assets/safari2.png)
 
-\=> Cocher la case « _Click and Read_ » et cliquer sur « _Préférences_ »
+* Cochez la case « Click and Read » et cliquez sur « Préférences »
 
 ![](../.gitbook/assets/safari3.png)
 
-\=> Paramétrer l’extension Click & Read pour ouvrir vos droits
 
-<div align="left"><img src="../.gitbook/assets/boules.png" alt=""></div>
 
-1. Choisir votre établissement d’appartenance, si votre établissement ne figure pas dans la liste, sélectionner « _Autre_ »&#x20;
-2. Préciser si vous êtes utilisateur de BibCnrs, si oui sélectionner votre / vos domaine(s)&#x20;
-3. Activer, si vous le souhaitez, les bibliothèques Istex et BibCnrs dans Google Scholar&#x20;
-4. Enregistrer
+{% hint style="info" %}
+Concernant l’information indiquée par Safari dans la partie jaune : pour fonctionner Click & Read doit accéder à toutes les pages et les analyser : le code de l’extension Click & Read n’accède qu’aux identifiants des ressources documentaires. Click & Read n’enregistre aucune information personnelle.
+{% endhint %}
+
+* Paramétrez l’extension Click & Read pour ouvrir vos droits
+
+
+
+<figure><img src="../.gitbook/assets/etablissementcandr (2).PNG" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Votre établissement ne figure pas dans la liste, sélectionnez « _Autre_ »&#x20;
+{% endhint %}
+
+La sélection de votre établissement génère automatiquement les sources pour lesquelles vous êtes ayants droit.
+
+Si vous êtes ayants droit CNRS, **sélectionnez** « CNRS » dans « Etablissement(s) d’appartenance », puis cochez uniquement votre ou vos domaines de rattachement
+
+
+
+<figure><img src="../.gitbook/assets/cnrscand r (2).PNG" alt=""><figcaption></figcaption></figure>
+
+Puis vous pouvez **ordonner** vos sources par « Glisser/Déposer »
+
+<figure><img src="../.gitbook/assets/ordonner Candread (2).PNG" alt=""><figcaption></figcaption></figure>
+
+**Activez**, si vous le souhaitez, les bibliothèques Istex et BibCnrs dans **Google Scholar**
+
+
+
+<figure><img src="../.gitbook/assets/activationcandread (2).PNG" alt=""><figcaption></figcaption></figure>
+
+**Enregistrez**
 
 {% hint style="info" %}
 A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C\&R dans votre barre Firefox des extensions.
 {% endhint %}
 
-\=> Cliquer sur l’icône C\&R dans la barre des extensions et sélectionner  «_Toujours autorisé sur chaque site web_ »
+Cliquez sur l’icône C\&R dans la barre des extensions et sélectionner  «_Toujours autorisé sur chaque site web_ »
 
 ![](../.gitbook/assets/safari5.png)
 
-\=> Cliquer à nouveau sur « _Toujours autorisé sur chaque site web_ »
+Cliquez à nouveau sur « _Toujours autoriser sur chaque site web_ »
 
 ![](../.gitbook/assets/safari6.png)
 
-\=> En navigant sur Internet :
+En navigant sur Internet :
 
 * quel que soit le site (Google, Google Scholar, sites éditeurs, Wikipédia...)&#x20;
 * quelle que soit la requête (titre article, auteurs, DOI...)&#x20;
@@ -195,9 +221,9 @@ A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C\
 * et ajoute le bouton C\&R si la ressource est disponible&#x20;
 * il suffit alors de cliquer sur le bouton pour accéder au document.
 
-\=> Exemple : la recherche sur Wikipédia d’« [Hélium](https://fr.wikipedia.org/wiki/H%C3%A9lium) » donne la bibliographie suivante
+Exemple : la recherche sur Wikipédia d’« [Hélium](https://fr.wikipedia.org/wiki/H%C3%A9lium) » donne la bibliographie suivante
 
 <div align="left"><img src="../.gitbook/assets/wikicandr (2).JPG" alt=""></div>
 
-​[En savoir plus](https://clickandread.inist.fr/page_info)
+Pour toute question contacter l'équipe [clickandread@inist.fr](mailto:)
 
