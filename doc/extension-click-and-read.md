@@ -42,31 +42,29 @@ Pour en savoir plus : [https://clickandread.inist.fr/info](https://clickandread.
 
 
 
-<figure><img src="../.gitbook/assets/etablissementcandr.PNG" alt=""><figcaption></figcaption></figure>
-
-1. Choisir votre établissement d’appartenance, si votre établissement ne figure pas dans la liste, sélectionner « _Autre_ »
+**Choisir** votre établissement d’appartenance, si votre établissement ne figure pas dans la liste, sélectionner « _Autre_ »
 
 {% hint style="info" %}
 La sélection de votre établissement génère automatiquement les sources pour lesquelles vous êtes   ayants droit
 {% endhint %}
 
-2. Si vous êtes ayants droit CNRS, sélectionnez « CNRS » dans « Etablissement(s) d’appartenance », puis cochez uniquement votre ou vos domaines de rattachement.
+Si vous êtes ayants droit CNRS, **sélectionnez « CNRS » dans « Etablissement(s) d’appartenance »**, puis cochez uniquement votre ou vos domaines de rattachement.
 
 <figure><img src="../.gitbook/assets/cnrscand r.PNG" alt=""><figcaption></figcaption></figure>
 
-3. Puis vous pouvez ordonner vos sources par « Glisser/Déposer »&#x20;
+Puis vous pouvez **ordonner vos sources** par « Glisser/Déposer »&#x20;
 
 
 
 <figure><img src="../.gitbook/assets/ordonner Candread.PNG" alt=""><figcaption></figcaption></figure>
 
-4. Activer, si vous le souhaitez, les bibliothèques Istex et BibCnrs dans Google Scholar
+**Activer**, si vous le souhaitez, les bibliothèques Istex et BibCnrs dans **Google Scholar**
 
 
 
 <figure><img src="../.gitbook/assets/activationcandread.PNG" alt=""><figcaption></figcaption></figure>
 
-5. Enregistrer
+**Enregistrer**
 
 &#x20;En navigant sur Internet :
 
