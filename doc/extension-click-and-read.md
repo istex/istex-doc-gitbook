@@ -72,7 +72,7 @@ Puis vous pouvez **ordonner vos sources** par « Glisser/Déposer »&#x20;
 * quelle que soit la requête (titre article, auteurs, DOI...)&#x20;
 * l'extension Click & Read parcourt la page Internet que vous visitez à la recherche uniquement d'identifiants documentaires DOI, PMID, PII (identifiant Elsevier)&#x20;
 * puis recherche le document qui correspond à l'identifiant trouvé dans les fonds : Unpaywall, Istex, Panist et BibCnrs&#x20;
-* et ajoute le bouton C\&R si la ressource est disponible
+* et ajoute le bouton C & R si la ressource est disponible
 * il suffit alors de cliquer sur le bouton pour accéder au document.
 
 &#x20;Exemple : la recherche sur Wikipédia d’« [Hélium](https://fr.wikipedia.org/wiki/H%C3%A9lium) » donne la bibliographie suivante
