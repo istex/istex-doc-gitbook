@@ -1,12 +1,12 @@
 # Extension Click & Read
 
-L’extension Click & Read CNRS, tout comme l’extension Istex, est une **extension de navigateur web développée pour Firefox, Chrome, Opera et Safari (à partir de l'OS 14)**
+L’extension Click & Read CNRS, tout comme l'était l’extension Istex, est une **extension de navigateur web développée pour Firefox, Chrome, Opera et Safari (à partir de l'OS 14)**
 
 Elle est aussi installable sur les navigateurs basés Chromium, comme Brave ou Edge (à partir de la version 2021).
 
 L'extension Click & Read **remplace et unifie** les 3 extensions existantes des plateformes gérées par l'Inist-CNRS **Istex**, **Panist** et **BibCnrs**, auxquelles s'ajoute l'extension libre **Unpaywall**.
 
-L'extension Click & Read reprenant les fonctionnalités de l’extension Istex il est préférable de la désinstaller.
+L'extension Click & Read reprenant les fonctionnalités de l’extension Istex il est préférable de la désinstaller. Pour rappel l'extension Istex n'est plus disponible à l'installation (lire : [L’extension Istex n’est plus… Vive l’extension Click\&Read](https://www.istex.fr/lextension-istex-nest-plus-vive-lextension-clickread/))
 
 Cette extension est destinée aux personnels de l'Enseignement Supérieur et de la Recherche (ESR).
 
@@ -32,38 +32,45 @@ Pour en savoir plus : [https://clickandread.inist.fr/info](https://clickandread.
 
 ## **Chrome**
 
-\=> Cliquer sur [https://clickandread.inist.fr](https://clickandread.inist.fr)
+Cliquer sur [https://clickandread.inist.fr](https://clickandread.inist.fr)
 
-\=> Cliquer sur le bouton « _Ajouter l’extension à Chrome_ »
+* Cliquer sur [https://clickandread.inist.fr](https://clickandread.inist.fr)
+* Cliquer sur le bouton « _Ajouter l’extension à Chrome_ »
 
-<div align="left"><img src="../.gitbook/assets/Cr1chrome.JPG" alt=""></div>
+<figure><img src="../.gitbook/assets/candr.PNG" alt=""><figcaption></figcaption></figure>
 
-\=>  Cliquer sur « _Ajouter à Chrome_ »
+* Vous devez également Accepter ou Refuser la politique de confidentialité
+* &#x20;Paramétrer l’extension Click & Read pour ouvrir vos droits
 
-<div align="left"><img src="../.gitbook/assets/Cr2chrome.JPG" alt=""></div>
 
-\=> Accepter les permissions en cliquant sur « _Ajouter l’extension_ »
 
-<div align="left"><img src="../.gitbook/assets/cr3chrome (1).JPG" alt=""></div>
-
-_=>_ Un message vous avertit que votre extension est installée
-
-<div align="left"><img src="../.gitbook/assets/image (1).png" alt=""></div>
-
-\=> Paramétrer l’extension Click & Read pour ouvrir vos droits
-
-<div align="left"><img src="../.gitbook/assets/boules (1).png" alt=""></div>
+<figure><img src="../.gitbook/assets/etablissementcandr.PNG" alt=""><figcaption></figcaption></figure>
 
 1. Choisir votre établissement d’appartenance, si votre établissement ne figure pas dans la liste, sélectionner « _Autre_ »
-2. Préciser si vous êtes utilisateur de BibCnrs, si oui sélectionner votre / vos domaine(s)&#x20;
-3. Activer, si vous le souhaitez, les bibliothèques Istex et BibCnrs dans Google Scholar
-4. Enregistrer
 
 {% hint style="info" %}
-A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C\&R dans votre barre Chrome des extensions.
+La sélection de votre établissement génère automatiquement les sources pour lesquelles vous êtes   ayants droit
 {% endhint %}
 
-\=> En navigant sur Internet :
+2. Si vous êtes ayants droit CNRS, sélectionnez « CNRS » dans « Etablissement(s) d’appartenance », puis cochez uniquement votre ou vos domaines de rattachement.
+
+<figure><img src="../.gitbook/assets/cnrscand r.PNG" alt=""><figcaption></figcaption></figure>
+
+3. Puis vous pouvez ordonner vos sources par « Glisser/Déposer »&#x20;
+
+
+
+<figure><img src="../.gitbook/assets/ordonner Candread.PNG" alt=""><figcaption></figcaption></figure>
+
+4. Activer, si vous le souhaitez, les bibliothèques Istex et BibCnrs dans Google Scholar
+
+
+
+<figure><img src="../.gitbook/assets/activationcandread.PNG" alt=""><figcaption></figcaption></figure>
+
+5. Enregistrer
+
+&#x20;En navigant sur Internet :
 
 * quel que soit le site (Google, Google Scholar, sites éditeurs, Wikipédia...)&#x20;
 * quelle que soit la requête (titre article, auteurs, DOI...)&#x20;
@@ -72,11 +79,11 @@ A tout moment vous pouvez modifier votre paramétrage en cliquant sur le logo C\
 * et ajoute le bouton C\&R si la ressource est disponible
 * il suffit alors de cliquer sur le bouton pour accéder au document.
 
-\=>  Exemple : la recherche sur Wikipédia d’« [Hélium](https://fr.wikipedia.org/wiki/H%C3%A9lium) » donne la bibliographie suivante
+&#x20;Exemple : la recherche sur Wikipédia d’« [Hélium](https://fr.wikipedia.org/wiki/H%C3%A9lium) » donne la bibliographie suivante
 
 <div align="left"><img src="../.gitbook/assets/wikicandr (1).JPG" alt=""></div>
 
-[En savoir plus](https://clickandread.inist.fr/page_info)&#x20;
+Pour toute question contacter l'équipe clickandread@inist.fr&#x20;
 
 ## Firefox
 
