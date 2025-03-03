@@ -32,8 +32,6 @@ Pour en savoir plus : [https://clickandread.inist.fr/info](https://clickandread.
 
 ## **Chrome**
 
-Cliquer sur [https://clickandread.inist.fr](https://clickandread.inist.fr)
-
 * Cliquer sur [https://clickandread.inist.fr](https://clickandread.inist.fr)
 * Cliquer sur le bouton « _Ajouter l’extension à Chrome_ »
 
@@ -83,9 +81,11 @@ La sélection de votre établissement génère automatiquement les sources pour 
 
 <div align="left"><img src="../.gitbook/assets/wikicandr (1).JPG" alt=""></div>
 
-Pour toute question contacter l'équipe clickandread@inist.fr&#x20;
 
-## Firefox
+
+Pour toute question contacter l'équipe [clickandread@inist.fr](mailto:)
+
+## &#x20;Firefox
 
 \=> Cliquer sur [https://clickandread.inist.fr](https://clickandread.inist.fr)
 
