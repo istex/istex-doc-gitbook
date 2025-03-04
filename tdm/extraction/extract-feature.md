@@ -15,7 +15,7 @@ Il s'agit d'une fonction du moteur de recherche de l'API Istex permettant d’ex
 
 
 {% hint style="warning" %}
-les corpus ne peuvent être extraits actuellement que dans la limite de 100 000 documents
+les corpus ne peuvent être extraits que dans la limite de 100 000 documents
 {% endhint %}
 
 ## **Mode d'emploi :**&#x20;
