@@ -69,12 +69,6 @@ Des revues incontournables sont mises en avant pour introduire la plateforme.
 * pour affiner et aider à la recherche, une recherche filtrée (2) est proposée par _A-Z_, _bouquet_ (ressources négociées), _éditeur scientifique_ (le nom peut être différent de celui du corpus), _début de collection_ (données Abes), _fin de collection_ (données Abes), _type_ (monographie, série).
 * Le résultat de votre recherche peut-être exporté dans différents formats (3) : CSV, TSV, KBART-Istex....
 
-### Ontologie
-
-Sont disponibles sur cette page toutes les informations de l'ontologie du projet Istex qui définit 14 Classes, 11 Object Properties et 13 Data Properties. Accès libre sur[ GITHUB](https://github.com/istex/ontology/blob/master/istexXML.owl) .
-
-
-
 ## **Résultats**
 
 ### **Recherche d'une ressource**
