@@ -13,10 +13,11 @@ Il permet de décharger un corpus depuis la plateforme Istex à partir d’une r
 * il gère l'authentification au serveur en dehors du réseau interne de l'Inist.&#x20;
 * il vérifie le type des fichiers déchargés, signale les problèmes d'authentification et relance le déchargement des fichiers concernés en cas d’interruption intempestive (pour plus de détails, voir la rubrique [Détecter les problèmes d'authentification](../verification/auth-problems.md) dans le chapitre "Vérification et mise en forme des résultats").&#x20;
 
-## **Inconvénients** :
+##
 
-* il s'utilise en ligne de commande à partir d'un terminal. Sous Windows, cela peut se faire avec [Cygwin](https://www.cygwin.com/)  (Git Bash ne convient pas).&#x20;
-* Il existe des solutions alternatives sous Windows avec [Strawberry Perl](http://strawberryperl.com/) ou [ActivePerl](https://www.activestate.com/activeperl), mais elles n'ont pas été testées pour l'instant.&#x20;
+{% hint style="info" %}
+Il s'utilise en ligne de commande à partir d'un terminal. Sous Windows, cela peut se faire avec [Cygwin](https://www.cygwin.com/)  (Git Bash ne convient pas). Il existe des solutions alternatives sous Windows avec [Strawberry Perl](http://strawberryperl.com/) ou [ActivePerl](https://www.activestate.com/activeperl).
+{% endhint %}
 
 ## **Installation :**
 
