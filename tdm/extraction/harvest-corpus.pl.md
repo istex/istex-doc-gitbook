@@ -46,7 +46,7 @@ L'option `-v` permet de conserver toutes le métadonnées envoyées par l'API. E
 
 * la liste complète des options, avec leur description, est à consulter sur [GitHub](https://github.com/istex/harvest-corpus#options).
 * authentification : le téléchargement de fichiers en texte intégral suppose une authentification, soit implicite par adresse IP, soit explicite par identification à la fédération d'identité de Renater. Dans ce deuxième cas, il faut [obtenir un jeton d'identification](https://doc.istex.fr/api/access/fede.html#1%C3%A8re-%C3%A9tape--g%C3%A9n%C3%A9ration-du-token) et l’ajouter à la ligne de commande avec l’option `-j`.
-* tirage aléatoire : dans le cas où le résultat d’une requête donne un nombre de documents très élevé, il est possible d’en limiter le nombre avec l’option `-l` et d’avoir ces documents soit dans l’ordre défini par le moteur de recherche, soit dans un ordre aléatoire en rajoutant l’option `-r` (mais dans ce cas, on est limité à 10 000 documents). Ainsi, pour créer un échantillon de 1 000 documents PDF provenant de l’éditeur Elsevier à télécharger dans le répertoire Elsevier avec le préfixe els, on peut écrire :&#x20;
+* tri aléatoire : dans le cas où le résultat d’une requête donne un nombre de documents très élevé, il est possible d’en limiter le nombre avec l’option `-l` et d’avoir ces documents soit dans l’ordre défini par le moteur de recherche, soit dans un ordre aléatoire en rajoutant l’option `-r` (mais dans ce cas, on est limité à 10 000 documents). Ainsi, pour créer un échantillon de 1 000 documents PDF provenant de l’éditeur Elsevier à télécharger dans le répertoire Elsevier avec le préfixe els, on peut écrire :&#x20;
 
 ```bash
 harvestCorpus.pl -q corpusName:elsevier -t pdf -d Elsevier -p els -l 1000 -r
