@@ -29,4 +29,4 @@ les corpus ne peuvent être extraits actuellement que dans la limite de 100 000 
 * la fonction `extract`, suivie par le signe "=" et une valeur quelconque, génère uniquement l’extraction du fichier de métadonnées au format JSON
 * sans indication de format, tous les formats proposés pour le type de fichier indiqué seront extraits
 * sans précision du paramètre _size_, 5 documents seront extraits par défaut. Pour extraire tous les documents répondant à une requête donnée, indiquer une taille de corpus au moins égale au nombre maximal de documents à extraire
-  * _**Exemple :** moissonnage du texte intégral, au format PDF, des 20 documents comportant le terme « Groenland » dans leurs titres :_ [_https://api.istex.fr/document/?q=title:groenland\&size=25\&extract=fulltext\[pdf\]_](https://api.istex.fr/document/?q=title:groenland\&size=25\&extract=fulltext\[pdf])\_\_
+  * _**Exemple :** moissonnage du texte intégral, au format PDF, des 20 documents comportant le terme « Groenland » dans leurs titres_ `:` [`https://api.istex.fr/document/?q=title:groenland&size=25&extract=fulltext[pdf]`](https://api.istex.fr/document/?q=title:groenland\&size=25\&extract=fulltext\[pdf])
