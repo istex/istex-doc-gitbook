@@ -90,7 +90,7 @@ rm tmp01.txt
 Le fichier `DistNbMotNbPage.txt` ainsi obtenu indique, pour chaque document du corpus, le nombre de mots par page qui va servir à identifier les documents à vérifier manuellement :
 
 * Si le nombre de mots par page est égal à 0, il s’agit d’un PDF image.
-* Si ce nombre est supérieur à 0, il s’agit également potentiellement d’un PDF image. La valeur limite à partir de laquelle, le PDF peut être considéré comme textuel est variable : environ 80, 100, 140 mots par page.
+* Si ce nombre est supérieur à 0, il peut également s'agir d’un PDF image. La valeur limite à partir de laquelle, le PDF peut être considéré comme textuel est variable : environ 80, 100, 140 mots par page.
 
 Dans le 2e cas, il faut vérifier manuellement chaque PDF dans Istex Search.
 
@@ -99,7 +99,7 @@ La procédure de vérification est la suivante :
 * Recherche dans Istex Search :&#x20;
 
 ```
-     id:identifiant_Istex
+     id:EE73F9ADF1A3CC9107066A9937882BD05FD5D544 pour identifiant_Istex
 ```
 
 * Ouverture du PDF correspondant au résultat de cette requête
