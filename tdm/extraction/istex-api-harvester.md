@@ -9,9 +9,11 @@ Le programme **istex-api-harvester** est un utilitaire en ligne de commande perm
 * il est possible de paramétrer la taille du corpus à télécharger (paramètre _size_)
 * plusieurs modes de tri sont proposés en supplément du tri par pertinence effectué par défaut :  un tri des documents en fonction de certain champs ([paramètre _sortBy_](../../api/results/sortby.md)), ou bien un tri aléatoire ([paramètre _rankBy=random_](../../api/results/scoring.md)) avec la possibilité de retrouver cet ordre aléatoire  grâce au chiffre unique [_randomSeed_](../../api/results/scoring.md)
 
-## **Inconvénient** :&#x20;
 
-* son utilisation nécessite de disposer de Git et de NodeJs, ainsi que d'installer le moissonneur via un terminal de commande.
+
+{% hint style="info" %}
+son utilisation nécessite de disposer de Git et de NodeJs, ainsi que d'installer le moissonneur via un terminal de commande
+{% endhint %}
 
 ## **Mode d'emploi :**&#x20;
 
@@ -21,7 +23,7 @@ Le programme **istex-api-harvester** est un utilitaire en ligne de commande perm
 
 * suivre les étapes suivantes :
   * installation de Git (Windows, MacOS ou Linux) : [https://git-scm.com/downloads](https://git-scm.com/downloads) ou plus spécifiquement pour Windows : [https://gitforwindows.org/](https://gitforwindows.org/) et Linux Ubuntu : [https://guide.ubuntu-fr.org/server/git.html](https://guide.ubuntu-fr.org/server/git.html)
-  * installation de NodeJS (Windows, MacOS ou Linux) : [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+  * installation de NodeJs (Windows, MacOS ou Linux) : [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
   *   cloner la distribution
 
       `git clone` [`https://github.com/istex/istex-api-harvester.git`](https://github.com/istex/istex-api-harvester.git)
