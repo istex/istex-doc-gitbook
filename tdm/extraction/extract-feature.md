@@ -25,7 +25,7 @@ les corpus ne peuvent être extraits actuellement que dans la limite de 100 000 
 ## **Astuces :**
 
 * la fonction `extract` utilisée seule génère l’extraction de l’ensemble des fichiers disponibles pour les documents Istex du corpus.&#x20;
-  * _**Exemple :**_ _moissonnage de tous les fichiers disponibles pour un document identifié par un ARK donné :_[  _`https://api.istex.fr/document/?q=ark:"ark:/67375/HXZ-7R7P2T8X-6"&extract`_ ](https://api.istex.fr/document/?q=ark:%22ark:/67375/HXZ-7R7P2T8X-6%22\&extract)
+  * _**Exemple :**_ _moissonnage de tous les fichiers disponibles pour un document identifié par un ARK donné :_[  `https://api.istex.fr/document/?q=ark:"ark:/67375/HXZ-7R7P2T8X-6"&extract` ](https://api.istex.fr/document/?q=ark:%22ark:/67375/HXZ-7R7P2T8X-6%22\&extract)
 * la fonction `extract`, suivie par le signe "=" et une valeur quelconque, génère uniquement l’extraction du fichier de métadonnées au format JSON
 * sans indication de format, tous les formats proposés pour le type de fichier indiqué seront extraits
 * sans précision du paramètre _size_, 5 documents seront extraits par défaut. Pour extraire tous les documents répondant à une requête donnée, indiquer une taille de corpus au moins égale au nombre maximal de documents à extraire
