@@ -164,8 +164,6 @@ Quelques exemples de requêtes :
 
 ‌`q=namedEntities.unitex.orgName_provider:"Geological Survey of Canada"`
 
-NB : les organisations de type "fournisseur" ne sont pas encore accessibles sur l'API Istex, mais elles le seront prochainement.&#x20;
-
 ‌‌
 
 **Entité de type "URL"** : elles permettent de retrouver les publications signalant l’identifiant d’une page ou d’un site web.
@@ -177,32 +175,6 @@ Exemple de requête :
 ‌`q=namedEntities.unitex.ref_url:http://www.itcproject.org`
 
 ‌‌
-
-**Entité de type "citation bibliographique"** : il s’agit des mentions du texte pointant vers les références bibliographiques situées en fin de document.
-
-Quelques exemples de requêtes :
-
-* _recherche des publications citant les travaux du paléoclimatologue Jean Jouzel et de ses collaborateurs_
-
-‌`q=namedEntities.unitex.ref_bibl:"jouzel et al"`
-
-* _recherche des documents mentionnant l’article de 1986 des physiciens Bednorz et Müller révolutionnant la recherche sur la supraconductivité haute température_
-
-‌`q=namedEntities.unitex.ref_bibl:"Bednorz and Müller, 1986"`
-
-‌‌
-
-**Entité de type "référence bibliographique"** : il s’agit des références apparaissant en totalité dans le corps du texte qui ne renvoient pas vers les références bibliographiques de fin de texte ou de bas de page. Ce cas de figure se rencontre parfois dans certaines publications. La balise à utiliser est `bibl`.
-
-Exemple de requête :
-
-* _recherche des documents comportant la mention de l'article sur les arrêts cardiaques peropératoires de J. P. Morray publié en 1996_&#x20;
-
-‌`q=namedEntities.unitex.bibl:"Morray JP. Pediatric perioperative cardiac arrest registry: an update. A.S.A. Newsletter 1996 ; 60 : 26-8"`
-
-NB : ce type d’entités n'est pas encore accessible sur l'API Istex, mais elle le sera prochainement.
-
-
 
 #### _Indexation **Teeft**_
 
