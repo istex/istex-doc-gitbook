@@ -26,6 +26,8 @@ Le mode de recherche simple interroge la base Istex en utilisant la syntaxe d’
 
 Le mode de recherche simple est sélectionné par défaut à l’ouverture d’Istex Search.
 
+
+
 <figure><img src="../.gitbook/assets/Recherche-simple.png" alt=""><figcaption></figcaption></figure>
 
 ### Recherche Assistée
@@ -36,4 +38,18 @@ Une règle est constituée de trois informations : le champ que l’on souhaite 
 
 Les groupes sont l’équivalent de parenthèses. Comme en mathématiques, les opérations situées à l'intérieur des parenthèses ont la priorité.
 
+
+
 <figure><img src="../.gitbook/assets/Recherche-assistée.png" alt=""><figcaption></figcaption></figure>
+
+### Recherche par identifiants
+
+Ce mode de recherche utilise des identifiants uniques et pérennes attribués aux documents Istex (ARK, DOI ou idIstex). Il sélectionne les documents correspondant aux identifiants demandés s’ils sont présents dans le réservoir.
+
+Il est notamment possible d’importer une liste d’identifiants mais avec un seul type d’identifiant à la fois.
+
+
+
+<figure><img src="../.gitbook/assets/Recherche-identifiants.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Recherche-identifiants-2.png" alt=""><figcaption></figcaption></figure>
