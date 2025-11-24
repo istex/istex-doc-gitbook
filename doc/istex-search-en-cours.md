@@ -52,4 +52,4 @@ Il est notamment possible d’importer une liste d’identifiants mais avec un s
 
 <figure><img src="../.gitbook/assets/Recherche-identifiants.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Recherche-identifiants-2.png" alt=""><figcaption></figcaption></figure>
+<div align="right"><figure><img src="../.gitbook/assets/Recherche-identifiants-2.png" alt=""><figcaption></figcaption></figure></div>
