@@ -8,5 +8,9 @@
 
 
 
+Un tutoriel sur Istex Search est accessible sur le site [Istex](https://data.istex.fr/instance/istex-tutorial/ark:/67375/Q05-30XPFZLN-V) et vous permet de découvrir en détails l’application.
+
+
+
 
 
