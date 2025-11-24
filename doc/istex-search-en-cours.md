@@ -25,3 +25,6 @@
 Le mode de recherche simple interroge la base Istex en utilisant la syntaxe d’interrogation Lucene, le langage de requêtage du moteur de recherche Istex ([Elasticsearch](https://www.elastic.co/elasticsearch)), grâce à une équation avec les opérateurs booléens (ex. AND, OR).
 
 Le mode de recherche simple est sélectionné par défaut à l’ouverture d’Istex Search.
+
+<figure><img src="../.gitbook/assets/Recherche-simple.png" alt=""><figcaption></figcaption></figure>
+
