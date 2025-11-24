@@ -14,11 +14,9 @@
 
 3 modes de recherche vous permettent d’interroger le réservoir Istex :
 
-·         Recherche simple
-
-·         Recherche assistée
-
-·         Recherche par identifiants
+1. Recherche simple
+2. Recherche assistée
+3. Recherche par identifiants
 
 
 
