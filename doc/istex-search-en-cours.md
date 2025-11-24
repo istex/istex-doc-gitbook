@@ -28,3 +28,12 @@ Le mode de recherche simple est sélectionné par défaut à l’ouverture d’I
 
 <figure><img src="../.gitbook/assets/Recherche-simple.png" alt=""><figcaption></figcaption></figure>
 
+### Recherche Assistée
+
+Ce mode de recherche vous permet de construire une équation complexe sans connaissance a priori de la syntaxe Lucene, avec des règles et des groupes.
+
+Une règle est constituée de trois informations : le champ que l’on souhaite interroger, le comparateur (égal à, contient etc.) et la valeur que l’on souhaite retrouver dans ce champ.
+
+Les groupes sont l’équivalent de parenthèses. Comme en mathématiques, les opérations situées à l'intérieur des parenthèses ont la priorité.
+
+<figure><img src="../.gitbook/assets/Recherche-assistée.png" alt=""><figcaption></figcaption></figure>
