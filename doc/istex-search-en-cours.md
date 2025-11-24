@@ -1,6 +1,6 @@
 # Istex Search (en cours)
 
-[Istex Search](https://search.istex.fr/fr-FR) est une service dédié à la constitution de corpus. Son interface ergonomique unique facilite la constitution de votre corpus en suivant trois étapes :
+[Istex Search](https://search.istex.fr/fr-FR) est une service de l'infrastructure Istex dédié à la constitution de corpus. Son interface ergonomique connectée à l’API facilite la constitution de votre corpus en suivant trois étapes :
 
 ·         interrogation d'Istex
 
@@ -10,9 +10,12 @@
 
 
 
-Un tutoriel sur Istex Search est accessible sur le site [Istex](https://data.istex.fr/instance/istex-tutorial/ark:/67375/Q05-30XPFZLN-V) et vous permet de découvrir en détails l’application.
+## Interrogation d'Istex
 
+3 modes de recherche vous permettent d’interroger Istex :
 
+·         Recherche simple
 
+·         Recherche assistée
 
-
+·         Recherche par identifiants
