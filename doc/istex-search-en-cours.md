@@ -1,10 +1,12 @@
 # Istex Search (en cours)
 
-[Ce nouveau service ](https://search.istex.fr/)rassemble et remplace les fonctionnalités du démonstrateur et d’Istex-DL dans une interface unique pour faciliter la constitution de votre corpus :
+[Istex Search](https://search.istex.fr/fr-FR) est une service dédié à la constitution de corpus. Son interface ergonomique unique facilite la constitution de votre corpus en suivant trois étapes :
 
-* interrogation d'Istex&#x20;
-* exploration des résultats
-* téléchargement de votre corpus
+·         interrogation d'Istex
+
+·         exploration des résultats
+
+·         téléchargement de votre corpus
 
 
 
