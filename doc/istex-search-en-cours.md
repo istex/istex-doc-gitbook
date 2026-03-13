@@ -62,6 +62,8 @@ Quand la recherche est lancée, une page _Résultats de votre requête_ propose 
 
 <figure><img src="../.gitbook/assets/exploration-corpus.png" alt=""><figcaption></figcaption></figure>
 
+
+
 * Nombre de documents correspondant à la requête en cours (1)
 * Requête envoyée à l’API Istex, elle peut être copiée dans le presse-papier en cliquant sur le bouton copier-coller  en bout de ligne (2)
 * Filtres permettant d'explorer et d'affiner le corpus (3)
@@ -91,4 +93,21 @@ Pour **appliquer un filtre**, il faut cocher ou rechercher la valeur souhaitée 
 Il est possible d'obtenir l'inverse d'un filtre en cliquant sur le tag du filtre :
 
 <figure><img src="../.gitbook/assets/exploration-corpus-filtres-tag-inverse.png" alt=""><figcaption></figcaption></figure>
+
+### Modes de tri
+
+
+
+Quatre modes de tri sont proposés :
+
+1. pertinence et qualité : classe les documents selon un ordre de pertinence associé à un score de qualité ;
+2. aléatoire : classe les documents de façon aléatoire, eut être utile pour analyser un échantillon de documents parmi les résultats obtenus ;
+3. date de publication : classe les publications selon leur date de publication (croissante ou décroissante) ;
+4. titre : permet de classer les publications par ordre alphabétique ou antialphabétique.
+
+
+
+Par défaut, le tri _pertinence & qualité_ est appliqué. Il classe les documents selon un ordre de pertinence associé à un score de qualité.
+
+Le mode de tri par _date de publication_ classe les publications selon leur date de publication (croissante ou décroissante).
 
