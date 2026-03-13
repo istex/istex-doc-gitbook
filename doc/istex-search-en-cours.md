@@ -56,17 +56,17 @@ Il est notamment possible d’importer une liste d’identifiants mais avec un s
 
 ## Exploration des résultats
 
-Différents filtres et indicateurs sont à votre disposition pour analyser le contenu de votre corpus et affiner votre requête pour obtenir un corpus de qualité.
+Différents filtres et indicateurs permettent d'analyser le contenu le corpus et d'affiner la requête pour obtenir un corpus de qualité.
 
-Quand la recherche est lancée, une page _Résultats de votre requête_ vous permet d’avoir une vision d’ensemble de votre corpus et d’affiner celui-ci si nécessaire.
+Quand la recherche est lancée, une page _Résultats de votre requête_ propose une vision d’ensemble du corpus et d’affiner celui-ci si nécessaire.
 
 <figure><img src="../.gitbook/assets/exploration-corpus.png" alt=""><figcaption></figcaption></figure>
 
-1. Nombre de documents correspondant à la requête en cours.
-2. Requête envoyée à l’API Istex, elle peut être copiée dans le presse-papier en cliquant sur le bouton copier-coller  en bout de ligne.
-3. Filtres permettant d'explorer et d'affiner le corpus
-4. Indicateurs scientifiques et techniques sur le corpus et pourcentage de compatibilité entre le corpus et des outils d’analyse
-5. Modes de tri des documents du corpus
-6. Affichage en colonne ou ligne
-7. Vignettes cliquables correspondant aux documents du corpus
+* Nombre de documents correspondant à la requête en cours (1)
+* Requête envoyée à l’API Istex, elle peut être copiée dans le presse-papier en cliquant sur le bouton copier-coller  en bout de lign (2)
+* Filtres permettant d'explorer et d'affiner le corpus (3)
+* Indicateurs scientifiques et techniques sur le corpus et pourcentage de compatibilité entre le corpus et des outils d’analyse (4)
+* Modes de tri des documents du corpus (5)
+* Affichage en colonne ou ligne (6)
+* Vignettes cliquables correspondant aux documents du corpus (7)
 
