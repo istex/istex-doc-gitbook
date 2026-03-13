@@ -117,6 +117,10 @@ Pour télécharger un corpus, il faut cliquer sur _TELECHARGER LE CORPUS_ dans l
 
 Une fenêtre apparaît et propose de sélectionner les types de fichiers et de formats à extraire, adaptés à l’utilisation qui va être faite du corpus :
 
+<div align="center"><figure><img src="../.gitbook/assets/téléchargement-corpus-configuration.png" alt=""><figcaption></figcaption></figure></div>
+
+
+
 1. usage personnalisé pour sélectionner "à la carte" les fichiers et formats
 2. usages prédéfinis:
    1. Lodex > sélection automatique des métadonnées au format JSON ;
