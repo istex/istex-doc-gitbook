@@ -60,7 +60,7 @@ Différents filtres et indicateurs permettent d'analyser le contenu le corpus et
 
 Quand la recherche est lancée, une page _Résultats de votre requête_ propose une vision d’ensemble du corpus et d’affiner celui-ci si nécessaire.
 
-<figure><img src="../.gitbook/assets/exploration-corpus.png" alt=""><figcaption></figcaption></figure>
+<div align="center"><figure><img src="../.gitbook/assets/exploration-corpus.png" alt=""><figcaption></figcaption></figure></div>
 
 
 
@@ -78,7 +78,7 @@ Quand la recherche est lancée, une page _Résultats de votre requête_ propose 
 
 Les indicateurs permettent de vérifier rapidement le pourcentage et le nombre de documents possédant un Résumé, un PDF texte, un format Texte nettoyé (format CLEANED), ainsi que la part des trois Langues de publication majoritaires dans le corpus.
 
-<figure><img src="../.gitbook/assets/exploration-corpus-indicateurs.png" alt=""><figcaption></figcaption></figure>
+<div align="center"><figure><img src="../.gitbook/assets/exploration-corpus-indicateurs.png" alt=""><figcaption></figcaption></figure></div>
 
 
 
@@ -86,13 +86,13 @@ Les indicateurs permettent de vérifier rapidement le pourcentage et le nombre d
 
 La page de résultats comporte 11 filtres pour explorer les résultats ou restreindre la recherche.
 
-<figure><img src="../.gitbook/assets/exploration-corpus-filtres.png" alt=""><figcaption></figcaption></figure>
+<div align="center"><figure><img src="../.gitbook/assets/exploration-corpus-filtres.png" alt=""><figcaption></figcaption></figure></div>
 
 Pour **appliquer un filtre**, il faut cocher ou rechercher la valeur souhaitée puis cliquer sur APPLIQUER. Le nombre de documents du corpus est ainsi mis à jour.
 
 Il est possible d'obtenir l'inverse d'un filtre en cliquant sur le tag du filtre :
 
-<figure><img src="../.gitbook/assets/exploration-corpus-filtres-tag-inverse.png" alt=""><figcaption></figcaption></figure>
+<div align="center"><figure><img src="../.gitbook/assets/exploration-corpus-filtres-tag-inverse.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Modes de tri
 
@@ -100,14 +100,27 @@ Il est possible d'obtenir l'inverse d'un filtre en cliquant sur le tag du filtre
 
 Quatre modes de tri sont proposés :
 
-1. pertinence et qualité : classe les documents selon un ordre de pertinence associé à un score de qualité ;
-2. aléatoire : classe les documents de façon aléatoire, eut être utile pour analyser un échantillon de documents parmi les résultats obtenus ;
-3. date de publication : classe les publications selon leur date de publication (croissante ou décroissante) ;
-4. titre : permet de classer les publications par ordre alphabétique ou antialphabétique.
+1. _pertinence et qualité_ : classe les documents selon un ordre de pertinence associé à un score de qualité ;
+2. _aléatoire_ : classe les documents de façon aléatoire, eut être utile pour analyser un échantillon de documents parmi les résultats obtenus ;
+3. _date de publication_ : classe les publications selon leur date de publication (croissante ou décroissante) ;
+4. _titre_ : permet de classer les publications par ordre alphabétique ou antialphabétique.
 
 
 
-Par défaut, le tri _pertinence & qualité_ est appliqué. Il classe les documents selon un ordre de pertinence associé à un score de qualité.
+## Téléchargement d'un corpus
 
-Le mode de tri par _date de publication_ classe les publications selon leur date de publication (croissante ou décroissante).
+Istex Search permet de télécharger **jusqu'à 100 000 documents en une seule fois** et propose plusieurs formats de téléchargement.
+
+Pour télécharger un corpus, il faut cliquer sur _TELECHARGER LE CORPUS_ dans l'encadré bleu :
+
+<div align="center"><figure><img src="../.gitbook/assets/téléchargement-corpus.png" alt=""><figcaption></figcaption></figure></div>
+
+Une fenêtre apparaît et propose de sélectionner les types de fichiers et de formats à extraire, adaptés à l’utilisation qui va être faite du corpus :
+
+1. usage personnalisé pour sélectionner "à la carte" les fichiers et formats
+2. usages prédéfinis:
+   1. Lodex > sélection automatique des métadonnées au format JSON ;
+   2. CorTexT > sélection automatique des textes intégraux aux formats TEI et CLEANED et des enrichissements _Teeft_ au format TEI ;
+   3. GarganText > sélection automatique des métadonnées au format JSON, seule sélection compatible avec le logiciel
+   4. NooJ > élection automatique des textes intégraux au format TXT et des métadonnées au format JSON, seule sélection compatible avec le logiciel
 
