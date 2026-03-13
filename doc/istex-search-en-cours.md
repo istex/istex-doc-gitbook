@@ -63,10 +63,32 @@ Quand la recherche est lancée, une page _Résultats de votre requête_ propose 
 <figure><img src="../.gitbook/assets/exploration-corpus.png" alt=""><figcaption></figcaption></figure>
 
 * Nombre de documents correspondant à la requête en cours (1)
-* Requête envoyée à l’API Istex, elle peut être copiée dans le presse-papier en cliquant sur le bouton copier-coller  en bout de lign (2)
+* Requête envoyée à l’API Istex, elle peut être copiée dans le presse-papier en cliquant sur le bouton copier-coller  en bout de ligne (2)
 * Filtres permettant d'explorer et d'affiner le corpus (3)
 * Indicateurs scientifiques et techniques sur le corpus et pourcentage de compatibilité entre le corpus et des outils d’analyse (4)
 * Modes de tri des documents du corpus (5)
 * Affichage en colonne ou ligne (6)
 * Vignettes cliquables correspondant aux documents du corpus (7)
+
+
+
+### Indicateurs
+
+Les indicateurs permettent de vérifier rapidement le pourcentage et le nombre de documents possédant un Résumé, un PDF texte, un format Texte nettoyé (format CLEANED), ainsi que la part des trois Langues de publication majoritaires dans le corpus.
+
+<figure><img src="../.gitbook/assets/exploration-corpus-indicateurs.png" alt=""><figcaption></figcaption></figure>
+
+
+
+### Filtres
+
+La page de résultats comporte 11 filtres pour explorer les résultats ou restreindre la recherche.
+
+<figure><img src="../.gitbook/assets/exploration-corpus-filtres.png" alt=""><figcaption></figcaption></figure>
+
+Pour **appliquer un filtre**, il faut cocher ou rechercher la valeur souhaitée puis cliquer sur APPLIQUER. Le nombre de documents du corpus est ainsi mis à jour.
+
+Il est possible d'obtenir l'inverse d'un filtre en cliquant sur le tag du filtre :
+
+<figure><img src="../.gitbook/assets/exploration-corpus-filtres-tag-inverse.png" alt=""><figcaption></figcaption></figure>
 
