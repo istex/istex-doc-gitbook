@@ -1,4 +1,4 @@
-# Istex Search (en cours)
+# Istex Search
 
 [Istex Search](https://search.istex.fr/fr-FR) est une service de l'infrastructure Istex dédié à la constitution de corpus. Son interface ergonomique connectée à l’API facilite la constitution de votre corpus en suivant trois étapes :
 
@@ -126,5 +126,5 @@ Une fenêtre apparaît et propose de sélectionner les types de fichiers et de f
    1. Lodex > sélection automatique des métadonnées au format JSON ;
    2. CorTexT > sélection automatique des textes intégraux aux formats TEI et CLEANED et des enrichissements _Teeft_ au format TEI ;
    3. GarganText > sélection automatique des métadonnées au format JSON, seule sélection compatible avec le logiciel
-   4. NooJ > élection automatique des textes intégraux au format TXT et des métadonnées au format JSON, seule sélection compatible avec le logiciel
+   4. NooJ > sélection automatique des textes intégraux au format TXT et des métadonnées au format JSON, seule sélection compatible avec le logiciel
 
