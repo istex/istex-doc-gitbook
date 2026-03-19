@@ -43,9 +43,3 @@ Vous pouvez aussi utiliser les paramètres de recherche classiques `from`, `size
 
 Par défaut, l'archive générée possède un sous-dossier par objet documentaire téléchargé. Chaque sous-dossier comprend lui-même les fichiers qui composent le document, selon le ou les formats choisis.
 
-~~Lorsque l'option "spread" est activée, l'archive Zip qui est générée suit une organisation particulière. Les documents sont ventilés dans l'arborescence à 5 niveaux suivante :~~
-
-* ~~Un fichier `manifest.json` contenant des éléments d'informations sur la requête utilisées pour l'extraction~~
-* ~~3 niveaux avec des sous-répertoires nommés avec l'un des 16 caractères `0, 1... 9, A... F`~~
-* ~~un 4ème niveau de sous-répertoires, nommés selon l'identifiant Istex `idIstex` et contenant un fichier `${idIstex}.json` avec l'ensemble du document (métadonnées + fulltext) au format JSON~~
-* ~~le 5ème niveau se compose des sous-répertoires `fulltext`, `metadata`, `annexes` et `covers` (absents ou présents selon les cas) contenant les formats de fichiers demandés lors de l'extraction.~~
