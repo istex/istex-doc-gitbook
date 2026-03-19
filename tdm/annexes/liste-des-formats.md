@@ -24,7 +24,7 @@ Il s'agit d'un format permettant l’archivage et la compression de fichiers. L�
 
 _Dans Istex, le répertoire ZIP proposé pour chaque document du corpus contient les fichiers fournis par l’éditeur (texte intégral en format PDF, en XML structuré, et éventuellement des couvertures et des annexes), ainsi que le fichier_ [_JSON_](liste-des-formats.md#o-json-javascript-object-notation-notation-des-objets-du-langage-javascript) _produit par Istex._
 
-_NB : La rubrique_ [_Extraire les documents XML des fichiers ZIP_](../verification/extract-xml-from-zip/) _propose une procédure permettant de récupérer le fichier en format XML structuré fourni par l'éditeur afin de pouvoir l'exploiter avec des outils TAL ou TDM._
+_NB : La rubrique_ [_Extraire les documents XML des fichiers ZIP_](../verification/extract-xml-from-zip.md) _propose une procédure permettant de récupérer le fichier en format XML structuré fourni par l'éditeur afin de pouvoir l'exploiter avec des outils TAL ou TDM._
 
 ### **o TEI (**&#x54;ext Encoding Initiative _\*Initiative pour l’encodage du texte_)
 
