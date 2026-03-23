@@ -123,8 +123,8 @@ Une fenêtre apparaît et propose de sélectionner les types de fichiers et de f
 
 1. usage personnalisé pour sélectionner "à la carte" les fichiers et formats
 2. usages prédéfinis:
-   1. Lodex > sélection automatique des métadonnées au format JSON ;
-   2. CorTexT > sélection automatique des textes intégraux aux formats TEI et CLEANED et des enrichissements _Teeft_ au format TEI ;
-   3. GarganText > sélection automatique des métadonnées au format JSON, seule sélection compatible avec le logiciel
-   4. NooJ > sélection automatique des textes intégraux au format TXT et des métadonnées au format JSON, seule sélection compatible avec le logiciel
+   * Lodex > sélection automatique des métadonnées au format JSON ;
+   * CorTexT > sélection automatique des textes intégraux aux formats TEI et CLEANED et des enrichissements _Teeft_ au format TEI ;
+   * GarganText > sélection automatique des métadonnées au format JSON, seule sélection compatible avec le logiciel
+   * NooJ > sélection automatique des textes intégraux au format TXT et des métadonnées au format JSON, seule sélection compatible avec le logiciel
 
