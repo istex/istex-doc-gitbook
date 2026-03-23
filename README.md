@@ -5,9 +5,9 @@ description: >-
   façon d'intégrer Istex dans un ENT.
 ---
 
-# Documentation ISTEX
+# Documentation Istex
 
-## Toute la documentation pour tous les usages d'ISTEX
+## Toute la documentation pour tous les usages d'Istex
 
 Cette documentation couvre les [usages documentaires](doc/), les [usages pour la fouille de texte](tdm/), les [fonctionnalités de l'API](api/), ainsi que les différentes façons d'[intégrer ISTEX dans un ENT](integration/).
 
