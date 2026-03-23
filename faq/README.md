@@ -4,7 +4,7 @@ description: Les questions fréquentes posées par la communauté ISTEX.
 
 # FAQ
 
-[À quoi sert ISTEX ?](aquoisertistex.md)
+[À quoi sert Istex ?](aquoisertistex.md)
 
 [Mais pourquoi mettre un ARK ?](ark.md)
 
@@ -16,4 +16,4 @@ description: Les questions fréquentes posées par la communauté ISTEX.
 
 [À quoi servent les "indicateurs de qualité" ?](quality-indicators.md)
 
-[Comment connaître la liste des corpus chargés dans la plateforme ISTEX ?](loaded-corpus.md)
+[Comment connaître la liste des corpus chargés dans la plateforme Istex ?](loaded-corpus.md)

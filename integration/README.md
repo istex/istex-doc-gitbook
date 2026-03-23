@@ -30,4 +30,4 @@ Un webmaster pourra sans problème intégrer Istex en utilisant :
 Un informaticien codeur (peu importe le langage de programmation) pourra intégrer Istex en utilisant les techniques suivantes :
 
 * Toutes les techniques listées plus haut adaptées au webmaster.
-* [Intégration directe par API ISTEX](advanced-api.md)
+* [Intégration directe par API Istex](advanced-api.md)
