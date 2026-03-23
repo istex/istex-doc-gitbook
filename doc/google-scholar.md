@@ -1,6 +1,6 @@
 # Google Scholar
 
-## OpenURL et diffusion d'ISTEX à travers Google Scholar
+## OpenURL et diffusion d'Istex à travers Google Scholar
 
 Comme pour tous les autres modes d’accès au PDF, il est limité aux ayants droit Istex, c'est-à-dire les personnels de l'Enseignement Supérieur et de la Recherche.
 
@@ -36,7 +36,7 @@ Google Scholar indique que l'activation (et la mise à jour) prend une à deux s
 
 * Accèder au PDFdisponible sur la plateforme Istex
 
-## Diffusion d'ISTEX à partir d'un article cité dans "Profils" d'auteur
+## Diffusion d'Istex à partir d'un article cité dans "Profils" d'auteur
 
 * Recherche l’auteur « Albert Einstein »
 
@@ -56,7 +56,7 @@ Google Scholar indique que l'activation (et la mise à jour) prend une à deux s
 
 *   Sélectionner l’article de votre choix
 
-    Par exemple : « Physics and reality » de 1936 cité 674 fois dont 21 fois en 2018 Le lien \[PDF] ISTEX qui s’affiche permet d’accéder au PDF présent sur la plateforme Istex
+    Par exemple : « Physics and reality » de 1936 cité 674 fois dont 21 fois en 2018 Le lien \[PDF] Istex qui s’affiche permet d’accéder au PDF présent sur la plateforme Istex
 
 ![](../.gitbook/assets/gs-profil5.png)
 
