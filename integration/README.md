@@ -4,7 +4,7 @@ description: >-
   les outils documentaires des établissements (ex : ENT)
 ---
 
-# Intégrer ISTEX dans un ENT
+# Intégrer Istex dans un ENT
 
 Istex a vocation à venir s'intégrer dans les outils documentaires des établissements. Il peut s'y intégrer de différentes manières.
 
@@ -25,7 +25,7 @@ Attention car ces intégrations avancées nécessites des compétences plus où 
 
 Un webmaster pourra sans problème intégrer Istex en utilisant :
 
-* [Le bouton ISTEX intégré](bouton/)
+* [Le bouton Istex intégré](bouton/)
 
 Un informaticien codeur (peu importe le langage de programmation) pourra intégrer Istex en utilisant les techniques suivantes :
 
