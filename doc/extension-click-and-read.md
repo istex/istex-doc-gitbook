@@ -33,7 +33,7 @@ Pour en savoir plus : [https://clickandread.inist.fr/info](https://clickandread.
 ## **Chrome**
 
 * Cliquez sur [https://clickandread.inist.fr](https://clickandread.inist.fr)
-* Cliquez sur le bouton « _Ajouter l’extension à Chrome_ »
+* Cliquez sur le bouton « _Ajouter à Google Chrome_ »
 
 <figure><img src="../.gitbook/assets/candr.PNG" alt=""><figcaption></figcaption></figure>
 
@@ -58,11 +58,9 @@ Puis vous pouvez **ordonner vos sources** par « Glisser/Déposer »&#x20;
 
 <figure><img src="../.gitbook/assets/ordonner Candread.PNG" alt=""><figcaption></figcaption></figure>
 
-**Activez**, si vous le souhaitez, les bibliothèques Istex et BibCnrs dans **Google Scholar**
+**Activez**, si vous le souhaitez, les bibliothèques Istex et BibCnrs dans **Google Scholar**.
 
-
-
-<figure><img src="../.gitbook/assets/activationcandread.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/C&#x26;R-bibGoogleScholar (1).png" alt=""><figcaption></figcaption></figure>
 
 **Enregistrez**
 
