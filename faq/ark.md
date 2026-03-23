@@ -2,11 +2,10 @@
 
 **=> Lorsque vous recherchez le PDF d'un article**
 
-_« Theatre in the Arab World: A Difficult Birth »_ l'URL se construit ainsi[\
-](https://api.istex.fr/document/48AB438A7C1179DAB7757096669C75BAFF8AA325/fulltext/pdf?sid=clickandread)[https://api.istex.fr/document/48AB438A7C1179DAB7757096669C75BAFF8AA325/fulltext/pdf?sid=clickandread](https://api.istex.fr/document/48AB438A7C1179DAB7757096669C75BAFF8AA325/fulltext/pdf?sid=clickandread)
+_« Theatre in the Arab World: A Difficult Birth »_ l'URL se construit ainsi[<br>](https://api.istex.fr/document/48AB438A7C1179DAB7757096669C75BAFF8AA325/fulltext/pdf?sid=clickandread)[https://api.istex.fr/document/48AB438A7C1179DAB7757096669C75BAFF8AA325/fulltext/pdf?sid=clickandread](https://api.istex.fr/document/48AB438A7C1179DAB7757096669C75BAFF8AA325/fulltext/pdf?sid=clickandread)
 
 * URL de la plateforme
-* Document/ numéro Istex /
+* Document/numéro Istex
 * Format du document
 * Le sid qui caractérise la voie d’accès
 
