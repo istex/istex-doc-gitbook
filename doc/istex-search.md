@@ -42,6 +42,14 @@ Les groupes sont l’équivalent de parenthèses. Comme en mathématiques, les o
 
 <figure><img src="../.gitbook/assets/Recherche-assistée.png" alt=""><figcaption></figcaption></figure>
 
+
+
+**Liste des champs interrogeables dans Istex**
+
+<table><thead><tr><th width="160" align="center">Champ (A-Z)</th><th width="194">Nom technique</th><th>Description</th><th width="243">Exemple de requête</th></tr></thead><tbody><tr><td align="center">Affiliation d'auteur</td><td>author.affiliations</td><td>Recherche par l'affiliation d'un auteur</td><td>author.affiliations:CNRS</td></tr><tr><td align="center">Affiliation d'auteur d'une monographie</td><td>host.author.affiliations</td><td>Recherche par l'affiliation d'un auteur d'une monographie</td><td>host.author.affiliations:CNRS</td></tr><tr><td align="center">ARK</td><td>arkIstex</td><td>Recherche par l'ARK du document</td><td>arkIstex:"ark:/67375/G14-1RDSJMLS-D"</td></tr><tr><td align="center">Bouquet</td><td>corpusName</td><td>Recherche par bouquet éditeur chargé dans Istex</td><td>corpusName:"degruyter-ebooks-french"</td></tr><tr><td align="center"></td><td></td><td></td><td></td></tr><tr><td align="center"></td><td></td><td></td><td></td></tr><tr><td align="center"></td><td></td><td></td><td></td></tr><tr><td align="center"></td><td></td><td></td><td></td></tr></tbody></table>
+
+
+
 ### Recherche par identifiants
 
 Ce mode de recherche utilise des identifiants uniques et pérennes attribués aux documents Istex (ARK, DOI ou idIstex). Il sélectionne les documents correspondant aux identifiants demandés s’ils sont présents dans le réservoir.
