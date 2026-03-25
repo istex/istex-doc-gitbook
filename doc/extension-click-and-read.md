@@ -6,9 +6,11 @@ Elle est aussi installable sur les navigateurs basés Chromium, comme Brave ou E
 
 L'extension Click & Read **remplace et unifie** les 3 extensions existantes des plateformes gérées par l'Inist-CNRS **Istex**, **Panist** et **BibCnrs**, auxquelles s'ajoute l'extension libre **Unpaywall**.
 
-L'extension Click & Read reprenant les fonctionnalités de l’extension Istex, il est préférable de la désinstaller. Pour rappel, l'extension Istex n'est plus disponible à l'installation (lire : [L’extension Istex n’est plus… Vive l’extension Click\&Read](https://www.istex.fr/lextension-istex-nest-plus-vive-lextension-clickread/))
-
 Cette extension est destinée aux personnels de l'Enseignement Supérieur et de la Recherche (ESR).
+
+L'extension Click & Read reprenant les fonctionnalités de l’extension Istex, il est préférable de désinstaller l'extension Istex. Pour rappel, l'extension Istex n'est plus disponible à l'installation (lire : [L’extension Istex n’est plus… Vive l’extension Click\&Read](https://www.istex.fr/lextension-istex-nest-plus-vive-lextension-clickread/))
+
+
 
 {% hint style="info" %}
 **Unpaywall** : ressources scientifiques en accès libre. Pas de droits d’accès.
