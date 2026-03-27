@@ -44,27 +44,27 @@ Les groupes sont l’équivalent de parenthèses. Comme en mathématiques, les o
 
 
 
-**Exemples de champs interrogeables dans Istex**
+### **Exemples de champs interrogeables dans Istex**
 
-Affiliation d'auteur
+**Affiliation d'auteur**
 
 * nom technique : author.affiliations
 * description : recherche par affiliation d'un auteur
 * exemple de requête : author.affiliations:CNRS
 
-Bouquet
+**Bouquet**
 
 * nom technique : corpusName
 * description : Recherche par bouquet éditeur chargé dans Istex
 * exemple de requête : corpusName:"degruyter-ebooks-french"
 
-ISSN de la revue
+**ISSN de la revue**
 
 * nom technique : host.issn
 * description : Recherche par le numéro ISSN de la revue papier
 * exemple de requête : host.issn:"0378-5548"
 
-Titre
+**Titre**
 
 * nom technique : title
 * description : Recherche dans le titre
