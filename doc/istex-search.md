@@ -73,7 +73,7 @@ Les groupes sont l’équivalent de parenthèses. Comme en mathématiques, les o
 
 
 {% hint style="info" %}
-La liste complète des champs interrogeables dans Istex est disponible dans l'[annexe](https://callisto-formation.fr/pluginfile.php/52002/mod_scorm/content/1/scormcontent/assets/Tableau_Annexes_Liste_Champs.pdf) du tutoriel Istex Search.
+La liste complète des champs interrogeables dans Istex est disponible dans l'[annexe](https://callisto-formation.fr/pluginfile.php/52002/mod_scorm/content/1/scormcontent/index.html#/lessons/2AgMpAeXpq3vCDVPV78FZKAkQ_qAUrSD) du tutoriel Istex Search.
 {% endhint %}
 
 
