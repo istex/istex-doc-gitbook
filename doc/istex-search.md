@@ -110,6 +110,12 @@ Quand la recherche est lancée, une page _Résultats de votre requête_ propose 
 
 
 
+{% hint style="info" %}
+Il est possible de voir, dans les résultats de la requête, si un article est rétracté, c'est-à-dire s'il a été officiellement retiré par la revue ou l’éditeur après sa publication.
+
+<img src="../.gitbook/assets/article-rétracté-3.png" alt="" data-size="original">
+{% endhint %}
+
 ### Indicateurs
 
 Les indicateurs permettent de vérifier rapidement le pourcentage et le nombre de documents possédant un Résumé, un PDF texte, un format Texte nettoyé (format CLEANED), ainsi que la part des trois Langues de publication majoritaires dans le corpus.
