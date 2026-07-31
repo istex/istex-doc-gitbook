@@ -30,7 +30,7 @@ Le mode de recherche simple est sélectionné par défaut à l’ouverture d’I
 
 <figure><img src="../.gitbook/assets/Recherche-simple.png" alt=""><figcaption></figcaption></figure>
 
-### Recherche Assistée
+### Recherche assistée
 
 Ce mode de recherche vous permet de construire une équation complexe sans connaissance a priori de la syntaxe Lucene, avec des règles et des groupes.
 
