@@ -17,11 +17,11 @@ Si vous accédez aux ressources Istex via un portail ou un site web qui communiq
 
 _Page de choix de votre établissement (comptes CRU non autorisés)_
 
-![](../../.gitbook/assets/wayf.png)
-
 _Exemple de formulaire de connexion d'un fournisseur d'identité : ici **Janus**, qui est utilisé pour les personnels CNRS_
 
-![](../../.gitbook/assets/formjanus.png)
+<figure><img src="../../.gitbook/assets/authentification-fede.png" alt=""><figcaption></figcaption></figure>
+
+
 
 Note à l'attention des webmestres et responsables techniques des portails désirant intégrer ce\
 processus :\
