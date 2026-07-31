@@ -136,7 +136,7 @@ La visionneuse est accessible directement en version bêta depuis le site [Istex
 
 Il est également connecté à Istex Search pour vous permettre d’explorer vos résultats de recherche de manière plus fluide et interactive. Pour cela, il faut cliquer sur l’icône présente dans la notice détaillée :
 
-<figure><img src="../.gitbook/assets/logo-Visionneuse-2.png" alt=""><figcaption></figcaption></figure>
+<div align="center"><figure><img src="../.gitbook/assets/logo-Visionneuse-2.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Indicateurs
 
