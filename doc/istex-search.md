@@ -116,7 +116,7 @@ Il est possible de voir, dans les résultats de la requête, si un article est *
 <img src="../.gitbook/assets/article-rétracté-3.png" alt="" data-size="original">
 {% endhint %}
 
-**La visionneuse en ligne Istex View**
+### **La visionneuse en ligne Istex View**
 
 **Istex View** permet de visualiser de manière interactive les documents Istex au [format TEI](../api/).&#x20;
 
