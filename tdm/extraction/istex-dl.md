@@ -8,7 +8,9 @@
 
 · téléchargement de votre corpus
 
-## **cf page sur Istex Search**
+
+
+[voir page dédiée à Istex Search](../../doc/istex-search.md)
 
 
 
