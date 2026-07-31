@@ -17,6 +17,8 @@ Ici, nous n'avons que **deux noms de corpus** (par exemple, elsevier et wiley), 
 
 Les facettes sont donc très utiles pour filtrer sur une collection de données. Elles permettent, comme ici, de **générer des états de collection**, mais également à montrer à l'utilisateur final des moyens d'**affiner leur recherche**. En effet, l'objet "agrégations" peut être mappé sur votre portail&#x20;
 
-<figure><img src="../../.gitbook/assets/facette api.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/facettes-Istex Search.png" alt=""><figcaption></figcaption></figure>
+
+
 
 Ainsi, l'utilisateur pourra **choisir quels critères ajouter à sa recherche plus facilement**.
