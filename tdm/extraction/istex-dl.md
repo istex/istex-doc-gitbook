@@ -10,7 +10,9 @@
 
 
 
+{% hint style="info" %}
 [voir page dédiée à Istex Search](../../doc/istex-search.md)
+{% endhint %}
 
 
 
