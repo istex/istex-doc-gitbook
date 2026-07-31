@@ -111,7 +111,7 @@ Quand la recherche est lancée, une page _Résultats de votre requête_ propose 
 
 
 {% hint style="info" %}
-Il est possible de voir, dans les résultats de la requête, si un article est rétracté, c'est-à-dire s'il a été officiellement retiré par la revue ou l’éditeur après sa publication.
+Il est possible de voir, dans les résultats de la requête, si un article est **rétracté**, c'est-à-dire s'il a été officiellement retiré par la revue ou l’éditeur après sa publication.
 
 <img src="../.gitbook/assets/article-rétracté-3.png" alt="" data-size="original">
 {% endhint %}
