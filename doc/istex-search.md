@@ -116,6 +116,28 @@ Il est possible de voir, dans les résultats de la requête, si un article est *
 <img src="../.gitbook/assets/article-rétracté-3.png" alt="" data-size="original">
 {% endhint %}
 
+**La visionneuse en ligne Istex View**
+
+**Istex View** permet de visualiser de manière interactive les documents Istex au [format TEI](../api/).&#x20;
+
+L’outil propose une expérience de lecture enrichie, alliant navigation fluide, enrichissements sémantiques et affichage optimisé des contenus scientifiques.
+
+La visionneuse offre plusieurs fonctionnalités facilitant l’exploration des documents au format TEI :
+
+* **Enrichissements Istex** : mise en évidence des entités nommées (personnes, organisations, lieux, dates) obtenues via Unitex, des mots-clés détectés avec Teeft, ainsi que des catégories scientifiques attribuées au document grâce à Multicat.
+* **Navigation** : accès aux occurrences des termes enrichis et sommaire interactif.
+* **Affichage** : visualisation optimisée des formules mathématiques (MathML/LaTeX) et affichage des tableaux en plein écran.
+
+
+
+**Comment accéder à Istex View ?**
+
+La visionneuse est accessible directement en version bêta depuis le site [Istex View](https://view.istex.fr/).
+
+Il est également connecté à Istex Search pour vous permettre d’explorer vos résultats de recherche de manière plus fluide et interactive. Pour cela, il faut cliquer sur l’icône présente dans la notice détaillée :
+
+<figure><img src="../.gitbook/assets/logo-Visionneuse-2.png" alt=""><figcaption></figcaption></figure>
+
 ### Indicateurs
 
 Les indicateurs permettent de vérifier rapidement le pourcentage et le nombre de documents possédant un Résumé, un PDF texte, un format Texte nettoyé (format CLEANED), ainsi que la part des trois Langues de publication majoritaires dans le corpus.
